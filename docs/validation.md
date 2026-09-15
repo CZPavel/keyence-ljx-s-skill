@@ -1,4 +1,4 @@
-﻿# Architecture
+# Architecture
 
 Codex Skill → routing/workflows → canonical `skill_data` → deterministic helpers → targeted local raw-source fallback. Canonical knowledge is normalized facts, not manual extraction.
 
@@ -29,3 +29,12 @@ Validate, audit tracked files, update CHANGELOG/CURRENT_STATE, commit, tag `V01`
 # Coverage
 
 LJ-X8000 operational: GOOD; hardware: GOOD/PARTIAL; measurement: PARTIAL. LJ-S8000 and LJ-X8000A: PARTIAL/WEAK, with no silent propagation.
+# Public and local validation
+
+## Public validation
+
+Run `scripts\validate.ps1` after a clean public clone. It validates canonical schema, routing, public evidence metadata, helpers and the deterministic benchmark. It does not require manufacturer PDFs or the raw corpus, and is the GitHub Actions validation path.
+
+## Local source validation
+
+Run `scripts\validate_sources.ps1` only with a legally obtained local source corpus. It validates raw chunk provenance and source-bound command evidence. `validate_measurement.py --source` fails explicitly when the local corpus is absent.

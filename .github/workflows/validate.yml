@@ -1,4 +1,4 @@
-﻿name: validate
+name: validate
 on: [push, pull_request]
 jobs:
   validate:
@@ -12,5 +12,5 @@ jobs:
       - run: python tools/build_skill_data/validate_workflows.py
       - run: python tools/build_skill_data/validate_family_deltas.py
       - run: python tools/build_skill_data/validate_hardware.py
-      - run: python tools/build_skill_data/validate_measurement.py
+      - run: python tools/build_skill_data/validate_measurement.py --public
       - run: python benchmarks/skill_v1/run_benchmark.py
