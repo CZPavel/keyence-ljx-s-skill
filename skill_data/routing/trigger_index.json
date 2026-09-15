@@ -1,0 +1,32 @@
+[
+  {
+    "id": "external_trigger",
+    "aliases": [
+      "external trigger"
+    ]
+  },
+  {
+    "id": "software_trigger",
+    "aliases": [
+      "software trigger"
+    ]
+  },
+  {
+    "id": "continuous_trigger",
+    "aliases": [
+      "continuous trigger"
+    ]
+  },
+  {
+    "id": "encoder_trigger",
+    "aliases": [
+      "encoder trigger"
+    ]
+  },
+  {
+    "id": "multiple_trigger",
+    "aliases": [
+      "multiple trigger"
+    ]
+  }
+]

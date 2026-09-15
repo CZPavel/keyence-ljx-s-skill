@@ -1,0 +1,30 @@
+[
+  {
+    "id": "COM-EtherNet-IP",
+    "aliases": []
+  },
+  {
+    "id": "COM-PROFINET",
+    "aliases": []
+  },
+  {
+    "id": "COM-EtherCAT",
+    "aliases": []
+  },
+  {
+    "id": "COM-PLC-Link",
+    "aliases": []
+  },
+  {
+    "id": "COM-RS-232C",
+    "aliases": []
+  },
+  {
+    "id": "COM-FTP",
+    "aliases": []
+  },
+  {
+    "id": "COM-Ethernet",
+    "aliases": []
+  }
+]

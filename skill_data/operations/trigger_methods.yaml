@@ -1,0 +1,118 @@
+{
+  "methods": [
+    {
+      "method_id": "external_trigger",
+      "controller_family": "LJ-X8000",
+      "initiator": "TRG input",
+      "required_state": "READY ON",
+      "related_signal_or_command": [
+        "TRG",
+        "READY"
+      ],
+      "timing_restrictions": [
+        "encoder period must not fall below trigger-period setting"
+      ],
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-295-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 295,
+          "printed_page": "9-73",
+          "evidence_excerpt_hash": "fc672b9ce169b259f50dfad4f0ae170225f75ca4055213bc33b96fe3cdb0b806"
+        }
+      ]
+    },
+    {
+      "method_id": "software_trigger",
+      "controller_family": "LJ-X8000",
+      "initiator": "T1 command",
+      "required_state": "trigger accepted / trigger input enabled",
+      "related_signal_or_command": [
+        "T1",
+        "READY",
+        "TE"
+      ],
+      "timing_restrictions": [],
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-295-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 295,
+          "printed_page": "9-73",
+          "evidence_excerpt_hash": "fc672b9ce169b259f50dfad4f0ae170225f75ca4055213bc33b96fe3cdb0b806"
+        }
+      ]
+    },
+    {
+      "method_id": "continuous_trigger",
+      "controller_family": "LJ-X8000",
+      "initiator": "configured continuous trigger",
+      "required_state": "READY is always OFF",
+      "related_signal_or_command": [
+        "READY"
+      ],
+      "timing_restrictions": [],
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-296-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 296,
+          "printed_page": "9-74",
+          "evidence_excerpt_hash": "200b78e55898f2328cc8a4bac53883db09ac1ec3c8f771dd466c77329202469b"
+        }
+      ]
+    },
+    {
+      "method_id": "encoder_trigger",
+      "controller_family": "LJ-X8000",
+      "initiator": "encoder",
+      "required_state": "READY is always OFF",
+      "related_signal_or_command": [
+        "READY",
+        "ERROR"
+      ],
+      "timing_restrictions": [
+        "encoder trigger period must not fall below trigger-period setting"
+      ],
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-295-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 295,
+          "printed_page": "9-73",
+          "evidence_excerpt_hash": "fc672b9ce169b259f50dfad4f0ae170225f75ca4055213bc33b96fe3cdb0b806"
+        }
+      ]
+    },
+    {
+      "method_id": "multiple_trigger",
+      "controller_family": "LJ-X8000",
+      "initiator": "external trigger",
+      "required_state": "READY ON after transfer completes",
+      "related_signal_or_command": [
+        "TRG",
+        "READY"
+      ],
+      "timing_restrictions": [],
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-298-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 298,
+          "printed_page": "9-76",
+          "evidence_excerpt_hash": "affefea179c1f52e41fba42d9674f940a80a229b29ac30a441d06f5ca7536665"
+        }
+      ]
+    }
+  ]
+}

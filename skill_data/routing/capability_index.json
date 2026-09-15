@@ -1,0 +1,8 @@
+[
+  "flow-software-trigger",
+  "flow-external-trigger",
+  "flow-profile-read",
+  "flow-program-switch",
+  "flow-measurement-result",
+  "flow-file-transfer"
+]

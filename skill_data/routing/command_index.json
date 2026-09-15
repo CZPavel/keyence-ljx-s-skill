@@ -1,0 +1,306 @@
+[
+  {
+    "command": "BC",
+    "aliases": [
+      "bc"
+    ],
+    "controller_family": "LJ-X8000",
+    "status": "OFFICIAL_CONTEXTUAL"
+  },
+  {
+    "command": "BS",
+    "aliases": [
+      "bs"
+    ],
+    "controller_family": "LJ-X8000",
+    "status": "OFFICIAL_EXACT"
+  },
+  {
+    "command": "CA",
+    "aliases": [
+      "ca"
+    ],
+    "controller_family": "LJ-X8000",
+    "status": "OFFICIAL_CONTEXTUAL"
+  },
+  {
+    "command": "CD",
+    "aliases": [
+      "cd"
+    ],
+    "controller_family": "LJ-X8000",
+    "status": "OFFICIAL_CONTEXTUAL"
+  },
+  {
+    "command": "CE",
+    "aliases": [
+      "ce"
+    ],
+    "controller_family": "LJ-X8000",
+    "status": "OFFICIAL_EXACT"
+  },
+  {
+    "command": "CR",
+    "aliases": [
+      "cr"
+    ],
+    "controller_family": "LJ-X8000",
+    "status": "OFFICIAL_CONTEXTUAL"
+  },
+  {
+    "command": "CTD",
+    "aliases": [
+      "ctd"
+    ],
+    "controller_family": "LJ-X8000",
+    "status": "OFFICIAL_EXACT"
+  },
+  {
+    "command": "CW",
+    "aliases": [
+      "cw"
+    ],
+    "controller_family": "LJ-X8000",
+    "status": "OFFICIAL_CONTEXTUAL"
+  },
+  {
+    "command": "DLL",
+    "aliases": [
+      "dll"
+    ],
+    "controller_family": "LJ-X8000",
+    "status": "OFFICIAL_CONTEXTUAL"
+  },
+  {
+    "command": "DR",
+    "aliases": [
+      "dr"
+    ],
+    "controller_family": "LJ-X8000",
+    "status": "OFFICIAL_EXACT"
+  },
+  {
+    "command": "DW",
+    "aliases": [
+      "dw"
+    ],
+    "controller_family": "LJ-X8000",
+    "status": "OFFICIAL_EXACT"
+  },
+  {
+    "command": "EXR",
+    "aliases": [
+      "exr"
+    ],
+    "controller_family": "LJ-X8000",
+    "status": "OFFICIAL_EXACT"
+  },
+  {
+    "command": "EXW",
+    "aliases": [
+      "exw"
+    ],
+    "controller_family": "LJ-X8000",
+    "status": "OFFICIAL_EXACT"
+  },
+  {
+    "command": "FTP",
+    "aliases": [
+      "ftp"
+    ],
+    "controller_family": "LJ-X8000",
+    "status": "OFFICIAL_CONTEXTUAL"
+  },
+  {
+    "command": "MRS",
+    "aliases": [
+      "mrs"
+    ],
+    "controller_family": "LJ-X8000",
+    "status": "OFFICIAL_EXACT"
+  },
+  {
+    "command": "OE",
+    "aliases": [
+      "oe"
+    ],
+    "controller_family": "LJ-X8000",
+    "status": "OFFICIAL_EXACT"
+  },
+  {
+    "command": "OW",
+    "aliases": [
+      "ow"
+    ],
+    "controller_family": "LJ-X8000",
+    "status": "OFFICIAL_CONTEXTUAL"
+  },
+  {
+    "command": "PFR",
+    "aliases": [
+      "pfr"
+    ],
+    "controller_family": "LJ-X8000",
+    "status": "OFFICIAL_EXACT"
+  },
+  {
+    "command": "PFRF",
+    "aliases": [
+      "pfrf"
+    ],
+    "controller_family": "LJ-X8000",
+    "status": "OFFICIAL_EXACT"
+  },
+  {
+    "command": "PLC",
+    "aliases": [
+      "plc"
+    ],
+    "controller_family": "LJ-X8000",
+    "status": "OFFICIAL_CONTEXTUAL"
+  },
+  {
+    "command": "PR",
+    "aliases": [
+      "pr"
+    ],
+    "controller_family": "LJ-X8000",
+    "status": "OFFICIAL_EXACT"
+  },
+  {
+    "command": "PW",
+    "aliases": [
+      "pw"
+    ],
+    "controller_family": "LJ-X8000",
+    "status": "OFFICIAL_EXACT"
+  },
+  {
+    "command": "R0",
+    "aliases": [
+      "r0"
+    ],
+    "controller_family": "LJ-X8000",
+    "status": "OFFICIAL_EXACT"
+  },
+  {
+    "command": "RB",
+    "aliases": [
+      "rb"
+    ],
+    "controller_family": "LJ-X8000",
+    "status": "OFFICIAL_EXACT"
+  },
+  {
+    "command": "RM",
+    "aliases": [
+      "rm"
+    ],
+    "controller_family": "LJ-X8000",
+    "status": "OFFICIAL_EXACT"
+  },
+  {
+    "command": "RS",
+    "aliases": [
+      "rs"
+    ],
+    "controller_family": "LJ-X8000",
+    "status": "OFFICIAL_EXACT"
+  },
+  {
+    "command": "S0",
+    "aliases": [
+      "s0"
+    ],
+    "controller_family": "LJ-X8000",
+    "status": "OFFICIAL_EXACT"
+  },
+  {
+    "command": "SS",
+    "aliases": [
+      "ss"
+    ],
+    "controller_family": "LJ-X8000",
+    "status": "OFFICIAL_EXACT"
+  },
+  {
+    "command": "STR",
+    "aliases": [
+      "str"
+    ],
+    "controller_family": "LJ-X8000",
+    "status": "OFFICIAL_EXACT"
+  },
+  {
+    "command": "STW",
+    "aliases": [
+      "stw"
+    ],
+    "controller_family": "LJ-X8000",
+    "status": "OFFICIAL_CONTEXTUAL"
+  },
+  {
+    "command": "T1",
+    "aliases": [
+      "t1"
+    ],
+    "controller_family": "LJ-X8000",
+    "status": "OFFICIAL_EXACT"
+  },
+  {
+    "command": "TCP",
+    "aliases": [
+      "tcp"
+    ],
+    "controller_family": null,
+    "status": "OFFICIAL_CONTEXTUAL"
+  },
+  {
+    "command": "TE",
+    "aliases": [
+      "te"
+    ],
+    "controller_family": "LJ-X8000",
+    "status": "OFFICIAL_EXACT"
+  },
+  {
+    "command": "TIM",
+    "aliases": [
+      "tim"
+    ],
+    "controller_family": "LJ-X8000",
+    "status": "OFFICIAL_EXACT"
+  },
+  {
+    "command": "TS",
+    "aliases": [
+      "ts"
+    ],
+    "controller_family": "LJ-X8000",
+    "status": "OFFICIAL_CONTEXTUAL"
+  },
+  {
+    "command": "TW",
+    "aliases": [
+      "tw"
+    ],
+    "controller_family": "LJ-X8000",
+    "status": "OFFICIAL_CONTEXTUAL"
+  },
+  {
+    "command": "VW",
+    "aliases": [
+      "vw"
+    ],
+    "controller_family": "LJ-X8000",
+    "status": "OFFICIAL_CONTEXTUAL"
+  },
+  {
+    "command": "ZR",
+    "aliases": [
+      "zr"
+    ],
+    "controller_family": "LJ-X8000",
+    "status": "OFFICIAL_EXACT"
+  }
+]

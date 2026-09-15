@@ -1,0 +1,15 @@
+{
+  "knowledge_status": "DERIVED",
+  "safety_rule": "Catalog repeatability only evaluates the documented condition; it does not predict application accuracy.",
+  "filters": [
+    "required_z_range",
+    "required_x_width_at_near",
+    "required_x_width_at_reference",
+    "required_x_width_at_far",
+    "minimum_working_distance",
+    "maximum_working_distance",
+    "repeatability_requirement",
+    "profile_point_requirement"
+  ],
+  "missing_spec_policy": "never treat missing data as zero or compatible"
+}

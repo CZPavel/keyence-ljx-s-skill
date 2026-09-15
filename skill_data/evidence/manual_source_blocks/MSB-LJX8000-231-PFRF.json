@@ -1,0 +1,20 @@
+{
+  "block_id": "MSB-LJX8000-231-PFRF",
+  "document_id": "KEYENCE-E3E51B234B56",
+  "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+  "pdf_page_index": 231,
+  "printed_page": "9-9",
+  "bbox": null,
+  "block_type": "response_format",
+  "native_text_sha256": "bacba9d22624def06a9646dcf046b9cf4c1c518596e24f74a23b54d99cbefecf",
+  "visual_verification": true,
+  "evidence_status": "DIRECT_VISUAL",
+  "fields_supported": [
+    "PFRF,h",
+    "PFRF,h,t",
+    "PFRF,h,s,m",
+    "PFRF,n,pppp,..."
+  ],
+  "public_evidence": "metadata_locator_only",
+  "raw_evidence_location": "local_evidence/manual_source_blocks (not redistributed)"
+}

@@ -1,0 +1,78 @@
+{
+  "sequences": [
+    {
+      "sequence_id": "external-trigger-cycle",
+      "status": "OFFICIAL_EXACT",
+      "steps": [
+        "READY ON",
+        "TRG accepted",
+        "imaging/profile transfer while READY OFF",
+        "READY ON after transfer complete"
+      ],
+      "evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-295-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 295,
+          "printed_page": "9-73",
+          "evidence_excerpt_hash": "fc672b9ce169b259f50dfad4f0ae170225f75ca4055213bc33b96fe3cdb0b806"
+        }
+      ]
+    },
+    {
+      "sequence_id": "continuous-trigger-cycle",
+      "status": "DERIVED_OPERATIONAL_SEQUENCE",
+      "steps": [
+        "configured trigger cycle",
+        "imaging/transfer",
+        "measurement processing may run in parallel",
+        "judgment/output"
+      ],
+      "evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-296-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 296,
+          "printed_page": "9-74",
+          "evidence_excerpt_hash": "200b78e55898f2328cc8a4bac53883db09ac1ec3c8f771dd466c77329202469b"
+        }
+      ]
+    }
+  ],
+  "numeric_constraints": [
+    {
+      "name": "startup_ready_delay",
+      "value": "more than 5 ms after stated startup stage",
+      "evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-293-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 293,
+          "printed_page": "9-71",
+          "evidence_excerpt_hash": "8ad08179a29357f5873ec7cbe3516479ea1cc16cd6955fea651c8a03952a8291"
+        }
+      ]
+    },
+    {
+      "name": "terminal_output_rise_time",
+      "value": "1 to 999 ms",
+      "evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-299-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 299,
+          "printed_page": "9-77",
+          "evidence_excerpt_hash": "9ccc1fb78476cdba2c383200d6025610d52bce27580ff44f6320fe24b4e359ad"
+        }
+      ]
+    }
+  ]
+}

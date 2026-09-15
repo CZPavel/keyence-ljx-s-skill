@@ -1,0 +1,689 @@
+{
+  "schema_version": 1,
+  "workflows": [
+    {
+      "workflow_id": "ljx8000-pc-first-connection",
+      "title": "First PC connection",
+      "purpose": "Connect using documented Ethernet Non-Procedural settings.",
+      "applicability": {
+        "controllers": [
+          "LJ-X8000"
+        ],
+        "modes": null,
+        "communication_methods": [
+          "Ethernet Non-Procedural"
+        ]
+      },
+      "required_context": [
+        "controller",
+        "mode",
+        "communication_method"
+      ],
+      "preconditions": [],
+      "steps": [
+        {
+          "step_id": "network",
+          "action": "Configure documented controller network and Non-Procedural port.",
+          "command_ref": [],
+          "signal_ref": [],
+          "data_flow_ref": [],
+          "expected_observation": null,
+          "failure_branch": null,
+          "knowledge_status": "OFFICIAL_EXACT",
+          "action_classification": "READ_ONLY"
+        },
+        {
+          "step_id": "connect",
+          "action": "Open TCP connection to configured port 8500.",
+          "command_ref": [],
+          "signal_ref": [],
+          "data_flow_ref": [],
+          "expected_observation": null,
+          "failure_branch": null,
+          "knowledge_status": "OFFICIAL_EXACT",
+          "action_classification": "READ_ONLY"
+        },
+        {
+          "step_id": "verify",
+          "action": "Read controller Run/Setup state.",
+          "command_ref": [
+            "command:RM"
+          ],
+          "signal_ref": [],
+          "data_flow_ref": [],
+          "expected_observation": null,
+          "failure_branch": null,
+          "knowledge_status": "OFFICIAL_EXACT",
+          "action_classification": "READ_ONLY"
+        },
+        {
+          "step_id": "verify-program",
+          "action": "Read current program.",
+          "command_ref": [
+            "command:PR"
+          ],
+          "signal_ref": [],
+          "data_flow_ref": [],
+          "expected_observation": null,
+          "failure_branch": null,
+          "knowledge_status": "OFFICIAL_EXACT",
+          "action_classification": "READ_ONLY"
+        }
+      ],
+      "success_condition": "RM and PR responses received",
+      "failure_routes": [],
+      "state_changes": [],
+      "warnings": [
+        "Ping is not a Keyence requirement; use only as DERIVED_ENGINEERING_GUIDANCE."
+      ],
+      "canonical_refs": [],
+      "knowledge_status": "COMPLETE"
+    },
+    {
+      "workflow_id": "ljx8000-software-trigger",
+      "title": "Software trigger",
+      "purpose": "Issue a software trigger after the observable READY precheck.",
+      "applicability": {
+        "controllers": [
+          "LJ-X8000"
+        ],
+        "modes": null,
+        "communication_methods": [
+          "Ethernet Non-Procedural"
+        ]
+      },
+      "required_context": [
+        "controller",
+        "mode",
+        "program"
+      ],
+      "preconditions": [],
+      "steps": [
+        {
+          "step_id": "precheck-ready",
+          "action": "Confirm READY is ON.",
+          "command_ref": [],
+          "signal_ref": [
+            "signal:READY"
+          ],
+          "data_flow_ref": [],
+          "expected_observation": null,
+          "failure_branch": null,
+          "knowledge_status": "OFFICIAL_EXACT",
+          "action_classification": "READ_ONLY"
+        },
+        {
+          "step_id": "precheck-enable",
+          "action": "Confirm trigger path is enabled; TE is state-changing.",
+          "command_ref": [
+            "command:TE"
+          ],
+          "signal_ref": [
+            "signal:READY"
+          ],
+          "data_flow_ref": [],
+          "expected_observation": null,
+          "failure_branch": null,
+          "knowledge_status": "DERIVED",
+          "action_classification": "STATE_CHANGE"
+        },
+        {
+          "step_id": "trigger",
+          "action": "Send T1.",
+          "command_ref": [
+            "command:T1"
+          ],
+          "signal_ref": [
+            "signal:TRG",
+            "signal:READY"
+          ],
+          "data_flow_ref": [],
+          "expected_observation": null,
+          "failure_branch": null,
+          "knowledge_status": "OFFICIAL_EXACT",
+          "action_classification": "TRIGGER_ACTION"
+        },
+        {
+          "step_id": "observe",
+          "action": "Wait for READY to return after imaging/profile transfer.",
+          "command_ref": [],
+          "signal_ref": [
+            "signal:READY"
+          ],
+          "data_flow_ref": [],
+          "expected_observation": null,
+          "failure_branch": null,
+          "knowledge_status": "OFFICIAL_EXACT",
+          "action_classification": "READ_ONLY"
+        }
+      ],
+      "success_condition": "READY returns; result/profile route depends on configured output",
+      "failure_routes": [],
+      "state_changes": [],
+      "warnings": [],
+      "canonical_refs": [],
+      "knowledge_status": "PARTIAL"
+    },
+    {
+      "workflow_id": "ljx8000-external-trigger",
+      "title": "External trigger",
+      "purpose": "Run external trigger through TRG/READY handshake.",
+      "applicability": {
+        "controllers": [
+          "LJ-X8000"
+        ],
+        "modes": null,
+        "communication_methods": [
+          "Ethernet Non-Procedural"
+        ]
+      },
+      "required_context": [
+        "controller",
+        "mode",
+        "trigger_method"
+      ],
+      "preconditions": [],
+      "steps": [
+        {
+          "step_id": "ready",
+          "action": "Confirm READY is ON.",
+          "command_ref": [],
+          "signal_ref": [
+            "signal:READY"
+          ],
+          "data_flow_ref": [],
+          "expected_observation": null,
+          "failure_branch": null,
+          "knowledge_status": "OFFICIAL_EXACT",
+          "action_classification": "READ_ONLY"
+        },
+        {
+          "step_id": "ext",
+          "action": "Confirm EXT is OFF.",
+          "command_ref": [],
+          "signal_ref": [
+            "signal:EXT",
+            "signal:READY"
+          ],
+          "data_flow_ref": [],
+          "expected_observation": null,
+          "failure_branch": null,
+          "knowledge_status": "OFFICIAL_EXACT",
+          "action_classification": "READ_ONLY"
+        },
+        {
+          "step_id": "trigger",
+          "action": "Apply TRG while READY is ON.",
+          "command_ref": [],
+          "signal_ref": [
+            "signal:TRG",
+            "signal:READY"
+          ],
+          "data_flow_ref": [],
+          "expected_observation": null,
+          "failure_branch": null,
+          "knowledge_status": "OFFICIAL_EXACT",
+          "action_classification": "TRIGGER_ACTION"
+        },
+        {
+          "step_id": "cycle",
+          "action": "Observe READY OFF during transfer then ON.",
+          "command_ref": [],
+          "signal_ref": [
+            "signal:READY"
+          ],
+          "data_flow_ref": [],
+          "expected_observation": null,
+          "failure_branch": null,
+          "knowledge_status": "OFFICIAL_EXACT",
+          "action_classification": "READ_ONLY"
+        }
+      ],
+      "success_condition": "READY returns after transfer",
+      "failure_routes": [],
+      "state_changes": [],
+      "warnings": [
+        "If TRG has no effect, route READY -> EXT -> RUN -> ERROR/contextual -> trigger configuration."
+      ],
+      "canonical_refs": [],
+      "knowledge_status": "COMPLETE"
+    },
+    {
+      "workflow_id": "ljx8000-read-latest-profile",
+      "title": "Read latest profile",
+      "purpose": "Read the latest 2D profile using PFR.",
+      "applicability": {
+        "controllers": [
+          "LJ-X8000"
+        ],
+        "modes": null,
+        "communication_methods": [
+          "Ethernet Non-Procedural"
+        ]
+      },
+      "required_context": [
+        "controller",
+        "mode",
+        "head"
+      ],
+      "preconditions": [],
+      "steps": [
+        {
+          "step_id": "request",
+          "action": "Send PFR,h.",
+          "command_ref": [
+            "command:PFR"
+          ],
+          "signal_ref": [],
+          "data_flow_ref": [],
+          "expected_observation": null,
+          "failure_branch": null,
+          "knowledge_status": "OFFICIAL_EXACT",
+          "action_classification": "READ_ONLY"
+        },
+        {
+          "step_id": "parse",
+          "action": "Parse PFR,n,pppp... as comma-separated ASCII values; invalid value is defined by canonical PFR record.",
+          "command_ref": [
+            "command:PFR"
+          ],
+          "signal_ref": [],
+          "data_flow_ref": [],
+          "expected_observation": null,
+          "failure_branch": null,
+          "knowledge_status": "OFFICIAL_EXACT",
+          "action_classification": "READ_ONLY"
+        }
+      ],
+      "success_condition": "PFR response parsed",
+      "failure_routes": [],
+      "state_changes": [],
+      "warnings": [
+        "Latest-profile buffering semantics remain unresolved."
+      ],
+      "canonical_refs": [],
+      "knowledge_status": "COMPLETE"
+    },
+    {
+      "workflow_id": "ljx8000-fast-profile-read",
+      "title": "Fast profile read",
+      "purpose": "Read latest 2D profile using PFRF.",
+      "applicability": {
+        "controllers": [
+          "LJ-X8000"
+        ],
+        "modes": null,
+        "communication_methods": [
+          "Ethernet Non-Procedural"
+        ]
+      },
+      "required_context": [
+        "controller",
+        "mode",
+        "head",
+        "trigger_method"
+      ],
+      "preconditions": [],
+      "steps": [
+        {
+          "step_id": "request",
+          "action": "Select documented PFRF request form.",
+          "command_ref": [
+            "command:PFRF"
+          ],
+          "signal_ref": [],
+          "data_flow_ref": [],
+          "expected_observation": null,
+          "failure_branch": null,
+          "knowledge_status": "OFFICIAL_EXACT",
+          "action_classification": "READ_ONLY"
+        },
+        {
+          "step_id": "parse",
+          "action": "Parse canonical PFRF response.",
+          "command_ref": [
+            "command:PFRF"
+          ],
+          "signal_ref": [],
+          "data_flow_ref": [],
+          "expected_observation": null,
+          "failure_branch": null,
+          "knowledge_status": "OFFICIAL_EXACT",
+          "action_classification": "READ_ONLY"
+        }
+      ],
+      "success_condition": "PFRF response parsed",
+      "failure_routes": [],
+      "state_changes": [],
+      "warnings": [
+        "In Continuous Trigger use 500 Hz or lower; background-buffer overflow warning applies."
+      ],
+      "canonical_refs": [],
+      "knowledge_status": "COMPLETE"
+    },
+    {
+      "workflow_id": "ljx8000-switch-program",
+      "title": "Switch program",
+      "purpose": "Change active inspection program and verify read-back.",
+      "applicability": {
+        "controllers": [
+          "LJ-X8000"
+        ],
+        "modes": null,
+        "communication_methods": [
+          "Ethernet Non-Procedural"
+        ]
+      },
+      "required_context": [
+        "controller",
+        "program"
+      ],
+      "preconditions": [],
+      "steps": [
+        {
+          "step_id": "precheck",
+          "action": "Read current program.",
+          "command_ref": [
+            "command:PR"
+          ],
+          "signal_ref": [],
+          "data_flow_ref": [],
+          "expected_observation": null,
+          "failure_branch": null,
+          "knowledge_status": "OFFICIAL_EXACT",
+          "action_classification": "READ_ONLY"
+        },
+        {
+          "step_id": "switch",
+          "action": "Send PW,d,nnn.",
+          "command_ref": [
+            "command:PW"
+          ],
+          "signal_ref": [],
+          "data_flow_ref": [],
+          "expected_observation": null,
+          "failure_branch": null,
+          "knowledge_status": "OFFICIAL_EXACT",
+          "action_classification": "PROGRAM_CHANGE"
+        },
+        {
+          "step_id": "verify",
+          "action": "Read PR again and compare requested values.",
+          "command_ref": [
+            "command:PR"
+          ],
+          "signal_ref": [],
+          "data_flow_ref": [],
+          "expected_observation": null,
+          "failure_branch": null,
+          "knowledge_status": "OFFICIAL_EXACT",
+          "action_classification": "READ_ONLY"
+        }
+      ],
+      "success_condition": "PR matches requested card/program",
+      "failure_routes": [],
+      "state_changes": [],
+      "warnings": [
+        "SS is a separate persistent-save action, not an automatic switch step."
+      ],
+      "canonical_refs": [],
+      "knowledge_status": "COMPLETE"
+    },
+    {
+      "workflow_id": "ljx8000-verify-current-program",
+      "title": "Verify current program",
+      "purpose": "Read active SD card/program.",
+      "applicability": {
+        "controllers": [
+          "LJ-X8000"
+        ],
+        "modes": null,
+        "communication_methods": [
+          "Ethernet Non-Procedural"
+        ]
+      },
+      "required_context": [
+        "controller"
+      ],
+      "preconditions": [],
+      "steps": [
+        {
+          "step_id": "read",
+          "action": "Send PR.",
+          "command_ref": [
+            "command:PR"
+          ],
+          "signal_ref": [],
+          "data_flow_ref": [],
+          "expected_observation": null,
+          "failure_branch": null,
+          "knowledge_status": "OFFICIAL_EXACT",
+          "action_classification": "READ_ONLY"
+        }
+      ],
+      "success_condition": "PR response available",
+      "failure_routes": [],
+      "state_changes": [],
+      "warnings": [],
+      "canonical_refs": [],
+      "knowledge_status": "COMPLETE"
+    },
+    {
+      "workflow_id": "ljx8000-acquire-measurement-result",
+      "title": "Acquire measurement result",
+      "purpose": "Use configured result output only after measurement completion.",
+      "applicability": {
+        "controllers": [
+          "LJ-X8000"
+        ],
+        "modes": null,
+        "communication_methods": [
+          "Ethernet Non-Procedural"
+        ]
+      },
+      "required_context": [
+        "controller",
+        "output_configuration"
+      ],
+      "preconditions": [],
+      "steps": [
+        {
+          "step_id": "trigger-cycle",
+          "action": "Use selected trigger workflow.",
+          "command_ref": [],
+          "signal_ref": [
+            "signal:READY"
+          ],
+          "data_flow_ref": [],
+          "expected_observation": null,
+          "failure_branch": null,
+          "knowledge_status": "OFFICIAL_EXACT",
+          "action_classification": "READ_ONLY"
+        },
+        {
+          "step_id": "result",
+          "action": "Read configured result output.",
+          "command_ref": [],
+          "signal_ref": [],
+          "data_flow_ref": [],
+          "expected_observation": null,
+          "failure_branch": null,
+          "knowledge_status": "OFFICIAL_EXACT",
+          "action_classification": "READ_ONLY"
+        }
+      ],
+      "success_condition": "Configured result received",
+      "failure_routes": [],
+      "state_changes": [],
+      "warnings": [
+        "Exact shared-connection parser contract for asynchronous result versus command response is unresolved."
+      ],
+      "canonical_refs": [],
+      "knowledge_status": "PARTIAL"
+    },
+    {
+      "workflow_id": "ljx8000-external-string-correlation",
+      "title": "External string correlation",
+      "purpose": "Read externally specified string where configured.",
+      "applicability": {
+        "controllers": [
+          "LJ-X8000"
+        ],
+        "modes": null,
+        "communication_methods": [
+          "Ethernet Non-Procedural"
+        ]
+      },
+      "required_context": [
+        "controller",
+        "string_index"
+      ],
+      "preconditions": [],
+      "steps": [
+        {
+          "step_id": "read",
+          "action": "Send STR,n.",
+          "command_ref": [
+            "command:STR"
+          ],
+          "signal_ref": [],
+          "data_flow_ref": [],
+          "expected_observation": null,
+          "failure_branch": null,
+          "knowledge_status": "OFFICIAL_EXACT",
+          "action_classification": "READ_ONLY"
+        }
+      ],
+      "success_condition": "STR response received",
+      "failure_routes": [],
+      "state_changes": [],
+      "warnings": [
+        "Write/result-output correlation is unresolved in this workflow."
+      ],
+      "canonical_refs": [],
+      "knowledge_status": "PARTIAL"
+    },
+    {
+      "workflow_id": "ljx8000-reset-recovery",
+      "title": "Reset and recovery",
+      "purpose": "Recover with physical RESET or RS without treating them as equivalent.",
+      "applicability": {
+        "controllers": [
+          "LJ-X8000"
+        ],
+        "modes": null,
+        "communication_methods": [
+          "Ethernet Non-Procedural"
+        ]
+      },
+      "required_context": [
+        "controller",
+        "recovery_path"
+      ],
+      "preconditions": [],
+      "steps": [
+        {
+          "step_id": "physical-reset",
+          "action": "Use documented physical RESET path if selected.",
+          "command_ref": [],
+          "signal_ref": [
+            "signal:RESET",
+            "signal:READY",
+            "signal:BUSY"
+          ],
+          "data_flow_ref": [],
+          "expected_observation": null,
+          "failure_branch": null,
+          "knowledge_status": "OFFICIAL_EXACT",
+          "action_classification": "RESET_RECOVERY"
+        },
+        {
+          "step_id": "command-reset",
+          "action": "Use RS only if communication reset is selected.",
+          "command_ref": [
+            "command:RS"
+          ],
+          "signal_ref": [],
+          "data_flow_ref": [],
+          "expected_observation": null,
+          "failure_branch": null,
+          "knowledge_status": "OFFICIAL_EXACT",
+          "action_classification": "RESET_RECOVERY"
+        },
+        {
+          "step_id": "verify",
+          "action": "Recheck Run/Setup and active program.",
+          "command_ref": [
+            "command:RM",
+            "command:PR"
+          ],
+          "signal_ref": [],
+          "data_flow_ref": [],
+          "expected_observation": null,
+          "failure_branch": null,
+          "knowledge_status": "OFFICIAL_EXACT",
+          "action_classification": "READ_ONLY"
+        }
+      ],
+      "success_condition": "READY/state recovered where applicable",
+      "failure_routes": [],
+      "state_changes": [],
+      "warnings": [],
+      "canonical_refs": [],
+      "knowledge_status": "COMPLETE"
+    },
+    {
+      "workflow_id": "ljx8000-reconnect-after-tcp-loss",
+      "title": "Reconnect after TCP loss",
+      "purpose": "Derived client recovery pattern.",
+      "applicability": {
+        "controllers": [
+          "LJ-X8000"
+        ],
+        "modes": null,
+        "communication_methods": [
+          "Ethernet Non-Procedural"
+        ]
+      },
+      "required_context": [
+        "controller"
+      ],
+      "preconditions": [],
+      "steps": [
+        {
+          "step_id": "reconnect",
+          "action": "Reconnect socket.",
+          "command_ref": [],
+          "signal_ref": [],
+          "data_flow_ref": [],
+          "expected_observation": null,
+          "failure_branch": null,
+          "knowledge_status": "DERIVED",
+          "action_classification": "READ_ONLY"
+        },
+        {
+          "step_id": "state",
+          "action": "Re-read RM and PR; do not reuse stale result data.",
+          "command_ref": [
+            "command:RM",
+            "command:PR"
+          ],
+          "signal_ref": [],
+          "data_flow_ref": [],
+          "expected_observation": null,
+          "failure_branch": null,
+          "knowledge_status": "DERIVED",
+          "action_classification": "READ_ONLY"
+        }
+      ],
+      "success_condition": "Fresh state read after reconnect",
+      "failure_routes": [],
+      "state_changes": [],
+      "warnings": [
+        "DERIVED_ENGINEERING_GUIDANCE; stale-result handling is not an official Keyence fact."
+      ],
+      "canonical_refs": [],
+      "knowledge_status": "PARTIAL"
+    }
+  ]
+}

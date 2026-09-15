@@ -1,0 +1,88 @@
+{
+  "queue": [
+    {
+      "command": "BC",
+      "missing_field": "syntax/parameters/response",
+      "reason": "SOURCE_NOT_FOUND",
+      "recommended_next_source": "inspect original PDF command page or another family-specific manual"
+    },
+    {
+      "command": "CA",
+      "missing_field": "syntax/parameters/response",
+      "reason": "SOURCE_NOT_FOUND",
+      "recommended_next_source": "inspect original PDF command page or another family-specific manual"
+    },
+    {
+      "command": "CD",
+      "missing_field": "syntax/parameters/response",
+      "reason": "SOURCE_NOT_FOUND",
+      "recommended_next_source": "inspect original PDF command page or another family-specific manual"
+    },
+    {
+      "command": "CR",
+      "missing_field": "syntax/parameters/response",
+      "reason": "SOURCE_NOT_FOUND",
+      "recommended_next_source": "inspect original PDF command page or another family-specific manual"
+    },
+    {
+      "command": "CW",
+      "missing_field": "syntax/parameters/response",
+      "reason": "SOURCE_NOT_FOUND",
+      "recommended_next_source": "inspect original PDF command page or another family-specific manual"
+    },
+    {
+      "command": "DLL",
+      "missing_field": "syntax/parameters/response",
+      "reason": "SOURCE_NOT_FOUND",
+      "recommended_next_source": "inspect original PDF command page or another family-specific manual"
+    },
+    {
+      "command": "FTP",
+      "missing_field": "syntax/parameters/response",
+      "reason": "SOURCE_NOT_FOUND",
+      "recommended_next_source": "inspect original PDF command page or another family-specific manual"
+    },
+    {
+      "command": "OW",
+      "missing_field": "syntax/parameters/response",
+      "reason": "SOURCE_NOT_FOUND",
+      "recommended_next_source": "inspect original PDF command page or another family-specific manual"
+    },
+    {
+      "command": "PLC",
+      "missing_field": "syntax/parameters/response",
+      "reason": "SOURCE_NOT_FOUND",
+      "recommended_next_source": "inspect original PDF command page or another family-specific manual"
+    },
+    {
+      "command": "STW",
+      "missing_field": "syntax/parameters/response",
+      "reason": "SOURCE_NOT_FOUND",
+      "recommended_next_source": "inspect original PDF command page or another family-specific manual"
+    },
+    {
+      "command": "TCP",
+      "missing_field": "syntax/parameters/response",
+      "reason": "SOURCE_NOT_FOUND",
+      "recommended_next_source": "inspect original PDF command page or another family-specific manual"
+    },
+    {
+      "command": "TS",
+      "missing_field": "syntax/parameters/response",
+      "reason": "SOURCE_NOT_FOUND",
+      "recommended_next_source": "inspect original PDF command page or another family-specific manual"
+    },
+    {
+      "command": "TW",
+      "missing_field": "syntax/parameters/response",
+      "reason": "SOURCE_NOT_FOUND",
+      "recommended_next_source": "inspect original PDF command page or another family-specific manual"
+    },
+    {
+      "command": "VW",
+      "missing_field": "syntax/parameters/response",
+      "reason": "SOURCE_NOT_FOUND",
+      "recommended_next_source": "inspect original PDF command page or another family-specific manual"
+    }
+  ]
+}

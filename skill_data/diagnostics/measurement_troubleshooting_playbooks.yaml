@@ -1,0 +1,116 @@
+{
+  "playbooks": [
+    {
+      "playbook_id": "no-valid-measurement",
+      "applicability": {
+        "controller_family": "LJ-X8000",
+        "mode": "CONTEXT_REQUIRED"
+      },
+      "documented_checks": [],
+      "derived_engineering_guidance": [
+        "Confirm family/mode, applicable tool, configured region and source-backed acquisition path before changing settings."
+      ],
+      "canonical_refs": [
+        "measurement/measurement_tools.yaml",
+        "measurement/region_model.yaml"
+      ],
+      "knowledge_status": "DERIVED"
+    },
+    {
+      "playbook_id": "unstable-measurement",
+      "applicability": {
+        "controller_family": "LJ-X8000",
+        "mode": "CONTEXT_REQUIRED"
+      },
+      "documented_checks": [],
+      "derived_engineering_guidance": [
+        "Confirm family/mode, applicable tool, configured region and source-backed acquisition path before changing settings."
+      ],
+      "canonical_refs": [
+        "measurement/measurement_tools.yaml",
+        "measurement/region_model.yaml"
+      ],
+      "knowledge_status": "DERIVED"
+    },
+    {
+      "playbook_id": "wrong-feature-detected",
+      "applicability": {
+        "controller_family": "LJ-X8000",
+        "mode": "CONTEXT_REQUIRED"
+      },
+      "documented_checks": [],
+      "derived_engineering_guidance": [
+        "Confirm family/mode, applicable tool, configured region and source-backed acquisition path before changing settings."
+      ],
+      "canonical_refs": [
+        "measurement/measurement_tools.yaml",
+        "measurement/region_model.yaml"
+      ],
+      "knowledge_status": "DERIVED"
+    },
+    {
+      "playbook_id": "roi-misses-target",
+      "applicability": {
+        "controller_family": "LJ-X8000",
+        "mode": "CONTEXT_REQUIRED"
+      },
+      "documented_checks": [],
+      "derived_engineering_guidance": [
+        "Confirm family/mode, applicable tool, configured region and source-backed acquisition path before changing settings."
+      ],
+      "canonical_refs": [
+        "measurement/measurement_tools.yaml",
+        "measurement/region_model.yaml"
+      ],
+      "knowledge_status": "DERIVED"
+    },
+    {
+      "playbook_id": "position-shift",
+      "applicability": {
+        "controller_family": "LJ-X8000",
+        "mode": "CONTEXT_REQUIRED"
+      },
+      "documented_checks": [],
+      "derived_engineering_guidance": [
+        "Confirm family/mode, applicable tool, configured region and source-backed acquisition path before changing settings."
+      ],
+      "canonical_refs": [
+        "measurement/measurement_tools.yaml",
+        "measurement/region_model.yaml"
+      ],
+      "knowledge_status": "DERIVED"
+    },
+    {
+      "playbook_id": "measurement-out-of-range",
+      "applicability": {
+        "controller_family": "LJ-X8000",
+        "mode": "CONTEXT_REQUIRED"
+      },
+      "documented_checks": [],
+      "derived_engineering_guidance": [
+        "Confirm family/mode, applicable tool, configured region and source-backed acquisition path before changing settings."
+      ],
+      "canonical_refs": [
+        "measurement/measurement_tools.yaml",
+        "measurement/region_model.yaml"
+      ],
+      "knowledge_status": "DERIVED"
+    },
+    {
+      "playbook_id": "judgment-unexpected",
+      "applicability": {
+        "controller_family": "LJ-X8000",
+        "mode": "CONTEXT_REQUIRED"
+      },
+      "documented_checks": [],
+      "derived_engineering_guidance": [
+        "Confirm family/mode, applicable tool, configured region and source-backed acquisition path before changing settings."
+      ],
+      "canonical_refs": [
+        "measurement/measurement_tools.yaml",
+        "measurement/region_model.yaml"
+      ],
+      "knowledge_status": "DERIVED"
+    }
+  ]
+}

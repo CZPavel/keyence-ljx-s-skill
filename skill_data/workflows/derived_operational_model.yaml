@@ -1,0 +1,61 @@
+{
+  "model_type": "derived_operational_model",
+  "states": [
+    {
+      "state_id": "CONNECTED",
+      "observation": "TCP connection established",
+      "knowledge_status": "DERIVED"
+    },
+    {
+      "state_id": "RUNNING",
+      "observation": "RUN output or RM reports Run",
+      "knowledge_status": "OFFICIAL_EXACT",
+      "canonical_refs": [
+        "signal:RUN",
+        "command:RM"
+      ]
+    },
+    {
+      "state_id": "READY",
+      "observation": "READY ON",
+      "knowledge_status": "OFFICIAL_EXACT",
+      "canonical_refs": [
+        "signal:READY"
+      ]
+    },
+    {
+      "state_id": "TRIGGER_ACCEPTED",
+      "observation": "READY changes OFF after accepted trigger",
+      "knowledge_status": "OFFICIAL_EXACT",
+      "canonical_refs": [
+        "signal:READY",
+        "signal:TRG"
+      ]
+    },
+    {
+      "state_id": "MEASUREMENT_IN_PROGRESS",
+      "observation": "BUSY or documented timing context",
+      "knowledge_status": "OFFICIAL_EXACT",
+      "canonical_refs": [
+        "signal:BUSY"
+      ]
+    },
+    {
+      "state_id": "RESULT_AVAILABLE",
+      "observation": "configured output complete",
+      "knowledge_status": "DERIVED",
+      "canonical_refs": [
+        "signal:STO",
+        "signal:OUT_DATA[15:0]"
+      ]
+    },
+    {
+      "state_id": "NOT_READY",
+      "observation": "READY OFF",
+      "knowledge_status": "OFFICIAL_EXACT",
+      "canonical_refs": [
+        "signal:READY"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1492 @@
+{
+  "schema_version": 1,
+  "baseline_family": "LJ-X8000",
+  "command_deltas": [
+    {
+      "record_id": "command:BC",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "command:BS",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "command:CA",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "command:CD",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "command:CE",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "command:CR",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "command:CTD",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "command:CW",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "command:DLL",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "command:DR",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "command:DW",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "command:EXR",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "command:EXW",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "command:FTP",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "command:MRS",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "command:OE",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "command:OW",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "command:PFR",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "SAME",
+          "canonical_ref": "command:PFR",
+          "differences": [],
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT",
+              "document_id": "KEYENCE-837C7E2323DA",
+              "source_sha256": "837c7e2323da151c94a70f5e6455ea286c7b8e7ac2a673b79e7a450d3da8a5ec",
+              "page": 11,
+              "section_id": "SEC-LJ-X8000-LJ-S8000-SERIES-QUICK-START-MANUAL-ETHERNET-NON-PROCEDURAL-COMMUNICATION-EDITION-D29GB-837C7E2323DA-U0011",
+              "chunk_id": "CHK-LJ-X8000-LJ-S8000-SERIES-QUICK-START-MANUAL-ETHERNET-NON-PROCEDURAL-COMMUNICATION-EDITION-D29GB-837C7E2323DA-U0011-C002",
+              "evidence_excerpt_hash": "1eae67f9a6394f486d8ff50480306da18badc9a512fa0d1481eb8b107e540c90"
+            }
+          ]
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "command:PFRF",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "SAME",
+          "canonical_ref": "command:PFRF",
+          "differences": [],
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT",
+              "document_id": "KEYENCE-837C7E2323DA",
+              "source_sha256": "837c7e2323da151c94a70f5e6455ea286c7b8e7ac2a673b79e7a450d3da8a5ec",
+              "page": 11,
+              "section_id": "SEC-LJ-X8000-LJ-S8000-SERIES-QUICK-START-MANUAL-ETHERNET-NON-PROCEDURAL-COMMUNICATION-EDITION-D29GB-837C7E2323DA-U0011",
+              "chunk_id": "CHK-LJ-X8000-LJ-S8000-SERIES-QUICK-START-MANUAL-ETHERNET-NON-PROCEDURAL-COMMUNICATION-EDITION-D29GB-837C7E2323DA-U0011-C002",
+              "evidence_excerpt_hash": "1eae67f9a6394f486d8ff50480306da18badc9a512fa0d1481eb8b107e540c90"
+            }
+          ]
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "command:PLC",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "command:PR",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "command:PW",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "command:R0",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "command:RB",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "command:RM",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "command:RS",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "command:S0",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "command:SS",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "command:STR",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "command:STW",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "command:T1",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "SAME",
+          "canonical_ref": "command:T1",
+          "differences": [],
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT",
+              "document_id": "KEYENCE-837C7E2323DA",
+              "source_sha256": "837c7e2323da151c94a70f5e6455ea286c7b8e7ac2a673b79e7a450d3da8a5ec",
+              "page": 10,
+              "section_id": "SEC-LJ-X8000-LJ-S8000-SERIES-QUICK-START-MANUAL-ETHERNET-NON-PROCEDURAL-COMMUNICATION-EDITION-D29GB-837C7E2323DA-U0010",
+              "chunk_id": "CHK-LJ-X8000-LJ-S8000-SERIES-QUICK-START-MANUAL-ETHERNET-NON-PROCEDURAL-COMMUNICATION-EDITION-D29GB-837C7E2323DA-U0010-C003",
+              "evidence_excerpt_hash": "ae4e15370a7f367b5ddfa68d379473b35b1afc2d2d9928d06a53b1acf38e68a2"
+            }
+          ]
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "command:TCP",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "command:TE",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "command:TIM",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "command:TS",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "command:TW",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "command:VW",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "command:ZR",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    }
+  ],
+  "signal_deltas": [
+    {
+      "record_id": "signal:READY",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "signal:TRG",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "signal:EXT",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "signal:TEST",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "signal:RESET",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "signal:BUSY",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "signal:RUN",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "signal:CMD_READY",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "signal:ACK",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "signal:NACK",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "signal:STO",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "signal:OUT_DATA[15:0]",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "signal:OR",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "signal:PST",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "signal:ERROR",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "signal:TRG_PASS",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "FAMILY_SPECIFIC",
+          "canonical_ref": "signal:TRG_PASS",
+          "differences": [
+            "Trigger-pass output is documented for LJ-X8000A."
+          ],
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT",
+              "document_id": "KEYENCE-17574BD15720",
+              "source_sha256": "17574bd15720c837db015a7a9a20506fd3bdf251ad7f334b7ea17a4d19f0c9bc",
+              "page": 33,
+              "section_id": "SEC-LJ-X8000-SERIES-QUICK-START-GUIDE-LJ-X8000A-EDITION-D63GB-17574BD15720-U0033",
+              "chunk_id": "CHK-LJ-X8000-SERIES-QUICK-START-GUIDE-LJ-X8000A-EDITION-D63GB-17574BD15720-U0033-C005",
+              "evidence_excerpt_hash": "d657aa1e4eb01081730b5d874245196e95ee248f168b545518cc81285ba18d21"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "trigger_deltas": [
+    {
+      "record_id": "trigger:external",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "DIFFERENT",
+          "canonical_ref": null,
+          "differences": [
+            "LJ-X8000A source documents external trigger configuration."
+          ],
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT",
+              "document_id": "KEYENCE-17574BD15720",
+              "source_sha256": "17574bd15720c837db015a7a9a20506fd3bdf251ad7f334b7ea17a4d19f0c9bc",
+              "page": 12,
+              "section_id": "SEC-LJ-X8000-SERIES-QUICK-START-GUIDE-LJ-X8000A-EDITION-D63GB-17574BD15720-U0012",
+              "chunk_id": "CHK-LJ-X8000-SERIES-QUICK-START-GUIDE-LJ-X8000A-EDITION-D63GB-17574BD15720-U0012-C011",
+              "evidence_excerpt_hash": "1f1b8b5bc8911fa5b8416a098a87c10479129384f26d8690795fa623bb90b0b4"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "trigger:software",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "trigger:continuous",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "DIFFERENT",
+          "canonical_ref": null,
+          "differences": [
+            "LJ-X8000A source documents continuous trigger configuration."
+          ],
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT",
+              "document_id": "KEYENCE-17574BD15720",
+              "source_sha256": "17574bd15720c837db015a7a9a20506fd3bdf251ad7f334b7ea17a4d19f0c9bc",
+              "page": 9,
+              "section_id": "SEC-LJ-X8000-SERIES-QUICK-START-GUIDE-LJ-X8000A-EDITION-D63GB-17574BD15720-U0009",
+              "chunk_id": "CHK-LJ-X8000-SERIES-QUICK-START-GUIDE-LJ-X8000A-EDITION-D63GB-17574BD15720-U0009-C010",
+              "evidence_excerpt_hash": "5216dbf576e847320387ef185e21427fefa6afb371f1652c99ad816a53f74345"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "trigger:encoder",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "DIFFERENT",
+          "canonical_ref": null,
+          "differences": [
+            "LJ-X8000A source documents encoder trigger configuration."
+          ],
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT",
+              "document_id": "KEYENCE-17574BD15720",
+              "source_sha256": "17574bd15720c837db015a7a9a20506fd3bdf251ad7f334b7ea17a4d19f0c9bc",
+              "page": 13,
+              "section_id": "SEC-LJ-X8000-SERIES-QUICK-START-GUIDE-LJ-X8000A-EDITION-D63GB-17574BD15720-U0013",
+              "chunk_id": "CHK-LJ-X8000-SERIES-QUICK-START-GUIDE-LJ-X8000A-EDITION-D63GB-17574BD15720-U0013-C006",
+              "evidence_excerpt_hash": "80cf2b31faf159b1b83f63ea9e9c03c66bab4a02fed05bff30152d60fc322ec9"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "trigger:multiple",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    }
+  ],
+  "communication_deltas": [
+    {
+      "record_id": "communication:ethernet-nonprocedural",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "SAME",
+          "canonical_ref": "communication:ethernet-nonprocedural",
+          "differences": [
+            "Common LJ-S8000/LJ-X8000 quick-start documents default port 8500."
+          ],
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT",
+              "document_id": "KEYENCE-837C7E2323DA",
+              "source_sha256": "837c7e2323da151c94a70f5e6455ea286c7b8e7ac2a673b79e7a450d3da8a5ec",
+              "page": 5,
+              "section_id": "SEC-LJ-X8000-LJ-S8000-SERIES-QUICK-START-MANUAL-ETHERNET-NON-PROCEDURAL-COMMUNICATION-EDITION-D29GB-837C7E2323DA-U0005",
+              "chunk_id": "CHK-LJ-X8000-LJ-S8000-SERIES-QUICK-START-MANUAL-ETHERNET-NON-PROCEDURAL-COMMUNICATION-EDITION-D29GB-837C7E2323DA-U0005-C006",
+              "evidence_excerpt_hash": "eecb913609461fe2aa661ca1cd082a0a99343758c1c77e32b6bfb08f1af6f195"
+            }
+          ]
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "communication:fieldbus",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    }
+  ],
+  "program_deltas": [
+    {
+      "record_id": "program:select-read-save",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    }
+  ],
+  "workflow_deltas": [
+    {
+      "record_id": "workflow:ljx8000-pc-first-connection",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "REUSABLE_WITH_VARIANT",
+          "canonical_ref": null,
+          "differences": [
+            "Shared manual provides only scoped common evidence; verify remaining bindings."
+          ],
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT",
+              "document_id": "KEYENCE-837C7E2323DA",
+              "source_sha256": "837c7e2323da151c94a70f5e6455ea286c7b8e7ac2a673b79e7a450d3da8a5ec",
+              "page": 5,
+              "section_id": "SEC-LJ-X8000-LJ-S8000-SERIES-QUICK-START-MANUAL-ETHERNET-NON-PROCEDURAL-COMMUNICATION-EDITION-D29GB-837C7E2323DA-U0005",
+              "chunk_id": "CHK-LJ-X8000-LJ-S8000-SERIES-QUICK-START-MANUAL-ETHERNET-NON-PROCEDURAL-COMMUNICATION-EDITION-D29GB-837C7E2323DA-U0005-C006",
+              "evidence_excerpt_hash": "eecb913609461fe2aa661ca1cd082a0a99343758c1c77e32b6bfb08f1af6f195"
+            }
+          ]
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "workflow:ljx8000-software-trigger",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "REUSABLE_WITH_VARIANT",
+          "canonical_ref": null,
+          "differences": [
+            "Shared manual provides only scoped common evidence; verify remaining bindings."
+          ],
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT",
+              "document_id": "KEYENCE-837C7E2323DA",
+              "source_sha256": "837c7e2323da151c94a70f5e6455ea286c7b8e7ac2a673b79e7a450d3da8a5ec",
+              "page": 10,
+              "section_id": "SEC-LJ-X8000-LJ-S8000-SERIES-QUICK-START-MANUAL-ETHERNET-NON-PROCEDURAL-COMMUNICATION-EDITION-D29GB-837C7E2323DA-U0010",
+              "chunk_id": "CHK-LJ-X8000-LJ-S8000-SERIES-QUICK-START-MANUAL-ETHERNET-NON-PROCEDURAL-COMMUNICATION-EDITION-D29GB-837C7E2323DA-U0010-C003",
+              "evidence_excerpt_hash": "ae4e15370a7f367b5ddfa68d379473b35b1afc2d2d9928d06a53b1acf38e68a2"
+            }
+          ]
+        },
+        "LJ-X8000A": {
+          "relation": "REUSABLE_WITH_VARIANT",
+          "canonical_ref": null,
+          "differences": [
+            "LJ-X8000A trigger configuration differs in documented tooling."
+          ],
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT",
+              "document_id": "KEYENCE-17574BD15720",
+              "source_sha256": "17574bd15720c837db015a7a9a20506fd3bdf251ad7f334b7ea17a4d19f0c9bc",
+              "page": 12,
+              "section_id": "SEC-LJ-X8000-SERIES-QUICK-START-GUIDE-LJ-X8000A-EDITION-D63GB-17574BD15720-U0012",
+              "chunk_id": "CHK-LJ-X8000-SERIES-QUICK-START-GUIDE-LJ-X8000A-EDITION-D63GB-17574BD15720-U0012-C011",
+              "evidence_excerpt_hash": "1f1b8b5bc8911fa5b8416a098a87c10479129384f26d8690795fa623bb90b0b4"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "workflow:ljx8000-external-trigger",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "REUSABLE_WITH_VARIANT",
+          "canonical_ref": null,
+          "differences": [
+            "LJ-X8000A trigger configuration differs in documented tooling."
+          ],
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT",
+              "document_id": "KEYENCE-17574BD15720",
+              "source_sha256": "17574bd15720c837db015a7a9a20506fd3bdf251ad7f334b7ea17a4d19f0c9bc",
+              "page": 12,
+              "section_id": "SEC-LJ-X8000-SERIES-QUICK-START-GUIDE-LJ-X8000A-EDITION-D63GB-17574BD15720-U0012",
+              "chunk_id": "CHK-LJ-X8000-SERIES-QUICK-START-GUIDE-LJ-X8000A-EDITION-D63GB-17574BD15720-U0012-C011",
+              "evidence_excerpt_hash": "1f1b8b5bc8911fa5b8416a098a87c10479129384f26d8690795fa623bb90b0b4"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "record_id": "workflow:ljx8000-read-latest-profile",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "REUSABLE_WITH_VARIANT",
+          "canonical_ref": null,
+          "differences": [
+            "Shared manual provides only scoped common evidence; verify remaining bindings."
+          ],
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT",
+              "document_id": "KEYENCE-837C7E2323DA",
+              "source_sha256": "837c7e2323da151c94a70f5e6455ea286c7b8e7ac2a673b79e7a450d3da8a5ec",
+              "page": 5,
+              "section_id": "SEC-LJ-X8000-LJ-S8000-SERIES-QUICK-START-MANUAL-ETHERNET-NON-PROCEDURAL-COMMUNICATION-EDITION-D29GB-837C7E2323DA-U0005",
+              "chunk_id": "CHK-LJ-X8000-LJ-S8000-SERIES-QUICK-START-MANUAL-ETHERNET-NON-PROCEDURAL-COMMUNICATION-EDITION-D29GB-837C7E2323DA-U0005-C006",
+              "evidence_excerpt_hash": "eecb913609461fe2aa661ca1cd082a0a99343758c1c77e32b6bfb08f1af6f195"
+            }
+          ]
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "workflow:ljx8000-fast-profile-read",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "REUSABLE_WITH_VARIANT",
+          "canonical_ref": null,
+          "differences": [
+            "Shared manual provides only scoped common evidence; verify remaining bindings."
+          ],
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT",
+              "document_id": "KEYENCE-837C7E2323DA",
+              "source_sha256": "837c7e2323da151c94a70f5e6455ea286c7b8e7ac2a673b79e7a450d3da8a5ec",
+              "page": 5,
+              "section_id": "SEC-LJ-X8000-LJ-S8000-SERIES-QUICK-START-MANUAL-ETHERNET-NON-PROCEDURAL-COMMUNICATION-EDITION-D29GB-837C7E2323DA-U0005",
+              "chunk_id": "CHK-LJ-X8000-LJ-S8000-SERIES-QUICK-START-MANUAL-ETHERNET-NON-PROCEDURAL-COMMUNICATION-EDITION-D29GB-837C7E2323DA-U0005-C006",
+              "evidence_excerpt_hash": "eecb913609461fe2aa661ca1cd082a0a99343758c1c77e32b6bfb08f1af6f195"
+            }
+          ]
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "workflow:ljx8000-switch-program",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "workflow:ljx8000-verify-current-program",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "workflow:ljx8000-acquire-measurement-result",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "workflow:ljx8000-external-string-correlation",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "workflow:ljx8000-reset-recovery",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    },
+    {
+      "record_id": "workflow:ljx8000-reconnect-after-tcp-loss",
+      "baseline_family": "LJ-X8000",
+      "comparison": {
+        "LJ-S8000": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        },
+        "LJ-X8000A": {
+          "relation": "NOT_VERIFIED",
+          "canonical_ref": null,
+          "differences": [],
+          "evidence": []
+        }
+      }
+    }
+  ]
+}

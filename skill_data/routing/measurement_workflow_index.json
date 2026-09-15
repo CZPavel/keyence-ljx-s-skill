@@ -1,0 +1,64 @@
+{
+  "index": [
+    {
+      "workflow_id": "create-new-2d-measurement",
+      "aliases": [
+        "Create 2D measurement"
+      ]
+    },
+    {
+      "workflow_id": "configure-acquisition",
+      "aliases": [
+        "Configure acquisition"
+      ]
+    },
+    {
+      "workflow_id": "add-measurement-tool",
+      "aliases": [
+        "Add measurement tool"
+      ]
+    },
+    {
+      "workflow_id": "configure-regions",
+      "aliases": [
+        "Configure regions"
+      ]
+    },
+    {
+      "workflow_id": "add-position-correction",
+      "aliases": [
+        "Add position correction"
+      ]
+    },
+    {
+      "workflow_id": "configure-judgment",
+      "aliases": [
+        "Configure judgment"
+      ]
+    },
+    {
+      "workflow_id": "verify-measurement",
+      "aliases": [
+        "Verify measurement"
+      ]
+    },
+    {
+      "workflow_id": "save-program",
+      "aliases": [
+        "Save program"
+      ]
+    },
+    {
+      "workflow_id": "switch-and-verify-program",
+      "aliases": [
+        "Switch and verify program"
+      ]
+    },
+    {
+      "workflow_id": "two-surface-height-difference",
+      "aliases": [
+        "Two-surface height difference"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "playbooks": [
+    {
+      "playbook_id": "pc-cannot-connect",
+      "canonical_targets": [
+        "operations/io_signal_reference.yaml",
+        "operations/signal_relations.yaml",
+        "operations/trigger_methods.yaml",
+        "workflows/operational_workflows.yaml"
+      ],
+      "knowledge_status": "PARTIAL"
+    },
+    {
+      "playbook_id": "command-no-response",
+      "canonical_targets": [
+        "operations/io_signal_reference.yaml",
+        "operations/signal_relations.yaml",
+        "operations/trigger_methods.yaml",
+        "workflows/operational_workflows.yaml"
+      ],
+      "knowledge_status": "PARTIAL"
+    },
+    {
+      "playbook_id": "command-nack",
+      "canonical_targets": [
+        "operations/io_signal_reference.yaml",
+        "operations/signal_relations.yaml",
+        "operations/trigger_methods.yaml",
+        "workflows/operational_workflows.yaml"
+      ],
+      "knowledge_status": "PARTIAL"
+    },
+    {
+      "playbook_id": "trigger-ignored",
+      "canonical_targets": [
+        "operations/io_signal_reference.yaml",
+        "operations/signal_relations.yaml",
+        "operations/trigger_methods.yaml",
+        "workflows/operational_workflows.yaml"
+      ],
+      "knowledge_status": "OFFICIAL_EXACT"
+    },
+    {
+      "playbook_id": "READY-off",
+      "canonical_targets": [
+        "operations/io_signal_reference.yaml",
+        "operations/signal_relations.yaml",
+        "operations/trigger_methods.yaml",
+        "workflows/operational_workflows.yaml"
+      ],
+      "knowledge_status": "OFFICIAL_EXACT"
+    },
+    {
+      "playbook_id": "controller-not-running",
+      "canonical_targets": [
+        "operations/io_signal_reference.yaml",
+        "operations/signal_relations.yaml",
+        "operations/trigger_methods.yaml",
+        "workflows/operational_workflows.yaml"
+      ],
+      "knowledge_status": "OFFICIAL_EXACT"
+    },
+    {
+      "playbook_id": "error-active",
+      "canonical_targets": [
+        "operations/io_signal_reference.yaml",
+        "operations/signal_relations.yaml",
+        "operations/trigger_methods.yaml",
+        "workflows/operational_workflows.yaml"
+      ],
+      "knowledge_status": "PARTIAL"
+    },
+    {
+      "playbook_id": "measurement-does-not-start",
+      "canonical_targets": [
+        "operations/io_signal_reference.yaml",
+        "operations/signal_relations.yaml",
+        "operations/trigger_methods.yaml",
+        "workflows/operational_workflows.yaml"
+      ],
+      "knowledge_status": "OFFICIAL_EXACT"
+    },
+    {
+      "playbook_id": "profile-read-fails",
+      "canonical_targets": [
+        "operations/io_signal_reference.yaml",
+        "operations/signal_relations.yaml",
+        "operations/trigger_methods.yaml",
+        "workflows/operational_workflows.yaml"
+      ],
+      "knowledge_status": "PARTIAL"
+    },
+    {
+      "playbook_id": "program-switch-fails",
+      "canonical_targets": [
+        "operations/io_signal_reference.yaml",
+        "operations/signal_relations.yaml",
+        "operations/trigger_methods.yaml",
+        "workflows/operational_workflows.yaml"
+      ],
+      "knowledge_status": "PARTIAL"
+    },
+    {
+      "playbook_id": "wrong-program-active",
+      "canonical_targets": [
+        "operations/io_signal_reference.yaml",
+        "operations/signal_relations.yaml",
+        "operations/trigger_methods.yaml",
+        "workflows/operational_workflows.yaml"
+      ],
+      "knowledge_status": "PARTIAL"
+    },
+    {
+      "playbook_id": "result-not-produced",
+      "canonical_targets": [
+        "operations/io_signal_reference.yaml",
+        "operations/signal_relations.yaml",
+        "operations/trigger_methods.yaml",
+        "workflows/operational_workflows.yaml"
+      ],
+      "knowledge_status": "PARTIAL"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "gaps": [
+    {
+      "topic": "head compatibility and specifications",
+      "status": "UNRESOLVED",
+      "reason": "No targeted normalized head table extraction in this run."
+    },
+    {
+      "topic": "command syntax",
+      "status": "UNRESOLVED",
+      "reason": "Candidate command tokens found, but syntax is not inferred."
+    }
+  ]
+}

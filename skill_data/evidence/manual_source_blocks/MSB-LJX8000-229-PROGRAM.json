@@ -1,0 +1,18 @@
+{
+  "block_id": "MSB-LJX8000-229-PROGRAM",
+  "document_id": "KEYENCE-E3E51B234B56",
+  "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+  "pdf_page_index": 229,
+  "printed_page": "9-7",
+  "bbox": null,
+  "block_type": "command_syntax",
+  "native_text_sha256": "a440908e3fd86f3ff218615801d18c81448dfa88bb13e7b0a9928d9244726f43",
+  "visual_verification": true,
+  "evidence_status": "DIRECT_VISUAL",
+  "fields_supported": [
+    "PW,d,nnn",
+    "PR,d,nnn"
+  ],
+  "public_evidence": "metadata_locator_only",
+  "raw_evidence_location": "local_evidence/manual_source_blocks (not redistributed)"
+}

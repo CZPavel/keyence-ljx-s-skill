@@ -1,0 +1,16 @@
+﻿name: validate
+on: [push, pull_request]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: python .github/validate_public.py
+      - run: python tools/build_skill_data/validate_signals.py
+      - run: python tools/build_skill_data/validate_workflows.py
+      - run: python tools/build_skill_data/validate_family_deltas.py
+      - run: python tools/build_skill_data/validate_hardware.py
+      - run: python tools/build_skill_data/validate_measurement.py
+      - run: python benchmarks/skill_v1/run_benchmark.py

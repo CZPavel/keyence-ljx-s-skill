@@ -1,0 +1,742 @@
+{
+  "conflicts": [
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-D44A4A54C24D",
+          "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1",
+          "page": 3,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0003",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0003-C004",
+          "table_id": null,
+          "evidence_excerpt_hash": "c6d14d98ea535ba5a9260d237bbbf903f3adf3761948064a1c25f37499ef2943"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-D44A4A54C24D",
+          "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1",
+          "page": 82,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0082",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0082-C020",
+          "table_id": null,
+          "evidence_excerpt_hash": "df758f0e0b7927df040a9316eb783668cfb3990d09376d60360f3ed320a649af"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-D44A4A54C24D",
+          "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1",
+          "page": 261,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0261",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0261-C003",
+          "table_id": null,
+          "evidence_excerpt_hash": "1edd6f7876c600934ece43bf43535e9c462c59e58d0200c24a40fea1c936ff69"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-D44A4A54C24D",
+          "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1",
+          "page": 332,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0332",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0332-C002",
+          "table_id": null,
+          "evidence_excerpt_hash": "3ea6802eb2743bb9e2b2ab0539cd1215003ac890e26b3e3cbbd606d25856c9b6"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-D44A4A54C24D",
+          "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1",
+          "page": 437,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0437",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0437-C005",
+          "table_id": null,
+          "evidence_excerpt_hash": "e35ee63b8bc93e8231bec273b06b655753b59277e9df9ebc8fda2abb784fbff3"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-D44A4A54C24D",
+          "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1",
+          "page": 501,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0501",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0501-C011",
+          "table_id": null,
+          "evidence_excerpt_hash": "ec82e06b5d58dc973c60da4b616e11bd9fd008c25bd6094621a7aa330cb978b7"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-D44A4A54C24D",
+          "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1",
+          "page": 506,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0506",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0506-C004",
+          "table_id": null,
+          "evidence_excerpt_hash": "6dc1a63c9592aeebb73a73aa0786d9562a5afae29362ab8afc202eb6fb529aa9"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-D44A4A54C24D",
+          "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1",
+          "page": 521,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0521",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0521-C028",
+          "table_id": null,
+          "evidence_excerpt_hash": "fd03ba76208df754f1a9e0fb96457b9bd12238639bb5cff35a8fc3d89d12ccae"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-D44A4A54C24D",
+          "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1",
+          "page": 521,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0521",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0521-C029",
+          "table_id": null,
+          "evidence_excerpt_hash": "282bf37d8cf98a95139fcc44a2ea9ee94dd2c4b7ff2ee15ec5e81b42c165d69a"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-D44A4A54C24D",
+          "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1",
+          "page": 560,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0560",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0560-C004",
+          "table_id": null,
+          "evidence_excerpt_hash": "d3635bf818f46287c8da028bb6938eca3b1b88c5dd2b9e73549d3c058e559988"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-D44A4A54C24D",
+          "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1",
+          "page": 560,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0560",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0560-C021",
+          "table_id": null,
+          "evidence_excerpt_hash": "b2d713ef00fbef4a010d9564282d1e6daccd378ea8166dbaae2f4f4d7017b50a"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-D44A4A54C24D",
+          "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1",
+          "page": 624,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0624",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0624-C005",
+          "table_id": null,
+          "evidence_excerpt_hash": "69e4e677da3beef07d2002ad25e7d6ae0764e96471359c7a84394bee84960c8e"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-D44A4A54C24D",
+          "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1",
+          "page": 625,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0625",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0625-C002",
+          "table_id": null,
+          "evidence_excerpt_hash": "a75985c0becac3e28e3fdce3ba788a72658f706793553231d96832d8fea75b5e"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-D44A4A54C24D",
+          "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1",
+          "page": 708,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0708",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0708-C031",
+          "table_id": null,
+          "evidence_excerpt_hash": "b109ef4e28832424684362725b5158aaa5a953ead2fcd309cae613b683a4eaf6"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-D44A4A54C24D",
+          "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1",
+          "page": 709,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0709",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0709-C005",
+          "table_id": null,
+          "evidence_excerpt_hash": "ad1f092acb24d6a6029947c0824baf4b08336eafbb10fbc7ea57c48e055d9ca2"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-D44A4A54C24D",
+          "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1",
+          "page": 713,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0713",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0713-C009",
+          "table_id": null,
+          "evidence_excerpt_hash": "ac42dcac1e1e6870d9975b669d61d56d9e426674ac50291ee0fba2bbf5bfd011"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-D44A4A54C24D",
+          "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1",
+          "page": 743,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0743",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0743-C014",
+          "table_id": null,
+          "evidence_excerpt_hash": "01fba0ce77ff91587a6847ad6acaeaf19201bdd8b3c085bc3fd476d7f957178f"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-D44A4A54C24D",
+          "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1",
+          "page": 743,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0743",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0743-C015",
+          "table_id": null,
+          "evidence_excerpt_hash": "4be12eac8658bfd27e1c1473d550724503e9d13b16a2aadfd4cf4ad34c1a0518"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "page": 3,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0003",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0003-C004",
+          "table_id": null,
+          "evidence_excerpt_hash": "c6d14d98ea535ba5a9260d237bbbf903f3adf3761948064a1c25f37499ef2943"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "page": 192,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0192",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0192-C008",
+          "table_id": null,
+          "evidence_excerpt_hash": "76dfab9a49af0e969a8c6e2acacbf87b2bc06dc31c832f9c345f35deb8012078"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "page": 251,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0251",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0251-C011",
+          "table_id": null,
+          "evidence_excerpt_hash": "67a1fd9f38cda5902393d63137484e06adf553f7f51e01a2025aeb5920af075c"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "page": 252,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0252",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0252-C002",
+          "table_id": null,
+          "evidence_excerpt_hash": "a33fa7fc6a97ef44017064b79e3c71f290639582d7db08b1c952c4ddb34e5b38"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "page": 256,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0256",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0256-C007",
+          "table_id": null,
+          "evidence_excerpt_hash": "2cec913fd51539a9644dfa31408c69c9bdf6b7466da52c2078e7f10608506d75"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "page": 271,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0271",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0271-C028",
+          "table_id": null,
+          "evidence_excerpt_hash": "fd03ba76208df754f1a9e0fb96457b9bd12238639bb5cff35a8fc3d89d12ccae"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "page": 271,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0271",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0271-C029",
+          "table_id": null,
+          "evidence_excerpt_hash": "282bf37d8cf98a95139fcc44a2ea9ee94dd2c4b7ff2ee15ec5e81b42c165d69a"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "page": 311,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0311",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0311-C004",
+          "table_id": null,
+          "evidence_excerpt_hash": "d9cfaeb811d19daaaf18e7ddba4c767c5f1a83d4af36be0230c56c837a471f77"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "page": 311,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0311",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0311-C021",
+          "table_id": null,
+          "evidence_excerpt_hash": "b2d713ef00fbef4a010d9564282d1e6daccd378ea8166dbaae2f4f4d7017b50a"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "page": 376,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0376",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0376-C005",
+          "table_id": null,
+          "evidence_excerpt_hash": "5608bdc4619f45b54eb2030e474b2d214c9704bdb00c09eb4e933363f15b1a0f"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "page": 377,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0377",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0377-C002",
+          "table_id": null,
+          "evidence_excerpt_hash": "a75985c0becac3e28e3fdce3ba788a72658f706793553231d96832d8fea75b5e"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "page": 447,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0447",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0447-C029",
+          "table_id": null,
+          "evidence_excerpt_hash": "a77a178e81eef4b9b31fdef76bfef04a518211fbc48db650914e4ef58f4e69fc"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "page": 448,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0448",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0448-C007",
+          "table_id": null,
+          "evidence_excerpt_hash": "ad1f092acb24d6a6029947c0824baf4b08336eafbb10fbc7ea57c48e055d9ca2"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "page": 451,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0451",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0451-C011",
+          "table_id": null,
+          "evidence_excerpt_hash": "1e80a27648946f06ff89546698d59a7044812afd0314811c7207f6a1fdf98c2a"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "page": 459,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0459",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0459-C016",
+          "table_id": null,
+          "evidence_excerpt_hash": "01fba0ce77ff91587a6847ad6acaeaf19201bdd8b3c085bc3fd476d7f957178f"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "page": 459,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0459",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0459-C017",
+          "table_id": null,
+          "evidence_excerpt_hash": "c056a139273264d9b2522f194c436c01eb54d5aeab0e69a849ec20b24668bdb1"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-01C460ED9B26",
+          "source_sha256": "01c460ed9b26a8c7090ad7c58304b313a85389bbd60ede30221d56dc0df78950",
+          "page": 4,
+          "section_id": "SEC-LJ-S8000-SERIES-COMMUNICATION-LIBRARY-REFERENCE-MANUAL-L15GB-01C460ED9B26-U0004",
+          "chunk_id": "CHK-LJ-S8000-SERIES-COMMUNICATION-LIBRARY-REFERENCE-MANUAL-L15GB-01C460ED9B26-U0004-C004",
+          "table_id": null,
+          "evidence_excerpt_hash": "58e6b289e082c2e003b0023687e9fee62b847cdf9ee8a6d2fac7cc7c3b3235cb"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-01C460ED9B26",
+          "source_sha256": "01c460ed9b26a8c7090ad7c58304b313a85389bbd60ede30221d56dc0df78950",
+          "page": 49,
+          "section_id": "SEC-LJ-S8000-SERIES-COMMUNICATION-LIBRARY-REFERENCE-MANUAL-L15GB-01C460ED9B26-U0049",
+          "chunk_id": "CHK-LJ-S8000-SERIES-COMMUNICATION-LIBRARY-REFERENCE-MANUAL-L15GB-01C460ED9B26-U0049-C002",
+          "table_id": null,
+          "evidence_excerpt_hash": "b9eecdb4786771a287748ace142cbefc31caac57afbcd3b391e2f1c2cdd5f536"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-6C5A1DA58BF3",
+          "source_sha256": "6c5a1da58bf361c310afc03ceb1c97cc97660e9efed7175d1b2388c492401a7e",
+          "page": 7,
+          "section_id": "SEC-3D-LASER-SNAPSHOT-SENSOR-LJ-S8000-SERIES-PC-CONNECTION-USER-S-MANUAL-L03GB-6C5A1DA58BF3-U0007",
+          "chunk_id": "CHK-3D-LASER-SNAPSHOT-SENSOR-LJ-S8000-SERIES-PC-CONNECTION-USER-S-MANUAL-L03GB-6C5A1DA58BF3-U0007-C008",
+          "table_id": null,
+          "evidence_excerpt_hash": "1ecfa0f04f3f684c0689e910a09fb85fa0d5498b094a62df7513b80557235f36"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-479144FD43E2",
+          "source_sha256": "479144fd43e2ae9574d6eeb83ae941ff991fee975c3e15f76ec05156d0b78e93",
+          "page": 4,
+          "section_id": "SEC-LJ-X8000A-COMMUNICATION-LIBRARY-REFERENCE-MANUAL-N06GB-479144FD43E2-U0004",
+          "chunk_id": "CHK-LJ-X8000A-COMMUNICATION-LIBRARY-REFERENCE-MANUAL-N06GB-479144FD43E2-U0004-C004",
+          "table_id": null,
+          "evidence_excerpt_hash": "58e6b289e082c2e003b0023687e9fee62b847cdf9ee8a6d2fac7cc7c3b3235cb"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-479144FD43E2",
+          "source_sha256": "479144fd43e2ae9574d6eeb83ae941ff991fee975c3e15f76ec05156d0b78e93",
+          "page": 85,
+          "section_id": "SEC-LJ-X8000A-COMMUNICATION-LIBRARY-REFERENCE-MANUAL-N06GB-479144FD43E2-U0085",
+          "chunk_id": "CHK-LJ-X8000A-COMMUNICATION-LIBRARY-REFERENCE-MANUAL-N06GB-479144FD43E2-U0085-C002",
+          "table_id": null,
+          "evidence_excerpt_hash": "1aaba407243ffc84ce2d16ee62ae12d6e58c44214427a67116c3b19205a8b2d9"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-7932148CC472",
+          "source_sha256": "7932148cc47205bae9643b0406c030ec3f02cade9f8d0867048e084b9a1bbba7",
+          "page": 18,
+          "section_id": "SEC-RAW-DATA-OUTPUT-CONTROLLER-LJ-X8000A-USER-S-MANUAL-N20GB-7932148CC472-U0018",
+          "chunk_id": "CHK-RAW-DATA-OUTPUT-CONTROLLER-LJ-X8000A-USER-S-MANUAL-N20GB-7932148CC472-U0018-C021",
+          "table_id": null,
+          "evidence_excerpt_hash": "7a931961f4998006d0102c526acaf13e93171799a310c4e9895d3ab0059b9559"
+        }
+      ]
+    },
+    {
+      "feature_A": null,
+      "feature_B": null,
+      "condition": "SOURCE_TEXT_NOT_REDISTRIBUTED; consult public metadata locator or local legally obtained source.",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-7932148CC472",
+          "source_sha256": "7932148cc47205bae9643b0406c030ec3f02cade9f8d0867048e084b9a1bbba7",
+          "page": 122,
+          "section_id": "SEC-RAW-DATA-OUTPUT-CONTROLLER-LJ-X8000A-USER-S-MANUAL-N20GB-7932148CC472-U0122",
+          "chunk_id": "CHK-RAW-DATA-OUTPUT-CONTROLLER-LJ-X8000A-USER-S-MANUAL-N20GB-7932148CC472-U0122-C007",
+          "table_id": null,
+          "evidence_excerpt_hash": "8a8f860d46e383326305147cc1032ed32de8691517695263f08e77444aaf89f6"
+        }
+      ]
+    }
+  ]
+}

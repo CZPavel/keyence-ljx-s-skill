@@ -1,0 +1,17 @@
+{
+  "block_id": "MSB-LJX8000-234-JUDGMENT_READ",
+  "document_id": "KEYENCE-E3E51B234B56",
+  "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+  "pdf_page_index": 234,
+  "printed_page": "9-12",
+  "bbox": null,
+  "block_type": "command_syntax",
+  "native_text_sha256": "37801b6cbb69ad20a7f14005e83168a71cde85b3eed630c49f555df690345502",
+  "visual_verification": true,
+  "evidence_status": "DIRECT_VISUAL",
+  "fields_supported": [
+    "DR"
+  ],
+  "public_evidence": "metadata_locator_only",
+  "raw_evidence_location": "local_evidence/manual_source_blocks (not redistributed)"
+}

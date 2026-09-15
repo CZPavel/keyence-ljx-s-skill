@@ -1,0 +1,151 @@
+{
+  "controller_family": "LJ-X8000",
+  "stages": [
+    {
+      "stage_id": "acquisition",
+      "name": "acquisition",
+      "purpose": null,
+      "mode_applicability": "CONTEXT_REQUIRED",
+      "depends_on": [],
+      "produces": null,
+      "configuration_location": null,
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "document_id": "KEYENCE-EA64F80437C6",
+          "source_sha256": "ea64f80437c69737557a81f7dfd1891492a8dc0a05a23f0d575ebc18137fd1ea",
+          "page": 32,
+          "section_id": "SEC-LJ-X8000-SERIES-3D-MODE-VOLUME-SIMPLE-SETUP-MANUAL-CONTROL-AND-COMMUNICATION-I-O-C10GB-EA64F80437C6-U0032",
+          "chunk_id": "CHK-LJ-X8000-SERIES-3D-MODE-VOLUME-SIMPLE-SETUP-MANUAL-CONTROL-AND-COMMUNICATION-I-O-C10GB-EA64F80437C6-U0032-C002",
+          "evidence_excerpt_hash": "fd3adadb9b0f37d8b93edd152c6ba11a87f4bbffedcd02d5410a5b0387c26ad7"
+        }
+      ],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL"
+    },
+    {
+      "stage_id": "correction",
+      "name": "correction",
+      "purpose": null,
+      "mode_applicability": "CONTEXT_REQUIRED",
+      "depends_on": [
+        "acquisition"
+      ],
+      "produces": null,
+      "configuration_location": null,
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "document_id": "KEYENCE-EA64F80437C6",
+          "source_sha256": "ea64f80437c69737557a81f7dfd1891492a8dc0a05a23f0d575ebc18137fd1ea",
+          "page": 32,
+          "section_id": "SEC-LJ-X8000-SERIES-3D-MODE-VOLUME-SIMPLE-SETUP-MANUAL-CONTROL-AND-COMMUNICATION-I-O-C10GB-EA64F80437C6-U0032",
+          "chunk_id": "CHK-LJ-X8000-SERIES-3D-MODE-VOLUME-SIMPLE-SETUP-MANUAL-CONTROL-AND-COMMUNICATION-I-O-C10GB-EA64F80437C6-U0032-C002",
+          "evidence_excerpt_hash": "fd3adadb9b0f37d8b93edd152c6ba11a87f4bbffedcd02d5410a5b0387c26ad7"
+        }
+      ],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL"
+    },
+    {
+      "stage_id": "measurement_tool",
+      "name": "measurement tool",
+      "purpose": null,
+      "mode_applicability": "CONTEXT_REQUIRED",
+      "depends_on": [
+        "acquisition",
+        "correction"
+      ],
+      "produces": null,
+      "configuration_location": null,
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "document_id": "KEYENCE-EA64F80437C6",
+          "source_sha256": "ea64f80437c69737557a81f7dfd1891492a8dc0a05a23f0d575ebc18137fd1ea",
+          "page": 32,
+          "section_id": "SEC-LJ-X8000-SERIES-3D-MODE-VOLUME-SIMPLE-SETUP-MANUAL-CONTROL-AND-COMMUNICATION-I-O-C10GB-EA64F80437C6-U0032",
+          "chunk_id": "CHK-LJ-X8000-SERIES-3D-MODE-VOLUME-SIMPLE-SETUP-MANUAL-CONTROL-AND-COMMUNICATION-I-O-C10GB-EA64F80437C6-U0032-C002",
+          "evidence_excerpt_hash": "fd3adadb9b0f37d8b93edd152c6ba11a87f4bbffedcd02d5410a5b0387c26ad7"
+        }
+      ],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL"
+    },
+    {
+      "stage_id": "judgment",
+      "name": "judgment",
+      "purpose": null,
+      "mode_applicability": "CONTEXT_REQUIRED",
+      "depends_on": [
+        "acquisition",
+        "correction",
+        "measurement_tool"
+      ],
+      "produces": null,
+      "configuration_location": null,
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "document_id": "KEYENCE-EA64F80437C6",
+          "source_sha256": "ea64f80437c69737557a81f7dfd1891492a8dc0a05a23f0d575ebc18137fd1ea",
+          "page": 32,
+          "section_id": "SEC-LJ-X8000-SERIES-3D-MODE-VOLUME-SIMPLE-SETUP-MANUAL-CONTROL-AND-COMMUNICATION-I-O-C10GB-EA64F80437C6-U0032",
+          "chunk_id": "CHK-LJ-X8000-SERIES-3D-MODE-VOLUME-SIMPLE-SETUP-MANUAL-CONTROL-AND-COMMUNICATION-I-O-C10GB-EA64F80437C6-U0032-C002",
+          "evidence_excerpt_hash": "fd3adadb9b0f37d8b93edd152c6ba11a87f4bbffedcd02d5410a5b0387c26ad7"
+        }
+      ],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL"
+    },
+    {
+      "stage_id": "output",
+      "name": "output",
+      "purpose": null,
+      "mode_applicability": "CONTEXT_REQUIRED",
+      "depends_on": [
+        "acquisition",
+        "correction",
+        "measurement_tool",
+        "judgment"
+      ],
+      "produces": null,
+      "configuration_location": null,
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "document_id": "KEYENCE-EA64F80437C6",
+          "source_sha256": "ea64f80437c69737557a81f7dfd1891492a8dc0a05a23f0d575ebc18137fd1ea",
+          "page": 32,
+          "section_id": "SEC-LJ-X8000-SERIES-3D-MODE-VOLUME-SIMPLE-SETUP-MANUAL-CONTROL-AND-COMMUNICATION-I-O-C10GB-EA64F80437C6-U0032",
+          "chunk_id": "CHK-LJ-X8000-SERIES-3D-MODE-VOLUME-SIMPLE-SETUP-MANUAL-CONTROL-AND-COMMUNICATION-I-O-C10GB-EA64F80437C6-U0032-C002",
+          "evidence_excerpt_hash": "fd3adadb9b0f37d8b93edd152c6ba11a87f4bbffedcd02d5410a5b0387c26ad7"
+        }
+      ],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL"
+    },
+    {
+      "stage_id": "program_persistence",
+      "name": "program persistence",
+      "purpose": null,
+      "mode_applicability": "CONTEXT_REQUIRED",
+      "depends_on": [
+        "acquisition",
+        "correction",
+        "measurement_tool",
+        "judgment",
+        "output"
+      ],
+      "produces": null,
+      "configuration_location": null,
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "document_id": "KEYENCE-EA64F80437C6",
+          "source_sha256": "ea64f80437c69737557a81f7dfd1891492a8dc0a05a23f0d575ebc18137fd1ea",
+          "page": 32,
+          "section_id": "SEC-LJ-X8000-SERIES-3D-MODE-VOLUME-SIMPLE-SETUP-MANUAL-CONTROL-AND-COMMUNICATION-I-O-C10GB-EA64F80437C6-U0032",
+          "chunk_id": "CHK-LJ-X8000-SERIES-3D-MODE-VOLUME-SIMPLE-SETUP-MANUAL-CONTROL-AND-COMMUNICATION-I-O-C10GB-EA64F80437C6-U0032-C002",
+          "evidence_excerpt_hash": "fd3adadb9b0f37d8b93edd152c6ba11a87f4bbffedcd02d5410a5b0387c26ad7"
+        }
+      ],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL"
+    }
+  ]
+}

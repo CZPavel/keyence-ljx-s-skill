@@ -1,0 +1,18 @@
+{
+  "block_id": "MSB-LJX8000-239-STRING",
+  "document_id": "KEYENCE-E3E51B234B56",
+  "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+  "pdf_page_index": 239,
+  "printed_page": "9-17",
+  "bbox": null,
+  "block_type": "command_syntax",
+  "native_text_sha256": "e9232de7df3ef1893b27200edb30827a8196d8dddee0c98b85eeaa1ccae42548",
+  "visual_verification": true,
+  "evidence_status": "DIRECT_VISUAL",
+  "fields_supported": [
+    "STR,n",
+    "STR,ssss"
+  ],
+  "public_evidence": "metadata_locator_only",
+  "raw_evidence_location": "local_evidence/manual_source_blocks (not redistributed)"
+}

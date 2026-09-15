@@ -1,0 +1,124 @@
+{
+  "rules": [
+    {
+      "intent": "height_difference",
+      "tool_id": "height-difference-width",
+      "mode": "2D",
+      "knowledge_status": "DERIVED",
+      "canonical_basis": [
+        "purpose",
+        "outputs"
+      ]
+    },
+    {
+      "intent": "width",
+      "tool_id": "height-difference-width",
+      "mode": "2D",
+      "knowledge_status": "DERIVED",
+      "canonical_basis": [
+        "purpose",
+        "outputs"
+      ]
+    },
+    {
+      "intent": "height",
+      "tool_id": "height-position",
+      "mode": "2D",
+      "knowledge_status": "DERIVED",
+      "canonical_basis": [
+        "purpose",
+        "outputs"
+      ]
+    },
+    {
+      "intent": "position",
+      "tool_id": "height-position",
+      "mode": "2D",
+      "knowledge_status": "DERIVED",
+      "canonical_basis": [
+        "purpose",
+        "outputs"
+      ]
+    },
+    {
+      "intent": "angle",
+      "tool_id": "angle",
+      "mode": "2D",
+      "knowledge_status": "DERIVED",
+      "canonical_basis": [
+        "purpose",
+        "outputs"
+      ]
+    },
+    {
+      "intent": "radius",
+      "tool_id": "r-measurement",
+      "mode": "2D",
+      "knowledge_status": "DERIVED",
+      "canonical_basis": [
+        "purpose",
+        "outputs"
+      ]
+    },
+    {
+      "intent": "profile_length",
+      "tool_id": "profile-length",
+      "mode": "2D",
+      "knowledge_status": "DERIVED",
+      "canonical_basis": [
+        "purpose",
+        "outputs"
+      ]
+    },
+    {
+      "intent": "cross-section_area",
+      "tool_id": "cross-section-area",
+      "mode": "2D",
+      "knowledge_status": "DERIVED",
+      "canonical_basis": [
+        "purpose",
+        "outputs"
+      ]
+    },
+    {
+      "intent": "height",
+      "tool_id": "cross-section-measurement",
+      "mode": "3D",
+      "knowledge_status": "DERIVED",
+      "canonical_basis": [
+        "purpose",
+        "outputs"
+      ]
+    },
+    {
+      "intent": "width",
+      "tool_id": "cross-section-measurement",
+      "mode": "3D",
+      "knowledge_status": "DERIVED",
+      "canonical_basis": [
+        "purpose",
+        "outputs"
+      ]
+    },
+    {
+      "intent": "angle",
+      "tool_id": "cross-section-measurement",
+      "mode": "3D",
+      "knowledge_status": "DERIVED",
+      "canonical_basis": [
+        "purpose",
+        "outputs"
+      ]
+    },
+    {
+      "intent": "cross-section_area",
+      "tool_id": "cross-section-measurement",
+      "mode": "3D",
+      "knowledge_status": "DERIVED",
+      "canonical_basis": [
+        "purpose",
+        "outputs"
+      ]
+    }
+  ]
+}

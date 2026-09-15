@@ -1,0 +1,46 @@
+{
+  "index": [
+    {
+      "tool_id": "height-difference-width",
+      "aliases": [
+        "Height Difference/Width"
+      ]
+    },
+    {
+      "tool_id": "height-position",
+      "aliases": [
+        "Height and Position"
+      ]
+    },
+    {
+      "tool_id": "angle",
+      "aliases": [
+        "Angle Measurement"
+      ]
+    },
+    {
+      "tool_id": "r-measurement",
+      "aliases": [
+        "R Measurement"
+      ]
+    },
+    {
+      "tool_id": "profile-length",
+      "aliases": [
+        "Profile Length"
+      ]
+    },
+    {
+      "tool_id": "cross-section-area",
+      "aliases": [
+        "Cross-Section Area"
+      ]
+    },
+    {
+      "tool_id": "cross-section-measurement",
+      "aliases": [
+        "Cross-section measurement"
+      ]
+    }
+  ]
+}

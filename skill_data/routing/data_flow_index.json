@@ -1,0 +1,22 @@
+[
+  {
+    "id": "command-response",
+    "aliases": []
+  },
+  {
+    "id": "async-result",
+    "aliases": []
+  },
+  {
+    "id": "profile-read",
+    "aliases": []
+  },
+  {
+    "id": "program-switch",
+    "aliases": []
+  },
+  {
+    "id": "ethernet-ip-command",
+    "aliases": []
+  }
+]

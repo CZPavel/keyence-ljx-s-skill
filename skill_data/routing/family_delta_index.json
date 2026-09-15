@@ -1,0 +1,440 @@
+[
+  {
+    "record_id": "command:BC",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "command:BS",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "command:CA",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "command:CD",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "command:CE",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "command:CR",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "command:CTD",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "command:CW",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "command:DLL",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "command:DR",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "command:DW",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "command:EXR",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "command:EXW",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "command:FTP",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "command:MRS",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "command:OE",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "command:OW",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "command:PFR",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "SAME",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "command:PFRF",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "SAME",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "command:PLC",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "command:PR",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "command:PW",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "command:R0",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "command:RB",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "command:RM",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "command:RS",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "command:S0",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "command:SS",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "command:STR",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "command:STW",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "command:T1",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "SAME",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "command:TCP",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "command:TE",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "command:TIM",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "command:TS",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "command:TW",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "command:VW",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "command:ZR",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "signal:READY",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "signal:TRG",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "signal:EXT",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "signal:TEST",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "signal:RESET",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "signal:BUSY",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "signal:RUN",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "signal:CMD_READY",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "signal:ACK",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "signal:NACK",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "signal:STO",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "signal:OUT_DATA[15:0]",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "signal:OR",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "signal:PST",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "signal:ERROR",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "signal:TRG_PASS",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "FAMILY_SPECIFIC"
+  },
+  {
+    "record_id": "trigger:external",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "DIFFERENT"
+  },
+  {
+    "record_id": "trigger:software",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "trigger:continuous",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "DIFFERENT"
+  },
+  {
+    "record_id": "trigger:encoder",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "DIFFERENT"
+  },
+  {
+    "record_id": "trigger:multiple",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "communication:ethernet-nonprocedural",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "SAME",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "communication:fieldbus",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "program:select-read-save",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "workflow:ljx8000-pc-first-connection",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "REUSABLE_WITH_VARIANT",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "workflow:ljx8000-software-trigger",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "REUSABLE_WITH_VARIANT",
+    "LJ-X8000A": "REUSABLE_WITH_VARIANT"
+  },
+  {
+    "record_id": "workflow:ljx8000-external-trigger",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "REUSABLE_WITH_VARIANT"
+  },
+  {
+    "record_id": "workflow:ljx8000-read-latest-profile",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "REUSABLE_WITH_VARIANT",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "workflow:ljx8000-fast-profile-read",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "REUSABLE_WITH_VARIANT",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "workflow:ljx8000-switch-program",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "workflow:ljx8000-verify-current-program",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "workflow:ljx8000-acquire-measurement-result",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "workflow:ljx8000-external-string-correlation",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "workflow:ljx8000-reset-recovery",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  },
+  {
+    "record_id": "workflow:ljx8000-reconnect-after-tcp-loss",
+    "LJ-X8000": "baseline",
+    "LJ-S8000": "NOT_VERIFIED",
+    "LJ-X8000A": "NOT_VERIFIED"
+  }
+]

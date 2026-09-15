@@ -1,0 +1,324 @@
+{
+  "workflows": [
+    {
+      "workflow_id": "create-new-2d-measurement",
+      "title": "Create 2D measurement",
+      "applicability": {
+        "controller_family": "LJ-X8000",
+        "mode": "CONTEXT_REQUIRED"
+      },
+      "steps": [
+        "PRECHECK",
+        "CONFIGURE",
+        "TEST",
+        "VERIFY",
+        "SAVE"
+      ],
+      "knowledge_status": "DERIVED",
+      "canonical_refs": [
+        "measurement/program_structure.yaml",
+        "measurement/measurement_tools.yaml",
+        "measurement/corrections.yaml"
+      ],
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "document_id": "KEYENCE-B2841874CF9D",
+          "source_sha256": "b2841874cf9d7a327e96db99711bd1d69ec8a4209254d74856fe7c6d96791a09",
+          "page": 8,
+          "section_id": "SEC-AS-125213-LJ-X8000-SG-601399-WW-GB-2012-1-B2841874CF9D-U0008",
+          "chunk_id": "CHK-AS-125213-LJ-X8000-SG-601399-WW-GB-2012-1-B2841874CF9D-U0008-C001",
+          "evidence_excerpt_hash": "63bd9b9387d15211d7d6fc834b24afe79a0e459c7ec2b870a54e184fbbfb6782"
+        }
+      ]
+    },
+    {
+      "workflow_id": "configure-acquisition",
+      "title": "Configure acquisition",
+      "applicability": {
+        "controller_family": "LJ-X8000",
+        "mode": "CONTEXT_REQUIRED"
+      },
+      "steps": [
+        "PRECHECK",
+        "CONFIGURE",
+        "TEST",
+        "VERIFY",
+        "SAVE"
+      ],
+      "knowledge_status": "DERIVED",
+      "canonical_refs": [
+        "measurement/program_structure.yaml",
+        "measurement/measurement_tools.yaml",
+        "measurement/corrections.yaml"
+      ],
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "document_id": "KEYENCE-B2841874CF9D",
+          "source_sha256": "b2841874cf9d7a327e96db99711bd1d69ec8a4209254d74856fe7c6d96791a09",
+          "page": 8,
+          "section_id": "SEC-AS-125213-LJ-X8000-SG-601399-WW-GB-2012-1-B2841874CF9D-U0008",
+          "chunk_id": "CHK-AS-125213-LJ-X8000-SG-601399-WW-GB-2012-1-B2841874CF9D-U0008-C001",
+          "evidence_excerpt_hash": "63bd9b9387d15211d7d6fc834b24afe79a0e459c7ec2b870a54e184fbbfb6782"
+        }
+      ]
+    },
+    {
+      "workflow_id": "add-measurement-tool",
+      "title": "Add measurement tool",
+      "applicability": {
+        "controller_family": "LJ-X8000",
+        "mode": "CONTEXT_REQUIRED"
+      },
+      "steps": [
+        "PRECHECK",
+        "CONFIGURE",
+        "TEST",
+        "VERIFY",
+        "SAVE"
+      ],
+      "knowledge_status": "DERIVED",
+      "canonical_refs": [
+        "measurement/program_structure.yaml",
+        "measurement/measurement_tools.yaml",
+        "measurement/corrections.yaml"
+      ],
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "document_id": "KEYENCE-B2841874CF9D",
+          "source_sha256": "b2841874cf9d7a327e96db99711bd1d69ec8a4209254d74856fe7c6d96791a09",
+          "page": 8,
+          "section_id": "SEC-AS-125213-LJ-X8000-SG-601399-WW-GB-2012-1-B2841874CF9D-U0008",
+          "chunk_id": "CHK-AS-125213-LJ-X8000-SG-601399-WW-GB-2012-1-B2841874CF9D-U0008-C001",
+          "evidence_excerpt_hash": "63bd9b9387d15211d7d6fc834b24afe79a0e459c7ec2b870a54e184fbbfb6782"
+        }
+      ]
+    },
+    {
+      "workflow_id": "configure-regions",
+      "title": "Configure regions",
+      "applicability": {
+        "controller_family": "LJ-X8000",
+        "mode": "CONTEXT_REQUIRED"
+      },
+      "steps": [
+        "PRECHECK",
+        "CONFIGURE",
+        "TEST",
+        "VERIFY",
+        "SAVE"
+      ],
+      "knowledge_status": "DERIVED",
+      "canonical_refs": [
+        "measurement/program_structure.yaml",
+        "measurement/measurement_tools.yaml",
+        "measurement/corrections.yaml"
+      ],
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "document_id": "KEYENCE-B2841874CF9D",
+          "source_sha256": "b2841874cf9d7a327e96db99711bd1d69ec8a4209254d74856fe7c6d96791a09",
+          "page": 8,
+          "section_id": "SEC-AS-125213-LJ-X8000-SG-601399-WW-GB-2012-1-B2841874CF9D-U0008",
+          "chunk_id": "CHK-AS-125213-LJ-X8000-SG-601399-WW-GB-2012-1-B2841874CF9D-U0008-C001",
+          "evidence_excerpt_hash": "63bd9b9387d15211d7d6fc834b24afe79a0e459c7ec2b870a54e184fbbfb6782"
+        }
+      ]
+    },
+    {
+      "workflow_id": "add-position-correction",
+      "title": "Add position correction",
+      "applicability": {
+        "controller_family": "LJ-X8000",
+        "mode": "CONTEXT_REQUIRED"
+      },
+      "steps": [
+        "PRECHECK",
+        "CONFIGURE",
+        "TEST",
+        "VERIFY",
+        "SAVE"
+      ],
+      "knowledge_status": "DERIVED",
+      "canonical_refs": [
+        "measurement/program_structure.yaml",
+        "measurement/measurement_tools.yaml",
+        "measurement/corrections.yaml"
+      ],
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "document_id": "KEYENCE-B2841874CF9D",
+          "source_sha256": "b2841874cf9d7a327e96db99711bd1d69ec8a4209254d74856fe7c6d96791a09",
+          "page": 8,
+          "section_id": "SEC-AS-125213-LJ-X8000-SG-601399-WW-GB-2012-1-B2841874CF9D-U0008",
+          "chunk_id": "CHK-AS-125213-LJ-X8000-SG-601399-WW-GB-2012-1-B2841874CF9D-U0008-C001",
+          "evidence_excerpt_hash": "63bd9b9387d15211d7d6fc834b24afe79a0e459c7ec2b870a54e184fbbfb6782"
+        }
+      ]
+    },
+    {
+      "workflow_id": "configure-judgment",
+      "title": "Configure judgment",
+      "applicability": {
+        "controller_family": "LJ-X8000",
+        "mode": "CONTEXT_REQUIRED"
+      },
+      "steps": [
+        "PRECHECK",
+        "CONFIGURE",
+        "TEST",
+        "VERIFY",
+        "SAVE"
+      ],
+      "knowledge_status": "DERIVED",
+      "canonical_refs": [
+        "measurement/program_structure.yaml",
+        "measurement/measurement_tools.yaml",
+        "measurement/corrections.yaml"
+      ],
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "document_id": "KEYENCE-B2841874CF9D",
+          "source_sha256": "b2841874cf9d7a327e96db99711bd1d69ec8a4209254d74856fe7c6d96791a09",
+          "page": 8,
+          "section_id": "SEC-AS-125213-LJ-X8000-SG-601399-WW-GB-2012-1-B2841874CF9D-U0008",
+          "chunk_id": "CHK-AS-125213-LJ-X8000-SG-601399-WW-GB-2012-1-B2841874CF9D-U0008-C001",
+          "evidence_excerpt_hash": "63bd9b9387d15211d7d6fc834b24afe79a0e459c7ec2b870a54e184fbbfb6782"
+        }
+      ]
+    },
+    {
+      "workflow_id": "verify-measurement",
+      "title": "Verify measurement",
+      "applicability": {
+        "controller_family": "LJ-X8000",
+        "mode": "CONTEXT_REQUIRED"
+      },
+      "steps": [
+        "PRECHECK",
+        "CONFIGURE",
+        "TEST",
+        "VERIFY",
+        "SAVE"
+      ],
+      "knowledge_status": "DERIVED",
+      "canonical_refs": [
+        "measurement/program_structure.yaml",
+        "measurement/measurement_tools.yaml",
+        "measurement/corrections.yaml"
+      ],
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "document_id": "KEYENCE-B2841874CF9D",
+          "source_sha256": "b2841874cf9d7a327e96db99711bd1d69ec8a4209254d74856fe7c6d96791a09",
+          "page": 8,
+          "section_id": "SEC-AS-125213-LJ-X8000-SG-601399-WW-GB-2012-1-B2841874CF9D-U0008",
+          "chunk_id": "CHK-AS-125213-LJ-X8000-SG-601399-WW-GB-2012-1-B2841874CF9D-U0008-C001",
+          "evidence_excerpt_hash": "63bd9b9387d15211d7d6fc834b24afe79a0e459c7ec2b870a54e184fbbfb6782"
+        }
+      ]
+    },
+    {
+      "workflow_id": "save-program",
+      "title": "Save program",
+      "applicability": {
+        "controller_family": "LJ-X8000",
+        "mode": "CONTEXT_REQUIRED"
+      },
+      "steps": [
+        "PRECHECK",
+        "CONFIGURE",
+        "TEST",
+        "VERIFY",
+        "SAVE"
+      ],
+      "knowledge_status": "DERIVED",
+      "canonical_refs": [
+        "measurement/program_structure.yaml",
+        "measurement/measurement_tools.yaml",
+        "measurement/corrections.yaml"
+      ],
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "document_id": "KEYENCE-B2841874CF9D",
+          "source_sha256": "b2841874cf9d7a327e96db99711bd1d69ec8a4209254d74856fe7c6d96791a09",
+          "page": 8,
+          "section_id": "SEC-AS-125213-LJ-X8000-SG-601399-WW-GB-2012-1-B2841874CF9D-U0008",
+          "chunk_id": "CHK-AS-125213-LJ-X8000-SG-601399-WW-GB-2012-1-B2841874CF9D-U0008-C001",
+          "evidence_excerpt_hash": "63bd9b9387d15211d7d6fc834b24afe79a0e459c7ec2b870a54e184fbbfb6782"
+        }
+      ]
+    },
+    {
+      "workflow_id": "switch-and-verify-program",
+      "title": "Switch and verify program",
+      "applicability": {
+        "controller_family": "LJ-X8000",
+        "mode": "CONTEXT_REQUIRED"
+      },
+      "steps": [
+        "PRECHECK",
+        "CONFIGURE",
+        "TEST",
+        "VERIFY",
+        "SAVE"
+      ],
+      "knowledge_status": "DERIVED",
+      "canonical_refs": [
+        "measurement/program_structure.yaml",
+        "measurement/measurement_tools.yaml",
+        "measurement/corrections.yaml"
+      ],
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "document_id": "KEYENCE-B2841874CF9D",
+          "source_sha256": "b2841874cf9d7a327e96db99711bd1d69ec8a4209254d74856fe7c6d96791a09",
+          "page": 8,
+          "section_id": "SEC-AS-125213-LJ-X8000-SG-601399-WW-GB-2012-1-B2841874CF9D-U0008",
+          "chunk_id": "CHK-AS-125213-LJ-X8000-SG-601399-WW-GB-2012-1-B2841874CF9D-U0008-C001",
+          "evidence_excerpt_hash": "63bd9b9387d15211d7d6fc834b24afe79a0e459c7ec2b870a54e184fbbfb6782"
+        }
+      ]
+    },
+    {
+      "workflow_id": "two-surface-height-difference",
+      "title": "Two-surface height difference",
+      "applicability": {
+        "controller_family": "LJ-X8000",
+        "mode": "CONTEXT_REQUIRED"
+      },
+      "steps": [
+        "PRECHECK",
+        "CONFIGURE",
+        "TEST",
+        "VERIFY",
+        "SAVE"
+      ],
+      "knowledge_status": "DERIVED",
+      "canonical_refs": [
+        "measurement/program_structure.yaml",
+        "measurement/measurement_tools.yaml",
+        "measurement/corrections.yaml"
+      ],
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "document_id": "KEYENCE-B2841874CF9D",
+          "source_sha256": "b2841874cf9d7a327e96db99711bd1d69ec8a4209254d74856fe7c6d96791a09",
+          "page": 8,
+          "section_id": "SEC-AS-125213-LJ-X8000-SG-601399-WW-GB-2012-1-B2841874CF9D-U0008",
+          "chunk_id": "CHK-AS-125213-LJ-X8000-SG-601399-WW-GB-2012-1-B2841874CF9D-U0008-C001",
+          "evidence_excerpt_hash": "63bd9b9387d15211d7d6fc834b24afe79a0e459c7ec2b870a54e184fbbfb6782"
+        }
+      ]
+    }
+  ]
+}

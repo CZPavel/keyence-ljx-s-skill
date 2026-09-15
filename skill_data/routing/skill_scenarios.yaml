@@ -1,0 +1,383 @@
+{
+  "scenarios": [
+    {
+      "scenario_id": "S01",
+      "intent": "ljx8000-pc-first-connection",
+      "required_context": [
+        "controller",
+        "mode",
+        "communication_method"
+      ],
+      "route": "pc_first_connection",
+      "canonical_resources": [
+        "workflows/operational_workflows.yaml"
+      ],
+      "expected_answer_components": [
+        "applicability",
+        "precheck",
+        "steps",
+        "warnings"
+      ],
+      "unsafe_assumptions_to_avoid": [
+        "do not generalize to LJ-S8000/LJ-X8000A",
+        "do not treat unresolved output framing as exact"
+      ]
+    },
+    {
+      "scenario_id": "S02",
+      "intent": "ljx8000-software-trigger",
+      "required_context": [
+        "controller",
+        "mode",
+        "program"
+      ],
+      "route": "software_trigger",
+      "canonical_resources": [
+        "workflows/operational_workflows.yaml"
+      ],
+      "expected_answer_components": [
+        "applicability",
+        "precheck",
+        "steps",
+        "warnings"
+      ],
+      "unsafe_assumptions_to_avoid": [
+        "do not generalize to LJ-S8000/LJ-X8000A",
+        "do not treat unresolved output framing as exact"
+      ]
+    },
+    {
+      "scenario_id": "S03",
+      "intent": "ljx8000-external-trigger",
+      "required_context": [
+        "controller",
+        "mode",
+        "trigger_method"
+      ],
+      "route": "external_trigger",
+      "canonical_resources": [
+        "workflows/operational_workflows.yaml"
+      ],
+      "expected_answer_components": [
+        "applicability",
+        "precheck",
+        "steps",
+        "warnings"
+      ],
+      "unsafe_assumptions_to_avoid": [
+        "do not generalize to LJ-S8000/LJ-X8000A",
+        "do not treat unresolved output framing as exact"
+      ]
+    },
+    {
+      "scenario_id": "S04",
+      "intent": "ljx8000-read-latest-profile",
+      "required_context": [
+        "controller",
+        "mode",
+        "head"
+      ],
+      "route": "read_latest_profile",
+      "canonical_resources": [
+        "workflows/operational_workflows.yaml"
+      ],
+      "expected_answer_components": [
+        "applicability",
+        "precheck",
+        "steps",
+        "warnings"
+      ],
+      "unsafe_assumptions_to_avoid": [
+        "do not generalize to LJ-S8000/LJ-X8000A",
+        "do not treat unresolved output framing as exact"
+      ]
+    },
+    {
+      "scenario_id": "S05",
+      "intent": "ljx8000-fast-profile-read",
+      "required_context": [
+        "controller",
+        "mode",
+        "head",
+        "trigger_method"
+      ],
+      "route": "fast_profile_read",
+      "canonical_resources": [
+        "workflows/operational_workflows.yaml"
+      ],
+      "expected_answer_components": [
+        "applicability",
+        "precheck",
+        "steps",
+        "warnings"
+      ],
+      "unsafe_assumptions_to_avoid": [
+        "do not generalize to LJ-S8000/LJ-X8000A",
+        "do not treat unresolved output framing as exact"
+      ]
+    },
+    {
+      "scenario_id": "S06",
+      "intent": "ljx8000-switch-program",
+      "required_context": [
+        "controller",
+        "program"
+      ],
+      "route": "switch_program",
+      "canonical_resources": [
+        "workflows/operational_workflows.yaml"
+      ],
+      "expected_answer_components": [
+        "applicability",
+        "precheck",
+        "steps",
+        "warnings"
+      ],
+      "unsafe_assumptions_to_avoid": [
+        "do not generalize to LJ-S8000/LJ-X8000A",
+        "do not treat unresolved output framing as exact"
+      ]
+    },
+    {
+      "scenario_id": "S07",
+      "intent": "ljx8000-verify-current-program",
+      "required_context": [
+        "controller"
+      ],
+      "route": "verify_current_program",
+      "canonical_resources": [
+        "workflows/operational_workflows.yaml"
+      ],
+      "expected_answer_components": [
+        "applicability",
+        "precheck",
+        "steps",
+        "warnings"
+      ],
+      "unsafe_assumptions_to_avoid": [
+        "do not generalize to LJ-S8000/LJ-X8000A",
+        "do not treat unresolved output framing as exact"
+      ]
+    },
+    {
+      "scenario_id": "S08",
+      "intent": "ljx8000-acquire-measurement-result",
+      "required_context": [
+        "controller",
+        "output_configuration"
+      ],
+      "route": "acquire_measurement_result",
+      "canonical_resources": [
+        "workflows/operational_workflows.yaml"
+      ],
+      "expected_answer_components": [
+        "applicability",
+        "precheck",
+        "steps",
+        "warnings"
+      ],
+      "unsafe_assumptions_to_avoid": [
+        "do not generalize to LJ-S8000/LJ-X8000A",
+        "do not treat unresolved output framing as exact"
+      ]
+    },
+    {
+      "scenario_id": "S09",
+      "intent": "ljx8000-external-string-correlation",
+      "required_context": [
+        "controller",
+        "string_index"
+      ],
+      "route": "external_string_correlation",
+      "canonical_resources": [
+        "workflows/operational_workflows.yaml"
+      ],
+      "expected_answer_components": [
+        "applicability",
+        "precheck",
+        "steps",
+        "warnings"
+      ],
+      "unsafe_assumptions_to_avoid": [
+        "do not generalize to LJ-S8000/LJ-X8000A",
+        "do not treat unresolved output framing as exact"
+      ]
+    },
+    {
+      "scenario_id": "S10",
+      "intent": "ljx8000-reset-recovery",
+      "required_context": [
+        "controller",
+        "recovery_path"
+      ],
+      "route": "reset_recovery",
+      "canonical_resources": [
+        "workflows/operational_workflows.yaml"
+      ],
+      "expected_answer_components": [
+        "applicability",
+        "precheck",
+        "steps",
+        "warnings"
+      ],
+      "unsafe_assumptions_to_avoid": [
+        "do not generalize to LJ-S8000/LJ-X8000A",
+        "do not treat unresolved output framing as exact"
+      ]
+    },
+    {
+      "scenario_id": "S11",
+      "intent": "ljx8000-reconnect-after-tcp-loss",
+      "required_context": [
+        "controller"
+      ],
+      "route": "reconnect_after_tcp_loss",
+      "canonical_resources": [
+        "workflows/operational_workflows.yaml"
+      ],
+      "expected_answer_components": [
+        "applicability",
+        "precheck",
+        "steps",
+        "warnings"
+      ],
+      "unsafe_assumptions_to_avoid": [
+        "do not generalize to LJ-S8000/LJ-X8000A",
+        "do not treat unresolved output framing as exact"
+      ]
+    },
+    {
+      "scenario_id": "H01",
+      "intent": "head_specifications",
+      "required_context": [
+        "controller_family",
+        "head_model"
+      ],
+      "route": "head_specifications",
+      "canonical_resources": [
+        "hardware/head_specifications.yaml"
+      ],
+      "expected_answer_components": [
+        "scoped values",
+        "source applicability"
+      ],
+      "unsafe_assumptions_to_avoid": [
+        "do not use FOV without Z position"
+      ]
+    },
+    {
+      "scenario_id": "H02",
+      "intent": "head_specifications",
+      "required_context": [
+        "controller_family",
+        "head_model"
+      ],
+      "route": "head_specifications",
+      "canonical_resources": [
+        "hardware/head_specifications.yaml"
+      ],
+      "expected_answer_components": [
+        "scoped values",
+        "source applicability"
+      ],
+      "unsafe_assumptions_to_avoid": [
+        "do not use FOV without Z position"
+      ]
+    },
+    {
+      "scenario_id": "H03",
+      "intent": "head_specifications",
+      "required_context": [
+        "controller_family",
+        "head_model"
+      ],
+      "route": "head_specifications",
+      "canonical_resources": [
+        "hardware/head_specifications.yaml"
+      ],
+      "expected_answer_components": [
+        "scoped values",
+        "source applicability"
+      ],
+      "unsafe_assumptions_to_avoid": [
+        "do not use FOV without Z position"
+      ]
+    },
+    {
+      "scenario_id": "H04",
+      "intent": "head_specifications",
+      "required_context": [
+        "controller_family",
+        "head_model"
+      ],
+      "route": "head_specifications",
+      "canonical_resources": [
+        "hardware/head_specifications.yaml"
+      ],
+      "expected_answer_components": [
+        "scoped values",
+        "source applicability"
+      ],
+      "unsafe_assumptions_to_avoid": [
+        "do not use FOV without Z position"
+      ]
+    },
+    {
+      "scenario_id": "H05",
+      "intent": "head_specifications",
+      "required_context": [
+        "controller_family",
+        "head_model"
+      ],
+      "route": "head_specifications",
+      "canonical_resources": [
+        "hardware/head_specifications.yaml"
+      ],
+      "expected_answer_components": [
+        "scoped values",
+        "source applicability"
+      ],
+      "unsafe_assumptions_to_avoid": [
+        "do not use FOV without Z position"
+      ]
+    },
+    {
+      "scenario_id": "H06",
+      "intent": "head_specifications",
+      "required_context": [
+        "controller_family",
+        "head_model"
+      ],
+      "route": "head_specifications",
+      "canonical_resources": [
+        "hardware/head_specifications.yaml"
+      ],
+      "expected_answer_components": [
+        "scoped values",
+        "source applicability"
+      ],
+      "unsafe_assumptions_to_avoid": [
+        "do not use FOV without Z position"
+      ]
+    },
+    {
+      "scenario_id": "H07",
+      "intent": "head_specifications",
+      "required_context": [
+        "controller_family",
+        "head_model"
+      ],
+      "route": "head_specifications",
+      "canonical_resources": [
+        "hardware/head_specifications.yaml"
+      ],
+      "expected_answer_components": [
+        "scoped values",
+        "source applicability"
+      ],
+      "unsafe_assumptions_to_avoid": [
+        "do not use FOV without Z position"
+      ]
+    }
+  ]
+}

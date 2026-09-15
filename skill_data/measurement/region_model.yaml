@@ -1,0 +1,16 @@
+{
+  "canonical_roles": [
+    {
+      "role": "measurement_region",
+      "official_term": "UNRESOLVED_PER_TOOL",
+      "meaning": "Region passed to a specific tool; role does not imply identical GUI behavior across tools.",
+      "knowledge_status": "DERIVED"
+    },
+    {
+      "role": "reference_region",
+      "official_term": "UNRESOLVED_PER_TOOL",
+      "meaning": "Reference/datum role only when a tool source explicitly defines one.",
+      "knowledge_status": "DERIVED"
+    }
+  ]
+}

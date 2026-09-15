@@ -1,0 +1,25 @@
+[
+  {
+    "id": "runtime-trigger",
+    "aliases": [
+      "trigger",
+      "trigger cycle"
+    ],
+    "targets": [
+      "SIG-READY",
+      "SIG-TRG"
+    ]
+  },
+  {
+    "id": "runtime-terminal-command",
+    "aliases": [
+      "CST",
+      "command handshake"
+    ],
+    "targets": [
+      "SIG-CMD_READY",
+      "SIG-ACK",
+      "SIG-NACK"
+    ]
+  }
+]

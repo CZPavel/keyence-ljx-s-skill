@@ -1,0 +1,11 @@
+{
+  "workflow_layer": [
+    "ljx8000-pc-first-connection",
+    "ljx8000-software-trigger",
+    "ljx8000-read-latest-profile",
+    "ljx8000-fast-profile-read",
+    "ljx8000-switch-program",
+    "ljx8000-reconnect-after-tcp-loss"
+  ],
+  "canonical_workflow_reference": "workflows/operational_workflows.yaml"
+}

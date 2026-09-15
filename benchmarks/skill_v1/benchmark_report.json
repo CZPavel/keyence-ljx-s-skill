@@ -1,0 +1,15 @@
+﻿{
+  "total": 25,
+  "passed": 23,
+  "failed": [],
+  "unresolved_by_design": [
+    {
+      "id": "family-1",
+      "reason": "recognized unresolved"
+    },
+    {
+      "id": "family-2",
+      "reason": "recognized unresolved"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "SIG-READY",
+    "signal": "READY",
+    "aliases": [
+      "ready",
+      "ready signal"
+    ]
+  },
+  {
+    "id": "SIG-TRG",
+    "signal": "TRG",
+    "aliases": [
+      "trg",
+      "trg signal"
+    ]
+  },
+  {
+    "id": "SIG-EXT",
+    "signal": "EXT",
+    "aliases": [
+      "ext",
+      "ext signal"
+    ]
+  },
+  {
+    "id": "SIG-TEST",
+    "signal": "TEST",
+    "aliases": [
+      "test",
+      "test signal"
+    ]
+  },
+  {
+    "id": "SIG-RESET",
+    "signal": "RESET",
+    "aliases": [
+      "reset",
+      "reset signal"
+    ]
+  },
+  {
+    "id": "SIG-BUSY",
+    "signal": "BUSY",
+    "aliases": [
+      "busy",
+      "busy signal"
+    ]
+  },
+  {
+    "id": "SIG-RUN",
+    "signal": "RUN",
+    "aliases": [
+      "run",
+      "run signal"
+    ]
+  },
+  {
+    "id": "SIG-CMD_READY",
+    "signal": "CMD_READY",
+    "aliases": [
+      "cmd_ready",
+      "cmd_ready signal"
+    ]
+  },
+  {
+    "id": "SIG-ACK",
+    "signal": "ACK",
+    "aliases": [
+      "ack",
+      "ack signal"
+    ]
+  },
+  {
+    "id": "SIG-NACK",
+    "signal": "NACK",
+    "aliases": [
+      "nack",
+      "nack signal"
+    ]
+  },
+  {
+    "id": "SIG-STO",
+    "signal": "STO",
+    "aliases": [
+      "sto",
+      "sto signal"
+    ]
+  },
+  {
+    "id": "SIG-OUT_DATA[15:0]",
+    "signal": "OUT_DATA[15:0]",
+    "aliases": [
+      "out_data[15:0]",
+      "out_data[15:0] signal"
+    ]
+  },
+  {
+    "id": "SIG-OR",
+    "signal": "OR",
+    "aliases": [
+      "or",
+      "or signal"
+    ]
+  },
+  {
+    "id": "SIG-PST",
+    "signal": "PST",
+    "aliases": [
+      "pst",
+      "pst signal"
+    ]
+  },
+  {
+    "id": "SIG-ERROR",
+    "signal": "ERROR",
+    "aliases": [
+      "error",
+      "error signal"
+    ]
+  }
+]

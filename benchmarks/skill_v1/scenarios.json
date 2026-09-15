@@ -1,0 +1,629 @@
+{
+  "scenarios": [
+    {
+      "id": "hardware-1",
+      "question": "M?m LJ-X8000 a LJ-X8900. Jak se z PC poprv? p?ipoj?m?",
+      "intent_category": "workflow",
+      "context": {
+        "controller": "LJ-X8000",
+        "mode": null
+      },
+      "lookup_kind": "workflow",
+      "lookup_query": "ljx8000-pc-first-connection",
+      "controller": "LJ-X8000",
+      "mode": null,
+      "expected_route": [
+        "workflow",
+        "ljx8000-pc-first-connection"
+      ],
+      "required_canonical_resources": [
+        "skill_data"
+      ],
+      "forbidden_assumptions": [
+        "cross-family reuse without evidence",
+        "invented exact parameter"
+      ],
+      "expect_unresolved": false
+    },
+    {
+      "id": "command-1",
+      "question": "Jak? TCP port pou??t pro Non-Procedural?",
+      "intent_category": "communication",
+      "context": {
+        "controller": "LJ-X8000",
+        "mode": null
+      },
+      "lookup_kind": "communication",
+      "lookup_query": "Ethernet",
+      "controller": "LJ-X8000",
+      "mode": null,
+      "expected_route": [
+        "communication",
+        "Ethernet"
+      ],
+      "required_canonical_resources": [
+        "skill_data"
+      ],
+      "forbidden_assumptions": [
+        "cross-family reuse without evidence",
+        "invented exact parameter"
+      ],
+      "expect_unresolved": false
+    },
+    {
+      "id": "command-2",
+      "question": "Jak softwarov? spust?m m??en??",
+      "intent_category": "command",
+      "context": {
+        "controller": "LJ-X8000",
+        "mode": null
+      },
+      "lookup_kind": "command",
+      "lookup_query": "T1",
+      "controller": "LJ-X8000",
+      "mode": null,
+      "expected_route": [
+        "command",
+        "T1"
+      ],
+      "required_canonical_resources": [
+        "skill_data"
+      ],
+      "forbidden_assumptions": [
+        "cross-family reuse without evidence",
+        "invented exact parameter"
+      ],
+      "expect_unresolved": false
+    },
+    {
+      "id": "signal-1",
+      "question": "TRG vstup p?ich?z?, ale nic se nem???.",
+      "intent_category": "signal",
+      "context": {
+        "controller": "LJ-X8000",
+        "mode": null
+      },
+      "lookup_kind": "signal",
+      "lookup_query": "READY",
+      "controller": "LJ-X8000",
+      "mode": null,
+      "expected_route": [
+        "signal",
+        "READY"
+      ],
+      "required_canonical_resources": [
+        "skill_data"
+      ],
+      "forbidden_assumptions": [
+        "cross-family reuse without evidence",
+        "invented exact parameter"
+      ],
+      "expect_unresolved": false
+    },
+    {
+      "id": "signal-2",
+      "question": "READY je OFF. Co m?m ov??it?",
+      "intent_category": "signal",
+      "context": {
+        "controller": "LJ-X8000",
+        "mode": null
+      },
+      "lookup_kind": "signal",
+      "lookup_query": "READY",
+      "controller": "LJ-X8000",
+      "mode": null,
+      "expected_route": [
+        "signal",
+        "READY"
+      ],
+      "required_canonical_resources": [
+        "skill_data"
+      ],
+      "forbidden_assumptions": [
+        "cross-family reuse without evidence",
+        "invented exact parameter"
+      ],
+      "expect_unresolved": false
+    },
+    {
+      "id": "profile-1",
+      "question": "Jak na?tu posledn? profil?",
+      "intent_category": "command",
+      "context": {
+        "controller": "LJ-X8000",
+        "mode": null
+      },
+      "lookup_kind": "command",
+      "lookup_query": "PFR",
+      "controller": "LJ-X8000",
+      "mode": null,
+      "expected_route": [
+        "command",
+        "PFR"
+      ],
+      "required_canonical_resources": [
+        "skill_data"
+      ],
+      "forbidden_assumptions": [
+        "cross-family reuse without evidence",
+        "invented exact parameter"
+      ],
+      "expect_unresolved": false
+    },
+    {
+      "id": "profile-2",
+      "question": "Jak? je rozd?l mezi PFR a PFRF?",
+      "intent_category": "command",
+      "context": {
+        "controller": "LJ-X8000",
+        "mode": null
+      },
+      "lookup_kind": "command",
+      "lookup_query": "PFRF",
+      "controller": "LJ-X8000",
+      "mode": null,
+      "expected_route": [
+        "command",
+        "PFRF"
+      ],
+      "required_canonical_resources": [
+        "skill_data"
+      ],
+      "forbidden_assumptions": [
+        "cross-family reuse without evidence",
+        "invented exact parameter"
+      ],
+      "expect_unresolved": false
+    },
+    {
+      "id": "head-1",
+      "question": "Kolik bod? vrac? profil LJ-X8900?",
+      "intent_category": "head",
+      "context": {
+        "controller": null,
+        "mode": null
+      },
+      "lookup_kind": "head",
+      "lookup_query": "LJ-X8900",
+      "controller": null,
+      "mode": null,
+      "expected_route": [
+        "head",
+        "LJ-X8900"
+      ],
+      "required_canonical_resources": [
+        "skill_data"
+      ],
+      "forbidden_assumptions": [
+        "cross-family reuse without evidence",
+        "invented exact parameter"
+      ],
+      "expect_unresolved": false
+    },
+    {
+      "id": "program-1",
+      "question": "Jak p?epnu program a ov???m jej?",
+      "intent_category": "workflow",
+      "context": {
+        "controller": "LJ-X8000",
+        "mode": null
+      },
+      "lookup_kind": "workflow",
+      "lookup_query": "ljx8000-switch-program",
+      "controller": "LJ-X8000",
+      "mode": null,
+      "expected_route": [
+        "workflow",
+        "ljx8000-switch-program"
+      ],
+      "required_canonical_resources": [
+        "skill_data"
+      ],
+      "forbidden_assumptions": [
+        "cross-family reuse without evidence",
+        "invented exact parameter"
+      ],
+      "expect_unresolved": false
+    },
+    {
+      "id": "command-3",
+      "question": "Co d?l? SS?",
+      "intent_category": "command",
+      "context": {
+        "controller": "LJ-X8000",
+        "mode": null
+      },
+      "lookup_kind": "command",
+      "lookup_query": "SS",
+      "controller": "LJ-X8000",
+      "mode": null,
+      "expected_route": [
+        "command",
+        "SS"
+      ],
+      "required_canonical_resources": [
+        "skill_data"
+      ],
+      "forbidden_assumptions": [
+        "cross-family reuse without evidence",
+        "invented exact parameter"
+      ],
+      "expect_unresolved": false
+    },
+    {
+      "id": "head-2",
+      "question": "Jak? m? LJ-X8900 Z rozsah?",
+      "intent_category": "head",
+      "context": {
+        "controller": null,
+        "mode": null
+      },
+      "lookup_kind": "head",
+      "lookup_query": "LJ-X8900",
+      "controller": null,
+      "mode": null,
+      "expected_route": [
+        "head",
+        "LJ-X8900"
+      ],
+      "required_canonical_resources": [
+        "skill_data"
+      ],
+      "forbidden_assumptions": [
+        "cross-family reuse without evidence",
+        "invented exact parameter"
+      ],
+      "expect_unresolved": false
+    },
+    {
+      "id": "head-3",
+      "question": "Pot?ebuji hloubkov? rozsah 350 mm.",
+      "intent_category": "head",
+      "context": {
+        "controller": null,
+        "mode": null
+      },
+      "lookup_kind": "head",
+      "lookup_query": "LJ-X8900",
+      "controller": null,
+      "mode": null,
+      "expected_route": [
+        "head",
+        "LJ-X8900"
+      ],
+      "required_canonical_resources": [
+        "skill_data"
+      ],
+      "forbidden_assumptions": [
+        "cross-family reuse without evidence",
+        "invented exact parameter"
+      ],
+      "expect_unresolved": false
+    },
+    {
+      "id": "head-4",
+      "question": "Jak? X pole m? LJ-X8900?",
+      "intent_category": "head",
+      "context": {
+        "controller": null,
+        "mode": null
+      },
+      "lookup_kind": "head",
+      "lookup_query": "LJ-X8900",
+      "controller": null,
+      "mode": null,
+      "expected_route": [
+        "head",
+        "LJ-X8900"
+      ],
+      "required_canonical_resources": [
+        "skill_data"
+      ],
+      "forbidden_assumptions": [
+        "cross-family reuse without evidence",
+        "invented exact parameter"
+      ],
+      "expect_unresolved": false
+    },
+    {
+      "id": "measurement-1",
+      "question": "Pot?ebuji m??it rozd?l v??ek dvou povrch?.",
+      "intent_category": "measurement",
+      "context": {
+        "controller": "LJ-X8000",
+        "mode": "2D"
+      },
+      "lookup_kind": "measurement",
+      "lookup_query": "height-difference-width",
+      "controller": "LJ-X8000",
+      "mode": "2D",
+      "expected_route": [
+        "measurement",
+        "height-difference-width"
+      ],
+      "required_canonical_resources": [
+        "skill_data"
+      ],
+      "forbidden_assumptions": [
+        "cross-family reuse without evidence",
+        "invented exact parameter"
+      ],
+      "expect_unresolved": false
+    },
+    {
+      "id": "measurement-2",
+      "question": "Poloha m??en?ch povrch? se m?n?.",
+      "intent_category": "correction",
+      "context": {
+        "controller": "LJ-X8000",
+        "mode": "2D"
+      },
+      "lookup_kind": "correction",
+      "lookup_query": "position-correction",
+      "controller": "LJ-X8000",
+      "mode": "2D",
+      "expected_route": [
+        "correction",
+        "position-correction"
+      ],
+      "required_canonical_resources": [
+        "skill_data"
+      ],
+      "forbidden_assumptions": [
+        "cross-family reuse without evidence",
+        "invented exact parameter"
+      ],
+      "expect_unresolved": false
+    },
+    {
+      "id": "measurement-3",
+      "question": "Jakou correction lze pou??t v 2D?",
+      "intent_category": "correction",
+      "context": {
+        "controller": "LJ-X8000",
+        "mode": "2D"
+      },
+      "lookup_kind": "correction",
+      "lookup_query": "position-correction",
+      "controller": "LJ-X8000",
+      "mode": "2D",
+      "expected_route": [
+        "correction",
+        "position-correction"
+      ],
+      "required_canonical_resources": [
+        "skill_data"
+      ],
+      "forbidden_assumptions": [
+        "cross-family reuse without evidence",
+        "invented exact parameter"
+      ],
+      "expect_unresolved": false
+    },
+    {
+      "id": "measurement-4",
+      "question": "Um? installation tilt opravit yaw?",
+      "intent_category": "correction",
+      "context": {
+        "controller": "LJ-X8000",
+        "mode": "3D"
+      },
+      "lookup_kind": "correction",
+      "lookup_query": "installation-tilt-correction",
+      "controller": "LJ-X8000",
+      "mode": "3D",
+      "expected_route": [
+        "correction",
+        "installation-tilt-correction"
+      ],
+      "required_canonical_resources": [
+        "skill_data"
+      ],
+      "forbidden_assumptions": [
+        "cross-family reuse without evidence",
+        "invented exact parameter"
+      ],
+      "expect_unresolved": false
+    },
+    {
+      "id": "family-1",
+      "question": "M?m LJ-S8000. M??u pou??t T1 postup?",
+      "intent_category": "command",
+      "context": {
+        "controller": "LJ-S8000",
+        "mode": null
+      },
+      "lookup_kind": "command",
+      "lookup_query": "T1",
+      "controller": "LJ-S8000",
+      "mode": null,
+      "expected_route": [
+        "command",
+        "T1"
+      ],
+      "required_canonical_resources": [
+        "skill_data"
+      ],
+      "forbidden_assumptions": [
+        "cross-family reuse without evidence",
+        "invented exact parameter"
+      ],
+      "expect_unresolved": true
+    },
+    {
+      "id": "family-2",
+      "question": "M?m LJ-X8000A. Pou?iji port stejn??",
+      "intent_category": "communication",
+      "context": {
+        "controller": "LJ-X8000A",
+        "mode": null
+      },
+      "lookup_kind": "communication",
+      "lookup_query": "Ethernet",
+      "controller": "LJ-X8000A",
+      "mode": null,
+      "expected_route": [
+        "communication",
+        "Ethernet"
+      ],
+      "required_canonical_resources": [
+        "skill_data"
+      ],
+      "forbidden_assumptions": [
+        "cross-family reuse without evidence",
+        "invented exact parameter"
+      ],
+      "expect_unresolved": true
+    },
+    {
+      "id": "accuracy-1",
+      "question": "Jak p?esn? bude moje aplikace s LJ-X8900?",
+      "intent_category": "head",
+      "context": {
+        "controller": null,
+        "mode": null
+      },
+      "lookup_kind": "head",
+      "lookup_query": "LJ-X8900",
+      "controller": null,
+      "mode": null,
+      "expected_route": [
+        "head",
+        "LJ-X8900"
+      ],
+      "required_canonical_resources": [
+        "skill_data"
+      ],
+      "forbidden_assumptions": [
+        "cross-family reuse without evidence",
+        "invented exact parameter"
+      ],
+      "expect_unresolved": false
+    },
+    {
+      "id": "async-1",
+      "question": "Po reconnectu st?le p?ich?z? data.",
+      "intent_category": "workflow",
+      "context": {
+        "controller": "LJ-X8000",
+        "mode": null
+      },
+      "lookup_kind": "workflow",
+      "lookup_query": "ljx8000-reconnect-after-tcp-loss",
+      "controller": "LJ-X8000",
+      "mode": null,
+      "expected_route": [
+        "workflow",
+        "ljx8000-reconnect-after-tcp-loss"
+      ],
+      "required_canonical_resources": [
+        "skill_data"
+      ],
+      "forbidden_assumptions": [
+        "cross-family reuse without evidence",
+        "invented exact parameter"
+      ],
+      "expect_unresolved": false
+    },
+    {
+      "id": "measurement-5",
+      "question": "Jak m??it ?hel?",
+      "intent_category": "measurement",
+      "context": {
+        "controller": "LJ-X8000",
+        "mode": "2D"
+      },
+      "lookup_kind": "measurement",
+      "lookup_query": "angle",
+      "controller": "LJ-X8000",
+      "mode": "2D",
+      "expected_route": [
+        "measurement",
+        "angle"
+      ],
+      "required_canonical_resources": [
+        "skill_data"
+      ],
+      "forbidden_assumptions": [
+        "cross-family reuse without evidence",
+        "invented exact parameter"
+      ],
+      "expect_unresolved": false
+    },
+    {
+      "id": "measurement-6",
+      "question": "Jak zjistit, co tool vrac??",
+      "intent_category": "measurement",
+      "context": {
+        "controller": "LJ-X8000",
+        "mode": "2D"
+      },
+      "lookup_kind": "measurement",
+      "lookup_query": "height-position",
+      "controller": "LJ-X8000",
+      "mode": "2D",
+      "expected_route": [
+        "measurement",
+        "height-position"
+      ],
+      "required_canonical_resources": [
+        "skill_data"
+      ],
+      "forbidden_assumptions": [
+        "cross-family reuse without evidence",
+        "invented exact parameter"
+      ],
+      "expect_unresolved": false
+    },
+    {
+      "id": "program-2",
+      "question": "Jak ulo?it program?",
+      "intent_category": "workflow",
+      "context": {
+        "controller": "LJ-X8000",
+        "mode": null
+      },
+      "lookup_kind": "workflow",
+      "lookup_query": "ljx8000-switch-program",
+      "controller": "LJ-X8000",
+      "mode": null,
+      "expected_route": [
+        "workflow",
+        "save-program"
+      ],
+      "required_canonical_resources": [
+        "skill_data"
+      ],
+      "forbidden_assumptions": [
+        "cross-family reuse without evidence",
+        "invented exact parameter"
+      ],
+      "expect_unresolved": false
+    },
+    {
+      "id": "uncertainty-1",
+      "question": "Jak? jsou parametry ROI?",
+      "intent_category": "measurement",
+      "context": {
+        "controller": "LJ-X8000",
+        "mode": "2D"
+      },
+      "lookup_kind": "measurement",
+      "lookup_query": "height-difference-width",
+      "controller": "LJ-X8000",
+      "mode": "2D",
+      "expected_route": [
+        "measurement",
+        "height-difference-width"
+      ],
+      "required_canonical_resources": [
+        "skill_data"
+      ],
+      "forbidden_assumptions": [
+        "cross-family reuse without evidence",
+        "invented exact parameter"
+      ],
+      "expect_unresolved": false
+    }
+  ]
+}

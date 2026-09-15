@@ -1,0 +1,228 @@
+{
+  "routes": [
+    {
+      "intent": "measure_height",
+      "required_context": [
+        "controller_family",
+        "mode",
+        "measurement_goal"
+      ],
+      "targets": [
+        "measurement/measurement_tool_selection.yaml",
+        "measurement/measurement_tools.yaml",
+        "workflows/measurement_program_workflows.yaml"
+      ],
+      "raw_corpus_fallback": true
+    },
+    {
+      "intent": "measure_height_difference",
+      "required_context": [
+        "controller_family",
+        "mode",
+        "measurement_goal"
+      ],
+      "targets": [
+        "measurement/measurement_tool_selection.yaml",
+        "measurement/measurement_tools.yaml",
+        "workflows/measurement_program_workflows.yaml"
+      ],
+      "raw_corpus_fallback": true
+    },
+    {
+      "intent": "measure_width",
+      "required_context": [
+        "controller_family",
+        "mode",
+        "measurement_goal"
+      ],
+      "targets": [
+        "measurement/measurement_tool_selection.yaml",
+        "measurement/measurement_tools.yaml",
+        "workflows/measurement_program_workflows.yaml"
+      ],
+      "raw_corpus_fallback": true
+    },
+    {
+      "intent": "measure_gap",
+      "required_context": [
+        "controller_family",
+        "mode",
+        "measurement_goal"
+      ],
+      "targets": [
+        "measurement/measurement_tool_selection.yaml",
+        "measurement/measurement_tools.yaml",
+        "workflows/measurement_program_workflows.yaml"
+      ],
+      "raw_corpus_fallback": true
+    },
+    {
+      "intent": "measure_position",
+      "required_context": [
+        "controller_family",
+        "mode",
+        "measurement_goal"
+      ],
+      "targets": [
+        "measurement/measurement_tool_selection.yaml",
+        "measurement/measurement_tools.yaml",
+        "workflows/measurement_program_workflows.yaml"
+      ],
+      "raw_corpus_fallback": true
+    },
+    {
+      "intent": "measure_angle",
+      "required_context": [
+        "controller_family",
+        "mode",
+        "measurement_goal"
+      ],
+      "targets": [
+        "measurement/measurement_tool_selection.yaml",
+        "measurement/measurement_tools.yaml",
+        "workflows/measurement_program_workflows.yaml"
+      ],
+      "raw_corpus_fallback": true
+    },
+    {
+      "intent": "measure_radius",
+      "required_context": [
+        "controller_family",
+        "mode",
+        "measurement_goal"
+      ],
+      "targets": [
+        "measurement/measurement_tool_selection.yaml",
+        "measurement/measurement_tools.yaml",
+        "workflows/measurement_program_workflows.yaml"
+      ],
+      "raw_corpus_fallback": true
+    },
+    {
+      "intent": "measure_area",
+      "required_context": [
+        "controller_family",
+        "mode",
+        "measurement_goal"
+      ],
+      "targets": [
+        "measurement/measurement_tool_selection.yaml",
+        "measurement/measurement_tools.yaml",
+        "workflows/measurement_program_workflows.yaml"
+      ],
+      "raw_corpus_fallback": true
+    },
+    {
+      "intent": "correct_position",
+      "required_context": [
+        "controller_family",
+        "mode",
+        "measurement_goal"
+      ],
+      "targets": [
+        "measurement/measurement_tool_selection.yaml",
+        "measurement/measurement_tools.yaml",
+        "workflows/measurement_program_workflows.yaml"
+      ],
+      "raw_corpus_fallback": true
+    },
+    {
+      "intent": "correct_tilt",
+      "required_context": [
+        "controller_family",
+        "mode",
+        "measurement_goal"
+      ],
+      "targets": [
+        "measurement/measurement_tool_selection.yaml",
+        "measurement/measurement_tools.yaml",
+        "workflows/measurement_program_workflows.yaml"
+      ],
+      "raw_corpus_fallback": true
+    },
+    {
+      "intent": "select_measurement_tool",
+      "required_context": [
+        "controller_family",
+        "mode",
+        "measurement_goal"
+      ],
+      "targets": [
+        "measurement/measurement_tool_selection.yaml",
+        "measurement/measurement_tools.yaml",
+        "workflows/measurement_program_workflows.yaml"
+      ],
+      "raw_corpus_fallback": true
+    },
+    {
+      "intent": "build_program",
+      "required_context": [
+        "controller_family",
+        "mode",
+        "measurement_goal"
+      ],
+      "targets": [
+        "measurement/measurement_tool_selection.yaml",
+        "measurement/measurement_tools.yaml",
+        "workflows/measurement_program_workflows.yaml"
+      ],
+      "raw_corpus_fallback": true
+    },
+    {
+      "intent": "copy_program",
+      "required_context": [
+        "controller_family",
+        "mode",
+        "measurement_goal"
+      ],
+      "targets": [
+        "measurement/measurement_tool_selection.yaml",
+        "measurement/measurement_tools.yaml",
+        "workflows/measurement_program_workflows.yaml"
+      ],
+      "raw_corpus_fallback": true
+    },
+    {
+      "intent": "configure_roi",
+      "required_context": [
+        "controller_family",
+        "mode",
+        "measurement_goal"
+      ],
+      "targets": [
+        "measurement/measurement_tool_selection.yaml",
+        "measurement/measurement_tools.yaml",
+        "workflows/measurement_program_workflows.yaml"
+      ],
+      "raw_corpus_fallback": true
+    },
+    {
+      "intent": "configure_judgment",
+      "required_context": [
+        "controller_family",
+        "mode",
+        "measurement_goal"
+      ],
+      "targets": [
+        "measurement/measurement_tool_selection.yaml",
+        "measurement/measurement_tools.yaml",
+        "workflows/measurement_program_workflows.yaml"
+      ],
+      "raw_corpus_fallback": true
+    },
+    {
+      "intent": "configure_acquisition",
+      "required_context": [
+        "controller_family",
+        "mode",
+        "measurement_goal"
+      ],
+      "targets": [
+        "measurement/measurement_tool_selection.yaml",
+        "measurement/measurement_tools.yaml",
+        "workflows/measurement_program_workflows.yaml"
+      ],
+      "raw_corpus_fallback": true
+    }
+  ]
+}

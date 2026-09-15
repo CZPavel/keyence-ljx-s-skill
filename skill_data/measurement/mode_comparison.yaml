@@ -1,0 +1,48 @@
+{
+  "families": [
+    {
+      "controller_family": "LJ-X8000",
+      "mode": "2D",
+      "tool_ids": [
+        "height-difference-width",
+        "height-position",
+        "angle",
+        "r-measurement",
+        "profile-length",
+        "cross-section-area"
+      ],
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "document_id": "KEYENCE-B2841874CF9D",
+          "source_sha256": "b2841874cf9d7a327e96db99711bd1d69ec8a4209254d74856fe7c6d96791a09",
+          "page": 8,
+          "section_id": "SEC-AS-125213-LJ-X8000-SG-601399-WW-GB-2012-1-B2841874CF9D-U0008",
+          "chunk_id": "CHK-AS-125213-LJ-X8000-SG-601399-WW-GB-2012-1-B2841874CF9D-U0008-C001",
+          "evidence_excerpt_hash": "63bd9b9387d15211d7d6fc834b24afe79a0e459c7ec2b870a54e184fbbfb6782"
+        }
+      ]
+    },
+    {
+      "controller_family": "LJ-X8000",
+      "mode": "3D",
+      "tool_ids": [
+        "cross-section-measurement"
+      ],
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "document_id": "KEYENCE-D44A4A54C24D",
+          "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1",
+          "page": 162,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0162",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0162-C004",
+          "evidence_excerpt_hash": "bb02fd090a30f6999fd1b9130dc59a00ae836faf6f1b99a0e2d1514c920f06ec"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "No tool/settings are propagated between modes without direct evidence."
+  ]
+}

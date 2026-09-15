@@ -1,0 +1,1293 @@
+{
+  "schema_version": 2,
+  "signals": [
+    {
+      "signal_id": "SIG-READY",
+      "signal_name": "READY",
+      "controller_family": "LJ-X8000",
+      "not_verified_for": [
+        "LJ-X8000A",
+        "LJ-S8000"
+      ],
+      "direction": "output",
+      "physical_context": null,
+      "logic": {
+        "active_level": null,
+        "active_edge": null,
+        "pulse_or_level": null
+      },
+      "meaning": {
+        "value": "indicates whether TRG input can be accepted",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_VISUAL",
+            "block_id": "MSB-LJX8000-295-IO_TIMING",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 295,
+            "printed_page": "9-73",
+            "evidence_excerpt_hash": "fc672b9ce169b259f50dfad4f0ae170225f75ca4055213bc33b96fe3cdb0b806"
+          }
+        ]
+      },
+      "valid_when": {
+        "value": null,
+        "status": "UNRESOLVED",
+        "evidence": []
+      },
+      "causes": [
+        {
+          "value": "turns OFF after accepted trigger during imaging/transfer; turns ON after imaging/transfer completes",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-295-IO_TIMING",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 295,
+              "printed_page": "9-73",
+              "evidence_excerpt_hash": "fc672b9ce169b259f50dfad4f0ae170225f75ca4055213bc33b96fe3cdb0b806"
+            }
+          ]
+        }
+      ],
+      "effects": [
+        {
+          "value": "gates TRG input",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-295-IO_TIMING",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 295,
+              "printed_page": "9-73",
+              "evidence_excerpt_hash": "fc672b9ce169b259f50dfad4f0ae170225f75ca4055213bc33b96fe3cdb0b806"
+            }
+          ]
+        }
+      ],
+      "timing": {
+        "ready_falling_response_delay": {
+          "value": "less than 0.5 ms",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-302-IO_TIMING",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 302,
+              "printed_page": "9-80",
+              "evidence_excerpt_hash": "1392bc5ae27205803702d02d72f63401392c97a9dbb101f63474b74e5cb46ebd"
+            }
+          ]
+        }
+      },
+      "related_signals": [
+        "TRG",
+        "EXT",
+        "LD ON",
+        "BUSY"
+      ],
+      "related_commands": [
+        "T1",
+        "TE"
+      ],
+      "related_runtime_operations": [],
+      "diagnostic_interpretation": null,
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-295-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 295,
+          "printed_page": "9-73",
+          "evidence_excerpt_hash": "fc672b9ce169b259f50dfad4f0ae170225f75ca4055213bc33b96fe3cdb0b806"
+        }
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "signal_id": "SIG-TRG",
+      "signal_name": "TRG",
+      "controller_family": "LJ-X8000",
+      "not_verified_for": [
+        "LJ-X8000A",
+        "LJ-S8000"
+      ],
+      "direction": "input",
+      "physical_context": null,
+      "logic": {
+        "active_level": null,
+        "active_edge": null,
+        "pulse_or_level": null
+      },
+      "meaning": {
+        "value": "external trigger input",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_VISUAL",
+            "block_id": "MSB-LJX8000-295-IO_TIMING",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 295,
+            "printed_page": "9-73",
+            "evidence_excerpt_hash": "fc672b9ce169b259f50dfad4f0ae170225f75ca4055213bc33b96fe3cdb0b806"
+          }
+        ]
+      },
+      "valid_when": {
+        "value": "accepted while READY is ON",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_VISUAL",
+            "block_id": "MSB-LJX8000-295-IO_TIMING",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 295,
+            "printed_page": "9-73",
+            "evidence_excerpt_hash": "fc672b9ce169b259f50dfad4f0ae170225f75ca4055213bc33b96fe3cdb0b806"
+          }
+        ]
+      },
+      "causes": [],
+      "effects": [],
+      "timing": {
+        "minimum_input_time": {
+          "value": null,
+          "status": "UNRESOLVED",
+          "evidence": []
+        }
+      },
+      "related_signals": [
+        "READY",
+        "ERROR"
+      ],
+      "related_commands": [],
+      "related_runtime_operations": [],
+      "diagnostic_interpretation": null,
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-295-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 295,
+          "printed_page": "9-73",
+          "evidence_excerpt_hash": "fc672b9ce169b259f50dfad4f0ae170225f75ca4055213bc33b96fe3cdb0b806"
+        }
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "signal_id": "SIG-EXT",
+      "signal_name": "EXT",
+      "controller_family": "LJ-X8000",
+      "not_verified_for": [
+        "LJ-X8000A",
+        "LJ-S8000"
+      ],
+      "direction": "input",
+      "physical_context": null,
+      "logic": {
+        "active_level": null,
+        "active_edge": null,
+        "pulse_or_level": null
+      },
+      "meaning": {
+        "value": "pauses image capture",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_VISUAL",
+            "block_id": "MSB-LJX8000-302-IO_TIMING",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 302,
+            "printed_page": "9-80",
+            "evidence_excerpt_hash": "1392bc5ae27205803702d02d72f63401392c97a9dbb101f63474b74e5cb46ebd"
+          }
+        ]
+      },
+      "valid_when": {
+        "value": null,
+        "status": "UNRESOLVED",
+        "evidence": []
+      },
+      "causes": [
+        {
+          "value": "EXT ON forces READY OFF",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-302-IO_TIMING",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 302,
+              "printed_page": "9-80",
+              "evidence_excerpt_hash": "1392bc5ae27205803702d02d72f63401392c97a9dbb101f63474b74e5cb46ebd"
+            }
+          ]
+        }
+      ],
+      "effects": [
+        {
+          "value": "blocks trigger input from external terminals, PLC, RS-232C, Ethernet and mouse; stops capture and measurement processing",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-302-IO_TIMING",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 302,
+              "printed_page": "9-80",
+              "evidence_excerpt_hash": "1392bc5ae27205803702d02d72f63401392c97a9dbb101f63474b74e5cb46ebd"
+            }
+          ]
+        }
+      ],
+      "timing": {
+        "minimum_input_time": {
+          "value": "more than 1 ms",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-302-IO_TIMING",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 302,
+              "printed_page": "9-80",
+              "evidence_excerpt_hash": "1392bc5ae27205803702d02d72f63401392c97a9dbb101f63474b74e5cb46ebd"
+            }
+          ]
+        },
+        "ready_response_delay": {
+          "value": "less than 0.5 ms",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-302-IO_TIMING",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 302,
+              "printed_page": "9-80",
+              "evidence_excerpt_hash": "1392bc5ae27205803702d02d72f63401392c97a9dbb101f63474b74e5cb46ebd"
+            }
+          ]
+        }
+      },
+      "related_signals": [
+        "READY"
+      ],
+      "related_commands": [
+        "T1"
+      ],
+      "related_runtime_operations": [],
+      "diagnostic_interpretation": null,
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-302-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 302,
+          "printed_page": "9-80",
+          "evidence_excerpt_hash": "1392bc5ae27205803702d02d72f63401392c97a9dbb101f63474b74e5cb46ebd"
+        }
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "signal_id": "SIG-TEST",
+      "signal_name": "TEST",
+      "controller_family": "LJ-X8000",
+      "not_verified_for": [
+        "LJ-X8000A",
+        "LJ-S8000"
+      ],
+      "direction": "input",
+      "physical_context": null,
+      "logic": {
+        "active_level": null,
+        "active_edge": null,
+        "pulse_or_level": null
+      },
+      "meaning": {
+        "value": "cancels terminal output operations",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_VISUAL",
+            "block_id": "MSB-LJX8000-301-IO_TIMING",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 301,
+            "printed_page": "9-79",
+            "evidence_excerpt_hash": "96dcee50beec64a44143685ce6eb9b2238aae3d2f0e4c54fbc14bb98410427fd"
+          }
+        ]
+      },
+      "valid_when": {
+        "value": null,
+        "status": "UNRESOLVED",
+        "evidence": []
+      },
+      "causes": [],
+      "effects": [
+        {
+          "value": "while ON, forces OUT_DATA[15:0], OR and STO to normal state",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-301-IO_TIMING",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 301,
+              "printed_page": "9-79",
+              "evidence_excerpt_hash": "96dcee50beec64a44143685ce6eb9b2238aae3d2f0e4c54fbc14bb98410427fd"
+            }
+          ]
+        }
+      ],
+      "timing": {
+        "response_delay": {
+          "value": "within 500 microseconds",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-301-IO_TIMING",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 301,
+              "printed_page": "9-79",
+              "evidence_excerpt_hash": "96dcee50beec64a44143685ce6eb9b2238aae3d2f0e4c54fbc14bb98410427fd"
+            }
+          ]
+        },
+        "minimum_input_time": {
+          "value": "more than 1 ms",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-301-IO_TIMING",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 301,
+              "printed_page": "9-79",
+              "evidence_excerpt_hash": "96dcee50beec64a44143685ce6eb9b2238aae3d2f0e4c54fbc14bb98410427fd"
+            }
+          ]
+        }
+      },
+      "related_signals": [
+        "OUT_DATA",
+        "OR",
+        "STO"
+      ],
+      "related_commands": [],
+      "related_runtime_operations": [],
+      "diagnostic_interpretation": null,
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-301-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 301,
+          "printed_page": "9-79",
+          "evidence_excerpt_hash": "96dcee50beec64a44143685ce6eb9b2238aae3d2f0e4c54fbc14bb98410427fd"
+        }
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "signal_id": "SIG-RESET",
+      "signal_name": "RESET",
+      "controller_family": "LJ-X8000",
+      "not_verified_for": [
+        "LJ-X8000A",
+        "LJ-S8000"
+      ],
+      "direction": "input",
+      "physical_context": null,
+      "logic": {
+        "active_level": null,
+        "active_edge": null,
+        "pulse_or_level": null
+      },
+      "meaning": {
+        "value": "sets output terminals to normal state and resets trigger-wait state",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_VISUAL",
+            "block_id": "MSB-LJX8000-300-IO_TIMING",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 300,
+            "printed_page": "9-78",
+            "evidence_excerpt_hash": "688466d93115bce655505dede36ffde38ecca92469bd5f69b90da6f5b077262a"
+          }
+        ]
+      },
+      "valid_when": {
+        "value": null,
+        "status": "UNRESOLVED",
+        "evidence": []
+      },
+      "causes": [
+        {
+          "value": "READY goes OFF once during reset and returns ON after reset completes",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-300-IO_TIMING",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 300,
+              "printed_page": "9-78",
+              "evidence_excerpt_hash": "688466d93115bce655505dede36ffde38ecca92469bd5f69b90da6f5b077262a"
+            }
+          ]
+        }
+      ],
+      "effects": [],
+      "timing": {
+        "minimum_input_time": {
+          "value": "more than 1 ms",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-300-IO_TIMING",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 300,
+              "printed_page": "9-78",
+              "evidence_excerpt_hash": "688466d93115bce655505dede36ffde38ecca92469bd5f69b90da6f5b077262a"
+            }
+          ]
+        },
+        "response_delay": {
+          "value": "less than 1 ms",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-300-IO_TIMING",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 300,
+              "printed_page": "9-78",
+              "evidence_excerpt_hash": "688466d93115bce655505dede36ffde38ecca92469bd5f69b90da6f5b077262a"
+            }
+          ]
+        },
+        "reset_time": {
+          "value": "less than 1 second",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-300-IO_TIMING",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 300,
+              "printed_page": "9-78",
+              "evidence_excerpt_hash": "688466d93115bce655505dede36ffde38ecca92469bd5f69b90da6f5b077262a"
+            }
+          ]
+        }
+      },
+      "related_signals": [
+        "READY",
+        "BUSY"
+      ],
+      "related_commands": [],
+      "related_runtime_operations": [],
+      "diagnostic_interpretation": null,
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-300-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 300,
+          "printed_page": "9-78",
+          "evidence_excerpt_hash": "688466d93115bce655505dede36ffde38ecca92469bd5f69b90da6f5b077262a"
+        }
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "signal_id": "SIG-BUSY",
+      "signal_name": "BUSY",
+      "controller_family": "LJ-X8000",
+      "not_verified_for": [
+        "LJ-X8000A",
+        "LJ-S8000"
+      ],
+      "direction": "output",
+      "physical_context": null,
+      "logic": {
+        "active_level": null,
+        "active_edge": null,
+        "pulse_or_level": null
+      },
+      "meaning": {
+        "value": "indicates measurement processing or terminal-block command execution",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_NATIVE",
+            "block_id": "MSB-LJX8000-286-IO_TIMING",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 286,
+            "printed_page": "9-64",
+            "evidence_excerpt_hash": "7298e02b1e50a24c3314b046f15b03aceb8e20c4da4a39a473282a2d1267bf42"
+          }
+        ]
+      },
+      "valid_when": {
+        "value": null,
+        "status": "UNRESOLVED",
+        "evidence": []
+      },
+      "causes": [],
+      "effects": [],
+      "timing": {},
+      "related_signals": [
+        "CST",
+        "CMD_READY",
+        "ACK",
+        "NACK"
+      ],
+      "related_commands": [],
+      "related_runtime_operations": [],
+      "diagnostic_interpretation": null,
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "block_id": "MSB-LJX8000-286-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 286,
+          "printed_page": "9-64",
+          "evidence_excerpt_hash": "7298e02b1e50a24c3314b046f15b03aceb8e20c4da4a39a473282a2d1267bf42"
+        }
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "signal_id": "SIG-RUN",
+      "signal_name": "RUN",
+      "controller_family": "LJ-X8000",
+      "not_verified_for": [
+        "LJ-X8000A",
+        "LJ-S8000"
+      ],
+      "direction": "output",
+      "physical_context": null,
+      "logic": {
+        "active_level": null,
+        "active_edge": null,
+        "pulse_or_level": null
+      },
+      "meaning": {
+        "value": "turns ON when system enters Run mode when startup mode is Run mode",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_VISUAL",
+            "block_id": "MSB-LJX8000-293-IO_TIMING",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 293,
+            "printed_page": "9-71",
+            "evidence_excerpt_hash": "8ad08179a29357f5873ec7cbe3516479ea1cc16cd6955fea651c8a03952a8291"
+          }
+        ]
+      },
+      "valid_when": {
+        "value": null,
+        "status": "UNRESOLVED",
+        "evidence": []
+      },
+      "causes": [],
+      "effects": [],
+      "timing": {},
+      "related_signals": [],
+      "related_commands": [
+        "R0",
+        "S0"
+      ],
+      "related_runtime_operations": [],
+      "diagnostic_interpretation": null,
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-293-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 293,
+          "printed_page": "9-71",
+          "evidence_excerpt_hash": "8ad08179a29357f5873ec7cbe3516479ea1cc16cd6955fea651c8a03952a8291"
+        }
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "signal_id": "SIG-CMD_READY",
+      "signal_name": "CMD_READY",
+      "controller_family": "LJ-X8000",
+      "not_verified_for": [
+        "LJ-X8000A",
+        "LJ-S8000"
+      ],
+      "direction": "output",
+      "physical_context": null,
+      "logic": {
+        "active_level": null,
+        "active_edge": null,
+        "pulse_or_level": null
+      },
+      "meaning": {
+        "value": "indicates acceptance of terminal-block command inputs",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_NATIVE",
+            "block_id": "MSB-LJX8000-286-IO_TIMING",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 286,
+            "printed_page": "9-64",
+            "evidence_excerpt_hash": "7298e02b1e50a24c3314b046f15b03aceb8e20c4da4a39a473282a2d1267bf42"
+          }
+        ]
+      },
+      "valid_when": {
+        "value": null,
+        "status": "UNRESOLVED",
+        "evidence": []
+      },
+      "causes": [
+        {
+          "value": "turns ON after ACK or NACK turns OFF",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "block_id": "MSB-LJX8000-286-IO_TIMING",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 286,
+              "printed_page": "9-64",
+              "evidence_excerpt_hash": "7298e02b1e50a24c3314b046f15b03aceb8e20c4da4a39a473282a2d1267bf42"
+            }
+          ]
+        }
+      ],
+      "effects": [
+        {
+          "value": "CST while CMD_READY is OFF is ignored without ACK/NACK response",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "block_id": "MSB-LJX8000-286-IO_TIMING",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 286,
+              "printed_page": "9-64",
+              "evidence_excerpt_hash": "7298e02b1e50a24c3314b046f15b03aceb8e20c4da4a39a473282a2d1267bf42"
+            }
+          ]
+        }
+      ],
+      "timing": {},
+      "related_signals": [
+        "CST",
+        "ACK",
+        "NACK",
+        "BUSY"
+      ],
+      "related_commands": [],
+      "related_runtime_operations": [],
+      "diagnostic_interpretation": null,
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "block_id": "MSB-LJX8000-286-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 286,
+          "printed_page": "9-64",
+          "evidence_excerpt_hash": "7298e02b1e50a24c3314b046f15b03aceb8e20c4da4a39a473282a2d1267bf42"
+        }
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "signal_id": "SIG-ACK",
+      "signal_name": "ACK",
+      "controller_family": "LJ-X8000",
+      "not_verified_for": [
+        "LJ-X8000A",
+        "LJ-S8000"
+      ],
+      "direction": "output",
+      "physical_context": null,
+      "logic": {
+        "active_level": null,
+        "active_edge": null,
+        "pulse_or_level": null
+      },
+      "meaning": {
+        "value": "indicates successful terminal-block command execution",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_NATIVE",
+            "block_id": "MSB-LJX8000-286-IO_TIMING",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 286,
+            "printed_page": "9-64",
+            "evidence_excerpt_hash": "7298e02b1e50a24c3314b046f15b03aceb8e20c4da4a39a473282a2d1267bf42"
+          }
+        ]
+      },
+      "valid_when": {
+        "value": null,
+        "status": "UNRESOLVED",
+        "evidence": []
+      },
+      "causes": [],
+      "effects": [],
+      "timing": {
+        "duration": {
+          "value": "same as STO output ON time",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "block_id": "MSB-LJX8000-288-IO_TIMING",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 288,
+              "printed_page": "9-66",
+              "evidence_excerpt_hash": "00dc516e8b4e5746428c654a87521aa7063079634e3f3563fe2efd9ee7b652d4"
+            }
+          ]
+        }
+      },
+      "related_signals": [
+        "CMD_READY",
+        "NACK"
+      ],
+      "related_commands": [],
+      "related_runtime_operations": [],
+      "diagnostic_interpretation": null,
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "block_id": "MSB-LJX8000-286-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 286,
+          "printed_page": "9-64",
+          "evidence_excerpt_hash": "7298e02b1e50a24c3314b046f15b03aceb8e20c4da4a39a473282a2d1267bf42"
+        }
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "signal_id": "SIG-NACK",
+      "signal_name": "NACK",
+      "controller_family": "LJ-X8000",
+      "not_verified_for": [
+        "LJ-X8000A",
+        "LJ-S8000"
+      ],
+      "direction": "output",
+      "physical_context": null,
+      "logic": {
+        "active_level": null,
+        "active_edge": null,
+        "pulse_or_level": null
+      },
+      "meaning": {
+        "value": "indicates failed terminal-block command execution",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_NATIVE",
+            "block_id": "MSB-LJX8000-286-IO_TIMING",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 286,
+            "printed_page": "9-64",
+            "evidence_excerpt_hash": "7298e02b1e50a24c3314b046f15b03aceb8e20c4da4a39a473282a2d1267bf42"
+          }
+        ]
+      },
+      "valid_when": {
+        "value": null,
+        "status": "UNRESOLVED",
+        "evidence": []
+      },
+      "causes": [],
+      "effects": [],
+      "timing": {
+        "duration": {
+          "value": "same as STO output ON time",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "block_id": "MSB-LJX8000-288-IO_TIMING",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 288,
+              "printed_page": "9-66",
+              "evidence_excerpt_hash": "00dc516e8b4e5746428c654a87521aa7063079634e3f3563fe2efd9ee7b652d4"
+            }
+          ]
+        }
+      },
+      "related_signals": [
+        "CMD_READY",
+        "ACK"
+      ],
+      "related_commands": [],
+      "related_runtime_operations": [],
+      "diagnostic_interpretation": null,
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "block_id": "MSB-LJX8000-286-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 286,
+          "printed_page": "9-64",
+          "evidence_excerpt_hash": "7298e02b1e50a24c3314b046f15b03aceb8e20c4da4a39a473282a2d1267bf42"
+        }
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "signal_id": "SIG-STO",
+      "signal_name": "STO",
+      "controller_family": "LJ-X8000",
+      "not_verified_for": [
+        "LJ-X8000A",
+        "LJ-S8000"
+      ],
+      "direction": "output",
+      "physical_context": null,
+      "logic": {
+        "active_level": null,
+        "active_edge": null,
+        "pulse_or_level": null
+      },
+      "meaning": {
+        "value": "data-strobe output for terminal result data",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_VISUAL",
+            "block_id": "MSB-LJX8000-299-IO_TIMING",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 299,
+            "printed_page": "9-77",
+            "evidence_excerpt_hash": "9ccc1fb78476cdba2c383200d6025610d52bce27580ff44f6320fe24b4e359ad"
+          }
+        ]
+      },
+      "valid_when": {
+        "value": null,
+        "status": "UNRESOLVED",
+        "evidence": []
+      },
+      "causes": [],
+      "effects": [],
+      "timing": {
+        "output_rise_time": {
+          "value": "1 to 999 ms",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-299-IO_TIMING",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 299,
+              "printed_page": "9-77",
+              "evidence_excerpt_hash": "9ccc1fb78476cdba2c383200d6025610d52bce27580ff44f6320fe24b4e359ad"
+            }
+          ]
+        },
+        "output_time": {
+          "value": "1 to 999 ms",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-299-IO_TIMING",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 299,
+              "printed_page": "9-77",
+              "evidence_excerpt_hash": "9ccc1fb78476cdba2c383200d6025610d52bce27580ff44f6320fe24b4e359ad"
+            }
+          ]
+        }
+      },
+      "related_signals": [
+        "OUT_DATA",
+        "PST",
+        "OR"
+      ],
+      "related_commands": [],
+      "related_runtime_operations": [],
+      "diagnostic_interpretation": null,
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-299-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 299,
+          "printed_page": "9-77",
+          "evidence_excerpt_hash": "9ccc1fb78476cdba2c383200d6025610d52bce27580ff44f6320fe24b4e359ad"
+        }
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "signal_id": "SIG-OUT_DATA[15:0]",
+      "signal_name": "OUT_DATA[15:0]",
+      "controller_family": "LJ-X8000",
+      "not_verified_for": [
+        "LJ-X8000A",
+        "LJ-S8000"
+      ],
+      "direction": "output",
+      "physical_context": null,
+      "logic": {
+        "active_level": null,
+        "active_edge": null,
+        "pulse_or_level": null
+      },
+      "meaning": {
+        "value": "outputs judgment-result data",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_VISUAL",
+            "block_id": "MSB-LJX8000-299-IO_TIMING",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 299,
+            "printed_page": "9-77",
+            "evidence_excerpt_hash": "9ccc1fb78476cdba2c383200d6025610d52bce27580ff44f6320fe24b4e359ad"
+          }
+        ]
+      },
+      "valid_when": {
+        "value": null,
+        "status": "UNRESOLVED",
+        "evidence": []
+      },
+      "causes": [],
+      "effects": [],
+      "timing": {},
+      "related_signals": [
+        "STO",
+        "OR",
+        "PST"
+      ],
+      "related_commands": [],
+      "related_runtime_operations": [],
+      "diagnostic_interpretation": null,
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-299-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 299,
+          "printed_page": "9-77",
+          "evidence_excerpt_hash": "9ccc1fb78476cdba2c383200d6025610d52bce27580ff44f6320fe24b4e359ad"
+        }
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "signal_id": "SIG-OR",
+      "signal_name": "OR",
+      "controller_family": "LJ-X8000",
+      "not_verified_for": [
+        "LJ-X8000A",
+        "LJ-S8000"
+      ],
+      "direction": "output",
+      "physical_context": null,
+      "logic": {
+        "active_level": null,
+        "active_edge": null,
+        "pulse_or_level": null
+      },
+      "meaning": {
+        "value": "total judgment output in terminal data-output timing",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_VISUAL",
+            "block_id": "MSB-LJX8000-299-IO_TIMING",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 299,
+            "printed_page": "9-77",
+            "evidence_excerpt_hash": "9ccc1fb78476cdba2c383200d6025610d52bce27580ff44f6320fe24b4e359ad"
+          }
+        ]
+      },
+      "valid_when": {
+        "value": null,
+        "status": "UNRESOLVED",
+        "evidence": []
+      },
+      "causes": [],
+      "effects": [],
+      "timing": {},
+      "related_signals": [
+        "STO",
+        "OUT_DATA[15:0]"
+      ],
+      "related_commands": [],
+      "related_runtime_operations": [],
+      "diagnostic_interpretation": null,
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-299-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 299,
+          "printed_page": "9-77",
+          "evidence_excerpt_hash": "9ccc1fb78476cdba2c383200d6025610d52bce27580ff44f6320fe24b4e359ad"
+        }
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "signal_id": "SIG-PST",
+      "signal_name": "PST",
+      "controller_family": "LJ-X8000",
+      "not_verified_for": [
+        "LJ-X8000A",
+        "LJ-S8000"
+      ],
+      "direction": "input",
+      "physical_context": null,
+      "logic": {
+        "active_level": null,
+        "active_edge": null,
+        "pulse_or_level": null
+      },
+      "meaning": {
+        "value": "handshake input for terminal data switching",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_VISUAL",
+            "block_id": "MSB-LJX8000-299-IO_TIMING",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 299,
+            "printed_page": "9-77",
+            "evidence_excerpt_hash": "9ccc1fb78476cdba2c383200d6025610d52bce27580ff44f6320fe24b4e359ad"
+          }
+        ]
+      },
+      "valid_when": {
+        "value": null,
+        "status": "UNRESOLVED",
+        "evidence": []
+      },
+      "causes": [],
+      "effects": [
+        {
+          "value": "STO turns OFF after PST ON-to-OFF; next data switches after PST OFF-to-ON",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-299-IO_TIMING",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 299,
+              "printed_page": "9-77",
+              "evidence_excerpt_hash": "9ccc1fb78476cdba2c383200d6025610d52bce27580ff44f6320fe24b4e359ad"
+            }
+          ]
+        }
+      ],
+      "timing": {
+        "off_response": {
+          "value": "less than 0.5 ms",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-299-IO_TIMING",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 299,
+              "printed_page": "9-77",
+              "evidence_excerpt_hash": "9ccc1fb78476cdba2c383200d6025610d52bce27580ff44f6320fe24b4e359ad"
+            }
+          ]
+        },
+        "minimum_input_time": {
+          "value": "less than 1.0 ms",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-299-IO_TIMING",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 299,
+              "printed_page": "9-77",
+              "evidence_excerpt_hash": "9ccc1fb78476cdba2c383200d6025610d52bce27580ff44f6320fe24b4e359ad"
+            }
+          ]
+        },
+        "on_response": {
+          "value": "less than 0.5 ms",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-299-IO_TIMING",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 299,
+              "printed_page": "9-77",
+              "evidence_excerpt_hash": "9ccc1fb78476cdba2c383200d6025610d52bce27580ff44f6320fe24b4e359ad"
+            }
+          ]
+        }
+      },
+      "related_signals": [
+        "STO",
+        "OUT_DATA[15:0]"
+      ],
+      "related_commands": [],
+      "related_runtime_operations": [],
+      "diagnostic_interpretation": null,
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-299-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 299,
+          "printed_page": "9-77",
+          "evidence_excerpt_hash": "9ccc1fb78476cdba2c383200d6025610d52bce27580ff44f6320fe24b4e359ad"
+        }
+      ],
+      "supporting_evidence": []
+    },
+    {
+      "signal_id": "SIG-ERROR",
+      "signal_name": "ERROR",
+      "controller_family": "LJ-X8000",
+      "not_verified_for": [
+        "LJ-X8000A",
+        "LJ-S8000"
+      ],
+      "direction": "output",
+      "physical_context": null,
+      "logic": {
+        "active_level": null,
+        "active_edge": null,
+        "pulse_or_level": null
+      },
+      "meaning": {
+        "value": "error output is shown for encoder-trigger timing when trigger period is violated",
+        "status": "OFFICIAL_CONTEXTUAL",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_VISUAL",
+            "block_id": "MSB-LJX8000-295-IO_TIMING",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 295,
+            "printed_page": "9-73",
+            "evidence_excerpt_hash": "fc672b9ce169b259f50dfad4f0ae170225f75ca4055213bc33b96fe3cdb0b806"
+          }
+        ]
+      },
+      "valid_when": {
+        "value": null,
+        "status": "UNRESOLVED",
+        "evidence": []
+      },
+      "causes": [],
+      "effects": [],
+      "timing": {},
+      "related_signals": [],
+      "related_commands": [],
+      "related_runtime_operations": [],
+      "diagnostic_interpretation": null,
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-295-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 295,
+          "printed_page": "9-73",
+          "evidence_excerpt_hash": "fc672b9ce169b259f50dfad4f0ae170225f75ca4055213bc33b96fe3cdb0b806"
+        }
+      ],
+      "supporting_evidence": []
+    }
+  ]
+}

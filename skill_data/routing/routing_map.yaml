@@ -1,0 +1,500 @@
+{
+  "intent_families": [
+    {
+      "intent": "DEVICE",
+      "required_context": [
+        "controller_family"
+      ],
+      "canonical_targets": [
+        "operations/command_reference.yaml",
+        "communication/communication_matrix.yaml"
+      ]
+    },
+    {
+      "intent": "CONNECT",
+      "required_context": [
+        "controller_family"
+      ],
+      "canonical_targets": [
+        "operations/command_reference.yaml",
+        "communication/communication_matrix.yaml"
+      ]
+    },
+    {
+      "intent": "CONFIGURE_COMMUNICATION",
+      "required_context": [
+        "controller_family"
+      ],
+      "canonical_targets": [
+        "operations/command_reference.yaml",
+        "communication/communication_matrix.yaml"
+      ]
+    },
+    {
+      "intent": "COMMAND",
+      "required_context": [
+        "controller_family"
+      ],
+      "canonical_targets": [
+        "operations/command_reference.yaml",
+        "communication/communication_matrix.yaml"
+      ]
+    },
+    {
+      "intent": "TRIGGER",
+      "required_context": [
+        "controller_family"
+      ],
+      "canonical_targets": [
+        "operations/command_reference.yaml",
+        "communication/communication_matrix.yaml"
+      ]
+    },
+    {
+      "intent": "SIGNAL",
+      "required_context": [
+        "controller_family"
+      ],
+      "canonical_targets": [
+        "operations/command_reference.yaml",
+        "communication/communication_matrix.yaml"
+      ]
+    },
+    {
+      "intent": "PROGRAM",
+      "required_context": [
+        "controller_family"
+      ],
+      "canonical_targets": [
+        "operations/command_reference.yaml",
+        "communication/communication_matrix.yaml"
+      ]
+    },
+    {
+      "intent": "RESULT",
+      "required_context": [
+        "controller_family"
+      ],
+      "canonical_targets": [
+        "operations/command_reference.yaml",
+        "communication/communication_matrix.yaml"
+      ]
+    },
+    {
+      "intent": "PROFILE",
+      "required_context": [
+        "controller_family"
+      ],
+      "canonical_targets": [
+        "operations/command_reference.yaml",
+        "communication/communication_matrix.yaml"
+      ]
+    },
+    {
+      "intent": "PLC",
+      "required_context": [
+        "controller_family"
+      ],
+      "canonical_targets": [
+        "operations/command_reference.yaml",
+        "communication/communication_matrix.yaml"
+      ]
+    },
+    {
+      "intent": "FIELDBUS",
+      "required_context": [
+        "controller_family"
+      ],
+      "canonical_targets": [
+        "operations/command_reference.yaml",
+        "communication/communication_matrix.yaml"
+      ]
+    },
+    {
+      "intent": "BACKUP",
+      "required_context": [
+        "controller_family"
+      ],
+      "canonical_targets": [
+        "operations/command_reference.yaml",
+        "communication/communication_matrix.yaml"
+      ]
+    },
+    {
+      "intent": "RESTORE",
+      "required_context": [
+        "controller_family"
+      ],
+      "canonical_targets": [
+        "operations/command_reference.yaml",
+        "communication/communication_matrix.yaml"
+      ]
+    },
+    {
+      "intent": "DIAGNOSE",
+      "required_context": [
+        "controller_family"
+      ],
+      "canonical_targets": [
+        "operations/command_reference.yaml",
+        "communication/communication_matrix.yaml"
+      ]
+    },
+    {
+      "intent": "ERROR",
+      "required_context": [
+        "controller_family"
+      ],
+      "canonical_targets": [
+        "operations/command_reference.yaml",
+        "communication/communication_matrix.yaml"
+      ]
+    },
+    {
+      "intent": "MEASUREMENT",
+      "required_context": [
+        "controller_family"
+      ],
+      "canonical_targets": [
+        "operations/command_reference.yaml",
+        "communication/communication_matrix.yaml"
+      ]
+    },
+    {
+      "intent": "trigger_not_working",
+      "required_context": [
+        "controller_family"
+      ],
+      "canonical_targets": [
+        "operations/io_signal_reference.yaml",
+        "operations/signal_relations.yaml",
+        "operations/trigger_timing.yaml",
+        "operations/trigger_methods.yaml"
+      ]
+    },
+    {
+      "intent": "ready_off",
+      "required_context": [
+        "controller_family"
+      ],
+      "canonical_targets": [
+        "operations/io_signal_reference.yaml",
+        "operations/signal_relations.yaml",
+        "operations/trigger_timing.yaml",
+        "operations/trigger_methods.yaml"
+      ]
+    },
+    {
+      "intent": "external_trigger",
+      "required_context": [
+        "controller_family"
+      ],
+      "canonical_targets": [
+        "operations/io_signal_reference.yaml",
+        "operations/signal_relations.yaml",
+        "operations/trigger_timing.yaml",
+        "operations/trigger_methods.yaml"
+      ]
+    },
+    {
+      "intent": "software_trigger",
+      "required_context": [
+        "controller_family"
+      ],
+      "canonical_targets": [
+        "operations/io_signal_reference.yaml",
+        "operations/signal_relations.yaml",
+        "operations/trigger_timing.yaml",
+        "operations/trigger_methods.yaml"
+      ]
+    },
+    {
+      "intent": "continuous_trigger",
+      "required_context": [
+        "controller_family"
+      ],
+      "canonical_targets": [
+        "operations/io_signal_reference.yaml",
+        "operations/signal_relations.yaml",
+        "operations/trigger_timing.yaml",
+        "operations/trigger_methods.yaml"
+      ]
+    },
+    {
+      "intent": "encoder_trigger",
+      "required_context": [
+        "controller_family"
+      ],
+      "canonical_targets": [
+        "operations/io_signal_reference.yaml",
+        "operations/signal_relations.yaml",
+        "operations/trigger_timing.yaml",
+        "operations/trigger_methods.yaml"
+      ]
+    },
+    {
+      "intent": "error_signal",
+      "required_context": [
+        "controller_family"
+      ],
+      "canonical_targets": [
+        "operations/io_signal_reference.yaml",
+        "operations/signal_relations.yaml",
+        "operations/trigger_timing.yaml",
+        "operations/trigger_methods.yaml"
+      ]
+    },
+    {
+      "intent": "busy_signal",
+      "required_context": [
+        "controller_family"
+      ],
+      "canonical_targets": [
+        "operations/io_signal_reference.yaml",
+        "operations/signal_relations.yaml",
+        "operations/trigger_timing.yaml",
+        "operations/trigger_methods.yaml"
+      ]
+    },
+    {
+      "intent": "result_ready",
+      "required_context": [
+        "controller_family"
+      ],
+      "canonical_targets": [
+        "operations/io_signal_reference.yaml",
+        "operations/signal_relations.yaml",
+        "operations/trigger_timing.yaml",
+        "operations/trigger_methods.yaml"
+      ]
+    },
+    {
+      "intent": "io_wiring",
+      "required_context": [
+        "controller_family"
+      ],
+      "canonical_targets": [
+        "operations/io_signal_reference.yaml",
+        "operations/signal_relations.yaml",
+        "operations/trigger_timing.yaml",
+        "operations/trigger_methods.yaml"
+      ]
+    },
+    {
+      "intent": "io_timing",
+      "required_context": [
+        "controller_family"
+      ],
+      "canonical_targets": [
+        "operations/io_signal_reference.yaml",
+        "operations/signal_relations.yaml",
+        "operations/trigger_timing.yaml",
+        "operations/trigger_methods.yaml"
+      ]
+    },
+    {
+      "intent": "pc_first_connection",
+      "required_context": [
+        "controller",
+        "mode",
+        "communication_method"
+      ],
+      "canonical_targets": [
+        "workflows/operational_workflows.yaml#ljx8000-pc-first-connection"
+      ]
+    },
+    {
+      "intent": "read_latest_profile",
+      "required_context": [
+        "controller",
+        "mode",
+        "head"
+      ],
+      "canonical_targets": [
+        "workflows/operational_workflows.yaml#ljx8000-read-latest-profile"
+      ]
+    },
+    {
+      "intent": "fast_profile_read",
+      "required_context": [
+        "controller",
+        "mode",
+        "head",
+        "trigger_method"
+      ],
+      "canonical_targets": [
+        "workflows/operational_workflows.yaml#ljx8000-fast-profile-read"
+      ]
+    },
+    {
+      "intent": "switch_program",
+      "required_context": [
+        "controller",
+        "program"
+      ],
+      "canonical_targets": [
+        "workflows/operational_workflows.yaml#ljx8000-switch-program"
+      ]
+    },
+    {
+      "intent": "verify_current_program",
+      "required_context": [
+        "controller"
+      ],
+      "canonical_targets": [
+        "workflows/operational_workflows.yaml#ljx8000-verify-current-program"
+      ]
+    },
+    {
+      "intent": "acquire_measurement_result",
+      "required_context": [
+        "controller",
+        "output_configuration"
+      ],
+      "canonical_targets": [
+        "workflows/operational_workflows.yaml#ljx8000-acquire-measurement-result"
+      ]
+    },
+    {
+      "intent": "external_string_correlation",
+      "required_context": [
+        "controller",
+        "string_index"
+      ],
+      "canonical_targets": [
+        "workflows/operational_workflows.yaml#ljx8000-external-string-correlation"
+      ]
+    },
+    {
+      "intent": "reset_recovery",
+      "required_context": [
+        "controller",
+        "recovery_path"
+      ],
+      "canonical_targets": [
+        "workflows/operational_workflows.yaml#ljx8000-reset-recovery"
+      ]
+    },
+    {
+      "intent": "reconnect_after_tcp_loss",
+      "required_context": [
+        "controller"
+      ],
+      "canonical_targets": [
+        "workflows/operational_workflows.yaml#ljx8000-reconnect-after-tcp-loss"
+      ]
+    },
+    {
+      "intent": "head_compatibility",
+      "required_context": [
+        "controller_family",
+        "head_model"
+      ],
+      "canonical_targets": [
+        "hardware/head_specifications.yaml",
+        "hardware/controller_head_compatibility.yaml",
+        "hardware/installation_envelopes.yaml"
+      ]
+    },
+    {
+      "intent": "head_specifications",
+      "required_context": [
+        "controller_family",
+        "head_model"
+      ],
+      "canonical_targets": [
+        "hardware/head_specifications.yaml",
+        "hardware/controller_head_compatibility.yaml",
+        "hardware/installation_envelopes.yaml"
+      ]
+    },
+    {
+      "intent": "working_distance",
+      "required_context": [
+        "controller_family",
+        "head_model"
+      ],
+      "canonical_targets": [
+        "hardware/head_specifications.yaml",
+        "hardware/controller_head_compatibility.yaml",
+        "hardware/installation_envelopes.yaml"
+      ]
+    },
+    {
+      "intent": "measurement_range",
+      "required_context": [
+        "controller_family",
+        "head_model"
+      ],
+      "canonical_targets": [
+        "hardware/head_specifications.yaml",
+        "hardware/controller_head_compatibility.yaml",
+        "hardware/installation_envelopes.yaml"
+      ]
+    },
+    {
+      "intent": "field_of_view",
+      "required_context": [
+        "controller_family",
+        "head_model"
+      ],
+      "canonical_targets": [
+        "hardware/head_specifications.yaml",
+        "hardware/controller_head_compatibility.yaml",
+        "hardware/installation_envelopes.yaml"
+      ]
+    },
+    {
+      "intent": "head_selection",
+      "required_context": [
+        "controller_family",
+        "head_model"
+      ],
+      "canonical_targets": [
+        "hardware/head_specifications.yaml",
+        "hardware/controller_head_compatibility.yaml",
+        "hardware/installation_envelopes.yaml"
+      ]
+    },
+    {
+      "intent": "installation_geometry",
+      "required_context": [
+        "controller_family",
+        "head_model"
+      ],
+      "canonical_targets": [
+        "hardware/head_specifications.yaml",
+        "hardware/controller_head_compatibility.yaml",
+        "hardware/installation_envelopes.yaml"
+      ]
+    },
+    {
+      "intent": "accuracy",
+      "required_context": [
+        "controller_family",
+        "head_model"
+      ],
+      "canonical_targets": [
+        "hardware/head_specifications.yaml",
+        "hardware/controller_head_compatibility.yaml",
+        "hardware/installation_envelopes.yaml"
+      ]
+    },
+    {
+      "intent": "profile_points",
+      "required_context": [
+        "controller_family",
+        "head_model"
+      ],
+      "canonical_targets": [
+        "hardware/head_specifications.yaml",
+        "hardware/controller_head_compatibility.yaml",
+        "hardware/installation_envelopes.yaml"
+      ]
+    }
+  ],
+  "family_applicability_policy": {
+    "require_controller_family_before_controller_dependent_workflow": true,
+    "unknown_controller": "infer explicit model; otherwise ask one targeted controller-family question; do not default to LJ-X8000"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "heads": [
+    "LJ-X8020",
+    "LJ-X8030",
+    "LJ-X8060",
+    "LJ-X8070",
+    "LJ-X8080",
+    "LJ-X8100",
+    "LJ-X8200",
+    "LJ-X8300",
+    "LJ-X8400",
+    "LJ-X8900"
+  ],
+  "properties": {
+    "LJ-X8020": {
+      "reference_distance": 20,
+      "z_full_range": 4.4,
+      "x_near_reference_far": [
+        7,
+        7.5,
+        8
+      ],
+      "profile_points": 3200,
+      "profile_data_interval": 2.5,
+      "repeatability_z": 0.3,
+      "repeatability_x": 0.3,
+      "laser_class": "Class 2M laser product",
+      "ip": "IP67"
+    },
+    "LJ-X8030": {
+      "reference_distance": 28,
+      "z_full_range": 13.0,
+      "x_near_reference_far": [
+        16,
+        16,
+        16
+      ],
+      "profile_points": 3200,
+      "profile_data_interval": 5,
+      "repeatability_z": 0.3,
+      "repeatability_x": 0.5,
+      "laser_class": "Class 3R laser product",
+      "ip": "IP67"
+    },
+    "LJ-X8060": {
+      "reference_distance": 64,
+      "z_full_range": 14.6,
+      "x_near_reference_far": [
+        15,
+        16,
+        16
+      ],
+      "profile_points": 3200,
+      "profile_data_interval": 5,
+      "repeatability_z": 0.4,
+      "repeatability_x": 0.5,
+      "laser_class": "Class 2M laser product",
+      "ip": "IP67"
+    },
+    "LJ-X8070": {
+      "reference_distance": 50,
+      "z_full_range": 16,
+      "x_near_reference_far": [
+        33.5,
+        35,
+        36.5
+      ],
+      "profile_points": 3200,
+      "profile_data_interval": 12.5,
+      "repeatability_z": 0.3,
+      "repeatability_x": 1,
+      "laser_class": "Class 2M laser product",
+      "ip": "IP67"
+    },
+    "LJ-X8080": {
+      "reference_distance": 73,
+      "z_full_range": 41.0,
+      "x_near_reference_far": [
+        30,
+        35,
+        39
+      ],
+      "profile_points": 3200,
+      "profile_data_interval": 12.5,
+      "repeatability_z": 0.5,
+      "repeatability_x": 1,
+      "laser_class": "Class 2M laser product",
+      "ip": "IP67"
+    },
+    "LJ-X8100": {
+      "reference_distance": 107,
+      "z_full_range": 34,
+      "x_near_reference_far": [
+        71,
+        74,
+        77
+      ],
+      "profile_points": 3200,
+      "profile_data_interval": 25,
+      "repeatability_z": 0.5,
+      "repeatability_x": 3,
+      "laser_class": "Class 2M laser product",
+      "ip": "IP67"
+    },
+    "LJ-X8200": {
+      "reference_distance": 245,
+      "z_full_range": 68,
+      "x_near_reference_far": [
+        64,
+        72,
+        80
+      ],
+      "profile_points": 3200,
+      "profile_data_interval": 25,
+      "repeatability_z": 1,
+      "repeatability_x": 3,
+      "laser_class": "Class 2M laser product",
+      "ip": "IP67"
+    },
+    "LJ-X8300": {
+      "reference_distance": 288,
+      "z_full_range": 106,
+      "x_near_reference_far": [
+        134,
+        150,
+        160
+      ],
+      "profile_points": 3200,
+      "profile_data_interval": 50,
+      "repeatability_z": 3,
+      "repeatability_x": 5,
+      "laser_class": "Class 2M laser product",
+      "ip": "IP67"
+    },
+    "LJ-X8400": {
+      "reference_distance": 380,
+      "z_full_range": 315,
+      "x_near_reference_far": [
+        180,
+        210,
+        240
+      ],
+      "profile_points": 3200,
+      "profile_data_interval": 75,
+      "repeatability_z": 5,
+      "repeatability_x": 10,
+      "laser_class": "Class 2M laser product",
+      "ip": "IP67"
+    },
+    "LJ-X8900": {
+      "reference_distance": 980,
+      "z_full_range": 800,
+      "x_near_reference_far": [
+        300,
+        510,
+        720
+      ],
+      "profile_points": 3200,
+      "profile_data_interval": 225,
+      "repeatability_z": 10,
+      "repeatability_x": 25,
+      "laser_class": "Class 2M laser product",
+      "ip": "IP67"
+    }
+  }
+}

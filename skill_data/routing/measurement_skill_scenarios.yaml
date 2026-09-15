@@ -1,0 +1,44 @@
+{
+  "scenarios": [
+    {
+      "question": "Jak změřím rozdíl výšek dvou ploch?",
+      "route": "measurement_routing.yaml",
+      "contains_answer": false
+    },
+    {
+      "question": "Jak změřím šířku mezery?",
+      "route": "measurement_routing.yaml",
+      "contains_answer": false
+    },
+    {
+      "question": "Jak nastavit ROI?",
+      "route": "measurement_routing.yaml",
+      "contains_answer": false
+    },
+    {
+      "question": "Objekt se mezi kusy posouvá.",
+      "route": "measurement_routing.yaml",
+      "contains_answer": false
+    },
+    {
+      "question": "Jakou correction použít?",
+      "route": "measurement_routing.yaml",
+      "contains_answer": false
+    },
+    {
+      "question": "Jak vytvořím nový program?",
+      "route": "measurement_routing.yaml",
+      "contains_answer": false
+    },
+    {
+      "question": "Jak nastavím OK/NOK limit?",
+      "route": "measurement_routing.yaml",
+      "contains_answer": false
+    },
+    {
+      "question": "Jak měřit úhel?",
+      "route": "measurement_routing.yaml",
+      "contains_answer": false
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "records": [
+    {
+      "judgment_id": "tool-individual-judgment-output",
+      "family": "LJ-X8000",
+      "mode": "3D",
+      "meaning": "Source identifies tool individual judgment output.",
+      "limits": null,
+      "invalid_measurement_behavior": null,
+      "related_signal_refs": [
+        "operations/io_signal_reference.yaml"
+      ],
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "document_id": "KEYENCE-EA64F80437C6",
+          "source_sha256": "ea64f80437c69737557a81f7dfd1891492a8dc0a05a23f0d575ebc18137fd1ea",
+          "page": 19,
+          "section_id": "SEC-LJ-X8000-SERIES-3D-MODE-VOLUME-SIMPLE-SETUP-MANUAL-CONTROL-AND-COMMUNICATION-I-O-C10GB-EA64F80437C6-U0019",
+          "chunk_id": "CHK-LJ-X8000-SERIES-3D-MODE-VOLUME-SIMPLE-SETUP-MANUAL-CONTROL-AND-COMMUNICATION-I-O-C10GB-EA64F80437C6-U0019-C001",
+          "evidence_excerpt_hash": "d4773067b1794385456165921d85833d83b41ccb454dc84498207eb6712d5cdf"
+        }
+      ],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL"
+    }
+  ]
+}

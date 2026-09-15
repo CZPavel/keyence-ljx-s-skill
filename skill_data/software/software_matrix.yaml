@@ -1,0 +1,36 @@
+{
+  "software": [
+    {
+      "software": "LJ-X8000A Navi",
+      "supported_family": [
+        "LJ-X8000A"
+      ],
+      "coverage": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-17574BD15720",
+          "source_sha256": "17574bd15720c837db015a7a9a20506fd3bdf251ad7f334b7ea17a4d19f0c9bc",
+          "page": 9,
+          "section_id": "SEC-LJ-X8000-SERIES-QUICK-START-GUIDE-LJ-X8000A-EDITION-D63GB-17574BD15720-U0009",
+          "chunk_id": "CHK-LJ-X8000-SERIES-QUICK-START-GUIDE-LJ-X8000A-EDITION-D63GB-17574BD15720-U0009-C010",
+          "evidence_excerpt_hash": "5216dbf576e847320387ef185e21427fefa6afb371f1652c99ad816a53f74345"
+        }
+      ]
+    },
+    {
+      "software": "LJ-S Navi",
+      "supported_family": [
+        "LJ-S8000"
+      ],
+      "coverage": "NOT_VERIFIED",
+      "source_evidence": []
+    },
+    {
+      "software": "Simulation Software",
+      "supported_family": [],
+      "coverage": "NOT_VERIFIED",
+      "source_evidence": []
+    }
+  ]
+}

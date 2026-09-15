@@ -1,0 +1,80 @@
+{
+  "operations": [
+    {
+      "operation_id": "select-program",
+      "purpose": "program",
+      "where_performed": null,
+      "persistent_effect": null,
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-BAF1B51B5A0E",
+          "source_sha256": "baf1b51b5a0e78a3c335864aa84d6496ba29b2d959df178851a9bf150ea86690",
+          "page": 2,
+          "section_id": "SEC-AS-111562-LJ-X8000-SG-600X40-WW-GB-2050-3-BAF1B51B5A0E-U0002",
+          "chunk_id": "CHK-AS-111562-LJ-X8000-SG-600X40-WW-GB-2050-3-BAF1B51B5A0E-U0002-C008",
+          "table_id": null,
+          "evidence_excerpt_hash": "73b7d76daed3a5a382169db7472778fec324a570eaa2d76f0d068677b627b389"
+        }
+      ]
+    },
+    {
+      "operation_id": "save-settings",
+      "purpose": "Saving settings",
+      "where_performed": null,
+      "persistent_effect": null,
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-0A6360680FCE",
+          "source_sha256": "0a6360680fce769d076ce36b218285e4a96a1b03a6abe0c33b9e534bf3806c3f",
+          "page": 33,
+          "section_id": "SEC-LJ-X8000-SERIES-3D-EASY-CONFIGURATION-MANUAL-ETHERNET-IP-EDITION-ALLEN-BRADLEY-CONTROLLOGIX-SERIES-D48GB-0A6360680FCE-U0033",
+          "chunk_id": "CHK-LJ-X8000-SERIES-3D-EASY-CONFIGURATION-MANUAL-ETHERNET-IP-EDITION-ALLEN-BRADLEY-CONTROLLOGIX-SERIES-D48GB-0A6360680FCE-U0033-C007",
+          "table_id": null,
+          "evidence_excerpt_hash": "3cf3203b3fc633d7b3a65eaf0bac26ae937487b0e9cb3370f828dd7bf8c1438a"
+        }
+      ]
+    },
+    {
+      "operation_id": "read-current-program",
+      "purpose": "Obtaining the current program",
+      "where_performed": null,
+      "persistent_effect": null,
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-0A6360680FCE",
+          "source_sha256": "0a6360680fce769d076ce36b218285e4a96a1b03a6abe0c33b9e534bf3806c3f",
+          "page": 33,
+          "section_id": "SEC-LJ-X8000-SERIES-3D-EASY-CONFIGURATION-MANUAL-ETHERNET-IP-EDITION-ALLEN-BRADLEY-CONTROLLOGIX-SERIES-D48GB-0A6360680FCE-U0033",
+          "chunk_id": "CHK-LJ-X8000-SERIES-3D-EASY-CONFIGURATION-MANUAL-ETHERNET-IP-EDITION-ALLEN-BRADLEY-CONTROLLOGIX-SERIES-D48GB-0A6360680FCE-U0033-C007",
+          "table_id": null,
+          "evidence_excerpt_hash": "3cf3203b3fc633d7b3a65eaf0bac26ae937487b0e9cb3370f828dd7bf8c1438a"
+        }
+      ]
+    },
+    {
+      "operation_id": "command-execution",
+      "purpose": "How to Execute Commands",
+      "where_performed": null,
+      "persistent_effect": null,
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-0A6360680FCE",
+          "source_sha256": "0a6360680fce769d076ce36b218285e4a96a1b03a6abe0c33b9e534bf3806c3f",
+          "page": 35,
+          "section_id": "SEC-LJ-X8000-SERIES-3D-EASY-CONFIGURATION-MANUAL-ETHERNET-IP-EDITION-ALLEN-BRADLEY-CONTROLLOGIX-SERIES-D48GB-0A6360680FCE-U0035",
+          "chunk_id": "CHK-LJ-X8000-SERIES-3D-EASY-CONFIGURATION-MANUAL-ETHERNET-IP-EDITION-ALLEN-BRADLEY-CONTROLLOGIX-SERIES-D48GB-0A6360680FCE-U0035-C001",
+          "table_id": null,
+          "evidence_excerpt_hash": "a7b838bc4f8dacc9162b2493e409cd0cab1805726bc48dcb6ef4321c35a08a02"
+        }
+      ]
+    }
+  ]
+}

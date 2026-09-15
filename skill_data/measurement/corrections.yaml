@@ -1,0 +1,91 @@
+{
+  "records": [
+    {
+      "correction_id": "position-correction",
+      "official_name": "Position Correction",
+      "family": "LJ-X8000",
+      "mode": "2D",
+      "purpose": "Correction processes are performed in source-defined screen order.",
+      "input": null,
+      "reference_definition": null,
+      "degrees_of_freedom": "UNRESOLVED",
+      "effect_on_profile_result": null,
+      "configuration": null,
+      "limitations": [
+        "Documented coordinate space and per-tool follow behavior require targeted source lookup."
+      ],
+      "order_dependencies": "Source states correction processes are performed top-to-bottom.",
+      "compatible_tools": [],
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "document_id": "KEYENCE-B2841874CF9D",
+          "source_sha256": "b2841874cf9d7a327e96db99711bd1d69ec8a4209254d74856fe7c6d96791a09",
+          "page": 16,
+          "section_id": "SEC-AS-125213-LJ-X8000-SG-601399-WW-GB-2012-1-B2841874CF9D-U0016",
+          "chunk_id": "CHK-AS-125213-LJ-X8000-SG-601399-WW-GB-2012-1-B2841874CF9D-U0016-C014",
+          "evidence_excerpt_hash": "b7f30707c3a5d39c4507e7a16f0c8bb89d607ae3ef3f9120b82d1329a7ef2ec4"
+        }
+      ],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL"
+    },
+    {
+      "correction_id": "profile-flattening-correction",
+      "official_name": "Profile Flattening Correction",
+      "family": "LJ-X8000",
+      "mode": "3D",
+      "purpose": "Source documents this named correction.",
+      "input": null,
+      "reference_definition": null,
+      "degrees_of_freedom": "UNRESOLVED",
+      "effect_on_profile_result": null,
+      "configuration": "[Profile Flattening Correction] settings",
+      "limitations": [
+        "Do not generalize to arbitrary 3D/yaw correction."
+      ],
+      "order_dependencies": null,
+      "compatible_tools": [],
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "document_id": "KEYENCE-D44A4A54C24D",
+          "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1",
+          "page": 17,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0017",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0017-C053",
+          "evidence_excerpt_hash": "fed1f77323b33b11a90e1a605f8507635ffa05abe9fa8f32101f8c2001beaa2d"
+        }
+      ],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL"
+    },
+    {
+      "correction_id": "installation-tilt-correction",
+      "official_name": "Installation Tilt Correction Angle",
+      "family": "LJ-X8000",
+      "mode": "3D",
+      "purpose": "Source documents this named installation tilt correction setting.",
+      "input": null,
+      "reference_definition": null,
+      "degrees_of_freedom": "UNRESOLVED",
+      "effect_on_profile_result": null,
+      "configuration": null,
+      "limitations": [
+        "No claim of correcting any unverified rotation axis."
+      ],
+      "order_dependencies": null,
+      "compatible_tools": [],
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "document_id": "KEYENCE-D44A4A54C24D",
+          "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1",
+          "page": 130,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0130",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0130-C033",
+          "evidence_excerpt_hash": "73d9f9e5b4a093903576b7e3978ab1b5c985addb7edcca72e1ecca263c3692db"
+        }
+      ],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL"
+    }
+  ]
+}

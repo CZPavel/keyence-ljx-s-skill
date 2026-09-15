@@ -1,0 +1,28 @@
+{
+  "index": [
+    {
+      "operation_id": "select-program",
+      "aliases": [
+        "select/switch"
+      ]
+    },
+    {
+      "operation_id": "read-current-program",
+      "aliases": [
+        "read current program"
+      ]
+    },
+    {
+      "operation_id": "save-program-settings",
+      "aliases": [
+        "save"
+      ]
+    },
+    {
+      "operation_id": "command-execution",
+      "aliases": [
+        "execute documented command"
+      ]
+    }
+  ]
+}

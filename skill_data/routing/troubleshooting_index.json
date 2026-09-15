@@ -1,0 +1,38 @@
+[
+  {
+    "id": "trigger-ignored",
+    "aliases": [
+      "trigger ignored"
+    ]
+  },
+  {
+    "id": "READY-off",
+    "aliases": [
+      "READY off"
+    ]
+  },
+  {
+    "id": "controller-not-running",
+    "aliases": [
+      "controller not running"
+    ]
+  },
+  {
+    "id": "error-active",
+    "aliases": [
+      "error active"
+    ]
+  },
+  {
+    "id": "measurement-does-not-start",
+    "aliases": [
+      "measurement does not start"
+    ]
+  },
+  {
+    "id": "result-not-produced",
+    "aliases": [
+      "result not produced"
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "index": [
+    {
+      "correction_id": "position-correction",
+      "aliases": [
+        "Position Correction"
+      ]
+    },
+    {
+      "correction_id": "profile-flattening-correction",
+      "aliases": [
+        "Profile Flattening Correction"
+      ]
+    },
+    {
+      "correction_id": "installation-tilt-correction",
+      "aliases": [
+        "Installation Tilt Correction Angle"
+      ]
+    }
+  ]
+}

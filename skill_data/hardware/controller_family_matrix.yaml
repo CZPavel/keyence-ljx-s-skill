@@ -1,0 +1,20 @@
+{
+  "families": {
+    "LJ-X8000": {
+      "baseline": true
+    },
+    "LJ-S8000": {
+      "operating_modes": "NOT_VERIFIED",
+      "communication_nonprocedural": "CONDITIONAL",
+      "trigger_methods": "NOT_VERIFIED",
+      "profile_output": "CONDITIONAL"
+    },
+    "LJ-X8000A": {
+      "operating_modes": "CONDITIONAL",
+      "communication_nonprocedural": "NOT_VERIFIED",
+      "trigger_methods": "SUPPORTED",
+      "profile_output": "NOT_VERIFIED"
+    }
+  },
+  "source_policy": "Cells other than LJ-X8000 baseline require family-specific evidence."
+}

@@ -1,0 +1,76 @@
+{
+  "method": "Ethernet Non-Procedural",
+  "controller_family": "LJ-X8000",
+  "transport": "Ethernet",
+  "port": {
+    "value": 8500,
+    "status": "OFFICIAL_EXACT",
+    "evidence": [
+      {
+        "evidence_quality": "DIRECT_NATIVE",
+        "block_id": "MSB-LJX8000-202-NETWORK",
+        "document_id": "KEYENCE-E3E51B234B56",
+        "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+        "pdf_page_index": 202,
+        "printed_page": "8-2",
+        "evidence_excerpt_hash": "270e117c9d44dcf30766f45c596c394b27d7175abecc363e7b07cd0e986018c2"
+      }
+    ]
+  },
+  "delimiter": {
+    "value": "CR (default), CR+LF, or All; All permits per-function command/result delimiters",
+    "status": "OFFICIAL_EXACT",
+    "evidence": [
+      {
+        "evidence_quality": "DIRECT_NATIVE",
+        "block_id": "MSB-LJX8000-202-NETWORK",
+        "document_id": "KEYENCE-E3E51B234B56",
+        "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+        "pdf_page_index": 202,
+        "printed_page": "8-2",
+        "evidence_excerpt_hash": "270e117c9d44dcf30766f45c596c394b27d7175abecc363e7b07cd0e986018c2"
+      }
+    ]
+  },
+  "command_response": {
+    "value": "commands and result output use configured delimiter",
+    "status": "OFFICIAL_EXACT",
+    "evidence": [
+      {
+        "evidence_quality": "DIRECT_NATIVE",
+        "block_id": "MSB-LJX8000-202-NETWORK",
+        "document_id": "KEYENCE-E3E51B234B56",
+        "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+        "pdf_page_index": 202,
+        "printed_page": "8-2",
+        "evidence_excerpt_hash": "270e117c9d44dcf30766f45c596c394b27d7175abecc363e7b07cd0e986018c2"
+      }
+    ]
+  },
+  "async_output": {
+    "value": "result output is configured separately in Ethernet (Non-Procedural) Output Settings",
+    "status": "OFFICIAL_EXACT",
+    "evidence": [
+      {
+        "evidence_quality": "DIRECT_NATIVE",
+        "block_id": "MSB-LJX8000-202-NETWORK",
+        "document_id": "KEYENCE-E3E51B234B56",
+        "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+        "pdf_page_index": 202,
+        "printed_page": "8-2",
+        "evidence_excerpt_hash": "270e117c9d44dcf30766f45c596c394b27d7175abecc363e7b07cd0e986018c2"
+      }
+    ]
+  },
+  "source_evidence": [
+    {
+      "evidence_quality": "DIRECT_NATIVE",
+      "block_id": "MSB-LJX8000-202-NETWORK",
+      "document_id": "KEYENCE-E3E51B234B56",
+      "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+      "pdf_page_index": 202,
+      "printed_page": "8-2",
+      "evidence_excerpt_hash": "270e117c9d44dcf30766f45c596c394b27d7175abecc363e7b07cd0e986018c2"
+    }
+  ]
+}

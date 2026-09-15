@@ -1,0 +1,141 @@
+{
+  "slots": [
+    {
+      "slot": "controller_family",
+      "optional": true,
+      "required_for": [
+        "COMMAND",
+        "TRIGGER",
+        "CONNECT",
+        "PLC"
+      ]
+    },
+    {
+      "slot": "controller_model",
+      "optional": true,
+      "required_for": [
+        "COMMAND",
+        "TRIGGER",
+        "CONNECT",
+        "PLC"
+      ]
+    },
+    {
+      "slot": "head_model",
+      "optional": true,
+      "required_for": [
+        "COMMAND",
+        "TRIGGER",
+        "CONNECT",
+        "PLC"
+      ]
+    },
+    {
+      "slot": "software_version",
+      "optional": true,
+      "required_for": [
+        "COMMAND",
+        "TRIGGER",
+        "CONNECT",
+        "PLC"
+      ]
+    },
+    {
+      "slot": "firmware_version",
+      "optional": true,
+      "required_for": [
+        "COMMAND",
+        "TRIGGER",
+        "CONNECT",
+        "PLC"
+      ]
+    },
+    {
+      "slot": "2D_or_3D_mode",
+      "optional": true,
+      "required_for": [
+        "COMMAND",
+        "TRIGGER",
+        "CONNECT",
+        "PLC"
+      ]
+    },
+    {
+      "slot": "communication_method",
+      "optional": true,
+      "required_for": [
+        "COMMAND",
+        "TRIGGER",
+        "CONNECT",
+        "PLC"
+      ]
+    },
+    {
+      "slot": "program_number",
+      "optional": true,
+      "required_for": [
+        "COMMAND",
+        "TRIGGER",
+        "CONNECT",
+        "PLC"
+      ]
+    },
+    {
+      "slot": "trigger_method",
+      "optional": true,
+      "required_for": [
+        "COMMAND",
+        "TRIGGER",
+        "CONNECT",
+        "PLC"
+      ]
+    },
+    {
+      "slot": "PC_or_PLC",
+      "optional": true,
+      "required_for": [
+        "COMMAND",
+        "TRIGGER",
+        "CONNECT",
+        "PLC"
+      ]
+    },
+    {
+      "slot": "symptom",
+      "optional": true,
+      "required_for": [
+        "COMMAND",
+        "TRIGGER",
+        "CONNECT",
+        "PLC"
+      ]
+    },
+    {
+      "slot": "command",
+      "optional": true,
+      "required_for": [
+        "COMMAND",
+        "TRIGGER",
+        "CONNECT",
+        "PLC"
+      ]
+    },
+    {
+      "slot": "signal",
+      "optional": true,
+      "required_for": [
+        "COMMAND",
+        "TRIGGER",
+        "CONNECT",
+        "PLC"
+      ]
+    }
+  ],
+  "head_dependent_policy": {
+    "require": [
+      "controller_family",
+      "head_model"
+    ],
+    "unknown_head": "ask for exact head model"
+  }
+}

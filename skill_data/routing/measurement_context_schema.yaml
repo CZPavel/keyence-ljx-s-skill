@@ -1,0 +1,70 @@
+{
+  "slots": [
+    {
+      "name": "controller_family",
+      "required_for_intent": [],
+      "optional": true,
+      "infer_if_known": true
+    },
+    {
+      "name": "head_model",
+      "required_for_intent": [],
+      "optional": true,
+      "infer_if_known": true
+    },
+    {
+      "name": "mode",
+      "required_for_intent": [],
+      "optional": true,
+      "infer_if_known": true
+    },
+    {
+      "name": "measurement_goal",
+      "required_for_intent": [],
+      "optional": true,
+      "infer_if_known": true
+    },
+    {
+      "name": "target_geometry",
+      "required_for_intent": [],
+      "optional": true,
+      "infer_if_known": true
+    },
+    {
+      "name": "expected_range",
+      "required_for_intent": [],
+      "optional": true,
+      "infer_if_known": true
+    },
+    {
+      "name": "required_accuracy",
+      "required_for_intent": [],
+      "optional": true,
+      "infer_if_known": true
+    },
+    {
+      "name": "trigger_method",
+      "required_for_intent": [],
+      "optional": true,
+      "infer_if_known": true
+    },
+    {
+      "name": "moving_or_static",
+      "required_for_intent": [],
+      "optional": true,
+      "infer_if_known": true
+    },
+    {
+      "name": "position_variation",
+      "required_for_intent": [],
+      "optional": true,
+      "infer_if_known": true
+    },
+    {
+      "name": "program_number",
+      "required_for_intent": [],
+      "optional": true,
+      "infer_if_known": true
+    }
+  ]
+}

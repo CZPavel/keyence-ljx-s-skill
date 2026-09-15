@@ -1,0 +1,84 @@
+{
+  "relationships": [
+    {
+      "controller": "LJ-X8000",
+      "head": "HEAD-LJ-X8020",
+      "relation": "NOT_VERIFIED",
+      "mode": "unknown",
+      "direct_evidence": []
+    },
+    {
+      "controller": "LJ-X8000",
+      "head": "HEAD-LJ-X8030",
+      "relation": "NOT_VERIFIED",
+      "mode": "unknown",
+      "direct_evidence": []
+    },
+    {
+      "controller": "LJ-X8000",
+      "head": "HEAD-LJ-X8060",
+      "relation": "NOT_VERIFIED",
+      "mode": "unknown",
+      "direct_evidence": []
+    },
+    {
+      "controller": "LJ-X8000",
+      "head": "HEAD-LJ-X8070",
+      "relation": "NOT_VERIFIED",
+      "mode": "unknown",
+      "direct_evidence": []
+    },
+    {
+      "controller": "LJ-X8000",
+      "head": "HEAD-LJ-X8080",
+      "relation": "NOT_VERIFIED",
+      "mode": "unknown",
+      "direct_evidence": []
+    },
+    {
+      "controller": "LJ-X8000",
+      "head": "HEAD-LJ-X8100",
+      "relation": "NOT_VERIFIED",
+      "mode": "unknown",
+      "direct_evidence": []
+    },
+    {
+      "controller": "LJ-X8000",
+      "head": "HEAD-LJ-X8200",
+      "relation": "NOT_VERIFIED",
+      "mode": "unknown",
+      "direct_evidence": []
+    },
+    {
+      "controller": "LJ-X8000",
+      "head": "HEAD-LJ-X8300",
+      "relation": "NOT_VERIFIED",
+      "mode": "unknown",
+      "direct_evidence": []
+    },
+    {
+      "controller": "LJ-X8000",
+      "head": "HEAD-LJ-X8400",
+      "relation": "NOT_VERIFIED",
+      "mode": "unknown",
+      "direct_evidence": []
+    },
+    {
+      "controller": "LJ-X8000",
+      "head": "HEAD-LJ-X8900",
+      "relation": "COMPATIBLE",
+      "mode": "2D",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-379-X8900-SPECS",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 379,
+          "printed_page": "10-5",
+          "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "schema_version": 2,
+  "relations": [
+    {
+      "source_signal": "READY",
+      "relation": "gates",
+      "target_signal_or_operation": "TRG",
+      "condition": "TRG accepted only while READY is ON",
+      "controller_family": "LJ-X8000",
+      "not_verified_for": [
+        "LJ-X8000A",
+        "LJ-S8000"
+      ],
+      "status": "OFFICIAL_EXACT",
+      "evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-295-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 295,
+          "printed_page": "9-73",
+          "evidence_excerpt_hash": "fc672b9ce169b259f50dfad4f0ae170225f75ca4055213bc33b96fe3cdb0b806"
+        }
+      ]
+    },
+    {
+      "source_signal": "TRG",
+      "relation": "initiates",
+      "target_signal_or_operation": "imaging_and_profile_transfer",
+      "condition": "accepted trigger",
+      "controller_family": "LJ-X8000",
+      "not_verified_for": [
+        "LJ-X8000A",
+        "LJ-S8000"
+      ],
+      "status": "OFFICIAL_EXACT",
+      "evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-295-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 295,
+          "printed_page": "9-73",
+          "evidence_excerpt_hash": "fc672b9ce169b259f50dfad4f0ae170225f75ca4055213bc33b96fe3cdb0b806"
+        }
+      ]
+    },
+    {
+      "source_signal": "EXT",
+      "relation": "forces_off",
+      "target_signal_or_operation": "READY",
+      "condition": "EXT input ON",
+      "controller_family": "LJ-X8000",
+      "not_verified_for": [
+        "LJ-X8000A",
+        "LJ-S8000"
+      ],
+      "status": "OFFICIAL_EXACT",
+      "evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-302-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 302,
+          "printed_page": "9-80",
+          "evidence_excerpt_hash": "1392bc5ae27205803702d02d72f63401392c97a9dbb101f63474b74e5cb46ebd"
+        }
+      ]
+    },
+    {
+      "source_signal": "TEST",
+      "relation": "clears",
+      "target_signal_or_operation": "terminal_output",
+      "condition": "TEST input ON",
+      "controller_family": "LJ-X8000",
+      "not_verified_for": [
+        "LJ-X8000A",
+        "LJ-S8000"
+      ],
+      "status": "OFFICIAL_EXACT",
+      "evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-301-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 301,
+          "printed_page": "9-79",
+          "evidence_excerpt_hash": "96dcee50beec64a44143685ce6eb9b2238aae3d2f0e4c54fbc14bb98410427fd"
+        }
+      ]
+    },
+    {
+      "source_signal": "RESET",
+      "relation": "temporarily_clears",
+      "target_signal_or_operation": "READY",
+      "condition": "reset processing",
+      "controller_family": "LJ-X8000",
+      "not_verified_for": [
+        "LJ-X8000A",
+        "LJ-S8000"
+      ],
+      "status": "OFFICIAL_EXACT",
+      "evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-300-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 300,
+          "printed_page": "9-78",
+          "evidence_excerpt_hash": "688466d93115bce655505dede36ffde38ecca92469bd5f69b90da6f5b077262a"
+        }
+      ]
+    },
+    {
+      "source_signal": "CMD_READY",
+      "relation": "gates",
+      "target_signal_or_operation": "CST",
+      "condition": "terminal command input",
+      "controller_family": "LJ-X8000",
+      "not_verified_for": [
+        "LJ-X8000A",
+        "LJ-S8000"
+      ],
+      "status": "OFFICIAL_EXACT",
+      "evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "block_id": "MSB-LJX8000-286-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 286,
+          "printed_page": "9-64",
+          "evidence_excerpt_hash": "7298e02b1e50a24c3314b046f15b03aceb8e20c4da4a39a473282a2d1267bf42"
+        }
+      ]
+    },
+    {
+      "source_signal": "ACK",
+      "relation": "precedes",
+      "target_signal_or_operation": "CMD_READY",
+      "condition": "ACK turns OFF",
+      "controller_family": "LJ-X8000",
+      "not_verified_for": [
+        "LJ-X8000A",
+        "LJ-S8000"
+      ],
+      "status": "OFFICIAL_EXACT",
+      "evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "block_id": "MSB-LJX8000-286-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 286,
+          "printed_page": "9-64",
+          "evidence_excerpt_hash": "7298e02b1e50a24c3314b046f15b03aceb8e20c4da4a39a473282a2d1267bf42"
+        }
+      ]
+    },
+    {
+      "source_signal": "NACK",
+      "relation": "precedes",
+      "target_signal_or_operation": "CMD_READY",
+      "condition": "NACK turns OFF",
+      "controller_family": "LJ-X8000",
+      "not_verified_for": [
+        "LJ-X8000A",
+        "LJ-S8000"
+      ],
+      "status": "OFFICIAL_EXACT",
+      "evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "block_id": "MSB-LJX8000-286-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 286,
+          "printed_page": "9-64",
+          "evidence_excerpt_hash": "7298e02b1e50a24c3314b046f15b03aceb8e20c4da4a39a473282a2d1267bf42"
+        }
+      ]
+    },
+    {
+      "source_signal": "STO",
+      "relation": "strobes",
+      "target_signal_or_operation": "OUT_DATA[15:0]",
+      "condition": "terminal result output",
+      "controller_family": "LJ-X8000",
+      "not_verified_for": [
+        "LJ-X8000A",
+        "LJ-S8000"
+      ],
+      "status": "OFFICIAL_EXACT",
+      "evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-299-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 299,
+          "printed_page": "9-77",
+          "evidence_excerpt_hash": "9ccc1fb78476cdba2c383200d6025610d52bce27580ff44f6320fe24b4e359ad"
+        }
+      ]
+    }
+  ]
+}

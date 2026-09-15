@@ -1,0 +1,3591 @@
+{
+  "discovery_method": "command headings and command tables",
+  "commands": [
+    {
+      "command_id": "CMD-BC",
+      "command": "BC",
+      "controller_family": "LJ-X8000",
+      "communication_method": null,
+      "direction": "controller_control",
+      "operation_category": "discovered_command",
+      "purpose": null,
+      "syntax": {
+        "request": null,
+        "parameters": [],
+        "terminator": null,
+        "status": "unresolved"
+      },
+      "response": {
+        "normal_response": null,
+        "error_response": null
+      },
+      "requirements": [],
+      "effects": [],
+      "related_commands": [],
+      "related_signals": [],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-D44A4A54C24D",
+          "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1",
+          "page": 538,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0538",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0538-C005",
+          "table_id": null,
+          "evidence_excerpt_hash": "ce1311cf4d85fbfd166b93490403e8fe916c061e6c880f916f0541bcf2b95082"
+        }
+      ],
+      "safety_classification": "UNRESOLVED"
+    },
+    {
+      "command_id": "CMD-BS",
+      "command": "BS",
+      "controller_family": "LJ-X8000",
+      "communication": {
+        "method": "Ethernet Non-Procedural",
+        "transport": "Ethernet",
+        "direction": "client to controller"
+      },
+      "purpose": {
+        "value": "save latest input profile as the specified master profile",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_VISUAL",
+            "block_id": "MSB-LJX8000-232-MEASUREMENT",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 232,
+            "printed_page": "9-10",
+            "evidence_excerpt_hash": "e681540279d6fd0ac1c3022a7b44bca9feb1cc5b3efcfbf3df77d474ad96a00d"
+          }
+        ]
+      },
+      "request": {
+        "syntax": {
+          "value": "BS,h,nnn",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-232-MEASUREMENT",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 232,
+              "printed_page": "9-10",
+              "evidence_excerpt_hash": "e681540279d6fd0ac1c3022a7b44bca9feb1cc5b3efcfbf3df77d474ad96a00d"
+            }
+          ]
+        },
+        "terminator": {
+          "value": "configured delimiter",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "block_id": "MSB-LJX8000-202-NETWORK",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 202,
+              "printed_page": "8-2",
+              "evidence_excerpt_hash": "270e117c9d44dcf30766f45c596c394b27d7175abecc363e7b07cd0e986018c2"
+            }
+          ]
+        }
+      },
+      "parameters": [
+        {
+          "name": "h",
+          "meaning": {
+            "value": "head number 1 to 2",
+            "status": "OFFICIAL_EXACT",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-232-MEASUREMENT",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 232,
+                "printed_page": "9-10",
+                "evidence_excerpt_hash": "e681540279d6fd0ac1c3022a7b44bca9feb1cc5b3efcfbf3df77d474ad96a00d"
+              }
+            ]
+          }
+        },
+        {
+          "name": "nnn",
+          "meaning": {
+            "value": "master profile number: Head A 0 to 199; Head B 500 to 699",
+            "status": "OFFICIAL_EXACT",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-232-MEASUREMENT",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 232,
+                "printed_page": "9-10",
+                "evidence_excerpt_hash": "e681540279d6fd0ac1c3022a7b44bca9feb1cc5b3efcfbf3df77d474ad96a00d"
+              }
+            ]
+          }
+        }
+      ],
+      "response": {
+        "normal_syntax": {
+          "value": "BS",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-232-MEASUREMENT",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 232,
+              "printed_page": "9-10",
+              "evidence_excerpt_hash": "e681540279d6fd0ac1c3022a7b44bca9feb1cc5b3efcfbf3df77d474ad96a00d"
+            }
+          ]
+        },
+        "error_behavior": {
+          "value": null,
+          "status": "UNRESOLVED",
+          "evidence": []
+        }
+      },
+      "requirements": [],
+      "effects": [],
+      "related_commands": [],
+      "related_signals": [],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-232-MEASUREMENT",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 232,
+          "printed_page": "9-10",
+          "evidence_excerpt_hash": "e681540279d6fd0ac1c3022a7b44bca9feb1cc5b3efcfbf3df77d474ad96a00d"
+        }
+      ],
+      "supporting_evidence": [],
+      "safety_classification": "UNRESOLVED"
+    },
+    {
+      "command_id": "CMD-CA",
+      "command": "CA",
+      "controller_family": "LJ-X8000",
+      "communication_method": null,
+      "direction": "controller_control",
+      "operation_category": "discovered_command",
+      "purpose": null,
+      "syntax": {
+        "request": null,
+        "parameters": [],
+        "terminator": null,
+        "status": "unresolved"
+      },
+      "response": {
+        "normal_response": null,
+        "error_response": null
+      },
+      "requirements": [],
+      "effects": [],
+      "related_commands": [],
+      "related_signals": [],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-D44A4A54C24D",
+          "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1",
+          "page": 486,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0486",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0486-C005",
+          "table_id": null,
+          "evidence_excerpt_hash": "ae747d2764076adb9b38459e57e84dd2d65dd0b016955994ebcf534ae9f7c4b5"
+        }
+      ],
+      "safety_classification": "UNRESOLVED"
+    },
+    {
+      "command_id": "CMD-CD",
+      "command": "CD",
+      "controller_family": "LJ-X8000",
+      "communication_method": null,
+      "direction": "controller_control",
+      "operation_category": "discovered_command",
+      "purpose": null,
+      "syntax": {
+        "request": null,
+        "parameters": [],
+        "terminator": null,
+        "status": "unresolved"
+      },
+      "response": {
+        "normal_response": null,
+        "error_response": null
+      },
+      "requirements": [],
+      "effects": [],
+      "related_commands": [],
+      "related_signals": [],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-D44A4A54C24D",
+          "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1",
+          "page": 486,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0486",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0486-C005",
+          "table_id": null,
+          "evidence_excerpt_hash": "ae747d2764076adb9b38459e57e84dd2d65dd0b016955994ebcf534ae9f7c4b5"
+        }
+      ],
+      "safety_classification": "UNRESOLVED"
+    },
+    {
+      "command_id": "CMD-CE",
+      "command": "CE",
+      "controller_family": "LJ-X8000",
+      "communication": {
+        "method": "Ethernet Non-Procedural",
+        "transport": "Ethernet",
+        "direction": "client to controller"
+      },
+      "purpose": {
+        "value": "clear error status",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_VISUAL",
+            "block_id": "MSB-LJX8000-228-C",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 228,
+            "printed_page": "9-6",
+            "evidence_excerpt_hash": "e18bd21917df0d9949e32c54f3824bd957f304b62c93cef5663bc4ee4b3ffbff"
+          }
+        ]
+      },
+      "request": {
+        "syntax": {
+          "value": "CE",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-228-C",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 228,
+              "printed_page": "9-6",
+              "evidence_excerpt_hash": "e18bd21917df0d9949e32c54f3824bd957f304b62c93cef5663bc4ee4b3ffbff"
+            }
+          ]
+        },
+        "terminator": {
+          "value": "configured delimiter",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "block_id": "MSB-LJX8000-202-NETWORK",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 202,
+              "printed_page": "8-2",
+              "evidence_excerpt_hash": "270e117c9d44dcf30766f45c596c394b27d7175abecc363e7b07cd0e986018c2"
+            }
+          ]
+        }
+      },
+      "parameters": [],
+      "response": {
+        "normal_syntax": {
+          "value": "CE",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-228-C",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 228,
+              "printed_page": "9-6",
+              "evidence_excerpt_hash": "e18bd21917df0d9949e32c54f3824bd957f304b62c93cef5663bc4ee4b3ffbff"
+            }
+          ]
+        },
+        "error_behavior": {
+          "value": null,
+          "status": "UNRESOLVED",
+          "evidence": []
+        }
+      },
+      "requirements": [],
+      "effects": [],
+      "related_commands": [],
+      "related_signals": [],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-228-C",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 228,
+          "printed_page": "9-6",
+          "evidence_excerpt_hash": "e18bd21917df0d9949e32c54f3824bd957f304b62c93cef5663bc4ee4b3ffbff"
+        }
+      ],
+      "supporting_evidence": [],
+      "safety_classification": "UNRESOLVED"
+    },
+    {
+      "command_id": "CMD-CR",
+      "command": "CR",
+      "controller_family": "LJ-X8000",
+      "communication_method": null,
+      "direction": "controller_control",
+      "operation_category": "discovered_command",
+      "purpose": null,
+      "syntax": {
+        "request": null,
+        "parameters": [],
+        "terminator": null,
+        "status": "unresolved"
+      },
+      "response": {
+        "normal_response": null,
+        "error_response": null
+      },
+      "requirements": [],
+      "effects": [],
+      "related_commands": [],
+      "related_signals": [],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-D44A4A54C24D",
+          "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1",
+          "page": 483,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0483",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0483-C027",
+          "table_id": null,
+          "evidence_excerpt_hash": "5606e02969da82e58c26ac1702dda1d252ef7008eab1ef68e39bc00198b04c70"
+        }
+      ],
+      "safety_classification": "UNRESOLVED"
+    },
+    {
+      "command_id": "CMD-CTD",
+      "command": "CTD",
+      "controller_family": "LJ-X8000",
+      "communication": {
+        "method": "Ethernet Non-Procedural",
+        "transport": "Ethernet",
+        "direction": "client to controller"
+      },
+      "purpose": {
+        "value": "set delay between trigger input and image capture",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_VISUAL",
+            "block_id": "MSB-LJX8000-230-PFR",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 230,
+            "printed_page": "9-8",
+            "evidence_excerpt_hash": "d4d5ef179cd9e7592bb0277aa48483f114a1d2515e47dd666c6e3b6f13da5bb2"
+          }
+        ]
+      },
+      "request": {
+        "syntax": {
+          "value": "CTD,1,nnn",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-230-PFR",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 230,
+              "printed_page": "9-8",
+              "evidence_excerpt_hash": "d4d5ef179cd9e7592bb0277aa48483f114a1d2515e47dd666c6e3b6f13da5bb2"
+            }
+          ]
+        },
+        "terminator": {
+          "value": "configured delimiter",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "block_id": "MSB-LJX8000-202-NETWORK",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 202,
+              "printed_page": "8-2",
+              "evidence_excerpt_hash": "270e117c9d44dcf30766f45c596c394b27d7175abecc363e7b07cd0e986018c2"
+            }
+          ]
+        }
+      },
+      "parameters": [
+        {
+          "name": "nnn",
+          "meaning": {
+            "value": "trigger delay 0 to 999 ms",
+            "status": "OFFICIAL_EXACT",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-230-PFR",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 230,
+                "printed_page": "9-8",
+                "evidence_excerpt_hash": "d4d5ef179cd9e7592bb0277aa48483f114a1d2515e47dd666c6e3b6f13da5bb2"
+              }
+            ]
+          }
+        }
+      ],
+      "response": {
+        "normal_syntax": {
+          "value": "CTD",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-230-PFR",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 230,
+              "printed_page": "9-8",
+              "evidence_excerpt_hash": "d4d5ef179cd9e7592bb0277aa48483f114a1d2515e47dd666c6e3b6f13da5bb2"
+            }
+          ]
+        },
+        "error_behavior": {
+          "value": null,
+          "status": "UNRESOLVED",
+          "evidence": []
+        }
+      },
+      "requirements": [],
+      "effects": [],
+      "related_commands": [],
+      "related_signals": [],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-230-PFR",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 230,
+          "printed_page": "9-8",
+          "evidence_excerpt_hash": "d4d5ef179cd9e7592bb0277aa48483f114a1d2515e47dd666c6e3b6f13da5bb2"
+        }
+      ],
+      "supporting_evidence": [],
+      "safety_classification": "UNRESOLVED"
+    },
+    {
+      "command_id": "CMD-CW",
+      "command": "CW",
+      "controller_family": "LJ-X8000",
+      "communication_method": null,
+      "direction": "controller_control",
+      "operation_category": "discovered_command",
+      "purpose": null,
+      "syntax": {
+        "request": null,
+        "parameters": [],
+        "terminator": null,
+        "status": "unresolved"
+      },
+      "response": {
+        "normal_response": null,
+        "error_response": null
+      },
+      "requirements": [],
+      "effects": [],
+      "related_commands": [],
+      "related_signals": [],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-0A6360680FCE",
+          "source_sha256": "0a6360680fce769d076ce36b218285e4a96a1b03a6abe0c33b9e534bf3806c3f",
+          "page": 33,
+          "section_id": "SEC-LJ-X8000-SERIES-3D-EASY-CONFIGURATION-MANUAL-ETHERNET-IP-EDITION-ALLEN-BRADLEY-CONTROLLOGIX-SERIES-D48GB-0A6360680FCE-U0033",
+          "chunk_id": "CHK-LJ-X8000-SERIES-3D-EASY-CONFIGURATION-MANUAL-ETHERNET-IP-EDITION-ALLEN-BRADLEY-CONTROLLOGIX-SERIES-D48GB-0A6360680FCE-U0033-C007",
+          "table_id": null,
+          "evidence_excerpt_hash": "3cf3203b3fc633d7b3a65eaf0bac26ae937487b0e9cb3370f828dd7bf8c1438a"
+        }
+      ],
+      "safety_classification": "UNRESOLVED"
+    },
+    {
+      "command_id": "CMD-DLL",
+      "command": "DLL",
+      "controller_family": "LJ-X8000",
+      "communication_method": null,
+      "direction": "controller_control",
+      "operation_category": "discovered_command",
+      "purpose": null,
+      "syntax": {
+        "request": null,
+        "parameters": [],
+        "terminator": null,
+        "status": "unresolved"
+      },
+      "response": {
+        "normal_response": null,
+        "error_response": null
+      },
+      "requirements": [],
+      "effects": [],
+      "related_commands": [],
+      "related_signals": [],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-17574BD15720",
+          "source_sha256": "17574bd15720c837db015a7a9a20506fd3bdf251ad7f334b7ea17a4d19f0c9bc",
+          "page": 18,
+          "section_id": "SEC-LJ-X8000-SERIES-QUICK-START-GUIDE-LJ-X8000A-EDITION-D63GB-17574BD15720-U0018",
+          "chunk_id": "CHK-LJ-X8000-SERIES-QUICK-START-GUIDE-LJ-X8000A-EDITION-D63GB-17574BD15720-U0018-C004",
+          "table_id": null,
+          "evidence_excerpt_hash": "d538d6fe4fdb9c6a522621f9844b2ddca29a641e5effb2762f1c56ac6e2737f8"
+        }
+      ],
+      "safety_classification": "UNRESOLVED"
+    },
+    {
+      "command_id": "CMD-DR",
+      "command": "DR",
+      "controller_family": "LJ-X8000",
+      "communication": {
+        "method": "Ethernet Non-Procedural",
+        "transport": "Ethernet",
+        "direction": "client to controller"
+      },
+      "purpose": {
+        "value": "read upper or lower judgment limit for specified tool",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_VISUAL",
+            "block_id": "MSB-LJX8000-234-JUDGMENT_READ",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 234,
+            "printed_page": "9-12",
+            "evidence_excerpt_hash": "37801b6cbb69ad20a7f14005e83168a71cde85b3eed630c49f555df690345502"
+          }
+        ]
+      },
+      "request": {
+        "syntax": {
+          "value": "DR,nnn,k,b",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-234-JUDGMENT_READ",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 234,
+              "printed_page": "9-12",
+              "evidence_excerpt_hash": "37801b6cbb69ad20a7f14005e83168a71cde85b3eed630c49f555df690345502"
+            }
+          ]
+        },
+        "terminator": {
+          "value": "configured delimiter",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "block_id": "MSB-LJX8000-202-NETWORK",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 202,
+              "printed_page": "8-2",
+              "evidence_excerpt_hash": "270e117c9d44dcf30766f45c596c394b27d7175abecc363e7b07cd0e986018c2"
+            }
+          ]
+        }
+      },
+      "parameters": [
+        {
+          "name": "nnn",
+          "meaning": {
+            "value": "tool number",
+            "status": "OFFICIAL_EXACT",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-234-JUDGMENT_READ",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 234,
+                "printed_page": "9-12",
+                "evidence_excerpt_hash": "37801b6cbb69ad20a7f14005e83168a71cde85b3eed630c49f555df690345502"
+              }
+            ]
+          }
+        },
+        {
+          "name": "k",
+          "meaning": {
+            "value": "measurement item number in tool",
+            "status": "OFFICIAL_EXACT",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-234-JUDGMENT_READ",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 234,
+                "printed_page": "9-12",
+                "evidence_excerpt_hash": "37801b6cbb69ad20a7f14005e83168a71cde85b3eed630c49f555df690345502"
+              }
+            ]
+          }
+        },
+        {
+          "name": "b",
+          "meaning": {
+            "value": "0=upper limit; 1=lower limit",
+            "status": "OFFICIAL_EXACT",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-234-JUDGMENT_READ",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 234,
+                "printed_page": "9-12",
+                "evidence_excerpt_hash": "37801b6cbb69ad20a7f14005e83168a71cde85b3eed630c49f555df690345502"
+              }
+            ]
+          }
+        },
+        {
+          "name": "mmm",
+          "meaning": {
+            "value": "returned judgment condition value",
+            "status": "OFFICIAL_EXACT",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-234-JUDGMENT_READ",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 234,
+                "printed_page": "9-12",
+                "evidence_excerpt_hash": "37801b6cbb69ad20a7f14005e83168a71cde85b3eed630c49f555df690345502"
+              }
+            ]
+          }
+        }
+      ],
+      "response": {
+        "normal_syntax": {
+          "value": "DR,mmm",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-234-JUDGMENT_READ",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 234,
+              "printed_page": "9-12",
+              "evidence_excerpt_hash": "37801b6cbb69ad20a7f14005e83168a71cde85b3eed630c49f555df690345502"
+            }
+          ]
+        },
+        "error_behavior": {
+          "value": null,
+          "status": "UNRESOLVED",
+          "evidence": []
+        }
+      },
+      "requirements": [],
+      "effects": [],
+      "related_commands": [],
+      "related_signals": [],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-234-JUDGMENT_READ",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 234,
+          "printed_page": "9-12",
+          "evidence_excerpt_hash": "37801b6cbb69ad20a7f14005e83168a71cde85b3eed630c49f555df690345502"
+        }
+      ],
+      "supporting_evidence": [],
+      "safety_classification": "UNRESOLVED"
+    },
+    {
+      "command_id": "CMD-DW",
+      "command": "DW",
+      "controller_family": "LJ-X8000",
+      "communication": {
+        "method": "Ethernet Non-Procedural",
+        "transport": "Ethernet",
+        "direction": "client to controller"
+      },
+      "purpose": {
+        "value": "change upper or lower judgment limit for specified tool",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_VISUAL",
+            "block_id": "MSB-LJX8000-233-JUDGMENT",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 233,
+            "printed_page": "9-11",
+            "evidence_excerpt_hash": "5eb943cc09a56d5e82a1f5988349d551a2c5d48433fb4967a54566e34ccc5836"
+          }
+        ]
+      },
+      "request": {
+        "syntax": {
+          "value": "DW,nnn,k,b,mmm",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-233-JUDGMENT",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 233,
+              "printed_page": "9-11",
+              "evidence_excerpt_hash": "5eb943cc09a56d5e82a1f5988349d551a2c5d48433fb4967a54566e34ccc5836"
+            }
+          ]
+        },
+        "terminator": {
+          "value": "configured delimiter",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "block_id": "MSB-LJX8000-202-NETWORK",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 202,
+              "printed_page": "8-2",
+              "evidence_excerpt_hash": "270e117c9d44dcf30766f45c596c394b27d7175abecc363e7b07cd0e986018c2"
+            }
+          ]
+        }
+      },
+      "parameters": [
+        {
+          "name": "nnn",
+          "meaning": {
+            "value": "tool number",
+            "status": "OFFICIAL_EXACT",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-233-JUDGMENT",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 233,
+                "printed_page": "9-11",
+                "evidence_excerpt_hash": "5eb943cc09a56d5e82a1f5988349d551a2c5d48433fb4967a54566e34ccc5836"
+              }
+            ]
+          }
+        },
+        {
+          "name": "k",
+          "meaning": {
+            "value": "measurement item number in tool",
+            "status": "OFFICIAL_EXACT",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-233-JUDGMENT",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 233,
+                "printed_page": "9-11",
+                "evidence_excerpt_hash": "5eb943cc09a56d5e82a1f5988349d551a2c5d48433fb4967a54566e34ccc5836"
+              }
+            ]
+          }
+        },
+        {
+          "name": "b",
+          "meaning": {
+            "value": "0=upper limit; 1=lower limit",
+            "status": "OFFICIAL_EXACT",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-233-JUDGMENT",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 233,
+                "printed_page": "9-11",
+                "evidence_excerpt_hash": "5eb943cc09a56d5e82a1f5988349d551a2c5d48433fb4967a54566e34ccc5836"
+              }
+            ]
+          }
+        },
+        {
+          "name": "mmm",
+          "meaning": {
+            "value": "judgment condition value",
+            "status": "OFFICIAL_EXACT",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-233-JUDGMENT",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 233,
+                "printed_page": "9-11",
+                "evidence_excerpt_hash": "5eb943cc09a56d5e82a1f5988349d551a2c5d48433fb4967a54566e34ccc5836"
+              }
+            ]
+          }
+        }
+      ],
+      "response": {
+        "normal_syntax": {
+          "value": "DW",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-233-JUDGMENT",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 233,
+              "printed_page": "9-11",
+              "evidence_excerpt_hash": "5eb943cc09a56d5e82a1f5988349d551a2c5d48433fb4967a54566e34ccc5836"
+            }
+          ]
+        },
+        "error_behavior": {
+          "value": null,
+          "status": "UNRESOLVED",
+          "evidence": []
+        }
+      },
+      "requirements": [],
+      "effects": [],
+      "related_commands": [],
+      "related_signals": [],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-233-JUDGMENT",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 233,
+          "printed_page": "9-11",
+          "evidence_excerpt_hash": "5eb943cc09a56d5e82a1f5988349d551a2c5d48433fb4967a54566e34ccc5836"
+        }
+      ],
+      "supporting_evidence": [],
+      "safety_classification": "PARAMETER_WRITE"
+    },
+    {
+      "command_id": "CMD-EXR",
+      "command": "EXR",
+      "controller_family": "LJ-X8000",
+      "communication": {
+        "method": "Ethernet Non-Procedural",
+        "transport": "Ethernet",
+        "direction": "client to controller"
+      },
+      "purpose": {
+        "value": "read currently enabled execute condition number",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_VISUAL",
+            "block_id": "MSB-LJX8000-233-JUDGMENT",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 233,
+            "printed_page": "9-11",
+            "evidence_excerpt_hash": "5eb943cc09a56d5e82a1f5988349d551a2c5d48433fb4967a54566e34ccc5836"
+          }
+        ]
+      },
+      "request": {
+        "syntax": {
+          "value": "EXR",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-233-JUDGMENT",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 233,
+              "printed_page": "9-11",
+              "evidence_excerpt_hash": "5eb943cc09a56d5e82a1f5988349d551a2c5d48433fb4967a54566e34ccc5836"
+            }
+          ]
+        },
+        "terminator": {
+          "value": "configured delimiter",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "block_id": "MSB-LJX8000-202-NETWORK",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 202,
+              "printed_page": "8-2",
+              "evidence_excerpt_hash": "270e117c9d44dcf30766f45c596c394b27d7175abecc363e7b07cd0e986018c2"
+            }
+          ]
+        }
+      },
+      "parameters": [
+        {
+          "name": "n",
+          "meaning": {
+            "value": "execute number 0 to 99",
+            "status": "OFFICIAL_EXACT",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-233-JUDGMENT",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 233,
+                "printed_page": "9-11",
+                "evidence_excerpt_hash": "5eb943cc09a56d5e82a1f5988349d551a2c5d48433fb4967a54566e34ccc5836"
+              }
+            ]
+          }
+        }
+      ],
+      "response": {
+        "normal_syntax": {
+          "value": "EXR,n",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-233-JUDGMENT",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 233,
+              "printed_page": "9-11",
+              "evidence_excerpt_hash": "5eb943cc09a56d5e82a1f5988349d551a2c5d48433fb4967a54566e34ccc5836"
+            }
+          ]
+        },
+        "error_behavior": {
+          "value": null,
+          "status": "UNRESOLVED",
+          "evidence": []
+        }
+      },
+      "requirements": [],
+      "effects": [],
+      "related_commands": [],
+      "related_signals": [],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-233-JUDGMENT",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 233,
+          "printed_page": "9-11",
+          "evidence_excerpt_hash": "5eb943cc09a56d5e82a1f5988349d551a2c5d48433fb4967a54566e34ccc5836"
+        }
+      ],
+      "supporting_evidence": [],
+      "safety_classification": "UNRESOLVED"
+    },
+    {
+      "command_id": "CMD-EXW",
+      "command": "EXW",
+      "controller_family": "LJ-X8000",
+      "communication": {
+        "method": "Ethernet Non-Procedural",
+        "transport": "Ethernet",
+        "direction": "client to controller"
+      },
+      "purpose": {
+        "value": "change currently enabled execute condition number",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_VISUAL",
+            "block_id": "MSB-LJX8000-232-MEASUREMENT",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 232,
+            "printed_page": "9-10",
+            "evidence_excerpt_hash": "e681540279d6fd0ac1c3022a7b44bca9feb1cc5b3efcfbf3df77d474ad96a00d"
+          }
+        ]
+      },
+      "request": {
+        "syntax": {
+          "value": "EXW,n",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-232-MEASUREMENT",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 232,
+              "printed_page": "9-10",
+              "evidence_excerpt_hash": "e681540279d6fd0ac1c3022a7b44bca9feb1cc5b3efcfbf3df77d474ad96a00d"
+            }
+          ]
+        },
+        "terminator": {
+          "value": "configured delimiter",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "block_id": "MSB-LJX8000-202-NETWORK",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 202,
+              "printed_page": "8-2",
+              "evidence_excerpt_hash": "270e117c9d44dcf30766f45c596c394b27d7175abecc363e7b07cd0e986018c2"
+            }
+          ]
+        }
+      },
+      "parameters": [
+        {
+          "name": "n",
+          "meaning": {
+            "value": "execute condition number 0 to 99",
+            "status": "OFFICIAL_EXACT",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-232-MEASUREMENT",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 232,
+                "printed_page": "9-10",
+                "evidence_excerpt_hash": "e681540279d6fd0ac1c3022a7b44bca9feb1cc5b3efcfbf3df77d474ad96a00d"
+              }
+            ]
+          }
+        }
+      ],
+      "response": {
+        "normal_syntax": {
+          "value": "EXW",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-232-MEASUREMENT",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 232,
+              "printed_page": "9-10",
+              "evidence_excerpt_hash": "e681540279d6fd0ac1c3022a7b44bca9feb1cc5b3efcfbf3df77d474ad96a00d"
+            }
+          ]
+        },
+        "error_behavior": {
+          "value": null,
+          "status": "UNRESOLVED",
+          "evidence": []
+        }
+      },
+      "requirements": [],
+      "effects": [],
+      "related_commands": [],
+      "related_signals": [],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-232-MEASUREMENT",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 232,
+          "printed_page": "9-10",
+          "evidence_excerpt_hash": "e681540279d6fd0ac1c3022a7b44bca9feb1cc5b3efcfbf3df77d474ad96a00d"
+        }
+      ],
+      "supporting_evidence": [],
+      "safety_classification": "PARAMETER_WRITE"
+    },
+    {
+      "command_id": "CMD-FTP",
+      "command": "FTP",
+      "controller_family": "LJ-X8000",
+      "communication_method": null,
+      "direction": "controller_control",
+      "operation_category": "discovered_command",
+      "purpose": null,
+      "syntax": {
+        "request": null,
+        "parameters": [],
+        "terminator": null,
+        "status": "unresolved"
+      },
+      "response": {
+        "normal_response": null,
+        "error_response": null
+      },
+      "requirements": [],
+      "effects": [],
+      "related_commands": [],
+      "related_signals": [],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-D44A4A54C24D",
+          "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1",
+          "page": 451,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0451",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0451-C010",
+          "table_id": null,
+          "evidence_excerpt_hash": "7ff6c191aa0ba30ef058c07d38852892869c983cfa3e3f11e6d9a8656cbead96"
+        }
+      ],
+      "safety_classification": "UNRESOLVED"
+    },
+    {
+      "command_id": "CMD-MRS",
+      "command": "MRS",
+      "controller_family": "LJ-X8000",
+      "communication": {
+        "method": "Ethernet Non-Procedural",
+        "transport": "Ethernet",
+        "direction": "client to controller"
+      },
+      "purpose": {
+        "value": "request measured value reset",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_VISUAL",
+            "block_id": "MSB-LJX8000-236-MEASUREMENT_RESET",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 236,
+            "printed_page": "9-14",
+            "evidence_excerpt_hash": "86a190c52f07d9e8d455f6756751db28f050e8446f4fcd6a95e397601ea0fd73"
+          }
+        ]
+      },
+      "request": {
+        "syntax": {
+          "value": "MRS,n | MRS,n,t,nnn,...",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-236-MEASUREMENT_RESET",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 236,
+              "printed_page": "9-14",
+              "evidence_excerpt_hash": "86a190c52f07d9e8d455f6756751db28f050e8446f4fcd6a95e397601ea0fd73"
+            }
+          ]
+        },
+        "terminator": {
+          "value": "configured delimiter",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "block_id": "MSB-LJX8000-202-NETWORK",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 202,
+              "printed_page": "8-2",
+              "evidence_excerpt_hash": "270e117c9d44dcf30766f45c596c394b27d7175abecc363e7b07cd0e986018c2"
+            }
+          ]
+        }
+      },
+      "parameters": [],
+      "response": {
+        "normal_syntax": {
+          "value": "MRS",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-236-MEASUREMENT_RESET",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 236,
+              "printed_page": "9-14",
+              "evidence_excerpt_hash": "86a190c52f07d9e8d455f6756751db28f050e8446f4fcd6a95e397601ea0fd73"
+            }
+          ]
+        },
+        "error_behavior": {
+          "value": null,
+          "status": "UNRESOLVED",
+          "evidence": []
+        }
+      },
+      "requirements": [],
+      "effects": [],
+      "related_commands": [],
+      "related_signals": [],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-236-MEASUREMENT_RESET",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 236,
+          "printed_page": "9-14",
+          "evidence_excerpt_hash": "86a190c52f07d9e8d455f6756751db28f050e8446f4fcd6a95e397601ea0fd73"
+        }
+      ],
+      "supporting_evidence": [],
+      "safety_classification": "UNRESOLVED"
+    },
+    {
+      "command_id": "CMD-OE",
+      "command": "OE",
+      "controller_family": "LJ-X8000",
+      "communication": {
+        "method": "Ethernet Non-Procedural",
+        "transport": "Ethernet",
+        "direction": "client to controller"
+      },
+      "purpose": {
+        "value": "enable or disable output",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_VISUAL",
+            "block_id": "MSB-LJX8000-237-IO",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 237,
+            "printed_page": "9-15",
+            "evidence_excerpt_hash": "d75bbfcc45fe70a195723e623122eb20e52ff09bfa835ce95670d168d333ebce"
+          }
+        ]
+      },
+      "request": {
+        "syntax": {
+          "value": "OE,n",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-237-IO",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 237,
+              "printed_page": "9-15",
+              "evidence_excerpt_hash": "d75bbfcc45fe70a195723e623122eb20e52ff09bfa835ce95670d168d333ebce"
+            }
+          ]
+        },
+        "terminator": {
+          "value": "configured delimiter",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "block_id": "MSB-LJX8000-202-NETWORK",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 202,
+              "printed_page": "8-2",
+              "evidence_excerpt_hash": "270e117c9d44dcf30766f45c596c394b27d7175abecc363e7b07cd0e986018c2"
+            }
+          ]
+        }
+      },
+      "parameters": [
+        {
+          "name": "n",
+          "meaning": {
+            "value": "0=output disabled; 1=permit output",
+            "status": "OFFICIAL_EXACT",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-237-IO",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 237,
+                "printed_page": "9-15",
+                "evidence_excerpt_hash": "d75bbfcc45fe70a195723e623122eb20e52ff09bfa835ce95670d168d333ebce"
+              }
+            ]
+          }
+        }
+      ],
+      "response": {
+        "normal_syntax": {
+          "value": "OE",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-237-IO",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 237,
+              "printed_page": "9-15",
+              "evidence_excerpt_hash": "d75bbfcc45fe70a195723e623122eb20e52ff09bfa835ce95670d168d333ebce"
+            }
+          ]
+        },
+        "error_behavior": {
+          "value": null,
+          "status": "UNRESOLVED",
+          "evidence": []
+        }
+      },
+      "requirements": [],
+      "effects": [],
+      "related_commands": [],
+      "related_signals": [],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-237-IO",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 237,
+          "printed_page": "9-15",
+          "evidence_excerpt_hash": "d75bbfcc45fe70a195723e623122eb20e52ff09bfa835ce95670d168d333ebce"
+        }
+      ],
+      "supporting_evidence": [],
+      "safety_classification": "PARAMETER_WRITE"
+    },
+    {
+      "command_id": "CMD-OW",
+      "command": "OW",
+      "controller_family": "LJ-X8000",
+      "communication_method": null,
+      "direction": "controller_control",
+      "operation_category": "discovered_command",
+      "purpose": null,
+      "syntax": {
+        "request": null,
+        "parameters": [],
+        "terminator": null,
+        "status": "unresolved"
+      },
+      "response": {
+        "normal_response": null,
+        "error_response": null
+      },
+      "requirements": [],
+      "effects": [],
+      "related_commands": [],
+      "related_signals": [],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-D44A4A54C24D",
+          "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1",
+          "page": 396,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0396",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0396-C025",
+          "table_id": null,
+          "evidence_excerpt_hash": "89fdad657a0b3f11d362ec980a9872a8f61afc25ad3dccd53e36a57668d6c0ab"
+        }
+      ],
+      "safety_classification": "UNRESOLVED"
+    },
+    {
+      "command_id": "CMD-PFR",
+      "command": "PFR",
+      "controller_family": "LJ-X8000",
+      "communication": {
+        "method": "Ethernet Non-Procedural",
+        "transport": "Ethernet",
+        "direction": "client to controller"
+      },
+      "purpose": {
+        "value": "obtain latest measured profile",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_VISUAL",
+            "block_id": "MSB-LJX8000-230-PFR",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 230,
+            "printed_page": "9-8",
+            "evidence_excerpt_hash": "d4d5ef179cd9e7592bb0277aa48483f114a1d2515e47dd666c6e3b6f13da5bb2"
+          }
+        ]
+      },
+      "request": {
+        "syntax": {
+          "value": "PFR,h",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-230-PFR",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 230,
+              "printed_page": "9-8",
+              "evidence_excerpt_hash": "d4d5ef179cd9e7592bb0277aa48483f114a1d2515e47dd666c6e3b6f13da5bb2"
+            }
+          ]
+        },
+        "terminator": {
+          "value": "configured delimiter",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "block_id": "MSB-LJX8000-202-NETWORK",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 202,
+              "printed_page": "8-2",
+              "evidence_excerpt_hash": "270e117c9d44dcf30766f45c596c394b27d7175abecc363e7b07cd0e986018c2"
+            }
+          ]
+        }
+      },
+      "parameters": [
+        {
+          "name": "h",
+          "meaning": {
+            "value": "acquisition target: 1=Head A or Wide; 2=Head B",
+            "status": "OFFICIAL_EXACT",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-230-PFR",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 230,
+                "printed_page": "9-8",
+                "evidence_excerpt_hash": "d4d5ef179cd9e7592bb0277aa48483f114a1d2515e47dd666c6e3b6f13da5bb2"
+              }
+            ]
+          }
+        },
+        {
+          "name": "n",
+          "meaning": {
+            "value": "maximum number of acquired profile points",
+            "status": "OFFICIAL_EXACT",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-230-PFR",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 230,
+                "printed_page": "9-8",
+                "evidence_excerpt_hash": "d4d5ef179cd9e7592bb0277aa48483f114a1d2515e47dd666c6e3b6f13da5bb2"
+              }
+            ]
+          }
+        },
+        {
+          "name": "pppp",
+          "meaning": {
+            "value": "ASCII actual-size profile values separated by comma",
+            "status": "OFFICIAL_EXACT",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-230-PFR",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 230,
+                "printed_page": "9-8",
+                "evidence_excerpt_hash": "d4d5ef179cd9e7592bb0277aa48483f114a1d2515e47dd666c6e3b6f13da5bb2"
+              }
+            ]
+          }
+        }
+      ],
+      "response": {
+        "normal_syntax": {
+          "value": "PFR,n,pppp,pppp,pppp,...",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-230-PFR",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 230,
+              "printed_page": "9-8",
+              "evidence_excerpt_hash": "d4d5ef179cd9e7592bb0277aa48483f114a1d2515e47dd666c6e3b6f13da5bb2"
+            }
+          ]
+        },
+        "error_behavior": {
+          "value": "ER,**,nn; ** is received command and nn is 2-digit error code",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-230-PFR",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 230,
+              "printed_page": "9-8",
+              "evidence_excerpt_hash": "d4d5ef179cd9e7592bb0277aa48483f114a1d2515e47dd666c6e3b6f13da5bb2"
+            }
+          ]
+        }
+      },
+      "requirements": [],
+      "effects": [
+        "Each profile value: up to 11 characters; sign, integer, decimal point and decimal value. Zero suppression for integers; four decimal places.",
+        "Invalid profile data: -99999.9999.",
+        "Number-specified commands cannot be used.",
+        "Obtained after measurement processing finishes."
+      ],
+      "related_commands": [],
+      "related_signals": [],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-230-PFR",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 230,
+          "printed_page": "9-8",
+          "evidence_excerpt_hash": "d4d5ef179cd9e7592bb0277aa48483f114a1d2515e47dd666c6e3b6f13da5bb2"
+        }
+      ],
+      "supporting_evidence": [],
+      "safety_classification": "READ_ONLY"
+    },
+    {
+      "command_id": "CMD-PFRF",
+      "command": "PFRF",
+      "controller_family": "LJ-X8000",
+      "communication": {
+        "method": "Ethernet Non-Procedural",
+        "transport": "Ethernet",
+        "direction": "client to controller"
+      },
+      "purpose": {
+        "value": "obtain latest measured profile with fast response",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_VISUAL",
+            "block_id": "MSB-LJX8000-231-PFRF",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 231,
+            "printed_page": "9-9",
+            "evidence_excerpt_hash": "bacba9d22624def06a9646dcf046b9cf4c1c518596e24f74a23b54d99cbefecf"
+          }
+        ]
+      },
+      "request": {
+        "syntax": {
+          "value": "PFRF,h | PFRF,h,t | PFRF,h,s,m",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-231-PFRF",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 231,
+              "printed_page": "9-9",
+              "evidence_excerpt_hash": "bacba9d22624def06a9646dcf046b9cf4c1c518596e24f74a23b54d99cbefecf"
+            }
+          ]
+        },
+        "terminator": {
+          "value": "configured delimiter",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "block_id": "MSB-LJX8000-202-NETWORK",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 202,
+              "printed_page": "8-2",
+              "evidence_excerpt_hash": "270e117c9d44dcf30766f45c596c394b27d7175abecc363e7b07cd0e986018c2"
+            }
+          ]
+        }
+      },
+      "parameters": [
+        {
+          "name": "h",
+          "meaning": {
+            "value": "acquisition target: 1=Head A or Wide; 2=Head B",
+            "status": "OFFICIAL_EXACT",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-231-PFRF",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 231,
+                "printed_page": "9-9",
+                "evidence_excerpt_hash": "bacba9d22624def06a9646dcf046b9cf4c1c518596e24f74a23b54d99cbefecf"
+              }
+            ]
+          }
+        },
+        {
+          "name": "t",
+          "meaning": {
+            "value": "decimation rate: 1=1/2, 2=1/4, 3=1/8",
+            "status": "OFFICIAL_EXACT",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-231-PFRF",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 231,
+                "printed_page": "9-9",
+                "evidence_excerpt_hash": "bacba9d22624def06a9646dcf046b9cf4c1c518596e24f74a23b54d99cbefecf"
+              }
+            ]
+          }
+        },
+        {
+          "name": "s",
+          "meaning": {
+            "value": "start position; left end is 0",
+            "status": "OFFICIAL_EXACT",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-231-PFRF",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 231,
+                "printed_page": "9-9",
+                "evidence_excerpt_hash": "bacba9d22624def06a9646dcf046b9cf4c1c518596e24f74a23b54d99cbefecf"
+              }
+            ]
+          }
+        },
+        {
+          "name": "m",
+          "meaning": {
+            "value": "data score to acquire, 1 to 6400; excess uses maximum obtainable points",
+            "status": "OFFICIAL_EXACT",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-231-PFRF",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 231,
+                "printed_page": "9-9",
+                "evidence_excerpt_hash": "bacba9d22624def06a9646dcf046b9cf4c1c518596e24f74a23b54d99cbefecf"
+              }
+            ]
+          }
+        },
+        {
+          "name": "n",
+          "meaning": {
+            "value": "maximum number of acquired profile points",
+            "status": "OFFICIAL_EXACT",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-231-PFRF",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 231,
+                "printed_page": "9-9",
+                "evidence_excerpt_hash": "bacba9d22624def06a9646dcf046b9cf4c1c518596e24f74a23b54d99cbefecf"
+              }
+            ]
+          }
+        },
+        {
+          "name": "pppp",
+          "meaning": {
+            "value": "ASCII actual-size profile values separated by comma",
+            "status": "OFFICIAL_EXACT",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-231-PFRF",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 231,
+                "printed_page": "9-9",
+                "evidence_excerpt_hash": "bacba9d22624def06a9646dcf046b9cf4c1c518596e24f74a23b54d99cbefecf"
+              }
+            ]
+          }
+        }
+      ],
+      "response": {
+        "normal_syntax": {
+          "value": "PFRF,n,pppp,pppp,pppp,...",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-231-PFRF",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 231,
+              "printed_page": "9-9",
+              "evidence_excerpt_hash": "bacba9d22624def06a9646dcf046b9cf4c1c518596e24f74a23b54d99cbefecf"
+            }
+          ]
+        },
+        "error_behavior": {
+          "value": "ER,**,nn; ** is received command and nn is 2-digit error code",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-231-PFRF",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 231,
+              "printed_page": "9-9",
+              "evidence_excerpt_hash": "bacba9d22624def06a9646dcf046b9cf4c1c518596e24f74a23b54d99cbefecf"
+            }
+          ]
+        }
+      },
+      "requirements": [],
+      "effects": [
+        "With Continuous Trigger, set trigger frequency to 500 Hz or lower to prevent background-buffer overflow.",
+        "Invalid profile data: -99999.9999.",
+        "Number-specified commands cannot be used.",
+        "Execution stops current measurement temporarily."
+      ],
+      "related_commands": [],
+      "related_signals": [],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-231-PFRF",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 231,
+          "printed_page": "9-9",
+          "evidence_excerpt_hash": "bacba9d22624def06a9646dcf046b9cf4c1c518596e24f74a23b54d99cbefecf"
+        }
+      ],
+      "supporting_evidence": [],
+      "safety_classification": "READ_ONLY"
+    },
+    {
+      "command_id": "CMD-PLC",
+      "command": "PLC",
+      "controller_family": "LJ-X8000",
+      "communication_method": null,
+      "direction": "controller_control",
+      "operation_category": "discovered_command",
+      "purpose": null,
+      "syntax": {
+        "request": null,
+        "parameters": [],
+        "terminator": null,
+        "status": "unresolved"
+      },
+      "response": {
+        "normal_response": null,
+        "error_response": null
+      },
+      "requirements": [],
+      "effects": [],
+      "related_commands": [],
+      "related_signals": [],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-D44A4A54C24D",
+          "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1",
+          "page": 522,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0522",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0522-C004",
+          "table_id": null,
+          "evidence_excerpt_hash": "0bf9545fb50f67db4e625a63b3c8f6c1b85309fc5d71b88e6f6d545f925f96b9"
+        }
+      ],
+      "safety_classification": "UNRESOLVED"
+    },
+    {
+      "command_id": "CMD-PR",
+      "command": "PR",
+      "controller_family": "LJ-X8000",
+      "communication": {
+        "method": "Ethernet Non-Procedural",
+        "transport": "Ethernet",
+        "direction": "client to controller"
+      },
+      "purpose": {
+        "value": "read SD card and inspection program currently being read",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_VISUAL",
+            "block_id": "MSB-LJX8000-229-PROGRAM",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 229,
+            "printed_page": "9-7",
+            "evidence_excerpt_hash": "a440908e3fd86f3ff218615801d18c81448dfa88bb13e7b0a9928d9244726f43"
+          }
+        ]
+      },
+      "request": {
+        "syntax": {
+          "value": "PR",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-229-PROGRAM",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 229,
+              "printed_page": "9-7",
+              "evidence_excerpt_hash": "a440908e3fd86f3ff218615801d18c81448dfa88bb13e7b0a9928d9244726f43"
+            }
+          ]
+        },
+        "terminator": {
+          "value": "configured delimiter",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "block_id": "MSB-LJX8000-202-NETWORK",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 202,
+              "printed_page": "8-2",
+              "evidence_excerpt_hash": "270e117c9d44dcf30766f45c596c394b27d7175abecc363e7b07cd0e986018c2"
+            }
+          ]
+        }
+      },
+      "parameters": [
+        {
+          "name": "d",
+          "meaning": {
+            "value": "SD card number: 1=SD1, 2=SD2",
+            "status": "OFFICIAL_EXACT",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-229-PROGRAM",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 229,
+                "printed_page": "9-7",
+                "evidence_excerpt_hash": "a440908e3fd86f3ff218615801d18c81448dfa88bb13e7b0a9928d9244726f43"
+              }
+            ]
+          }
+        },
+        {
+          "name": "nnn",
+          "meaning": {
+            "value": "program number 0 to 999",
+            "status": "OFFICIAL_EXACT",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-229-PROGRAM",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 229,
+                "printed_page": "9-7",
+                "evidence_excerpt_hash": "a440908e3fd86f3ff218615801d18c81448dfa88bb13e7b0a9928d9244726f43"
+              }
+            ]
+          }
+        }
+      ],
+      "response": {
+        "normal_syntax": {
+          "value": "PR,d,nnn",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-229-PROGRAM",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 229,
+              "printed_page": "9-7",
+              "evidence_excerpt_hash": "a440908e3fd86f3ff218615801d18c81448dfa88bb13e7b0a9928d9244726f43"
+            }
+          ]
+        },
+        "error_behavior": {
+          "value": null,
+          "status": "UNRESOLVED",
+          "evidence": []
+        }
+      },
+      "requirements": [],
+      "effects": [],
+      "related_commands": [],
+      "related_signals": [],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-229-PROGRAM",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 229,
+          "printed_page": "9-7",
+          "evidence_excerpt_hash": "a440908e3fd86f3ff218615801d18c81448dfa88bb13e7b0a9928d9244726f43"
+        }
+      ],
+      "supporting_evidence": [],
+      "safety_classification": "READ_ONLY"
+    },
+    {
+      "command_id": "CMD-PW",
+      "command": "PW",
+      "controller_family": "LJ-X8000",
+      "communication": {
+        "method": "Ethernet Non-Procedural",
+        "transport": "Ethernet",
+        "direction": "client to controller"
+      },
+      "purpose": {
+        "value": "load specified inspection program from SD card",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_VISUAL",
+            "block_id": "MSB-LJX8000-229-PROGRAM",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 229,
+            "printed_page": "9-7",
+            "evidence_excerpt_hash": "a440908e3fd86f3ff218615801d18c81448dfa88bb13e7b0a9928d9244726f43"
+          }
+        ]
+      },
+      "request": {
+        "syntax": {
+          "value": "PW,d,nnn",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-229-PROGRAM",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 229,
+              "printed_page": "9-7",
+              "evidence_excerpt_hash": "a440908e3fd86f3ff218615801d18c81448dfa88bb13e7b0a9928d9244726f43"
+            }
+          ]
+        },
+        "terminator": {
+          "value": "configured delimiter",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "block_id": "MSB-LJX8000-202-NETWORK",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 202,
+              "printed_page": "8-2",
+              "evidence_excerpt_hash": "270e117c9d44dcf30766f45c596c394b27d7175abecc363e7b07cd0e986018c2"
+            }
+          ]
+        }
+      },
+      "parameters": [
+        {
+          "name": "d",
+          "meaning": {
+            "value": "SD card number: 1=SD1, 2=SD2",
+            "status": "OFFICIAL_EXACT",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-229-PROGRAM",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 229,
+                "printed_page": "9-7",
+                "evidence_excerpt_hash": "a440908e3fd86f3ff218615801d18c81448dfa88bb13e7b0a9928d9244726f43"
+              }
+            ]
+          }
+        },
+        {
+          "name": "nnn",
+          "meaning": {
+            "value": "program number 0 to 999",
+            "status": "OFFICIAL_EXACT",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-229-PROGRAM",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 229,
+                "printed_page": "9-7",
+                "evidence_excerpt_hash": "a440908e3fd86f3ff218615801d18c81448dfa88bb13e7b0a9928d9244726f43"
+              }
+            ]
+          }
+        }
+      ],
+      "response": {
+        "normal_syntax": {
+          "value": "PW",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-229-PROGRAM",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 229,
+              "printed_page": "9-7",
+              "evidence_excerpt_hash": "a440908e3fd86f3ff218615801d18c81448dfa88bb13e7b0a9928d9244726f43"
+            }
+          ]
+        },
+        "error_behavior": {
+          "value": "ER,**,nn; ** is received command and nn is 2-digit error code",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-229-PROGRAM",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 229,
+              "printed_page": "9-7",
+              "evidence_excerpt_hash": "a440908e3fd86f3ff218615801d18c81448dfa88bb13e7b0a9928d9244726f43"
+            }
+          ]
+        }
+      },
+      "requirements": [],
+      "effects": [
+        "Any setting changes are discarded; global setting file is saved after success."
+      ],
+      "related_commands": [],
+      "related_signals": [],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-229-PROGRAM",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 229,
+          "printed_page": "9-7",
+          "evidence_excerpt_hash": "a440908e3fd86f3ff218615801d18c81448dfa88bb13e7b0a9928d9244726f43"
+        }
+      ],
+      "supporting_evidence": [],
+      "safety_classification": "PROGRAM_CHANGE"
+    },
+    {
+      "command_id": "CMD-R0",
+      "command": "R0",
+      "controller_family": "LJ-X8000",
+      "communication": {
+        "method": "Ethernet Non-Procedural",
+        "transport": "Ethernet",
+        "direction": "client to controller"
+      },
+      "purpose": {
+        "value": "switch controller to Run mode",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_VISUAL",
+            "block_id": "MSB-LJX8000-226-A",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 226,
+            "printed_page": "9-4",
+            "evidence_excerpt_hash": "f83aa0bb1fc1aa9acad1cb500f7b36f8c0d43f8148be23f732a9905fd46d7a2e"
+          }
+        ]
+      },
+      "request": {
+        "syntax": {
+          "value": "R0",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-226-A",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 226,
+              "printed_page": "9-4",
+              "evidence_excerpt_hash": "f83aa0bb1fc1aa9acad1cb500f7b36f8c0d43f8148be23f732a9905fd46d7a2e"
+            }
+          ]
+        },
+        "terminator": {
+          "value": "configured delimiter",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "block_id": "MSB-LJX8000-202-NETWORK",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 202,
+              "printed_page": "8-2",
+              "evidence_excerpt_hash": "270e117c9d44dcf30766f45c596c394b27d7175abecc363e7b07cd0e986018c2"
+            }
+          ]
+        }
+      },
+      "parameters": [],
+      "response": {
+        "normal_syntax": {
+          "value": "R0",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-226-A",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 226,
+              "printed_page": "9-4",
+              "evidence_excerpt_hash": "f83aa0bb1fc1aa9acad1cb500f7b36f8c0d43f8148be23f732a9905fd46d7a2e"
+            }
+          ]
+        },
+        "error_behavior": {
+          "value": null,
+          "status": "UNRESOLVED",
+          "evidence": []
+        }
+      },
+      "requirements": [],
+      "effects": [],
+      "related_commands": [],
+      "related_signals": [
+        "RUN"
+      ],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-226-A",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 226,
+          "printed_page": "9-4",
+          "evidence_excerpt_hash": "f83aa0bb1fc1aa9acad1cb500f7b36f8c0d43f8148be23f732a9905fd46d7a2e"
+        }
+      ],
+      "supporting_evidence": [],
+      "safety_classification": "STATE_CHANGE"
+    },
+    {
+      "command_id": "CMD-RB",
+      "command": "RB",
+      "controller_family": "LJ-X8000",
+      "communication": {
+        "method": "Ethernet Non-Procedural",
+        "transport": "Ethernet",
+        "direction": "client to controller"
+      },
+      "purpose": {
+        "value": "save current program settings and reboot",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_VISUAL",
+            "block_id": "MSB-LJX8000-227-B",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 227,
+            "printed_page": "9-5",
+            "evidence_excerpt_hash": "881f471fc253007544ae62e190b3021f4873b9bbbe3db0970a6abf682bf67a22"
+          }
+        ]
+      },
+      "request": {
+        "syntax": {
+          "value": "RB",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-227-B",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 227,
+              "printed_page": "9-5",
+              "evidence_excerpt_hash": "881f471fc253007544ae62e190b3021f4873b9bbbe3db0970a6abf682bf67a22"
+            }
+          ]
+        },
+        "terminator": {
+          "value": "configured delimiter",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "block_id": "MSB-LJX8000-202-NETWORK",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 202,
+              "printed_page": "8-2",
+              "evidence_excerpt_hash": "270e117c9d44dcf30766f45c596c394b27d7175abecc363e7b07cd0e986018c2"
+            }
+          ]
+        }
+      },
+      "parameters": [],
+      "response": {
+        "normal_syntax": {
+          "value": "RB",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-227-B",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 227,
+              "printed_page": "9-5",
+              "evidence_excerpt_hash": "881f471fc253007544ae62e190b3021f4873b9bbbe3db0970a6abf682bf67a22"
+            }
+          ]
+        },
+        "error_behavior": {
+          "value": null,
+          "status": "UNRESOLVED",
+          "evidence": []
+        }
+      },
+      "requirements": [],
+      "effects": [],
+      "related_commands": [],
+      "related_signals": [],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-227-B",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 227,
+          "printed_page": "9-5",
+          "evidence_excerpt_hash": "881f471fc253007544ae62e190b3021f4873b9bbbe3db0970a6abf682bf67a22"
+        }
+      ],
+      "supporting_evidence": [],
+      "safety_classification": "UNRESOLVED"
+    },
+    {
+      "command_id": "CMD-RM",
+      "command": "RM",
+      "controller_family": "LJ-X8000",
+      "communication": {
+        "method": "Ethernet Non-Procedural",
+        "transport": "Ethernet",
+        "direction": "client to controller"
+      },
+      "purpose": {
+        "value": "read Run/Setup controller mode",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_VISUAL",
+            "block_id": "MSB-LJX8000-228-C",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 228,
+            "printed_page": "9-6",
+            "evidence_excerpt_hash": "e18bd21917df0d9949e32c54f3824bd957f304b62c93cef5663bc4ee4b3ffbff"
+          }
+        ]
+      },
+      "request": {
+        "syntax": {
+          "value": "RM",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-228-C",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 228,
+              "printed_page": "9-6",
+              "evidence_excerpt_hash": "e18bd21917df0d9949e32c54f3824bd957f304b62c93cef5663bc4ee4b3ffbff"
+            }
+          ]
+        },
+        "terminator": {
+          "value": "configured delimiter",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "block_id": "MSB-LJX8000-202-NETWORK",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 202,
+              "printed_page": "8-2",
+              "evidence_excerpt_hash": "270e117c9d44dcf30766f45c596c394b27d7175abecc363e7b07cd0e986018c2"
+            }
+          ]
+        }
+      },
+      "parameters": [
+        {
+          "name": "n",
+          "meaning": {
+            "value": "0: Setup mode; 1: Run mode",
+            "status": "OFFICIAL_EXACT",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-228-C",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 228,
+                "printed_page": "9-6",
+                "evidence_excerpt_hash": "e18bd21917df0d9949e32c54f3824bd957f304b62c93cef5663bc4ee4b3ffbff"
+              }
+            ]
+          }
+        }
+      ],
+      "response": {
+        "normal_syntax": {
+          "value": "RM,n",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-228-C",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 228,
+              "printed_page": "9-6",
+              "evidence_excerpt_hash": "e18bd21917df0d9949e32c54f3824bd957f304b62c93cef5663bc4ee4b3ffbff"
+            }
+          ]
+        },
+        "error_behavior": {
+          "value": null,
+          "status": "UNRESOLVED",
+          "evidence": []
+        }
+      },
+      "requirements": [],
+      "effects": [],
+      "related_commands": [],
+      "related_signals": [],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-228-C",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 228,
+          "printed_page": "9-6",
+          "evidence_excerpt_hash": "e18bd21917df0d9949e32c54f3824bd957f304b62c93cef5663bc4ee4b3ffbff"
+        }
+      ],
+      "supporting_evidence": [],
+      "safety_classification": "READ_ONLY"
+    },
+    {
+      "command_id": "CMD-RS",
+      "command": "RS",
+      "controller_family": "LJ-X8000",
+      "communication": {
+        "method": "Ethernet Non-Procedural",
+        "transport": "Ethernet",
+        "direction": "client to controller"
+      },
+      "purpose": {
+        "value": "reset controller data and buffers",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_VISUAL",
+            "block_id": "MSB-LJX8000-227-B",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 227,
+            "printed_page": "9-5",
+            "evidence_excerpt_hash": "881f471fc253007544ae62e190b3021f4873b9bbbe3db0970a6abf682bf67a22"
+          }
+        ]
+      },
+      "request": {
+        "syntax": {
+          "value": "RS",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-227-B",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 227,
+              "printed_page": "9-5",
+              "evidence_excerpt_hash": "881f471fc253007544ae62e190b3021f4873b9bbbe3db0970a6abf682bf67a22"
+            }
+          ]
+        },
+        "terminator": {
+          "value": "configured delimiter",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "block_id": "MSB-LJX8000-202-NETWORK",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 202,
+              "printed_page": "8-2",
+              "evidence_excerpt_hash": "270e117c9d44dcf30766f45c596c394b27d7175abecc363e7b07cd0e986018c2"
+            }
+          ]
+        }
+      },
+      "parameters": [],
+      "response": {
+        "normal_syntax": {
+          "value": "RS",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-227-B",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 227,
+              "printed_page": "9-5",
+              "evidence_excerpt_hash": "881f471fc253007544ae62e190b3021f4873b9bbbe3db0970a6abf682bf67a22"
+            }
+          ]
+        },
+        "error_behavior": {
+          "value": null,
+          "status": "UNRESOLVED",
+          "evidence": []
+        }
+      },
+      "requirements": [],
+      "effects": [],
+      "related_commands": [],
+      "related_signals": [
+        "READY",
+        "BUSY"
+      ],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-227-B",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 227,
+          "printed_page": "9-5",
+          "evidence_excerpt_hash": "881f471fc253007544ae62e190b3021f4873b9bbbe3db0970a6abf682bf67a22"
+        }
+      ],
+      "supporting_evidence": [],
+      "safety_classification": "RESET_RECOVERY"
+    },
+    {
+      "command_id": "CMD-S0",
+      "command": "S0",
+      "controller_family": "LJ-X8000",
+      "communication": {
+        "method": "Ethernet Non-Procedural",
+        "transport": "Ethernet",
+        "direction": "client to controller"
+      },
+      "purpose": {
+        "value": "switch controller to Setup mode",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_VISUAL",
+            "block_id": "MSB-LJX8000-227-B",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 227,
+            "printed_page": "9-5",
+            "evidence_excerpt_hash": "881f471fc253007544ae62e190b3021f4873b9bbbe3db0970a6abf682bf67a22"
+          }
+        ]
+      },
+      "request": {
+        "syntax": {
+          "value": "S0",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-227-B",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 227,
+              "printed_page": "9-5",
+              "evidence_excerpt_hash": "881f471fc253007544ae62e190b3021f4873b9bbbe3db0970a6abf682bf67a22"
+            }
+          ]
+        },
+        "terminator": {
+          "value": "configured delimiter",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "block_id": "MSB-LJX8000-202-NETWORK",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 202,
+              "printed_page": "8-2",
+              "evidence_excerpt_hash": "270e117c9d44dcf30766f45c596c394b27d7175abecc363e7b07cd0e986018c2"
+            }
+          ]
+        }
+      },
+      "parameters": [],
+      "response": {
+        "normal_syntax": {
+          "value": "S0",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-227-B",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 227,
+              "printed_page": "9-5",
+              "evidence_excerpt_hash": "881f471fc253007544ae62e190b3021f4873b9bbbe3db0970a6abf682bf67a22"
+            }
+          ]
+        },
+        "error_behavior": {
+          "value": null,
+          "status": "UNRESOLVED",
+          "evidence": []
+        }
+      },
+      "requirements": [],
+      "effects": [],
+      "related_commands": [],
+      "related_signals": [
+        "RUN"
+      ],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-227-B",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 227,
+          "printed_page": "9-5",
+          "evidence_excerpt_hash": "881f471fc253007544ae62e190b3021f4873b9bbbe3db0970a6abf682bf67a22"
+        }
+      ],
+      "supporting_evidence": [],
+      "safety_classification": "STATE_CHANGE"
+    },
+    {
+      "command_id": "CMD-SS",
+      "command": "SS",
+      "controller_family": "LJ-X8000",
+      "communication": {
+        "method": "Ethernet Non-Procedural",
+        "transport": "Ethernet",
+        "direction": "client to controller"
+      },
+      "purpose": {
+        "value": "save current program and global settings",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_VISUAL",
+            "block_id": "MSB-LJX8000-228-C",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 228,
+            "printed_page": "9-6",
+            "evidence_excerpt_hash": "e18bd21917df0d9949e32c54f3824bd957f304b62c93cef5663bc4ee4b3ffbff"
+          }
+        ]
+      },
+      "request": {
+        "syntax": {
+          "value": "SS",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-228-C",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 228,
+              "printed_page": "9-6",
+              "evidence_excerpt_hash": "e18bd21917df0d9949e32c54f3824bd957f304b62c93cef5663bc4ee4b3ffbff"
+            }
+          ]
+        },
+        "terminator": {
+          "value": "configured delimiter",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "block_id": "MSB-LJX8000-202-NETWORK",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 202,
+              "printed_page": "8-2",
+              "evidence_excerpt_hash": "270e117c9d44dcf30766f45c596c394b27d7175abecc363e7b07cd0e986018c2"
+            }
+          ]
+        }
+      },
+      "parameters": [],
+      "response": {
+        "normal_syntax": {
+          "value": "SS",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-228-C",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 228,
+              "printed_page": "9-6",
+              "evidence_excerpt_hash": "e18bd21917df0d9949e32c54f3824bd957f304b62c93cef5663bc4ee4b3ffbff"
+            }
+          ]
+        },
+        "error_behavior": {
+          "value": null,
+          "status": "UNRESOLVED",
+          "evidence": []
+        }
+      },
+      "requirements": [],
+      "effects": [],
+      "related_commands": [],
+      "related_signals": [],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-228-C",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 228,
+          "printed_page": "9-6",
+          "evidence_excerpt_hash": "e18bd21917df0d9949e32c54f3824bd957f304b62c93cef5663bc4ee4b3ffbff"
+        }
+      ],
+      "supporting_evidence": [],
+      "safety_classification": "PERSISTENT_SAVE"
+    },
+    {
+      "command_id": "CMD-STR",
+      "command": "STR",
+      "controller_family": "LJ-X8000",
+      "communication": {
+        "method": "Ethernet Non-Procedural",
+        "transport": "Ethernet",
+        "direction": "client to controller"
+      },
+      "purpose": {
+        "value": "read externally specified string",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_VISUAL",
+            "block_id": "MSB-LJX8000-239-STRING",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 239,
+            "printed_page": "9-17",
+            "evidence_excerpt_hash": "e9232de7df3ef1893b27200edb30827a8196d8dddee0c98b85eeaa1ccae42548"
+          }
+        ]
+      },
+      "request": {
+        "syntax": {
+          "value": "STR,n",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-239-STRING",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 239,
+              "printed_page": "9-17",
+              "evidence_excerpt_hash": "e9232de7df3ef1893b27200edb30827a8196d8dddee0c98b85eeaa1ccae42548"
+            }
+          ]
+        },
+        "terminator": {
+          "value": "configured delimiter",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "block_id": "MSB-LJX8000-202-NETWORK",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 202,
+              "printed_page": "8-2",
+              "evidence_excerpt_hash": "270e117c9d44dcf30766f45c596c394b27d7175abecc363e7b07cd0e986018c2"
+            }
+          ]
+        }
+      },
+      "parameters": [
+        {
+          "name": "n",
+          "meaning": {
+            "value": "0 to 9 for externally specified string; 1000 for screen capture",
+            "status": "OFFICIAL_EXACT",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-239-STRING",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 239,
+                "printed_page": "9-17",
+                "evidence_excerpt_hash": "e9232de7df3ef1893b27200edb30827a8196d8dddee0c98b85eeaa1ccae42548"
+              }
+            ]
+          }
+        },
+        {
+          "name": "ssss",
+          "meaning": {
+            "value": "read string, 0 to 64 characters",
+            "status": "OFFICIAL_EXACT",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-239-STRING",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 239,
+                "printed_page": "9-17",
+                "evidence_excerpt_hash": "e9232de7df3ef1893b27200edb30827a8196d8dddee0c98b85eeaa1ccae42548"
+              }
+            ]
+          }
+        }
+      ],
+      "response": {
+        "normal_syntax": {
+          "value": "STR,ssss",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-239-STRING",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 239,
+              "printed_page": "9-17",
+              "evidence_excerpt_hash": "e9232de7df3ef1893b27200edb30827a8196d8dddee0c98b85eeaa1ccae42548"
+            }
+          ]
+        },
+        "error_behavior": {
+          "value": null,
+          "status": "UNRESOLVED",
+          "evidence": []
+        }
+      },
+      "requirements": [],
+      "effects": [],
+      "related_commands": [],
+      "related_signals": [],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-239-STRING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 239,
+          "printed_page": "9-17",
+          "evidence_excerpt_hash": "e9232de7df3ef1893b27200edb30827a8196d8dddee0c98b85eeaa1ccae42548"
+        }
+      ],
+      "supporting_evidence": [],
+      "safety_classification": "READ_ONLY"
+    },
+    {
+      "command_id": "CMD-STW",
+      "command": "STW",
+      "controller_family": "LJ-X8000",
+      "communication_method": null,
+      "direction": "controller_control",
+      "operation_category": "discovered_command",
+      "purpose": null,
+      "syntax": {
+        "request": null,
+        "parameters": [],
+        "terminator": null,
+        "status": "unresolved"
+      },
+      "response": {
+        "normal_response": null,
+        "error_response": null
+      },
+      "requirements": [],
+      "effects": [],
+      "related_commands": [],
+      "related_signals": [],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-D44A4A54C24D",
+          "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1",
+          "page": 383,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0383",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0383-C015",
+          "table_id": null,
+          "evidence_excerpt_hash": "d5ed807e43c60d22de7a137439087dfaccdd34825b427fd21cb0b189ad747186"
+        }
+      ],
+      "safety_classification": "UNRESOLVED"
+    },
+    {
+      "command_id": "CMD-T1",
+      "command": "T1",
+      "controller_family": "LJ-X8000",
+      "communication": {
+        "method": "Ethernet Non-Procedural",
+        "transport": "Ethernet",
+        "direction": "client to controller"
+      },
+      "purpose": {
+        "value": "issue a trigger",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_VISUAL",
+            "block_id": "MSB-LJX8000-226-A",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 226,
+            "printed_page": "9-4",
+            "evidence_excerpt_hash": "f83aa0bb1fc1aa9acad1cb500f7b36f8c0d43f8148be23f732a9905fd46d7a2e"
+          }
+        ]
+      },
+      "request": {
+        "syntax": {
+          "value": "T1",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-226-A",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 226,
+              "printed_page": "9-4",
+              "evidence_excerpt_hash": "f83aa0bb1fc1aa9acad1cb500f7b36f8c0d43f8148be23f732a9905fd46d7a2e"
+            }
+          ]
+        },
+        "terminator": {
+          "value": "configured delimiter",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "block_id": "MSB-LJX8000-202-NETWORK",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 202,
+              "printed_page": "8-2",
+              "evidence_excerpt_hash": "270e117c9d44dcf30766f45c596c394b27d7175abecc363e7b07cd0e986018c2"
+            }
+          ]
+        }
+      },
+      "parameters": [],
+      "response": {
+        "normal_syntax": {
+          "value": "T1",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-226-A",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 226,
+              "printed_page": "9-4",
+              "evidence_excerpt_hash": "f83aa0bb1fc1aa9acad1cb500f7b36f8c0d43f8148be23f732a9905fd46d7a2e"
+            }
+          ]
+        },
+        "error_behavior": {
+          "value": "03 when triggers cannot be accepted or trigger input is disabled",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-226-A",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 226,
+              "printed_page": "9-4",
+              "evidence_excerpt_hash": "f83aa0bb1fc1aa9acad1cb500f7b36f8c0d43f8148be23f732a9905fd46d7a2e"
+            }
+          ]
+        }
+      },
+      "requirements": [],
+      "effects": [],
+      "related_commands": [],
+      "related_signals": [
+        "TRG",
+        "READY"
+      ],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-226-A",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 226,
+          "printed_page": "9-4",
+          "evidence_excerpt_hash": "f83aa0bb1fc1aa9acad1cb500f7b36f8c0d43f8148be23f732a9905fd46d7a2e"
+        }
+      ],
+      "supporting_evidence": [],
+      "safety_classification": "TRIGGER_ACTION"
+    },
+    {
+      "command_id": "CMD-TCP",
+      "command": "TCP",
+      "controller_family": null,
+      "communication_method": null,
+      "direction": "controller_control",
+      "operation_category": "discovered_command",
+      "purpose": null,
+      "syntax": {
+        "request": null,
+        "parameters": [],
+        "terminator": null,
+        "status": "unresolved"
+      },
+      "response": {
+        "normal_response": null,
+        "error_response": null
+      },
+      "requirements": [],
+      "effects": [],
+      "related_commands": [],
+      "related_signals": [],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-01C460ED9B26",
+          "source_sha256": "01c460ed9b26a8c7090ad7c58304b313a85389bbd60ede30221d56dc0df78950",
+          "page": 41,
+          "section_id": "SEC-LJ-S8000-SERIES-COMMUNICATION-LIBRARY-REFERENCE-MANUAL-L15GB-01C460ED9B26-U0041",
+          "chunk_id": "CHK-LJ-S8000-SERIES-COMMUNICATION-LIBRARY-REFERENCE-MANUAL-L15GB-01C460ED9B26-U0041-C001",
+          "table_id": null,
+          "evidence_excerpt_hash": "82d81840ee4a90dda830f7806fd81e9a248b55906edbec27cdae30fceeb1095d"
+        }
+      ],
+      "safety_classification": "UNRESOLVED"
+    },
+    {
+      "command_id": "CMD-TE",
+      "command": "TE",
+      "controller_family": "LJ-X8000",
+      "communication": {
+        "method": "Ethernet Non-Procedural",
+        "transport": "Ethernet",
+        "direction": "client to controller"
+      },
+      "purpose": {
+        "value": "enable or disable trigger input",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_VISUAL",
+            "block_id": "MSB-LJX8000-237-IO",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 237,
+            "printed_page": "9-15",
+            "evidence_excerpt_hash": "d75bbfcc45fe70a195723e623122eb20e52ff09bfa835ce95670d168d333ebce"
+          }
+        ]
+      },
+      "request": {
+        "syntax": {
+          "value": "TE,n",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-237-IO",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 237,
+              "printed_page": "9-15",
+              "evidence_excerpt_hash": "d75bbfcc45fe70a195723e623122eb20e52ff09bfa835ce95670d168d333ebce"
+            }
+          ]
+        },
+        "terminator": {
+          "value": "configured delimiter",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "block_id": "MSB-LJX8000-202-NETWORK",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 202,
+              "printed_page": "8-2",
+              "evidence_excerpt_hash": "270e117c9d44dcf30766f45c596c394b27d7175abecc363e7b07cd0e986018c2"
+            }
+          ]
+        }
+      },
+      "parameters": [
+        {
+          "name": "n",
+          "meaning": {
+            "value": "0=trigger input disabled; 1=permit trigger input",
+            "status": "OFFICIAL_EXACT",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-237-IO",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 237,
+                "printed_page": "9-15",
+                "evidence_excerpt_hash": "d75bbfcc45fe70a195723e623122eb20e52ff09bfa835ce95670d168d333ebce"
+              }
+            ]
+          }
+        }
+      ],
+      "response": {
+        "normal_syntax": {
+          "value": "TE",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-237-IO",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 237,
+              "printed_page": "9-15",
+              "evidence_excerpt_hash": "d75bbfcc45fe70a195723e623122eb20e52ff09bfa835ce95670d168d333ebce"
+            }
+          ]
+        },
+        "error_behavior": {
+          "value": null,
+          "status": "UNRESOLVED",
+          "evidence": []
+        }
+      },
+      "requirements": [],
+      "effects": [
+        "TE,0 keeps READY off and turns laser off."
+      ],
+      "related_commands": [],
+      "related_signals": [
+        "TRG",
+        "READY"
+      ],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-237-IO",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 237,
+          "printed_page": "9-15",
+          "evidence_excerpt_hash": "d75bbfcc45fe70a195723e623122eb20e52ff09bfa835ce95670d168d333ebce"
+        }
+      ],
+      "supporting_evidence": [],
+      "safety_classification": "STATE_CHANGE"
+    },
+    {
+      "command_id": "CMD-TIM",
+      "command": "TIM",
+      "controller_family": "LJ-X8000",
+      "communication": {
+        "method": "Ethernet Non-Procedural",
+        "transport": "Ethernet",
+        "direction": "client to controller"
+      },
+      "purpose": {
+        "value": "issue a TIMING request",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_VISUAL",
+            "block_id": "MSB-LJX8000-234-JUDGMENT_READ",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 234,
+            "printed_page": "9-12",
+            "evidence_excerpt_hash": "37801b6cbb69ad20a7f14005e83168a71cde85b3eed630c49f555df690345502"
+          }
+        ]
+      },
+      "request": {
+        "syntax": {
+          "value": "TIM,m,n | TIM,m,n,t,nnn,...",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-234-JUDGMENT_READ",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 234,
+              "printed_page": "9-12",
+              "evidence_excerpt_hash": "37801b6cbb69ad20a7f14005e83168a71cde85b3eed630c49f555df690345502"
+            }
+          ]
+        },
+        "terminator": {
+          "value": "configured delimiter",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "block_id": "MSB-LJX8000-202-NETWORK",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 202,
+              "printed_page": "8-2",
+              "evidence_excerpt_hash": "270e117c9d44dcf30766f45c596c394b27d7175abecc363e7b07cd0e986018c2"
+            }
+          ]
+        }
+      },
+      "parameters": [
+        {
+          "name": "m",
+          "meaning": {
+            "value": "0=Timing OFF; 1=Timing ON",
+            "status": "OFFICIAL_EXACT",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-234-JUDGMENT_READ",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 234,
+                "printed_page": "9-12",
+                "evidence_excerpt_hash": "37801b6cbb69ad20a7f14005e83168a71cde85b3eed630c49f555df690345502"
+              }
+            ]
+          }
+        }
+      ],
+      "response": {
+        "normal_syntax": {
+          "value": "TIM",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-234-JUDGMENT_READ",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 234,
+              "printed_page": "9-12",
+              "evidence_excerpt_hash": "37801b6cbb69ad20a7f14005e83168a71cde85b3eed630c49f555df690345502"
+            }
+          ]
+        },
+        "error_behavior": {
+          "value": null,
+          "status": "UNRESOLVED",
+          "evidence": []
+        }
+      },
+      "requirements": [],
+      "effects": [],
+      "related_commands": [],
+      "related_signals": [],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-234-JUDGMENT_READ",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 234,
+          "printed_page": "9-12",
+          "evidence_excerpt_hash": "37801b6cbb69ad20a7f14005e83168a71cde85b3eed630c49f555df690345502"
+        }
+      ],
+      "supporting_evidence": [],
+      "safety_classification": "UNRESOLVED"
+    },
+    {
+      "command_id": "CMD-TS",
+      "command": "TS",
+      "controller_family": "LJ-X8000",
+      "communication_method": null,
+      "direction": "controller_control",
+      "operation_category": "discovered_command",
+      "purpose": null,
+      "syntax": {
+        "request": null,
+        "parameters": [],
+        "terminator": null,
+        "status": "unresolved"
+      },
+      "response": {
+        "normal_response": null,
+        "error_response": null
+      },
+      "requirements": [],
+      "effects": [],
+      "related_commands": [],
+      "related_signals": [],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-D44A4A54C24D",
+          "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1",
+          "page": 538,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0538",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0538-C005",
+          "table_id": null,
+          "evidence_excerpt_hash": "ce1311cf4d85fbfd166b93490403e8fe916c061e6c880f916f0541bcf2b95082"
+        }
+      ],
+      "safety_classification": "UNRESOLVED"
+    },
+    {
+      "command_id": "CMD-TW",
+      "command": "TW",
+      "controller_family": "LJ-X8000",
+      "communication_method": null,
+      "direction": "controller_control",
+      "operation_category": "discovered_command",
+      "purpose": null,
+      "syntax": {
+        "request": null,
+        "parameters": [],
+        "terminator": null,
+        "status": "unresolved"
+      },
+      "response": {
+        "normal_response": null,
+        "error_response": null
+      },
+      "requirements": [],
+      "effects": [],
+      "related_commands": [],
+      "related_signals": [],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-D44A4A54C24D",
+          "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1",
+          "page": 500,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0500",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0500-C022",
+          "table_id": null,
+          "evidence_excerpt_hash": "63058e280954038dba49763f9838fb8e2f6fa8e5d80dbffc244d9e16d8edad2a"
+        }
+      ],
+      "safety_classification": "UNRESOLVED"
+    },
+    {
+      "command_id": "CMD-VW",
+      "command": "VW",
+      "controller_family": "LJ-X8000",
+      "communication_method": null,
+      "direction": "controller_control",
+      "operation_category": "discovered_command",
+      "purpose": null,
+      "syntax": {
+        "request": null,
+        "parameters": [],
+        "terminator": null,
+        "status": "unresolved"
+      },
+      "response": {
+        "normal_response": null,
+        "error_response": null
+      },
+      "requirements": [],
+      "effects": [],
+      "related_commands": [],
+      "related_signals": [],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-D44A4A54C24D",
+          "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1",
+          "page": 538,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0538",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0538-C005",
+          "table_id": null,
+          "evidence_excerpt_hash": "ce1311cf4d85fbfd166b93490403e8fe916c061e6c880f916f0541bcf2b95082"
+        }
+      ],
+      "safety_classification": "UNRESOLVED"
+    },
+    {
+      "command_id": "CMD-ZR",
+      "command": "ZR",
+      "controller_family": "LJ-X8000",
+      "communication": {
+        "method": "Ethernet Non-Procedural",
+        "transport": "Ethernet",
+        "direction": "client to controller"
+      },
+      "purpose": {
+        "value": "perform auto zero ON or OFF request",
+        "status": "OFFICIAL_EXACT",
+        "evidence": [
+          {
+            "evidence_quality": "DIRECT_VISUAL",
+            "block_id": "MSB-LJX8000-235-AUTO_ZERO",
+            "document_id": "KEYENCE-E3E51B234B56",
+            "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+            "pdf_page_index": 235,
+            "printed_page": "9-13",
+            "evidence_excerpt_hash": "714900f1b8d3254b457fc4d3b615c994fbef9c704d71f64d85e77229987e54cf"
+          }
+        ]
+      },
+      "request": {
+        "syntax": {
+          "value": "ZR,m,n | ZR,m,n,t,nnn,...",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-235-AUTO_ZERO",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 235,
+              "printed_page": "9-13",
+              "evidence_excerpt_hash": "714900f1b8d3254b457fc4d3b615c994fbef9c704d71f64d85e77229987e54cf"
+            }
+          ]
+        },
+        "terminator": {
+          "value": "configured delimiter",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "block_id": "MSB-LJX8000-202-NETWORK",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 202,
+              "printed_page": "8-2",
+              "evidence_excerpt_hash": "270e117c9d44dcf30766f45c596c394b27d7175abecc363e7b07cd0e986018c2"
+            }
+          ]
+        }
+      },
+      "parameters": [
+        {
+          "name": "m",
+          "meaning": {
+            "value": "0=Auto zero OFF; 1=Auto zero ON",
+            "status": "OFFICIAL_EXACT",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-235-AUTO_ZERO",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 235,
+                "printed_page": "9-13",
+                "evidence_excerpt_hash": "714900f1b8d3254b457fc4d3b615c994fbef9c704d71f64d85e77229987e54cf"
+              }
+            ]
+          }
+        }
+      ],
+      "response": {
+        "normal_syntax": {
+          "value": "ZR",
+          "status": "OFFICIAL_EXACT",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-235-AUTO_ZERO",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 235,
+              "printed_page": "9-13",
+              "evidence_excerpt_hash": "714900f1b8d3254b457fc4d3b615c994fbef9c704d71f64d85e77229987e54cf"
+            }
+          ]
+        },
+        "error_behavior": {
+          "value": null,
+          "status": "UNRESOLVED",
+          "evidence": []
+        }
+      },
+      "requirements": [],
+      "effects": [],
+      "related_commands": [],
+      "related_signals": [],
+      "related_data_flows": [],
+      "knowledge_status": "OFFICIAL_EXACT",
+      "direct_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-235-AUTO_ZERO",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 235,
+          "printed_page": "9-13",
+          "evidence_excerpt_hash": "714900f1b8d3254b457fc4d3b615c994fbef9c704d71f64d85e77229987e54cf"
+        }
+      ],
+      "supporting_evidence": [],
+      "safety_classification": "UNRESOLVED"
+    }
+  ],
+  "schema_version": 2
+}

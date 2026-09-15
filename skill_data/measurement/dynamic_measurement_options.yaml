@@ -1,0 +1,42 @@
+{
+  "options": [
+    {
+      "option_id": "same-program-position-correction",
+      "capabilities": "Position correction is documented; exact per-tool coverage remains unresolved.",
+      "limitations": [
+        "Do not assume automatic dynamic ROI behavior."
+      ],
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "document_id": "KEYENCE-B2841874CF9D",
+          "source_sha256": "b2841874cf9d7a327e96db99711bd1d69ec8a4209254d74856fe7c6d96791a09",
+          "page": 16,
+          "section_id": "SEC-AS-125213-LJ-X8000-SG-601399-WW-GB-2012-1-B2841874CF9D-U0016",
+          "chunk_id": "CHK-AS-125213-LJ-X8000-SG-601399-WW-GB-2012-1-B2841874CF9D-U0016-C014",
+          "evidence_excerpt_hash": "b7f30707c3a5d39c4507e7a16f0c8bb89d607ae3ef3f9120b82d1329a7ef2ec4"
+        }
+      ],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL"
+    },
+    {
+      "option_id": "program-switching",
+      "capabilities": "Use existing program-switch workflow/commands for documented switching.",
+      "limitations": [
+        "Measurement setup transfer behavior requires source context."
+      ],
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "document_id": "KEYENCE-EA64F80437C6",
+          "source_sha256": "ea64f80437c69737557a81f7dfd1891492a8dc0a05a23f0d575ebc18137fd1ea",
+          "page": 32,
+          "section_id": "SEC-LJ-X8000-SERIES-3D-MODE-VOLUME-SIMPLE-SETUP-MANUAL-CONTROL-AND-COMMUNICATION-I-O-C10GB-EA64F80437C6-U0032",
+          "chunk_id": "CHK-LJ-X8000-SERIES-3D-MODE-VOLUME-SIMPLE-SETUP-MANUAL-CONTROL-AND-COMMUNICATION-I-O-C10GB-EA64F80437C6-U0032-C002",
+          "evidence_excerpt_hash": "fd3adadb9b0f37d8b93edd152c6ba11a87f4bbffedcd02d5410a5b0387c26ad7"
+        }
+      ],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL"
+    }
+  ]
+}

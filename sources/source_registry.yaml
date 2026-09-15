@@ -1,0 +1,213 @@
+{
+  "sources": [
+    {
+      "document_id": "KEYENCE-BAF1B51B5A0E",
+      "manufacturer": "KEYENCE Corporation",
+      "title": "Easy Configuration Manual 3D Mode Edition",
+      "document_family": "setup_guide",
+      "revision": "unknown",
+      "sha256": "baf1b51b5a0e78a3c335864aa84d6496ba29b2d959df178851a9bf150ea86690",
+      "official_public_download_url": null,
+      "used_for": "LJ-X8000",
+      "redistributed": false
+    },
+    {
+      "document_id": "KEYENCE-514EA4DE8874",
+      "manufacturer": "KEYENCE Corporation",
+      "title": "unknown",
+      "document_family": "other",
+      "revision": "unknown",
+      "sha256": "514ea4de88748fd36debcea2bffda35b37e797994cd2eecebdf575a1f59a8d19",
+      "official_public_download_url": null,
+      "used_for": "LJ-X8000",
+      "redistributed": false
+    },
+    {
+      "document_id": "KEYENCE-B44EC71865B5",
+      "manufacturer": "KEYENCE Corporation",
+      "title": "Automated Measurement and",
+      "document_family": "other",
+      "revision": "unknown",
+      "sha256": "b44ec71865b58a09ddcac0b98d0ef0571ba1b97d678f7c56b8f4cb60e880fc1a",
+      "official_public_download_url": null,
+      "used_for": "other",
+      "redistributed": false
+    },
+    {
+      "document_id": "KEYENCE-1307244C492F",
+      "manufacturer": "KEYENCE Corporation",
+      "title": "Simple setup manual",
+      "document_family": "setup_guide",
+      "revision": "unknown",
+      "sha256": "1307244c492f71a077f8e637414fc9c971ad159dd84a92d51dcffda9a23f4e8b",
+      "official_public_download_url": null,
+      "used_for": "LJ-X8000",
+      "redistributed": false
+    },
+    {
+      "document_id": "KEYENCE-EA64F80437C6",
+      "manufacturer": "KEYENCE Corporation",
+      "title": "Simple setup manual",
+      "document_family": "setup_guide",
+      "revision": "unknown",
+      "sha256": "ea64f80437c69737557a81f7dfd1891492a8dc0a05a23f0d575ebc18137fd1ea",
+      "official_public_download_url": null,
+      "used_for": "LJ-X8000",
+      "redistributed": false
+    },
+    {
+      "document_id": "KEYENCE-B2841874CF9D",
+      "manufacturer": "KEYENCE Corporation",
+      "title": "Easy Configuration Manual 2D Mode Edition",
+      "document_family": "setup_guide",
+      "revision": "unknown",
+      "sha256": "b2841874cf9d7a327e96db99711bd1d69ec8a4209254d74856fe7c6d96791a09",
+      "official_public_download_url": null,
+      "used_for": "LJ-X8000",
+      "redistributed": false
+    },
+    {
+      "document_id": "KEYENCE-0A6360680FCE",
+      "manufacturer": "KEYENCE Corporation",
+      "title": "EtherNet/IP™ Edition Easy Configuration Manual",
+      "document_family": "setup_guide",
+      "revision": "unknown",
+      "sha256": "0a6360680fce769d076ce36b218285e4a96a1b03a6abe0c33b9e534bf3806c3f",
+      "official_public_download_url": null,
+      "used_for": "LJ-X8000",
+      "redistributed": false
+    },
+    {
+      "document_id": "KEYENCE-837C7E2323DA",
+      "manufacturer": "KEYENCE Corporation",
+      "title": "Quick Start Manual Ethernet Non-procedural Communication Edition",
+      "document_family": "communication",
+      "revision": "unknown",
+      "sha256": "837c7e2323da151c94a70f5e6455ea286c7b8e7ac2a673b79e7a450d3da8a5ec",
+      "official_public_download_url": null,
+      "used_for": "LJ-S8000/LJ-X8000",
+      "redistributed": false
+    },
+    {
+      "document_id": "KEYENCE-DA018DE8E7A4",
+      "manufacturer": "KEYENCE Corporation",
+      "title": "Quick Start Manual FTP Export (FileZilla) Edition",
+      "document_family": "setup_guide",
+      "revision": "unknown",
+      "sha256": "da018de8e7a4d32e10dcf097837e705b199a9fa3e5566d45d05f66997433b23c",
+      "official_public_download_url": null,
+      "used_for": "LJ-S8000/LJ-X8000",
+      "redistributed": false
+    },
+    {
+      "document_id": "KEYENCE-E75568EF34AD",
+      "manufacturer": "KEYENCE Corporation",
+      "title": "User's Manual Read this manual before using the software.",
+      "document_family": "user_manual",
+      "revision": "unknown",
+      "sha256": "e75568ef34adbc547b796e255502ea120442cb2ecc6af73593d655ee5016bf2a",
+      "official_public_download_url": null,
+      "used_for": "other",
+      "redistributed": false
+    },
+    {
+      "document_id": "KEYENCE-051852C7C616",
+      "manufacturer": "KEYENCE Corporation",
+      "title": "User's Manual Read this manual before use.",
+      "document_family": "user_manual",
+      "revision": "unknown",
+      "sha256": "051852c7c616b0987188496b896b7dbda7ec714ba4beca0e5106c3db98249731",
+      "official_public_download_url": null,
+      "used_for": "other",
+      "redistributed": false
+    },
+    {
+      "document_id": "KEYENCE-D44A4A54C24D",
+      "manufacturer": "KEYENCE Corporation",
+      "title": "Read this manual before using the product in order to achieve maximum Keep this manual in a safe place after reading it so that it can be used at any",
+      "document_family": "other",
+      "revision": "unknown",
+      "sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1",
+      "official_public_download_url": null,
+      "used_for": "LJ-X8000",
+      "redistributed": false
+    },
+    {
+      "document_id": "KEYENCE-E3E51B234B56",
+      "manufacturer": "KEYENCE Corporation",
+      "title": "User’s Manual Read this manual before using the product in order to achieve maximum",
+      "document_family": "other",
+      "revision": "unknown",
+      "sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+      "official_public_download_url": null,
+      "used_for": "LJ-X8000",
+      "redistributed": false
+    },
+    {
+      "document_id": "KEYENCE-93CC58BB8AFB",
+      "manufacturer": "KEYENCE Corporation",
+      "title": "Instruction Manual Read this manual before using the product in order to achieve maximum performance.",
+      "document_family": "user_manual",
+      "revision": "unknown",
+      "sha256": "93cc58bb8afbea72ac1c0c5c71723201873dc36d054c9cb8234002e05470f8f0",
+      "official_public_download_url": null,
+      "used_for": "other",
+      "redistributed": false
+    },
+    {
+      "document_id": "KEYENCE-17574BD15720",
+      "manufacturer": "KEYENCE Corporation",
+      "title": "LJ-X8000A Edition",
+      "document_family": "other",
+      "revision": "unknown",
+      "sha256": "17574bd15720c837db015a7a9a20506fd3bdf251ad7f334b7ea17a4d19f0c9bc",
+      "official_public_download_url": null,
+      "used_for": "LJ-X8000A",
+      "redistributed": false
+    },
+    {
+      "document_id": "KEYENCE-01C460ED9B26",
+      "manufacturer": "KEYENCE Corporation",
+      "title": "Reference Manual Please read this manual before use.",
+      "document_family": "reference_manual",
+      "revision": "unknown",
+      "sha256": "01c460ed9b26a8c7090ad7c58304b313a85389bbd60ede30221d56dc0df78950",
+      "official_public_download_url": null,
+      "used_for": "LJ-S8000",
+      "redistributed": false
+    },
+    {
+      "document_id": "KEYENCE-6C5A1DA58BF3",
+      "manufacturer": "KEYENCE Corporation",
+      "title": "Measurement 3D Laser Snapshot Sensor",
+      "document_family": "other",
+      "revision": "unknown",
+      "sha256": "6c5a1da58bf361c310afc03ceb1c97cc97660e9efed7175d1b2388c492401a7e",
+      "official_public_download_url": null,
+      "used_for": "LJ-S8000",
+      "redistributed": false
+    },
+    {
+      "document_id": "KEYENCE-479144FD43E2",
+      "manufacturer": "KEYENCE Corporation",
+      "title": "Reference Manual Please read this manual before use.",
+      "document_family": "reference_manual",
+      "revision": "unknown",
+      "sha256": "479144fd43e2ae9574d6eeb83ae941ff991fee975c3e15f76ec05156d0b78e93",
+      "official_public_download_url": null,
+      "used_for": "LJ-X8000A",
+      "redistributed": false
+    },
+    {
+      "document_id": "KEYENCE-7932148CC472",
+      "manufacturer": "KEYENCE Corporation",
+      "title": "Measurement Raw data output controller",
+      "document_family": "other",
+      "revision": "unknown",
+      "sha256": "7932148cc47205bae9643b0406c030ec3f02cade9f8d0867048e084b9a1bbba7",
+      "official_public_download_url": null,
+      "used_for": "LJ-X8000A",
+      "redistributed": false
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "mappings": [
+    {
+      "controller_family": "LJ-X8000",
+      "connector": "parallel I/O interface",
+      "terminal": "14 / IN12",
+      "signal": "CST",
+      "direction": "input",
+      "electrical_specification": null,
+      "knowledge_status": "OFFICIAL_EXACT",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "block_id": "MSB-LJX8000-274-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 274,
+          "printed_page": "9-52",
+          "evidence_excerpt_hash": "7b32f94f9e7722a60a86ece7d1807b320fbc354158b0571380acb7e0e89fe5b2"
+        }
+      ]
+    },
+    {
+      "controller_family": "LJ-X8000",
+      "connector": "parallel I/O interface",
+      "terminal": "15 / IN13",
+      "signal": "RESET",
+      "direction": "input",
+      "electrical_specification": null,
+      "knowledge_status": "OFFICIAL_EXACT",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "block_id": "MSB-LJX8000-274-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 274,
+          "printed_page": "9-52",
+          "evidence_excerpt_hash": "7b32f94f9e7722a60a86ece7d1807b320fbc354158b0571380acb7e0e89fe5b2"
+        }
+      ]
+    },
+    {
+      "controller_family": "LJ-X8000",
+      "connector": "parallel I/O interface",
+      "terminal": "16 / IN14",
+      "signal": "PST",
+      "direction": "input",
+      "electrical_specification": null,
+      "knowledge_status": "OFFICIAL_EXACT",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "block_id": "MSB-LJX8000-274-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 274,
+          "printed_page": "9-52",
+          "evidence_excerpt_hash": "7b32f94f9e7722a60a86ece7d1807b320fbc354158b0571380acb7e0e89fe5b2"
+        }
+      ]
+    },
+    {
+      "controller_family": "LJ-X8000",
+      "connector": "parallel I/O interface",
+      "terminal": "18 / OUT0",
+      "signal": "ACK",
+      "direction": "output",
+      "electrical_specification": null,
+      "knowledge_status": "OFFICIAL_EXACT",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "block_id": "MSB-LJX8000-274-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 274,
+          "printed_page": "9-52",
+          "evidence_excerpt_hash": "7b32f94f9e7722a60a86ece7d1807b320fbc354158b0571380acb7e0e89fe5b2"
+        }
+      ]
+    },
+    {
+      "controller_family": "LJ-X8000",
+      "connector": "parallel I/O interface",
+      "terminal": "19 / OUT1",
+      "signal": "NACK",
+      "direction": "output",
+      "electrical_specification": null,
+      "knowledge_status": "OFFICIAL_EXACT",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "block_id": "MSB-LJX8000-274-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 274,
+          "printed_page": "9-52",
+          "evidence_excerpt_hash": "7b32f94f9e7722a60a86ece7d1807b320fbc354158b0571380acb7e0e89fe5b2"
+        }
+      ]
+    },
+    {
+      "controller_family": "LJ-X8000",
+      "connector": "parallel I/O interface",
+      "terminal": "20 / OUT2",
+      "signal": "BUSY",
+      "direction": "output",
+      "electrical_specification": null,
+      "knowledge_status": "OFFICIAL_EXACT",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "block_id": "MSB-LJX8000-274-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 274,
+          "printed_page": "9-52",
+          "evidence_excerpt_hash": "7b32f94f9e7722a60a86ece7d1807b320fbc354158b0571380acb7e0e89fe5b2"
+        }
+      ]
+    },
+    {
+      "controller_family": "LJ-X8000",
+      "connector": "parallel I/O interface",
+      "terminal": "21 / OUT3",
+      "signal": "CMD_READY",
+      "direction": "output",
+      "electrical_specification": null,
+      "knowledge_status": "OFFICIAL_EXACT",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "block_id": "MSB-LJX8000-274-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 274,
+          "printed_page": "9-52",
+          "evidence_excerpt_hash": "7b32f94f9e7722a60a86ece7d1807b320fbc354158b0571380acb7e0e89fe5b2"
+        }
+      ]
+    },
+    {
+      "controller_family": "LJ-X8000",
+      "connector": "parallel I/O interface",
+      "terminal": "24..39 / OUT6..OUT21",
+      "signal": "OUT_DATA[15:0]",
+      "direction": "output",
+      "electrical_specification": null,
+      "knowledge_status": "OFFICIAL_EXACT",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "block_id": "MSB-LJX8000-274-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 274,
+          "printed_page": "9-52",
+          "evidence_excerpt_hash": "7b32f94f9e7722a60a86ece7d1807b320fbc354158b0571380acb7e0e89fe5b2"
+        }
+      ]
+    }
+  ],
+  "electrical_coverage": {
+    "input_circuit": {
+      "value": "maximum applied voltage 26.4 V; thresholds differ by input circuit",
+      "status": "OFFICIAL_EXACT",
+      "evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "block_id": "MSB-LJX8000-280-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 280,
+          "printed_page": "9-58",
+          "evidence_excerpt_hash": "2dab0c5e160a6e5d28b5c1f24851bcdf80d42b0eddf15386bd2f48c33437e95e"
+        }
+      ]
+    },
+    "output_circuit": {
+      "value": "maximum applied voltage 30 V; maximum sink current 50 mA",
+      "status": "OFFICIAL_EXACT",
+      "evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "block_id": "MSB-LJX8000-281-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 281,
+          "printed_page": "9-59",
+          "evidence_excerpt_hash": "00b7b035828cad71725decff7e3c54ebf5a9c685a4e4011fb755fec72004bdd8"
+        }
+      ]
+    },
+    "laser_on_input": {
+      "value": "I/O connector terminal 5; non-voltage input",
+      "status": "OFFICIAL_EXACT",
+      "evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "block_id": "MSB-LJX8000-279-IO_TIMING",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 279,
+          "printed_page": "9-57",
+          "evidence_excerpt_hash": "b721a36d8e58d2d73437e14aaf46bc349e4f1548e0f710b6315a6e8fbda41554"
+        }
+      ]
+    }
+  }
+}

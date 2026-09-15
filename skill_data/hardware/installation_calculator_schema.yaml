@@ -1,0 +1,18 @@
+{
+  "inputs": [
+    "head_model",
+    "required_nearest_surface",
+    "required_farthest_surface",
+    "required_depth",
+    "required_x_width"
+  ],
+  "outputs": [
+    "head_reference_position",
+    "distance_to_nearest",
+    "distance_to_farthest",
+    "available_x_widths",
+    "within_valid_envelope",
+    "margin"
+  ],
+  "source": "canonical geometry only"
+}

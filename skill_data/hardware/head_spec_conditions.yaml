@@ -1,0 +1,65 @@
+{
+  "conditions": [
+    {
+      "condition_id": "COND-REPEATABILITY",
+      "text": "Measured object is a standard object determined by Keyence; value when measuring average height of initial setting area with height/position tool; other settings initial settings.",
+      "applies_to": [
+        "repeatability_z",
+        "repeatability_x"
+      ],
+      "heads": [
+        "LJ-X8020",
+        "LJ-X8030",
+        "LJ-X8060",
+        "LJ-X8070",
+        "LJ-X8080",
+        "LJ-X8100",
+        "LJ-X8200",
+        "LJ-X8300",
+        "LJ-X8400",
+        "LJ-X8900"
+      ],
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-379-X8900-SPECS",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 379,
+          "printed_page": "10-5",
+          "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+        }
+      ]
+    },
+    {
+      "condition_id": "COND-PROFILE-INTERVAL",
+      "text": "Profile data interval is changeable; changing it changes X-direction measurement range accordingly.",
+      "applies_to": [
+        "x_resolution"
+      ],
+      "heads": [
+        "LJ-X8020",
+        "LJ-X8030",
+        "LJ-X8060",
+        "LJ-X8070",
+        "LJ-X8080",
+        "LJ-X8100",
+        "LJ-X8200",
+        "LJ-X8300",
+        "LJ-X8400",
+        "LJ-X8900"
+      ],
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-379-X8900-SPECS",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 379,
+          "printed_page": "10-5",
+          "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+        }
+      ]
+    }
+  ]
+}

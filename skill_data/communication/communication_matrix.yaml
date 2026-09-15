@@ -1,0 +1,267 @@
+{
+  "methods": [
+    {
+      "method_id": "COM-EtherNet-IP",
+      "method": "EtherNet/IP",
+      "controller_applicability": null,
+      "transport": null,
+      "command_support": null,
+      "result_support": null,
+      "profile_support": null,
+      "program_control_support": null,
+      "framing": null,
+      "mutual_exclusions": [],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-0A6360680FCE",
+          "source_sha256": "0a6360680fce769d076ce36b218285e4a96a1b03a6abe0c33b9e534bf3806c3f",
+          "page": 1,
+          "section_id": "SEC-LJ-X8000-SERIES-3D-EASY-CONFIGURATION-MANUAL-ETHERNET-IP-EDITION-ALLEN-BRADLEY-CONTROLLOGIX-SERIES-D48GB-0A6360680FCE-U0001",
+          "chunk_id": "CHK-LJ-X8000-SERIES-3D-EASY-CONFIGURATION-MANUAL-ETHERNET-IP-EDITION-ALLEN-BRADLEY-CONTROLLOGIX-SERIES-D48GB-0A6360680FCE-U0001-C003",
+          "table_id": null,
+          "evidence_excerpt_hash": "f86978cbd83428bf5a057af3ff16f44b52a1fa373c9286afad6bd36470a2130e"
+        }
+      ]
+    },
+    {
+      "method_id": "COM-PROFINET",
+      "method": "PROFINET",
+      "controller_applicability": null,
+      "transport": null,
+      "command_support": null,
+      "result_support": null,
+      "profile_support": null,
+      "program_control_support": null,
+      "framing": null,
+      "mutual_exclusions": [],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-D44A4A54C24D",
+          "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1",
+          "page": 18,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0018",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0018-C004",
+          "table_id": null,
+          "evidence_excerpt_hash": "bb5c117a19f90cbb624f41950780aade41f7a709e874f3c1d418a73330e5f392"
+        }
+      ]
+    },
+    {
+      "method_id": "COM-EtherCAT",
+      "method": "EtherCAT",
+      "controller_applicability": null,
+      "transport": null,
+      "command_support": null,
+      "result_support": null,
+      "profile_support": null,
+      "program_control_support": null,
+      "framing": null,
+      "mutual_exclusions": [],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-D44A4A54C24D",
+          "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1",
+          "page": 18,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0018",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0018-C005",
+          "table_id": null,
+          "evidence_excerpt_hash": "dec9a879ee5c3bbcc6112ecc04d3c16b274c385161ca7400b223299603d029d7"
+        }
+      ]
+    },
+    {
+      "method_id": "COM-PLC-Link",
+      "method": "PLC-Link",
+      "controller_applicability": null,
+      "transport": null,
+      "command_support": null,
+      "result_support": null,
+      "profile_support": null,
+      "program_control_support": null,
+      "framing": null,
+      "mutual_exclusions": [],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-D44A4A54C24D",
+          "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1",
+          "page": 22,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0022",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0022-C004",
+          "table_id": null,
+          "evidence_excerpt_hash": "3a2083544bbd00944404a7e634aeffd9dc3758b03d4fca158e3e279752d1233e"
+        }
+      ]
+    },
+    {
+      "method_id": "COM-RS-232C",
+      "method": "RS-232C",
+      "controller_applicability": null,
+      "transport": null,
+      "command_support": null,
+      "result_support": null,
+      "profile_support": null,
+      "program_control_support": null,
+      "framing": null,
+      "mutual_exclusions": [],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-BAF1B51B5A0E",
+          "source_sha256": "baf1b51b5a0e78a3c335864aa84d6496ba29b2d959df178851a9bf150ea86690",
+          "page": 23,
+          "section_id": "SEC-AS-111562-LJ-X8000-SG-600X40-WW-GB-2050-3-BAF1B51B5A0E-U0023",
+          "chunk_id": "CHK-AS-111562-LJ-X8000-SG-600X40-WW-GB-2050-3-BAF1B51B5A0E-U0023-C020",
+          "table_id": null,
+          "evidence_excerpt_hash": "deeacb6b919f0b861b2f2f6ab28b0e253c33b45393f0d774f2022c94a9c1b2a9"
+        }
+      ]
+    },
+    {
+      "method_id": "COM-FTP",
+      "method": "FTP",
+      "controller_applicability": null,
+      "transport": null,
+      "command_support": null,
+      "result_support": null,
+      "profile_support": null,
+      "program_control_support": null,
+      "framing": null,
+      "mutual_exclusions": [],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-EA64F80437C6",
+          "source_sha256": "ea64f80437c69737557a81f7dfd1891492a8dc0a05a23f0d575ebc18137fd1ea",
+          "page": 27,
+          "section_id": "SEC-LJ-X8000-SERIES-3D-MODE-VOLUME-SIMPLE-SETUP-MANUAL-CONTROL-AND-COMMUNICATION-I-O-C10GB-EA64F80437C6-U0027",
+          "chunk_id": "CHK-LJ-X8000-SERIES-3D-MODE-VOLUME-SIMPLE-SETUP-MANUAL-CONTROL-AND-COMMUNICATION-I-O-C10GB-EA64F80437C6-U0027-C026",
+          "table_id": null,
+          "evidence_excerpt_hash": "e3bd633461b25d8a40250e1a463635c02bd29201110451869bd2ac743b12ad24"
+        }
+      ]
+    },
+    {
+      "method_id": "COM-Ethernet",
+      "method": "Ethernet",
+      "controller_applicability": null,
+      "transport": null,
+      "command_support": null,
+      "result_support": null,
+      "profile_support": null,
+      "program_control_support": null,
+      "framing": null,
+      "mutual_exclusions": [],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "KEYENCE-B2841874CF9D",
+          "source_sha256": "b2841874cf9d7a327e96db99711bd1d69ec8a4209254d74856fe7c6d96791a09",
+          "page": 4,
+          "section_id": "SEC-AS-125213-LJ-X8000-SG-601399-WW-GB-2012-1-B2841874CF9D-U0004",
+          "chunk_id": "CHK-AS-125213-LJ-X8000-SG-601399-WW-GB-2012-1-B2841874CF9D-U0004-C011",
+          "table_id": null,
+          "evidence_excerpt_hash": "beffe4bd8a4733b1c4cb0baa1383d988c5efebccfae80fce6fce11c92755ce96"
+        }
+      ]
+    },
+    {
+      "method_id": "COM-ETHERNET-NON-PROCEDURAL",
+      "method": "Ethernet Non-Procedural",
+      "controller_applicability": "LJ-X8000",
+      "canonical_detail_reference": "communication/ethernet_nonprocedural.yaml",
+      "knowledge_status": "OFFICIAL_EXACT",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "block_id": "MSB-LJX8000-202-NETWORK",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 202,
+          "printed_page": "8-2",
+          "evidence_excerpt_hash": "270e117c9d44dcf30766f45c596c394b27d7175abecc363e7b07cd0e986018c2"
+        }
+      ]
+    }
+  ],
+  "ethernet_ip_command_number_mapping": [
+    {
+      "command": "SS",
+      "number_specified_command_no": 12,
+      "knowledge_status": "OFFICIAL_EXACT",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "LJ-X8000-SERIES-3D-EASY-CONFIGURATION-MANUAL-ETHERNET-IP-EDITION-ALLEN-BRADLEY-CONTROLLOGIX-SERIES-D48GB-0A6360680FCE",
+          "source_sha256": "0a6360680fce769d076ce36b218285e4a96a1b03a6abe0c33b9e534bf3806c3f",
+          "page": 33,
+          "section_id": null,
+          "chunk_id": null,
+          "table_id": "TAB-LJ-X8000-SERIES-3D-EASY-CONFIGURATION-MANUAL-ETHERNET-IP-EDITION-ALLEN-BRADLEY-CONTROLLOGIX-SERIES-D48GB-0A6360680FCE-P0033-T01",
+          "evidence_excerpt_hash": "b582c4ba3a9cc6a8811a4984edc0e8c6e9dc00e3399916f9e0749e0bcf1b6d38"
+        }
+      ]
+    },
+    {
+      "command": "PW",
+      "number_specified_command_no": 24,
+      "knowledge_status": "OFFICIAL_EXACT",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "LJ-X8000-SERIES-3D-EASY-CONFIGURATION-MANUAL-ETHERNET-IP-EDITION-ALLEN-BRADLEY-CONTROLLOGIX-SERIES-D48GB-0A6360680FCE",
+          "source_sha256": "0a6360680fce769d076ce36b218285e4a96a1b03a6abe0c33b9e534bf3806c3f",
+          "page": 33,
+          "section_id": null,
+          "chunk_id": null,
+          "table_id": "TAB-LJ-X8000-SERIES-3D-EASY-CONFIGURATION-MANUAL-ETHERNET-IP-EDITION-ALLEN-BRADLEY-CONTROLLOGIX-SERIES-D48GB-0A6360680FCE-P0033-T01",
+          "evidence_excerpt_hash": "b582c4ba3a9cc6a8811a4984edc0e8c6e9dc00e3399916f9e0749e0bcf1b6d38"
+        }
+      ]
+    },
+    {
+      "command": "PR",
+      "number_specified_command_no": 25,
+      "knowledge_status": "OFFICIAL_EXACT",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "LJ-X8000-SERIES-3D-EASY-CONFIGURATION-MANUAL-ETHERNET-IP-EDITION-ALLEN-BRADLEY-CONTROLLOGIX-SERIES-D48GB-0A6360680FCE",
+          "source_sha256": "0a6360680fce769d076ce36b218285e4a96a1b03a6abe0c33b9e534bf3806c3f",
+          "page": 33,
+          "section_id": null,
+          "chunk_id": null,
+          "table_id": "TAB-LJ-X8000-SERIES-3D-EASY-CONFIGURATION-MANUAL-ETHERNET-IP-EDITION-ALLEN-BRADLEY-CONTROLLOGIX-SERIES-D48GB-0A6360680FCE-P0033-T01",
+          "evidence_excerpt_hash": "b582c4ba3a9cc6a8811a4984edc0e8c6e9dc00e3399916f9e0749e0bcf1b6d38"
+        }
+      ]
+    },
+    {
+      "command": "CW",
+      "number_specified_command_no": 43,
+      "knowledge_status": "OFFICIAL_EXACT",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT",
+          "document_id": "LJ-X8000-SERIES-3D-EASY-CONFIGURATION-MANUAL-ETHERNET-IP-EDITION-ALLEN-BRADLEY-CONTROLLOGIX-SERIES-D48GB-0A6360680FCE",
+          "source_sha256": "0a6360680fce769d076ce36b218285e4a96a1b03a6abe0c33b9e534bf3806c3f",
+          "page": 33,
+          "section_id": null,
+          "chunk_id": null,
+          "table_id": "TAB-LJ-X8000-SERIES-3D-EASY-CONFIGURATION-MANUAL-ETHERNET-IP-EDITION-ALLEN-BRADLEY-CONTROLLOGIX-SERIES-D48GB-0A6360680FCE-P0033-T01",
+          "evidence_excerpt_hash": "b582c4ba3a9cc6a8811a4984edc0e8c6e9dc00e3399916f9e0749e0bcf1b6d38"
+        }
+      ]
+    }
+  ]
+}

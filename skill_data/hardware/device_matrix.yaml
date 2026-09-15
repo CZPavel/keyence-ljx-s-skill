@@ -1,0 +1,145 @@
+{
+  "controllers": [
+    {
+      "controller_id": "LJ-X8000",
+      "family": "LJ-X8000",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "compatible_heads": [],
+      "interfaces": [],
+      "software": [],
+      "capabilities": [],
+      "source_evidence": [
+        {
+          "record_id": "controller-LJ-X8000",
+          "knowledge_file": "hardware/device_matrix.yaml",
+          "knowledge_key": "controller-LJ-X8000",
+          "document_id": "KEYENCE-BAF1B51B5A0E",
+          "source_sha256": "baf1b51b5a0e78a3c335864aa84d6496ba29b2d959df178851a9bf150ea86690",
+          "page": 1,
+          "section_id": "SEC-AS-111562-LJ-X8000-SG-600X40-WW-GB-2050-3-BAF1B51B5A0E-U0001",
+          "chunk_id": "CHK-AS-111562-LJ-X8000-SG-600X40-WW-GB-2050-3-BAF1B51B5A0E-U0001-C002",
+          "evidence_excerpt_hash": "ad676eb0069153f78190fcab1af806fc2b3ce70313f1096ca4e455c7590e213e"
+        },
+        {
+          "record_id": "controller-LJ-X8000",
+          "knowledge_file": "hardware/device_matrix.yaml",
+          "knowledge_key": "controller-LJ-X8000",
+          "document_id": "KEYENCE-BAF1B51B5A0E",
+          "source_sha256": "baf1b51b5a0e78a3c335864aa84d6496ba29b2d959df178851a9bf150ea86690",
+          "page": 5,
+          "section_id": "SEC-AS-111562-LJ-X8000-SG-600X40-WW-GB-2050-3-BAF1B51B5A0E-U0005",
+          "chunk_id": "CHK-AS-111562-LJ-X8000-SG-600X40-WW-GB-2050-3-BAF1B51B5A0E-U0005-C001",
+          "evidence_excerpt_hash": "488f8ad18521cb70f01c6c7352b4b217a24a82520f9d9b97daffbf994d0aecb8"
+        },
+        {
+          "record_id": "controller-LJ-X8000",
+          "knowledge_file": "hardware/device_matrix.yaml",
+          "knowledge_key": "controller-LJ-X8000",
+          "document_id": "KEYENCE-BAF1B51B5A0E",
+          "source_sha256": "baf1b51b5a0e78a3c335864aa84d6496ba29b2d959df178851a9bf150ea86690",
+          "page": 19,
+          "section_id": "SEC-AS-111562-LJ-X8000-SG-600X40-WW-GB-2050-3-BAF1B51B5A0E-U0019",
+          "chunk_id": "CHK-AS-111562-LJ-X8000-SG-600X40-WW-GB-2050-3-BAF1B51B5A0E-U0019-C013",
+          "evidence_excerpt_hash": "57df834feb12ec67b879e9a594854e145c6b3264be0bfa1777c823cba88d892c"
+        }
+      ]
+    },
+    {
+      "controller_id": "LJ-X8000A",
+      "family": "LJ-X8000A",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "compatible_heads": [],
+      "interfaces": [],
+      "software": [],
+      "capabilities": [],
+      "source_evidence": [
+        {
+          "record_id": "controller-LJ-X8000A",
+          "knowledge_file": "hardware/device_matrix.yaml",
+          "knowledge_key": "controller-LJ-X8000A",
+          "document_id": "KEYENCE-D44A4A54C24D",
+          "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1",
+          "page": 19,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0019",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0019-C008",
+          "evidence_excerpt_hash": "3a681ac6f7f5a594abd322480b590f6357709e2bf02e4bdf98cabf640736431e"
+        },
+        {
+          "record_id": "controller-LJ-X8000A",
+          "knowledge_file": "hardware/device_matrix.yaml",
+          "knowledge_key": "controller-LJ-X8000A",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "page": 17,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0017",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0017-C008",
+          "evidence_excerpt_hash": "3a681ac6f7f5a594abd322480b590f6357709e2bf02e4bdf98cabf640736431e"
+        },
+        {
+          "record_id": "controller-LJ-X8000A",
+          "knowledge_file": "hardware/device_matrix.yaml",
+          "knowledge_key": "controller-LJ-X8000A",
+          "document_id": "KEYENCE-17574BD15720",
+          "source_sha256": "17574bd15720c837db015a7a9a20506fd3bdf251ad7f334b7ea17a4d19f0c9bc",
+          "page": 1,
+          "section_id": "SEC-LJ-X8000-SERIES-QUICK-START-GUIDE-LJ-X8000A-EDITION-D63GB-17574BD15720-U0001",
+          "chunk_id": "CHK-LJ-X8000-SERIES-QUICK-START-GUIDE-LJ-X8000A-EDITION-D63GB-17574BD15720-U0001-C003",
+          "evidence_excerpt_hash": "17c0210fc2f4f75fb1fd0ba893c581876261c44c8ea205a3332f97618cd8243c"
+        }
+      ]
+    },
+    {
+      "controller_id": "LJ-S8000",
+      "family": "LJ-S8000",
+      "knowledge_status": "OFFICIAL_CONTEXTUAL",
+      "compatible_heads": [],
+      "interfaces": [],
+      "software": [],
+      "capabilities": [],
+      "source_evidence": [
+        {
+          "record_id": "controller-LJ-S8000",
+          "knowledge_file": "hardware/device_matrix.yaml",
+          "knowledge_key": "controller-LJ-S8000",
+          "document_id": "KEYENCE-837C7E2323DA",
+          "source_sha256": "837c7e2323da151c94a70f5e6455ea286c7b8e7ac2a673b79e7a450d3da8a5ec",
+          "page": 1,
+          "section_id": "SEC-LJ-X8000-LJ-S8000-SERIES-QUICK-START-MANUAL-ETHERNET-NON-PROCEDURAL-COMMUNICATION-EDITION-D29GB-837C7E2323DA-U0001",
+          "chunk_id": "CHK-LJ-X8000-LJ-S8000-SERIES-QUICK-START-MANUAL-ETHERNET-NON-PROCEDURAL-COMMUNICATION-EDITION-D29GB-837C7E2323DA-U0001-C003",
+          "evidence_excerpt_hash": "9d779a8d28e8cfb97a92ab4031fbb8d841f0f07297d63463c73f631f33847332"
+        },
+        {
+          "record_id": "controller-LJ-S8000",
+          "knowledge_file": "hardware/device_matrix.yaml",
+          "knowledge_key": "controller-LJ-S8000",
+          "document_id": "KEYENCE-DA018DE8E7A4",
+          "source_sha256": "da018de8e7a4d32e10dcf097837e705b199a9fa3e5566d45d05f66997433b23c",
+          "page": 1,
+          "section_id": "SEC-LJ-X8000-LJ-S8000-SERIES-QUICK-START-MANUAL-FTP-EXPORT-FILEZILLA-EDITION-D24GB-DA018DE8E7A4-U0001",
+          "chunk_id": "CHK-LJ-X8000-LJ-S8000-SERIES-QUICK-START-MANUAL-FTP-EXPORT-FILEZILLA-EDITION-D24GB-DA018DE8E7A4-U0001-C003",
+          "evidence_excerpt_hash": "9d779a8d28e8cfb97a92ab4031fbb8d841f0f07297d63463c73f631f33847332"
+        },
+        {
+          "record_id": "controller-LJ-S8000",
+          "knowledge_file": "hardware/device_matrix.yaml",
+          "knowledge_key": "controller-LJ-S8000",
+          "document_id": "KEYENCE-DA018DE8E7A4",
+          "source_sha256": "da018de8e7a4d32e10dcf097837e705b199a9fa3e5566d45d05f66997433b23c",
+          "page": 1,
+          "section_id": "SEC-LJ-X8000-LJ-S8000-SERIES-QUICK-START-MANUAL-FTP-EXPORT-FILEZILLA-EDITION-D24GB-DA018DE8E7A4-U0001",
+          "chunk_id": "CHK-LJ-X8000-LJ-S8000-SERIES-QUICK-START-MANUAL-FTP-EXPORT-FILEZILLA-EDITION-D24GB-DA018DE8E7A4-U0001-C007",
+          "evidence_excerpt_hash": "a8e590889cb79dbb9a91917d32bca559545ad73768b2c718844940ae21d0d15f"
+        }
+      ]
+    }
+  ],
+  "heads": [],
+  "head_families": [],
+  "compatibility": [],
+  "limitations": [
+    {
+      "status": "UNRESOLVED",
+      "note": "Head compatibility is not inferred across controller families."
+    }
+  ]
+}

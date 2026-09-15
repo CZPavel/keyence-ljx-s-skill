@@ -1,0 +1,17 @@
+{
+  "block_id": "MSB-LJX8000-296-IO_TIMING",
+  "document_id": "KEYENCE-E3E51B234B56",
+  "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+  "pdf_page_index": 296,
+  "printed_page": "9-74",
+  "bbox": null,
+  "block_type": "timing_diagram",
+  "native_text_sha256": "200b78e55898f2328cc8a4bac53883db09ac1ec3c8f771dd466c77329202469b",
+  "visual_verification": true,
+  "evidence_status": "DIRECT_VISUAL",
+  "fields_supported": [
+    "I/O/timing facts"
+  ],
+  "public_evidence": "metadata_locator_only",
+  "raw_evidence_location": "local_evidence/manual_source_blocks (not redistributed)"
+}

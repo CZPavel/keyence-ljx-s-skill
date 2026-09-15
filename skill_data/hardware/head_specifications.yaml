@@ -1,0 +1,3663 @@
+{
+  "heads": [
+    {
+      "head_id": "HEAD-LJ-X8020",
+      "model": "LJ-X8020",
+      "family": "LJ-X Series",
+      "compatible_controllers": [
+        {
+          "controller": "LJ-X8000",
+          "head": "HEAD-LJ-X8020",
+          "relation": "NOT_VERIFIED",
+          "mode": "2D",
+          "direct_evidence": []
+        }
+      ],
+      "optical_geometry": {
+        "z_coordinate_convention": {
+          "source_mapping": "Z-axis values are relative to reference distance; physical near/far envelope uses the numerical minimum/maximum of reference plus listed Z bounds.",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "reference_distance": {
+          "value": 20,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "reference distance",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "measurement_distance_range": {
+          "lower_z_relative": {
+            "value": -2.2,
+            "unit": "mm",
+            "condition_ref": "SOURCE_TABLE",
+            "scope": "listed Z lower bound",
+            "mode": "2D",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-379-X8900-SPECS",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 379,
+                "printed_page": "10-5",
+                "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+              }
+            ]
+          },
+          "reference_z": {
+            "value": 0,
+            "unit": "mm",
+            "condition_ref": "SOURCE_TABLE",
+            "scope": "reference",
+            "mode": "2D",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-379-X8900-SPECS",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 379,
+                "printed_page": "10-5",
+                "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+              }
+            ]
+          },
+          "upper_z_relative": {
+            "value": 2.2,
+            "unit": "mm",
+            "condition_ref": "SOURCE_TABLE",
+            "scope": "listed Z upper bound",
+            "mode": "2D",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-379-X8900-SPECS",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 379,
+                "printed_page": "10-5",
+                "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+              }
+            ]
+          }
+        },
+        "z_range": {
+          "value": 4.4,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "full scale",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "x_range_at_near": {
+          "value": 7,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "near side",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "x_range_at_reference": {
+          "value": 7.5,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "reference distance",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "x_range_at_far": {
+          "value": 8,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "far side",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "intermediate_fov_policy": "NOT_DEFINED"
+      },
+      "sampling": {
+        "profile_points": {
+          "value": 3200,
+          "unit": "points",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "shared table row for all listed models",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "profile_data_interval": {
+          "value": 2.5,
+          "unit": "um",
+          "condition_ref": "COND-PROFILE-INTERVAL",
+          "scope": "from 2 um",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        }
+      },
+      "metrology": {
+        "repeatability_z": {
+          "value": 0.3,
+          "unit": "um",
+          "condition_ref": "COND-REPEATABILITY",
+          "scope": "Z-axis height",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "repeatability_x": {
+          "value": 0.3,
+          "unit": "um",
+          "condition_ref": "COND-REPEATABILITY",
+          "scope": "X-axis width",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "linearity": {
+          "value": null,
+          "status": "NOT_VERIFIED"
+        }
+      },
+      "optics": {
+        "wavelength": {
+          "value": 405,
+          "unit": "nm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "visible light; shared table row",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "laser_class": {
+          "value": "Class 2M laser product",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        }
+      },
+      "environment": {
+        "protection_rating": {
+          "value": "IP67 (IEC60529)",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "operating_temperature": {
+          "value": "0 to +45",
+          "unit": "C",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "ambient temperature; shared table row",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        }
+      },
+      "installation": {
+        "reference_distance": {
+          "value": 20,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "reference plane",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "interpolation_policy": "NOT_DEFINED"
+      },
+      "modes": [
+        "2D"
+      ],
+      "limitations": [
+        "Use source-defined near/reference/far X widths; intermediate FOV is not defined."
+      ],
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-379-X8900-SPECS",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 379,
+          "printed_page": "10-5",
+          "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+        }
+      ]
+    },
+    {
+      "head_id": "HEAD-LJ-X8030",
+      "model": "LJ-X8030",
+      "family": "LJ-X Series",
+      "compatible_controllers": [
+        {
+          "controller": "LJ-X8000",
+          "head": "HEAD-LJ-X8030",
+          "relation": "NOT_VERIFIED",
+          "mode": "2D",
+          "direct_evidence": []
+        }
+      ],
+      "optical_geometry": {
+        "z_coordinate_convention": {
+          "source_mapping": "Z-axis values are relative to reference distance; physical near/far envelope uses the numerical minimum/maximum of reference plus listed Z bounds.",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "reference_distance": {
+          "value": 28,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "reference distance",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "measurement_distance_range": {
+          "lower_z_relative": {
+            "value": -6.5,
+            "unit": "mm",
+            "condition_ref": "SOURCE_TABLE",
+            "scope": "listed Z lower bound",
+            "mode": "2D",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-379-X8900-SPECS",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 379,
+                "printed_page": "10-5",
+                "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+              }
+            ]
+          },
+          "reference_z": {
+            "value": 0,
+            "unit": "mm",
+            "condition_ref": "SOURCE_TABLE",
+            "scope": "reference",
+            "mode": "2D",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-379-X8900-SPECS",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 379,
+                "printed_page": "10-5",
+                "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+              }
+            ]
+          },
+          "upper_z_relative": {
+            "value": 6.5,
+            "unit": "mm",
+            "condition_ref": "SOURCE_TABLE",
+            "scope": "listed Z upper bound",
+            "mode": "2D",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-379-X8900-SPECS",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 379,
+                "printed_page": "10-5",
+                "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+              }
+            ]
+          }
+        },
+        "z_range": {
+          "value": 13.0,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "full scale",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "x_range_at_near": {
+          "value": 16,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "near side",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "x_range_at_reference": {
+          "value": 16,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "reference distance",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "x_range_at_far": {
+          "value": 16,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "far side",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "intermediate_fov_policy": "NOT_DEFINED"
+      },
+      "sampling": {
+        "profile_points": {
+          "value": 3200,
+          "unit": "points",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "shared table row for all listed models",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "profile_data_interval": {
+          "value": 5,
+          "unit": "um",
+          "condition_ref": "COND-PROFILE-INTERVAL",
+          "scope": "from 3 um",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        }
+      },
+      "metrology": {
+        "repeatability_z": {
+          "value": 0.3,
+          "unit": "um",
+          "condition_ref": "COND-REPEATABILITY",
+          "scope": "Z-axis height",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "repeatability_x": {
+          "value": 0.5,
+          "unit": "um",
+          "condition_ref": "COND-REPEATABILITY",
+          "scope": "X-axis width",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "linearity": {
+          "value": null,
+          "status": "NOT_VERIFIED"
+        }
+      },
+      "optics": {
+        "wavelength": {
+          "value": 405,
+          "unit": "nm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "visible light; shared table row",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "laser_class": {
+          "value": "Class 3R laser product",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        }
+      },
+      "environment": {
+        "protection_rating": {
+          "value": "IP67 (IEC60529)",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "operating_temperature": {
+          "value": "0 to +45",
+          "unit": "C",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "ambient temperature; shared table row",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        }
+      },
+      "installation": {
+        "reference_distance": {
+          "value": 28,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "reference plane",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "interpolation_policy": "NOT_DEFINED"
+      },
+      "modes": [
+        "2D"
+      ],
+      "limitations": [
+        "Use source-defined near/reference/far X widths; intermediate FOV is not defined."
+      ],
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-379-X8900-SPECS",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 379,
+          "printed_page": "10-5",
+          "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+        }
+      ]
+    },
+    {
+      "head_id": "HEAD-LJ-X8060",
+      "model": "LJ-X8060",
+      "family": "LJ-X Series",
+      "compatible_controllers": [
+        {
+          "controller": "LJ-X8000",
+          "head": "HEAD-LJ-X8060",
+          "relation": "NOT_VERIFIED",
+          "mode": "2D",
+          "direct_evidence": []
+        }
+      ],
+      "optical_geometry": {
+        "z_coordinate_convention": {
+          "source_mapping": "Z-axis values are relative to reference distance; physical near/far envelope uses the numerical minimum/maximum of reference plus listed Z bounds.",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "reference_distance": {
+          "value": 64,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "reference distance",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "measurement_distance_range": {
+          "lower_z_relative": {
+            "value": -7.3,
+            "unit": "mm",
+            "condition_ref": "SOURCE_TABLE",
+            "scope": "listed Z lower bound",
+            "mode": "2D",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-379-X8900-SPECS",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 379,
+                "printed_page": "10-5",
+                "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+              }
+            ]
+          },
+          "reference_z": {
+            "value": 0,
+            "unit": "mm",
+            "condition_ref": "SOURCE_TABLE",
+            "scope": "reference",
+            "mode": "2D",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-379-X8900-SPECS",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 379,
+                "printed_page": "10-5",
+                "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+              }
+            ]
+          },
+          "upper_z_relative": {
+            "value": 7.3,
+            "unit": "mm",
+            "condition_ref": "SOURCE_TABLE",
+            "scope": "listed Z upper bound",
+            "mode": "2D",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-379-X8900-SPECS",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 379,
+                "printed_page": "10-5",
+                "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+              }
+            ]
+          }
+        },
+        "z_range": {
+          "value": 14.6,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "full scale",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "x_range_at_near": {
+          "value": 15,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "near side",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "x_range_at_reference": {
+          "value": 16,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "reference distance",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "x_range_at_far": {
+          "value": 16,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "far side",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "intermediate_fov_policy": "NOT_DEFINED"
+      },
+      "sampling": {
+        "profile_points": {
+          "value": 3200,
+          "unit": "points",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "shared table row for all listed models",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "profile_data_interval": {
+          "value": 5,
+          "unit": "um",
+          "condition_ref": "COND-PROFILE-INTERVAL",
+          "scope": "from 4 um",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        }
+      },
+      "metrology": {
+        "repeatability_z": {
+          "value": 0.4,
+          "unit": "um",
+          "condition_ref": "COND-REPEATABILITY",
+          "scope": "Z-axis height",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "repeatability_x": {
+          "value": 0.5,
+          "unit": "um",
+          "condition_ref": "COND-REPEATABILITY",
+          "scope": "X-axis width",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "linearity": {
+          "value": null,
+          "status": "NOT_VERIFIED"
+        }
+      },
+      "optics": {
+        "wavelength": {
+          "value": 405,
+          "unit": "nm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "visible light; shared table row",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "laser_class": {
+          "value": "Class 2M laser product",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        }
+      },
+      "environment": {
+        "protection_rating": {
+          "value": "IP67 (IEC60529)",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "operating_temperature": {
+          "value": "0 to +45",
+          "unit": "C",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "ambient temperature; shared table row",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        }
+      },
+      "installation": {
+        "reference_distance": {
+          "value": 64,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "reference plane",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "interpolation_policy": "NOT_DEFINED"
+      },
+      "modes": [
+        "2D"
+      ],
+      "limitations": [
+        "Use source-defined near/reference/far X widths; intermediate FOV is not defined."
+      ],
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-379-X8900-SPECS",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 379,
+          "printed_page": "10-5",
+          "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+        }
+      ]
+    },
+    {
+      "head_id": "HEAD-LJ-X8070",
+      "model": "LJ-X8070",
+      "family": "LJ-X Series",
+      "compatible_controllers": [
+        {
+          "controller": "LJ-X8000",
+          "head": "HEAD-LJ-X8070",
+          "relation": "NOT_VERIFIED",
+          "mode": "2D",
+          "direct_evidence": []
+        }
+      ],
+      "optical_geometry": {
+        "z_coordinate_convention": {
+          "source_mapping": "Z-axis values are relative to reference distance; physical near/far envelope uses the numerical minimum/maximum of reference plus listed Z bounds.",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "reference_distance": {
+          "value": 50,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "reference distance",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "measurement_distance_range": {
+          "lower_z_relative": {
+            "value": -8,
+            "unit": "mm",
+            "condition_ref": "SOURCE_TABLE",
+            "scope": "listed Z lower bound",
+            "mode": "2D",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-379-X8900-SPECS",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 379,
+                "printed_page": "10-5",
+                "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+              }
+            ]
+          },
+          "reference_z": {
+            "value": 0,
+            "unit": "mm",
+            "condition_ref": "SOURCE_TABLE",
+            "scope": "reference",
+            "mode": "2D",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-379-X8900-SPECS",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 379,
+                "printed_page": "10-5",
+                "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+              }
+            ]
+          },
+          "upper_z_relative": {
+            "value": 8,
+            "unit": "mm",
+            "condition_ref": "SOURCE_TABLE",
+            "scope": "listed Z upper bound",
+            "mode": "2D",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-379-X8900-SPECS",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 379,
+                "printed_page": "10-5",
+                "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+              }
+            ]
+          }
+        },
+        "z_range": {
+          "value": 16,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "full scale",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "x_range_at_near": {
+          "value": 33.5,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "near side",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "x_range_at_reference": {
+          "value": 35,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "reference distance",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "x_range_at_far": {
+          "value": 36.5,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "far side",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "intermediate_fov_policy": "NOT_DEFINED"
+      },
+      "sampling": {
+        "profile_points": {
+          "value": 3200,
+          "unit": "points",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "shared table row for all listed models",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "profile_data_interval": {
+          "value": 12.5,
+          "unit": "um",
+          "condition_ref": "COND-PROFILE-INTERVAL",
+          "scope": "from 10 um",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        }
+      },
+      "metrology": {
+        "repeatability_z": {
+          "value": 0.3,
+          "unit": "um",
+          "condition_ref": "COND-REPEATABILITY",
+          "scope": "Z-axis height",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "repeatability_x": {
+          "value": 1,
+          "unit": "um",
+          "condition_ref": "COND-REPEATABILITY",
+          "scope": "X-axis width",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "linearity": {
+          "value": null,
+          "status": "NOT_VERIFIED"
+        }
+      },
+      "optics": {
+        "wavelength": {
+          "value": 405,
+          "unit": "nm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "visible light; shared table row",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "laser_class": {
+          "value": "Class 2M laser product",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        }
+      },
+      "environment": {
+        "protection_rating": {
+          "value": "IP67 (IEC60529)",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "operating_temperature": {
+          "value": "0 to +45",
+          "unit": "C",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "ambient temperature; shared table row",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        }
+      },
+      "installation": {
+        "reference_distance": {
+          "value": 50,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "reference plane",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "interpolation_policy": "NOT_DEFINED"
+      },
+      "modes": [
+        "2D"
+      ],
+      "limitations": [
+        "Use source-defined near/reference/far X widths; intermediate FOV is not defined."
+      ],
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-379-X8900-SPECS",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 379,
+          "printed_page": "10-5",
+          "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+        }
+      ]
+    },
+    {
+      "head_id": "HEAD-LJ-X8080",
+      "model": "LJ-X8080",
+      "family": "LJ-X Series",
+      "compatible_controllers": [
+        {
+          "controller": "LJ-X8000",
+          "head": "HEAD-LJ-X8080",
+          "relation": "NOT_VERIFIED",
+          "mode": "2D",
+          "direct_evidence": []
+        }
+      ],
+      "optical_geometry": {
+        "z_coordinate_convention": {
+          "source_mapping": "Z-axis values are relative to reference distance; physical near/far envelope uses the numerical minimum/maximum of reference plus listed Z bounds.",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "reference_distance": {
+          "value": 73,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "reference distance",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "measurement_distance_range": {
+          "lower_z_relative": {
+            "value": -20.5,
+            "unit": "mm",
+            "condition_ref": "SOURCE_TABLE",
+            "scope": "listed Z lower bound",
+            "mode": "2D",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-379-X8900-SPECS",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 379,
+                "printed_page": "10-5",
+                "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+              }
+            ]
+          },
+          "reference_z": {
+            "value": 0,
+            "unit": "mm",
+            "condition_ref": "SOURCE_TABLE",
+            "scope": "reference",
+            "mode": "2D",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-379-X8900-SPECS",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 379,
+                "printed_page": "10-5",
+                "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+              }
+            ]
+          },
+          "upper_z_relative": {
+            "value": 20.5,
+            "unit": "mm",
+            "condition_ref": "SOURCE_TABLE",
+            "scope": "listed Z upper bound",
+            "mode": "2D",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-379-X8900-SPECS",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 379,
+                "printed_page": "10-5",
+                "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+              }
+            ]
+          }
+        },
+        "z_range": {
+          "value": 41.0,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "full scale",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "x_range_at_near": {
+          "value": 30,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "near side",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "x_range_at_reference": {
+          "value": 35,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "reference distance",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "x_range_at_far": {
+          "value": 39,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "far side",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "intermediate_fov_policy": "NOT_DEFINED"
+      },
+      "sampling": {
+        "profile_points": {
+          "value": 3200,
+          "unit": "points",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "shared table row for all listed models",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "profile_data_interval": {
+          "value": 12.5,
+          "unit": "um",
+          "condition_ref": "COND-PROFILE-INTERVAL",
+          "scope": "from 10 um",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        }
+      },
+      "metrology": {
+        "repeatability_z": {
+          "value": 0.5,
+          "unit": "um",
+          "condition_ref": "COND-REPEATABILITY",
+          "scope": "Z-axis height",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "repeatability_x": {
+          "value": 1,
+          "unit": "um",
+          "condition_ref": "COND-REPEATABILITY",
+          "scope": "X-axis width",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "linearity": {
+          "value": null,
+          "status": "NOT_VERIFIED"
+        }
+      },
+      "optics": {
+        "wavelength": {
+          "value": 405,
+          "unit": "nm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "visible light; shared table row",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "laser_class": {
+          "value": "Class 2M laser product",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        }
+      },
+      "environment": {
+        "protection_rating": {
+          "value": "IP67 (IEC60529)",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "operating_temperature": {
+          "value": "0 to +45",
+          "unit": "C",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "ambient temperature; shared table row",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        }
+      },
+      "installation": {
+        "reference_distance": {
+          "value": 73,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "reference plane",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "interpolation_policy": "NOT_DEFINED"
+      },
+      "modes": [
+        "2D"
+      ],
+      "limitations": [
+        "Use source-defined near/reference/far X widths; intermediate FOV is not defined."
+      ],
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-379-X8900-SPECS",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 379,
+          "printed_page": "10-5",
+          "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+        }
+      ]
+    },
+    {
+      "head_id": "HEAD-LJ-X8100",
+      "model": "LJ-X8100",
+      "family": "LJ-X Series",
+      "compatible_controllers": [
+        {
+          "controller": "LJ-X8000",
+          "head": "HEAD-LJ-X8100",
+          "relation": "NOT_VERIFIED",
+          "mode": "2D",
+          "direct_evidence": []
+        }
+      ],
+      "optical_geometry": {
+        "z_coordinate_convention": {
+          "source_mapping": "Z-axis values are relative to reference distance; physical near/far envelope uses the numerical minimum/maximum of reference plus listed Z bounds.",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "reference_distance": {
+          "value": 107,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "reference distance",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "measurement_distance_range": {
+          "lower_z_relative": {
+            "value": -17,
+            "unit": "mm",
+            "condition_ref": "SOURCE_TABLE",
+            "scope": "listed Z lower bound",
+            "mode": "2D",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-379-X8900-SPECS",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 379,
+                "printed_page": "10-5",
+                "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+              }
+            ]
+          },
+          "reference_z": {
+            "value": 0,
+            "unit": "mm",
+            "condition_ref": "SOURCE_TABLE",
+            "scope": "reference",
+            "mode": "2D",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-379-X8900-SPECS",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 379,
+                "printed_page": "10-5",
+                "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+              }
+            ]
+          },
+          "upper_z_relative": {
+            "value": 17,
+            "unit": "mm",
+            "condition_ref": "SOURCE_TABLE",
+            "scope": "listed Z upper bound",
+            "mode": "2D",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-379-X8900-SPECS",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 379,
+                "printed_page": "10-5",
+                "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+              }
+            ]
+          }
+        },
+        "z_range": {
+          "value": 34,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "full scale",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "x_range_at_near": {
+          "value": 71,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "near side",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "x_range_at_reference": {
+          "value": 74,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "reference distance",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "x_range_at_far": {
+          "value": 77,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "far side",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "intermediate_fov_policy": "NOT_DEFINED"
+      },
+      "sampling": {
+        "profile_points": {
+          "value": 3200,
+          "unit": "points",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "shared table row for all listed models",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "profile_data_interval": {
+          "value": 25,
+          "unit": "um",
+          "condition_ref": "COND-PROFILE-INTERVAL",
+          "scope": "from 20 um",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        }
+      },
+      "metrology": {
+        "repeatability_z": {
+          "value": 0.5,
+          "unit": "um",
+          "condition_ref": "COND-REPEATABILITY",
+          "scope": "Z-axis height",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "repeatability_x": {
+          "value": 3,
+          "unit": "um",
+          "condition_ref": "COND-REPEATABILITY",
+          "scope": "X-axis width",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "linearity": {
+          "value": null,
+          "status": "NOT_VERIFIED"
+        }
+      },
+      "optics": {
+        "wavelength": {
+          "value": 405,
+          "unit": "nm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "visible light; shared table row",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "laser_class": {
+          "value": "Class 2M laser product",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        }
+      },
+      "environment": {
+        "protection_rating": {
+          "value": "IP67 (IEC60529)",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "operating_temperature": {
+          "value": "0 to +45",
+          "unit": "C",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "ambient temperature; shared table row",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        }
+      },
+      "installation": {
+        "reference_distance": {
+          "value": 107,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "reference plane",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "interpolation_policy": "NOT_DEFINED"
+      },
+      "modes": [
+        "2D"
+      ],
+      "limitations": [
+        "Use source-defined near/reference/far X widths; intermediate FOV is not defined."
+      ],
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-379-X8900-SPECS",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 379,
+          "printed_page": "10-5",
+          "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+        }
+      ]
+    },
+    {
+      "head_id": "HEAD-LJ-X8200",
+      "model": "LJ-X8200",
+      "family": "LJ-X Series",
+      "compatible_controllers": [
+        {
+          "controller": "LJ-X8000",
+          "head": "HEAD-LJ-X8200",
+          "relation": "NOT_VERIFIED",
+          "mode": "2D",
+          "direct_evidence": []
+        }
+      ],
+      "optical_geometry": {
+        "z_coordinate_convention": {
+          "source_mapping": "Z-axis values are relative to reference distance; physical near/far envelope uses the numerical minimum/maximum of reference plus listed Z bounds.",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "reference_distance": {
+          "value": 245,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "reference distance",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "measurement_distance_range": {
+          "lower_z_relative": {
+            "value": -34,
+            "unit": "mm",
+            "condition_ref": "SOURCE_TABLE",
+            "scope": "listed Z lower bound",
+            "mode": "2D",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-379-X8900-SPECS",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 379,
+                "printed_page": "10-5",
+                "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+              }
+            ]
+          },
+          "reference_z": {
+            "value": 0,
+            "unit": "mm",
+            "condition_ref": "SOURCE_TABLE",
+            "scope": "reference",
+            "mode": "2D",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-379-X8900-SPECS",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 379,
+                "printed_page": "10-5",
+                "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+              }
+            ]
+          },
+          "upper_z_relative": {
+            "value": 34,
+            "unit": "mm",
+            "condition_ref": "SOURCE_TABLE",
+            "scope": "listed Z upper bound",
+            "mode": "2D",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-379-X8900-SPECS",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 379,
+                "printed_page": "10-5",
+                "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+              }
+            ]
+          }
+        },
+        "z_range": {
+          "value": 68,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "full scale",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "x_range_at_near": {
+          "value": 64,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "near side",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "x_range_at_reference": {
+          "value": 72,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "reference distance",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "x_range_at_far": {
+          "value": 80,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "far side",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "intermediate_fov_policy": "NOT_DEFINED"
+      },
+      "sampling": {
+        "profile_points": {
+          "value": 3200,
+          "unit": "points",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "shared table row for all listed models",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "profile_data_interval": {
+          "value": 25,
+          "unit": "um",
+          "condition_ref": "COND-PROFILE-INTERVAL",
+          "scope": "from 20 um",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        }
+      },
+      "metrology": {
+        "repeatability_z": {
+          "value": 1,
+          "unit": "um",
+          "condition_ref": "COND-REPEATABILITY",
+          "scope": "Z-axis height",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "repeatability_x": {
+          "value": 3,
+          "unit": "um",
+          "condition_ref": "COND-REPEATABILITY",
+          "scope": "X-axis width",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "linearity": {
+          "value": null,
+          "status": "NOT_VERIFIED"
+        }
+      },
+      "optics": {
+        "wavelength": {
+          "value": 405,
+          "unit": "nm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "visible light; shared table row",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "laser_class": {
+          "value": "Class 2M laser product",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        }
+      },
+      "environment": {
+        "protection_rating": {
+          "value": "IP67 (IEC60529)",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "operating_temperature": {
+          "value": "0 to +45",
+          "unit": "C",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "ambient temperature; shared table row",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        }
+      },
+      "installation": {
+        "reference_distance": {
+          "value": 245,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "reference plane",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "interpolation_policy": "NOT_DEFINED"
+      },
+      "modes": [
+        "2D"
+      ],
+      "limitations": [
+        "Use source-defined near/reference/far X widths; intermediate FOV is not defined."
+      ],
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-379-X8900-SPECS",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 379,
+          "printed_page": "10-5",
+          "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+        }
+      ]
+    },
+    {
+      "head_id": "HEAD-LJ-X8300",
+      "model": "LJ-X8300",
+      "family": "LJ-X Series",
+      "compatible_controllers": [
+        {
+          "controller": "LJ-X8000",
+          "head": "HEAD-LJ-X8300",
+          "relation": "NOT_VERIFIED",
+          "mode": "2D",
+          "direct_evidence": []
+        }
+      ],
+      "optical_geometry": {
+        "z_coordinate_convention": {
+          "source_mapping": "Z-axis values are relative to reference distance; physical near/far envelope uses the numerical minimum/maximum of reference plus listed Z bounds.",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "reference_distance": {
+          "value": 288,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "reference distance",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "measurement_distance_range": {
+          "lower_z_relative": {
+            "value": -53,
+            "unit": "mm",
+            "condition_ref": "SOURCE_TABLE",
+            "scope": "listed Z lower bound",
+            "mode": "2D",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-379-X8900-SPECS",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 379,
+                "printed_page": "10-5",
+                "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+              }
+            ]
+          },
+          "reference_z": {
+            "value": 0,
+            "unit": "mm",
+            "condition_ref": "SOURCE_TABLE",
+            "scope": "reference",
+            "mode": "2D",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-379-X8900-SPECS",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 379,
+                "printed_page": "10-5",
+                "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+              }
+            ]
+          },
+          "upper_z_relative": {
+            "value": 53,
+            "unit": "mm",
+            "condition_ref": "SOURCE_TABLE",
+            "scope": "listed Z upper bound",
+            "mode": "2D",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-379-X8900-SPECS",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 379,
+                "printed_page": "10-5",
+                "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+              }
+            ]
+          }
+        },
+        "z_range": {
+          "value": 106,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "full scale",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "x_range_at_near": {
+          "value": 134,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "near side",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "x_range_at_reference": {
+          "value": 150,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "reference distance",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "x_range_at_far": {
+          "value": 160,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "far side",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "intermediate_fov_policy": "NOT_DEFINED"
+      },
+      "sampling": {
+        "profile_points": {
+          "value": 3200,
+          "unit": "points",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "shared table row for all listed models",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "profile_data_interval": {
+          "value": 50,
+          "unit": "um",
+          "condition_ref": "COND-PROFILE-INTERVAL",
+          "scope": "from 40 um",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        }
+      },
+      "metrology": {
+        "repeatability_z": {
+          "value": 3,
+          "unit": "um",
+          "condition_ref": "COND-REPEATABILITY",
+          "scope": "Z-axis height",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "repeatability_x": {
+          "value": 5,
+          "unit": "um",
+          "condition_ref": "COND-REPEATABILITY",
+          "scope": "X-axis width",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "linearity": {
+          "value": null,
+          "status": "NOT_VERIFIED"
+        }
+      },
+      "optics": {
+        "wavelength": {
+          "value": 405,
+          "unit": "nm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "visible light; shared table row",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "laser_class": {
+          "value": "Class 2M laser product",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        }
+      },
+      "environment": {
+        "protection_rating": {
+          "value": "IP67 (IEC60529)",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "operating_temperature": {
+          "value": "0 to +45",
+          "unit": "C",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "ambient temperature; shared table row",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        }
+      },
+      "installation": {
+        "reference_distance": {
+          "value": 288,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "reference plane",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "interpolation_policy": "NOT_DEFINED"
+      },
+      "modes": [
+        "2D"
+      ],
+      "limitations": [
+        "Use source-defined near/reference/far X widths; intermediate FOV is not defined."
+      ],
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-379-X8900-SPECS",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 379,
+          "printed_page": "10-5",
+          "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+        }
+      ]
+    },
+    {
+      "head_id": "HEAD-LJ-X8400",
+      "model": "LJ-X8400",
+      "family": "LJ-X Series",
+      "compatible_controllers": [
+        {
+          "controller": "LJ-X8000",
+          "head": "HEAD-LJ-X8400",
+          "relation": "NOT_VERIFIED",
+          "mode": "2D",
+          "direct_evidence": []
+        }
+      ],
+      "optical_geometry": {
+        "z_coordinate_convention": {
+          "source_mapping": "Z-axis values are relative to reference distance; physical near/far envelope uses the numerical minimum/maximum of reference plus listed Z bounds.",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "reference_distance": {
+          "value": 380,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "reference distance",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "measurement_distance_range": {
+          "lower_z_relative": {
+            "value": -220,
+            "unit": "mm",
+            "condition_ref": "SOURCE_TABLE",
+            "scope": "listed Z lower bound",
+            "mode": "2D",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-379-X8900-SPECS",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 379,
+                "printed_page": "10-5",
+                "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+              }
+            ]
+          },
+          "reference_z": {
+            "value": 0,
+            "unit": "mm",
+            "condition_ref": "SOURCE_TABLE",
+            "scope": "reference",
+            "mode": "2D",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-379-X8900-SPECS",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 379,
+                "printed_page": "10-5",
+                "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+              }
+            ]
+          },
+          "upper_z_relative": {
+            "value": 95,
+            "unit": "mm",
+            "condition_ref": "SOURCE_TABLE",
+            "scope": "listed Z upper bound",
+            "mode": "2D",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-379-X8900-SPECS",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 379,
+                "printed_page": "10-5",
+                "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+              }
+            ]
+          }
+        },
+        "z_range": {
+          "value": 315,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "full scale",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "x_range_at_near": {
+          "value": 180,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "near side",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "x_range_at_reference": {
+          "value": 210,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "reference distance",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "x_range_at_far": {
+          "value": 240,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "far side",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "intermediate_fov_policy": "NOT_DEFINED"
+      },
+      "sampling": {
+        "profile_points": {
+          "value": 3200,
+          "unit": "points",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "shared table row for all listed models",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "profile_data_interval": {
+          "value": 75,
+          "unit": "um",
+          "condition_ref": "COND-PROFILE-INTERVAL",
+          "scope": "from 50 um; source table also lists 100 um with footnote *11",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ],
+          "alternative_source_value": {
+            "value": 100,
+            "unit": "um",
+            "condition_ref": "COND-PROFILE-INTERVAL",
+            "scope": "from 50 um; table footnote *11",
+            "mode": "2D",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-379-X8900-SPECS",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 379,
+                "printed_page": "10-5",
+                "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+              }
+            ]
+          },
+          "alternative_status": "SOURCE_TABLE_ALTERNATIVE"
+        }
+      },
+      "metrology": {
+        "repeatability_z": {
+          "value": 5,
+          "unit": "um",
+          "condition_ref": "COND-REPEATABILITY",
+          "scope": "Z-axis height",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "repeatability_x": {
+          "value": 10,
+          "unit": "um",
+          "condition_ref": "COND-REPEATABILITY",
+          "scope": "X-axis width",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "linearity": {
+          "value": null,
+          "status": "NOT_VERIFIED"
+        }
+      },
+      "optics": {
+        "wavelength": {
+          "value": 405,
+          "unit": "nm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "visible light; shared table row",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "laser_class": {
+          "value": "Class 2M laser product",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        }
+      },
+      "environment": {
+        "protection_rating": {
+          "value": "IP67 (IEC60529)",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "operating_temperature": {
+          "value": "0 to +45",
+          "unit": "C",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "ambient temperature; shared table row",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        }
+      },
+      "installation": {
+        "reference_distance": {
+          "value": 380,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "reference plane",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "interpolation_policy": "NOT_DEFINED"
+      },
+      "modes": [
+        "2D"
+      ],
+      "limitations": [
+        "Use source-defined near/reference/far X widths; intermediate FOV is not defined."
+      ],
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-379-X8900-SPECS",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 379,
+          "printed_page": "10-5",
+          "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+        }
+      ]
+    },
+    {
+      "head_id": "HEAD-LJ-X8900",
+      "model": "LJ-X8900",
+      "family": "LJ-X Series",
+      "compatible_controllers": [
+        {
+          "controller": "LJ-X8000",
+          "head": "HEAD-LJ-X8900",
+          "relation": "COMPATIBLE",
+          "mode": "2D",
+          "direct_evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        }
+      ],
+      "optical_geometry": {
+        "z_coordinate_convention": {
+          "source_mapping": "Z-axis values are relative to reference distance; physical near/far envelope uses the numerical minimum/maximum of reference plus listed Z bounds.",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "reference_distance": {
+          "value": 980,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "reference distance",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "measurement_distance_range": {
+          "lower_z_relative": {
+            "value": -400,
+            "unit": "mm",
+            "condition_ref": "SOURCE_TABLE",
+            "scope": "listed Z lower bound",
+            "mode": "2D",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-379-X8900-SPECS",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 379,
+                "printed_page": "10-5",
+                "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+              }
+            ]
+          },
+          "reference_z": {
+            "value": 0,
+            "unit": "mm",
+            "condition_ref": "SOURCE_TABLE",
+            "scope": "reference",
+            "mode": "2D",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-379-X8900-SPECS",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 379,
+                "printed_page": "10-5",
+                "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+              }
+            ]
+          },
+          "upper_z_relative": {
+            "value": 400,
+            "unit": "mm",
+            "condition_ref": "SOURCE_TABLE",
+            "scope": "listed Z upper bound",
+            "mode": "2D",
+            "evidence": [
+              {
+                "evidence_quality": "DIRECT_VISUAL",
+                "block_id": "MSB-LJX8000-379-X8900-SPECS",
+                "document_id": "KEYENCE-E3E51B234B56",
+                "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+                "pdf_page_index": 379,
+                "printed_page": "10-5",
+                "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+              }
+            ]
+          }
+        },
+        "z_range": {
+          "value": 800,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "full scale",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "x_range_at_near": {
+          "value": 300,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "near side",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "x_range_at_reference": {
+          "value": 510,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "reference distance",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "x_range_at_far": {
+          "value": 720,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "far side",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "intermediate_fov_policy": "NOT_DEFINED"
+      },
+      "sampling": {
+        "profile_points": {
+          "value": 3200,
+          "unit": "points",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "shared table row for all listed models",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "profile_data_interval": {
+          "value": 225,
+          "unit": "um",
+          "condition_ref": "COND-PROFILE-INTERVAL",
+          "scope": "from 100 um",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        }
+      },
+      "metrology": {
+        "repeatability_z": {
+          "value": 10,
+          "unit": "um",
+          "condition_ref": "COND-REPEATABILITY",
+          "scope": "Z-axis height",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "repeatability_x": {
+          "value": 25,
+          "unit": "um",
+          "condition_ref": "COND-REPEATABILITY",
+          "scope": "X-axis width",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "linearity": {
+          "value": null,
+          "status": "NOT_VERIFIED"
+        }
+      },
+      "optics": {
+        "wavelength": {
+          "value": 405,
+          "unit": "nm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "visible light; shared table row",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "laser_class": {
+          "value": "Class 2M laser product",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        }
+      },
+      "environment": {
+        "protection_rating": {
+          "value": "IP67 (IEC60529)",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "operating_temperature": {
+          "value": "0 to +45",
+          "unit": "C",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "ambient temperature; shared table row",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        }
+      },
+      "installation": {
+        "reference_distance": {
+          "value": 980,
+          "unit": "mm",
+          "condition_ref": "SOURCE_TABLE",
+          "scope": "reference plane",
+          "mode": "2D",
+          "evidence": [
+            {
+              "evidence_quality": "DIRECT_VISUAL",
+              "block_id": "MSB-LJX8000-379-X8900-SPECS",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "pdf_page_index": 379,
+              "printed_page": "10-5",
+              "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+            }
+          ]
+        },
+        "interpolation_policy": "NOT_DEFINED"
+      },
+      "modes": [
+        "2D"
+      ],
+      "limitations": [
+        "Use source-defined near/reference/far X widths; intermediate FOV is not defined."
+      ],
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_VISUAL",
+          "block_id": "MSB-LJX8000-379-X8900-SPECS",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "pdf_page_index": 379,
+          "printed_page": "10-5",
+          "evidence_excerpt_hash": "5f2c95dde05163ab74c661a0645fac9f7d597696a1756b83af53f5d70849958e"
+        }
+      ]
+    }
+  ]
+}

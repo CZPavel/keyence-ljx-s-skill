@@ -1,0 +1,104 @@
+{
+  "operations": [
+    {
+      "operation_id": "select-program",
+      "operation": "select/switch",
+      "family": "LJ-X8000",
+      "mode": "CONTEXT_REQUIRED",
+      "where_performed": "controller UI or documented communication path",
+      "online_offline": "UNRESOLVED",
+      "input": null,
+      "effect": "Selects a program; exact method depends on source path.",
+      "persistent": "UNRESOLVED",
+      "related_command": null,
+      "classification": "STATE_CHANGING",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "document_id": "KEYENCE-BAF1B51B5A0E",
+          "source_sha256": "baf1b51b5a0e78a3c335864aa84d6496ba29b2d959df178851a9bf150ea86690",
+          "page": 2,
+          "section_id": "SEC-AS-111562-LJ-X8000-SG-600X40-WW-GB-2050-3-BAF1B51B5A0E-U0002",
+          "chunk_id": "CHK-AS-111562-LJ-X8000-SG-600X40-WW-GB-2050-3-BAF1B51B5A0E-U0002-C008",
+          "evidence_excerpt_hash": "73b7d76daed3a5a382169db7472778fec324a570eaa2d76f0d068677b627b389"
+        }
+      ],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL"
+    },
+    {
+      "operation_id": "read-current-program",
+      "operation": "read current program",
+      "family": "LJ-X8000",
+      "mode": "3D",
+      "where_performed": "fieldbus/control context",
+      "online_offline": "UNRESOLVED",
+      "input": null,
+      "effect": "Obtains the current program.",
+      "persistent": "UNRESOLVED",
+      "related_command": null,
+      "classification": "READ_ONLY",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "document_id": "KEYENCE-0A6360680FCE",
+          "source_sha256": "0a6360680fce769d076ce36b218285e4a96a1b03a6abe0c33b9e534bf3806c3f",
+          "page": 33,
+          "section_id": "SEC-LJ-X8000-SERIES-3D-EASY-CONFIGURATION-MANUAL-ETHERNET-IP-EDITION-ALLEN-BRADLEY-CONTROLLOGIX-SERIES-D48GB-0A6360680FCE-U0033",
+          "chunk_id": "CHK-LJ-X8000-SERIES-3D-EASY-CONFIGURATION-MANUAL-ETHERNET-IP-EDITION-ALLEN-BRADLEY-CONTROLLOGIX-SERIES-D48GB-0A6360680FCE-U0033-C007",
+          "evidence_excerpt_hash": "3cf3203b3fc633d7b3a65eaf0bac26ae937487b0e9cb3370f828dd7bf8c1438a"
+        }
+      ],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL"
+    },
+    {
+      "operation_id": "save-program-settings",
+      "operation": "save",
+      "family": "LJ-X8000",
+      "mode": "3D",
+      "where_performed": "controller/software UI per source context",
+      "online_offline": "UNRESOLVED",
+      "input": "current program and global settings",
+      "effect": "Saves current program settings and global settings.",
+      "persistent": "YES",
+      "related_command": null,
+      "classification": "STATE_CHANGING",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "document_id": "KEYENCE-EA64F80437C6",
+          "source_sha256": "ea64f80437c69737557a81f7dfd1891492a8dc0a05a23f0d575ebc18137fd1ea",
+          "page": 32,
+          "section_id": "SEC-LJ-X8000-SERIES-3D-MODE-VOLUME-SIMPLE-SETUP-MANUAL-CONTROL-AND-COMMUNICATION-I-O-C10GB-EA64F80437C6-U0032",
+          "chunk_id": "CHK-LJ-X8000-SERIES-3D-MODE-VOLUME-SIMPLE-SETUP-MANUAL-CONTROL-AND-COMMUNICATION-I-O-C10GB-EA64F80437C6-U0032-C002",
+          "evidence_excerpt_hash": "fd3adadb9b0f37d8b93edd152c6ba11a87f4bbffedcd02d5410a5b0387c26ad7"
+        }
+      ],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL"
+    },
+    {
+      "operation_id": "command-execution",
+      "operation": "execute documented command",
+      "family": "LJ-X8000",
+      "mode": "3D",
+      "where_performed": "documented communication context",
+      "online_offline": "UNRESOLVED",
+      "input": null,
+      "effect": "Use canonical command reference for syntax.",
+      "persistent": "UNRESOLVED",
+      "related_command": null,
+      "classification": "STATE_CHANGING_OR_READ_ONLY_DEPENDS_ON_COMMAND",
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "document_id": "KEYENCE-0A6360680FCE",
+          "source_sha256": "0a6360680fce769d076ce36b218285e4a96a1b03a6abe0c33b9e534bf3806c3f",
+          "page": 35,
+          "section_id": "SEC-LJ-X8000-SERIES-3D-EASY-CONFIGURATION-MANUAL-ETHERNET-IP-EDITION-ALLEN-BRADLEY-CONTROLLOGIX-SERIES-D48GB-0A6360680FCE-U0035",
+          "chunk_id": "CHK-LJ-X8000-SERIES-3D-EASY-CONFIGURATION-MANUAL-ETHERNET-IP-EDITION-ALLEN-BRADLEY-CONTROLLOGIX-SERIES-D48GB-0A6360680FCE-U0035-C001",
+          "evidence_excerpt_hash": "a7b838bc4f8dacc9162b2493e409cd0cab1805726bc48dcb6ef4321c35a08a02"
+        }
+      ],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL"
+    }
+  ]
+}
