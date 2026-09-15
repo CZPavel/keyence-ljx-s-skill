@@ -1,11 +1,10 @@
 ﻿# Keyence LJ-X/LJ-S Skill V1
 
-**Status:** `PUBLIC_RELEASE_V01`
+**Status:** `PUBLIC_RELEASE_V01_1_VALIDATED`
 
-- Canonical knowledge: `skill_data`
-- Skill: `skill/keyence-ljx`
-- V01 benchmark: 23 PASS, 2 EXPECTED_NOT_VERIFIED, 0 FAIL.
-- Validation: commands, signals, workflows, family deltas, hardware, and measurement have no reported errors.
-- Gap: detailed 2D Height Difference/Width ROI and parameter guidance remains targeted local-source work.
+V01.1 is a portability/CI validation patch; Skill capabilities and canonical technical knowledge are unchanged.
 
-Next: use V01 for practical work and enrich only from real, evidence-backed failures.
+- Public validation runs without manufacturer manuals or raw corpus.
+- Local source validation remains available through `scripts/validate_sources.ps1`.
+- Benchmark: 23 PASS, 2 EXPECTED_NOT_VERIFIED, 0 FAIL.
+- Targeted technical gap: detailed 2D Height Difference/Width ROI and parameter guidance.
