@@ -12,7 +12,12 @@ def main():
   ok=bool(out['matches'])
   if s.get('expect_unresolved'):
    (unresolved if not ok else failed).append({'id':s['id'],'reason':'recognized unresolved' if not ok else 'unexpected canonical cross-family match'})
-  elif ok: passed.append(s['id'])
+  elif ok:
+   required=s.get('required_record_contains',[])
+   payload=json.dumps(out['matches'][0].get('record',{}),ensure_ascii=False)
+   missing=[value for value in required if value not in payload]
+   if missing: failed.append({'id':s['id'],'reason':'canonical record is missing expected evidence-backed detail: '+', '.join(missing)})
+   else: passed.append(s['id'])
   else: failed.append({'id':s['id'],'reason':'route did not resolve'})
  report={'total':len(scenarios),'passed':len(passed),'failed':failed,'unresolved_by_design':unresolved}
  (S.parent/'benchmark_report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8-sig')

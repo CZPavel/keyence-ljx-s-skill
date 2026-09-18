@@ -111,6 +111,115 @@
         "measurement/region_model.yaml"
       ],
       "knowledge_status": "DERIVED"
+    },
+    {
+      "playbook_id": "height-image-spike-noise",
+      "title": "LJ-X8000 3D height image with localized spike noise",
+      "symptoms": [
+        "localized spike noise",
+        "isolated anomalous height values"
+      ],
+      "applicability": {
+        "controller_family": "LJ-X8000",
+        "mode": "3D"
+      },
+      "documented_checks": [
+        {
+          "parameter": "height-median-filter",
+          "expected_effect": "Removes anomalous height values and spike noise using surrounding height values."
+        },
+        {
+          "parameter": "height-spike-noise-cut",
+          "expected_effect": "Removes spike noise with explicit Direction, Removal Size, Removal Threshold, and Cut Target controls."
+        }
+      ],
+      "canonical_refs": [
+        "measurement/preprocessing.yaml"
+      ],
+      "knowledge_status": "OFFICIAL_EXACT"
+    },
+    {
+      "playbook_id": "height-image-invalid-pixels",
+      "title": "LJ-X8000 3D height image with invalid pixels",
+      "symptoms": [
+        "missing height data",
+        "invalid height pixels"
+      ],
+      "applicability": {
+        "controller_family": "LJ-X8000",
+        "mode": "3D"
+      },
+      "documented_checks": [
+        {
+          "parameter": "height-invalid-pixel-suppression",
+          "expected_effect": "Estimates invalid pixels from surrounding valid pixels without changing valid pixels.",
+          "caution": "Small does not interpolate the boundary; Large interpolates using invalid values as 0."
+        }
+      ],
+      "canonical_refs": [
+        "measurement/preprocessing.yaml"
+      ],
+      "knowledge_status": "OFFICIAL_EXACT"
+    },
+    {
+      "playbook_id": "capture-profile-missing-or-false-detection",
+      "title": "LJ-X8000 3D capture has missing profile or false detection",
+      "symptoms": [
+        "profile missing",
+        "insufficient reflected light",
+        "false detection",
+        "multiple reflected light",
+        "false peak"
+      ],
+      "applicability": {
+        "controller_family": "LJ-X8000",
+        "mode": "3D"
+      },
+      "documented_checks": [
+        {
+          "parameter": "capture-sensitivity-adjustment",
+          "expected_effect": "Start from center; insufficient reflected light maps to [+], while multiple-reflection false detection maps to [-]."
+        },
+        {
+          "parameter": "capture-dynamic-range",
+          "expected_effect": "Higher supports reflectance difference; lower helps avoid false weak-light detections with multiple reflections."
+        },
+        {
+          "parameter": "capture-detection-sensitivity",
+          "expected_effect": "Lower setting helps avoid false peaks from ambient light or multiple reflections."
+        }
+      ],
+      "canonical_refs": [
+        "measurement/acquisition.yaml"
+      ],
+      "knowledge_status": "OFFICIAL_EXACT"
+    },
+    {
+      "playbook_id": "continuous-profile-processing-time",
+      "title": "LJ-X8000 3D continuous profile measurement is too slow",
+      "symptoms": [
+        "continuous profile processing time",
+        "too many profile lines",
+        "scan interval"
+      ],
+      "applicability": {
+        "controller_family": "LJ-X8000",
+        "mode": "3D"
+      },
+      "documented_checks": [
+        {
+          "parameter": "continuous-profile-measurement Scan Interval",
+          "expected_effect": "A smaller interval measures more profiles in the same region and takes longer to process."
+        },
+        {
+          "parameter": "continuous-profile-measurement Max. Number of Profiles",
+          "expected_effect": "Must be larger than Profile Count; count changes with measurement region and scan interval."
+        }
+      ],
+      "canonical_refs": [
+        "measurement/measurement_tools.yaml"
+      ],
+      "knowledge_status": "OFFICIAL_EXACT"
     }
   ]
 }

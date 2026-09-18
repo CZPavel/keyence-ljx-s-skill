@@ -8,18 +8,154 @@
         "mode": "2D",
         "head_requirements": null
       },
-      "purpose": "Measures source-described height difference and width in a configured area.",
-      "measurement_principle": null,
+      "purpose": "Measures step, width, distance, and center position from the height and position detected in two measurement ranges.",
+      "measurement_principle": "The tool compares a Reference Target and a Measurement Target detected in two measurement ranges; it is not a one-range Height and Position tool.",
       "inputs": [
-        "profile/measurement region: exact configuration remains source-specific"
+        "two measurement ranges",
+        "Reference Target",
+        "Measurement Target"
       ],
       "regions": {
         "canonical_roles": [
-          "measurement_region"
+          "reference_target",
+          "measurement_target"
         ],
-        "official_terms_unresolved": true
+        "official_terms_unresolved": false
       },
-      "configuration_parameters": [],
+      "configuration_parameters": [
+        {
+          "name": "Reference Target",
+          "meaning": "Selects the standard target used by Height Difference/Width.",
+          "target_kinds": {
+            "point": [
+              "Average",
+              "Peak",
+              "Bottom",
+              "Inflection Point",
+              "Inflection Point 2",
+              "Edge",
+              "Two Lines Intersection",
+              "Intersection of Circle and Line",
+              "Intersection of Profile and Line",
+              "Center of Circle",
+              "Auxiliary Target (Point)"
+            ],
+            "line": [
+              "Line",
+              "Line Passing Point",
+              "Line Passing Two Points",
+              "Two Lines Bisection",
+              "Auxiliary Target (Line)"
+            ]
+          },
+          "knowledge_status": "OFFICIAL_EXACT",
+          "source_evidence": [
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "page": 101,
+              "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0101",
+              "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0101-C005",
+              "evidence_excerpt_hash": "0191bd3d3da6ea4582432b2300aa7713791be9ff7fa608bdfdf9969ac80ee39c"
+            },
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "page": 101,
+              "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0101",
+              "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0101-C006",
+              "evidence_excerpt_hash": "2c035cdf07fb1905ffff283414ca1c6e1a20c138038df90f66f88c218f13606b"
+            },
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "page": 101,
+              "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0101",
+              "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0101-C007",
+              "evidence_excerpt_hash": "dc1857a4ebf2653204d624ab25a16cda3ea297c695f5dfee88ac7f5fea2b39b4"
+            },
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "page": 101,
+              "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0101",
+              "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0101-C008",
+              "evidence_excerpt_hash": "0622e2e182427a2cfbe55195abad03ca7390977efda2b5f2e57def81af908262"
+            },
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "page": 101,
+              "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0101",
+              "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0101-C009",
+              "evidence_excerpt_hash": "2d17070c0c3c534f0cc468cc2ef0e576c011dc1ff41ad899a68c992596d7f480"
+            }
+          ]
+        },
+        {
+          "name": "Measurement Target",
+          "meaning": "Selects the target measured relative to the Reference Target; documented choices are point targets.",
+          "target_kinds": {
+            "point": [
+              "Average",
+              "Peak",
+              "Bottom",
+              "Inflection Point",
+              "Inflection Point 2",
+              "Edge",
+              "Two Lines Intersection",
+              "Intersection of Circle and Line",
+              "Intersection of Profile and Line",
+              "Center of Circle",
+              "Auxiliary Target (Point)"
+            ]
+          },
+          "knowledge_status": "OFFICIAL_EXACT",
+          "source_evidence": [
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "page": 101,
+              "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0101",
+              "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0101-C012",
+              "evidence_excerpt_hash": "e39580b461de75bd6980fd00187672531b95f885a6e62191d81e37a27c1f6ec4"
+            },
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "page": 101,
+              "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0101",
+              "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0101-C013",
+              "evidence_excerpt_hash": "f457023b4db3d385bbe4e5c9e08d637a66fb79068c5603f7ffc97939597cae37"
+            },
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "page": 101,
+              "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0101",
+              "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0101-C014",
+              "evidence_excerpt_hash": "7fc6e454b23495ce77800655230d1f41b32051ef8c78c6db050760165ed17e09"
+            },
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "page": 101,
+              "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0101",
+              "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0101-C015",
+              "evidence_excerpt_hash": "201cad99fc044498e10afbcd02c6bb62d97a8e24b88c7f5974df4ddf77a9141a"
+            }
+          ]
+        }
+      ],
       "outputs": [
         {
           "name": "height difference",
@@ -56,6 +192,60 @@
               "evidence_excerpt_hash": "63bd9b9387d15211d7d6fc834b24afe79a0e459c7ec2b870a54e184fbbfb6782"
             }
           ]
+        },
+        {
+          "name": "distance",
+          "semantic_meaning": "distance between the configured targets",
+          "unit": "mm or micrometres, selected by the distance-unit setting",
+          "coordinate_semantics": null,
+          "invalid_behavior": null,
+          "source_evidence": [
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "page": 100,
+              "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0100",
+              "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0100-C020",
+              "evidence_excerpt_hash": "8e3c0c606870782b40dd886aa343826fd2959543daddb2e9bd66b5782d8927b6"
+            }
+          ]
+        },
+        {
+          "name": "center position X",
+          "semantic_meaning": "Center Pos. X measurement value",
+          "unit": "mm or micrometres, selected by the distance-unit setting",
+          "coordinate_semantics": "X",
+          "invalid_behavior": null,
+          "source_evidence": [
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "page": 100,
+              "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0100",
+              "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0100-C020",
+              "evidence_excerpt_hash": "8e3c0c606870782b40dd886aa343826fd2959543daddb2e9bd66b5782d8927b6"
+            }
+          ]
+        },
+        {
+          "name": "center position Z",
+          "semantic_meaning": "Center Pos. Z measurement value",
+          "unit": "mm or micrometres, selected by the distance-unit setting",
+          "coordinate_semantics": "Z",
+          "invalid_behavior": null,
+          "source_evidence": [
+            {
+              "evidence_quality": "DIRECT_NATIVE",
+              "document_id": "KEYENCE-E3E51B234B56",
+              "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+              "page": 100,
+              "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0100",
+              "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0100-C020",
+              "evidence_excerpt_hash": "8e3c0c606870782b40dd886aa343826fd2959543daddb2e9bd66b5782d8927b6"
+            }
+          ]
         }
       ],
       "filters": [],
@@ -84,7 +274,44 @@
           "evidence_excerpt_hash": "63bd9b9387d15211d7d6fc834b24afe79a0e459c7ec2b870a54e184fbbfb6782"
         }
       ],
-      "supporting_evidence": [],
+      "supporting_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "page": 100,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0100",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0100-C007",
+          "evidence_excerpt_hash": "81eb8461a73b22c3095f35e40febabf5eac1588b1bf38018ac7a74a31dde220b"
+        },
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "page": 100,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0100",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0100-C008",
+          "evidence_excerpt_hash": "42031501abdcdef34d1453b3a3329c48c1c6a53a7fdb0bf31d419876bbdd1df4"
+        },
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "page": 100,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0100",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0100-C020",
+          "evidence_excerpt_hash": "8e3c0c606870782b40dd886aa343826fd2959543daddb2e9bd66b5782d8927b6"
+        },
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "page": 101,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0101",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0101-C005",
+          "evidence_excerpt_hash": "0191bd3d3da6ea4582432b2300aa7713791be9ff7fa608bdfdf9969ac80ee39c"
+        }
+      ],
       "knowledge_status": "OFFICIAL_CONTEXTUAL"
     },
     {
@@ -573,6 +800,90 @@
       ],
       "supporting_evidence": [],
       "knowledge_status": "OFFICIAL_CONTEXTUAL"
+    },
+    {
+      "tool_id": "continuous-profile-measurement",
+      "official_name": "Continuous Profile Measurement",
+      "aliases": ["multiple profile lines", "profile scan interval", "consecutive NG profiles"],
+      "applicability": {"controller_family": "LJ-X8000", "mode": "3D", "head_requirements": null},
+      "purpose": "Draws and measures numerous profile lines at regular intervals within a specified height-image region.",
+      "measurement_principle": "Applies Profile Measurement content to each obtained profile line and can judge the collected profile results.",
+      "inputs": ["height image", "measurement region", "scan direction", "scan interval", "profile width"],
+      "configuration_parameters": [
+        {"name": "Scan Interval", "meaning": "Sets profile-line scan interval in pixels; a smaller interval measures more profiles in the same region but takes longer to process.", "knowledge_status": "OFFICIAL_EXACT"},
+        {"name": "Profile Calc. Method", "meaning": "Selects Average Link, Max. Link, or Min. Link across the profile width.", "knowledge_status": "OFFICIAL_EXACT"},
+        {"name": "Max. Number of Profiles", "meaning": "Must be larger than Profile Count; profile count changes with measurement region and scan interval.", "knowledge_status": "OFFICIAL_EXACT"}
+      ],
+      "outputs": [{"name": "continuous profile measurement result", "source_evidence": [{"evidence_quality": "DIRECT_NATIVE", "document_id": "KEYENCE-D44A4A54C24D", "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1", "page": 233, "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0233", "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0233-C005", "evidence_excerpt_hash": "cfd69269422fbe10c0490e9d35ee865435241226094b32a367e8677ccb268d31"}]}],
+      "trade_offs": ["A smaller Scan Interval increases profile coverage and processing time."],
+      "limitations": ["This is an LJ-X8000 3D tool; do not use it as evidence for 2D, LJ-X8000A, or LJ-S8000 behavior."],
+      "related_tools": ["profile-measurement-3d"],
+      "related_corrections": ["profile-measurement-1-point-correction", "profile-measurement-2-point-correction"],
+      "direct_evidence": [
+        {"evidence_quality": "DIRECT_NATIVE", "document_id": "KEYENCE-D44A4A54C24D", "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1", "page": 233, "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0233", "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0233-C005", "evidence_excerpt_hash": "cfd69269422fbe10c0490e9d35ee865435241226094b32a367e8677ccb268d31"},
+        {"evidence_quality": "DIRECT_NATIVE", "document_id": "KEYENCE-D44A4A54C24D", "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1", "page": 236, "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0236", "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0236-C005", "evidence_excerpt_hash": "293a06a71cfdd2861f639ef66625f53ccad9b46bc39d66a40f46cc1c8a52426b"}
+      ],
+      "knowledge_status": "OFFICIAL_EXACT"
+    },
+    {
+      "tool_id": "profile-measurement-3d",
+      "official_name": "Profile Measurement",
+      "aliases": ["profile range follows position", "profile line", "measurement range reference"],
+      "applicability": {"controller_family": "LJ-X8000", "mode": "3D", "head_requirements": null},
+      "purpose": "Measures profile geometry inside a configured measurement range of a 3D height image.",
+      "measurement_principle": "The measurement range can remain numeric or follow a position or center-position result from another profile measurement.",
+      "inputs": ["height image", "measurement range", "selected profile measurement type"],
+      "configuration_parameters": [
+        {"name": "Numeric specification", "meaning": "Use left and right edge positions when the measurement range does not change.", "knowledge_status": "OFFICIAL_EXACT"},
+        {"name": "Reference to another position measurement", "meaning": "Uses a position or center-position result from another profile measurement so the measurement range follows that result; Offset and Width are configurable.", "knowledge_status": "OFFICIAL_EXACT"}
+      ],
+      "outputs": [{"name": "profile measurement result", "source_evidence": [{"evidence_quality": "DIRECT_NATIVE", "document_id": "KEYENCE-D44A4A54C24D", "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1", "page": 229, "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0229", "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0229-C011", "evidence_excerpt_hash": "da33c7d52e90d7e34714f6cbc9034b84c8eb945b2d258e27a0f48123f1932ca9"}]}],
+      "trade_offs": ["A numeric range is fixed; a referenced range follows the upstream position result."],
+      "limitations": ["The upstream position or center-position result must be valid before relying on a referenced range."],
+      "related_tools": ["continuous-profile-measurement", "profile-length-3d", "profile-cross-section-area-3d"],
+      "related_corrections": ["profile-measurement-1-point-correction", "profile-measurement-2-point-correction"],
+      "direct_evidence": [
+        {"evidence_quality": "DIRECT_NATIVE", "document_id": "KEYENCE-D44A4A54C24D", "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1", "page": 229, "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0229", "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0229-C013", "evidence_excerpt_hash": "83f947dcef131109019d129724bb5a592e6b1ced1c918dbb0d6aafc9ca5e07e6"}
+      ],
+      "knowledge_status": "OFFICIAL_EXACT"
+    },
+    {
+      "tool_id": "profile-length-3d",
+      "official_name": "Profile Length",
+      "aliases": ["profile path length", "profile smoothing", "interpolation of invalid data"],
+      "applicability": {"controller_family": "LJ-X8000", "mode": "3D", "head_requirements": null},
+      "purpose": "Calculates the distance traversed by the profile inside the measurement range.",
+      "measurement_principle": "Uses profile data within the selected range; invalid-data interpolation and X-direction moving-average smoothing are available.",
+      "inputs": ["profile measurement range"],
+      "configuration_parameters": [
+        {"name": "Interpolation of Invalid Data", "meaning": "Interpolates a line between the end of one valid point and the start of another in the range.", "knowledge_status": "OFFICIAL_EXACT"},
+        {"name": "Smoothing", "meaning": "Performs X-direction moving average; increasing its setting reduces profile-data variation.", "knowledge_status": "OFFICIAL_EXACT"}
+      ],
+      "outputs": [{"name": "profile length", "source_evidence": [{"evidence_quality": "DIRECT_NATIVE", "document_id": "KEYENCE-D44A4A54C24D", "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1", "page": 228, "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0228", "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0228-C004", "evidence_excerpt_hash": "6e3f8c5e64b835f348ee3a0f96cb83a7a0123a1bb0f5e62409c3e5e11eda5375"}]}],
+      "trade_offs": ["Increasing smoothing reduces profile-data variation and changes the profile used for the result."],
+      "limitations": ["This record is for the documented LJ-X8000 3D Profile Measurement context only."],
+      "related_tools": ["profile-measurement-3d"],
+      "related_corrections": ["profile-measurement-1-point-correction", "profile-measurement-2-point-correction"],
+      "direct_evidence": [
+        {"evidence_quality": "DIRECT_NATIVE", "document_id": "KEYENCE-D44A4A54C24D", "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1", "page": 228, "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0228", "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0228-C008", "evidence_excerpt_hash": "2e6dd96303c369ad70c704ebd0678b7442f2b700608c6aa46e842b1501e97399"}
+      ],
+      "knowledge_status": "OFFICIAL_EXACT"
+    },
+    {
+      "tool_id": "profile-cross-section-area-3d",
+      "official_name": "Cross-section Area",
+      "aliases": ["profile area", "zero plane area", "segmented profile area"],
+      "applicability": {"controller_family": "LJ-X8000", "mode": "3D", "head_requirements": null},
+      "purpose": "Measures the area of profile regions segmented by the Zero Plane and profile within a measurement range.",
+      "measurement_principle": "The Zero Plane separates the profile regions whose cross-section area is measured.",
+      "inputs": ["profile", "measurement range", "Zero Plane"],
+      "configuration_parameters": [{"name": "Measurement Range", "meaning": "Selects the range used to detect cross-section area.", "knowledge_status": "OFFICIAL_EXACT"}],
+      "outputs": [{"name": "cross-section area", "source_evidence": [{"evidence_quality": "DIRECT_NATIVE", "document_id": "KEYENCE-D44A4A54C24D", "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1", "page": 227, "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0227", "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0227-C004", "evidence_excerpt_hash": "0bd99c274b2f9a871e346f9f120ece57b494951866066d8ab4fc77e9aefc2572"}]}],
+      "limitations": ["The selected Zero Plane directly defines the segmentation reference."],
+      "related_tools": ["profile-measurement-3d"],
+      "related_corrections": [],
+      "direct_evidence": [{"evidence_quality": "DIRECT_NATIVE", "document_id": "KEYENCE-D44A4A54C24D", "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1", "page": 227, "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0227", "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0227-C004", "evidence_excerpt_hash": "0bd99c274b2f9a871e346f9f120ece57b494951866066d8ab4fc77e9aefc2572"}],
+      "knowledge_status": "OFFICIAL_EXACT"
     }
   ]
 }

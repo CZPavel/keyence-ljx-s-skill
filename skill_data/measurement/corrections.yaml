@@ -86,6 +86,42 @@
         }
       ],
       "knowledge_status": "OFFICIAL_CONTEXTUAL"
+    },
+    {
+      "correction_id": "profile-measurement-1-point-correction",
+      "official_name": "Profile Measurement 1-Point Correction",
+      "aliases": ["profile offset correction", "one point measured value correction"],
+      "family": "LJ-X8000",
+      "mode": "3D",
+      "purpose": "Adjusts a Profile Measurement result to match actual size using one measured value.",
+      "input": "Current measured value and the desired post-correction value.",
+      "reference_definition": "Calculates an offset against the measured value.",
+      "degrees_of_freedom": "Offset based on one measured value.",
+      "effect_on_profile_result": "Corrects the measured value to the configured actual size.",
+      "configuration": "Select [1-Point] under [Measured Value Correction], then enter before- and after-correction values.",
+      "limitations": ["Use a representative measured value and verify against an independent known size."],
+      "order_dependencies": "Perform measurement before calculating the correction value.",
+      "compatible_tools": ["Profile Measurement", "Continuous Profile Measurement"],
+      "source_evidence": [{"evidence_quality": "DIRECT_NATIVE", "document_id": "KEYENCE-D44A4A54C24D", "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1", "page": 231, "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0231", "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0231-C005", "evidence_excerpt_hash": "62fee373d3e620724d28dcc9032ffe4df2d87ade7303cd0551f1e620d718ac29"}],
+      "knowledge_status": "OFFICIAL_EXACT"
+    },
+    {
+      "correction_id": "profile-measurement-2-point-correction",
+      "official_name": "Profile Measurement 2-Point Correction",
+      "aliases": ["profile linear correction", "two point measured value correction"],
+      "family": "LJ-X8000",
+      "mode": "3D",
+      "purpose": "Adjusts Profile Measurement results to match actual size using two measured values.",
+      "input": "Two pre-correction and post-correction value pairs.",
+      "reference_definition": "Calculates correction coefficients A and B from two measured-value pairs.",
+      "degrees_of_freedom": "Two-point correction with coefficients A and B.",
+      "effect_on_profile_result": "Applies coefficients calculated from the two configured value pairs.",
+      "configuration": "Select [2-Points] under [Measured Value Correction], then enter the two before- and after-correction pairs.",
+      "limitations": ["Do not treat this as a generic geometric alignment or a substitute for Zero Plane/reference configuration."],
+      "order_dependencies": "Perform measurement before calculating the correction values.",
+      "compatible_tools": ["Profile Measurement", "Continuous Profile Measurement"],
+      "source_evidence": [{"evidence_quality": "DIRECT_NATIVE", "document_id": "KEYENCE-D44A4A54C24D", "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1", "page": 232, "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0232", "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0232-C004", "evidence_excerpt_hash": "0e00f3717defbfbf8c21c819a88058a34925c530a0c0cda51a04b81797382204"}],
+      "knowledge_status": "OFFICIAL_EXACT"
     }
   ]
 }

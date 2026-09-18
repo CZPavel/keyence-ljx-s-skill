@@ -23,8 +23,16 @@
     "id": "COM-FTP",
     "aliases": []
   },
-  {
-    "id": "COM-Ethernet",
-    "aliases": []
-  }
+    {
+      "id": "COM-Ethernet",
+      "aliases": []
+    },
+    {
+      "id": "ljx8000-result-correlation",
+      "aliases": [
+        "result output correlation",
+        "measurement number",
+        "externally specified string"
+      ]
+    }
 ]

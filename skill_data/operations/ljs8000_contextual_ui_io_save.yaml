@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "operation_id": "ljs8000-parallel-io-command-control",
+      "official_name": "LJ-S I/O command control",
+      "aliases": ["CMD READY", "CMD PARAM", "CMD CODE", "CST", "ACK", "NACK", "I/O monitor"],
+      "family": "LJ-S8000",
+      "mode": "CONTEXT_REQUIRED",
+      "purpose": "Contextual guidance for a parallel I/O command handshake described by an LJ-S-labelled KEYENCE software-help resource.",
+      "protocol_guidance": [
+        "Set CMD PARAM0..7 and CMD CODE0..3 for the requested command, then raise CST to start execution.",
+        "Use ACK for successful execution and NACK for failed execution.",
+        "A CST request while CMD READY is OFF is described as ignored, without ACK or NACK.",
+        "The resource describes verification through Tools > I/O monitor and says forced outputs are SETUP-mode-only."
+      ],
+      "safety_boundary": "Do not force outputs or issue a command from this record. Confirm the controller, current terminal assignment, mode, and the applicable manual first.",
+      "legacy_guidance_provenance": {"source_type": "KEYENCE_SOFTWARE_HELP_RESOURCE", "source_file": "ManualCreator_Tips_CZ_resources.json", "source_sha256": "444b96a5a11fa4b1ce689607d8b02ba26329d785e20461b13437255b696dea53", "resource_key": "SimulatorSoft.ManualCreator.Tips.CZ.io.IO_CONTROL_WIRING_LJS", "role": "LJ-S-labelled I/O/UI guidance without a matching terminal-specific raw-manual section in the canonical corpus."},
+      "knowledge_status": "OFFICIAL_CONTEXTUAL"
+    },
+    {
+      "operation_id": "ljs8000-total-status-output",
+      "official_name": "LJ-S total-status output",
+      "aliases": ["total status", "OUT22", "STO", "OUT23", "OR", "OR output mode"],
+      "family": "LJ-S8000",
+      "mode": "CONTEXT_REQUIRED",
+      "purpose": "Contextual guidance for configuring and testing an LJ-S-labelled total-status output using the documented software-help UI.",
+      "configuration_guidance": [
+        "The resource names OUT22 (STO) and OUT23 (OR), checks their connected PLC/relay state through I/O monitor, and describes manual output only in SETUP mode.",
+        "Candidate tools included in total-status judgment are selectable in Output settings > Evaluation settings > Total status.",
+        "The described OR modes are update each time, hold status, and pulse; verify terminal timing and electrical values in the controller-specific manual before wiring or deployment."
+      ],
+      "safety_boundary": "Do not infer these terminal numbers, electrical ratings, or output timing for a different family or an unverified LJ-S variant.",
+      "legacy_guidance_provenance": {"source_type": "KEYENCE_SOFTWARE_HELP_RESOURCE", "source_file": "ManualCreator_Tips_CZ_resources.json", "source_sha256": "444b96a5a11fa4b1ce689607d8b02ba26329d785e20461b13437255b696dea53", "resource_key": "SimulatorSoft.ManualCreator.Tips.CZ.io.OUTPUT_TOTAL_STATUS_LJS", "role": "LJ-S-labelled output/UI guidance retained as contextual until an exact terminal manual block is mapped."},
+      "knowledge_status": "OFFICIAL_CONTEXTUAL"
+    },
+    {
+      "operation_id": "ljs8000-program-export-import",
+      "official_name": "LJ-S program export/import",
+      "aliases": ["SD card", "workspace", "archived images", "export program", "import program", "LJ-S Simulator Software"],
+      "family": "LJ-S8000",
+      "mode": "CONTEXT_REQUIRED",
+      "purpose": "Contextual guidance for moving LJ-S-labelled program settings and archived images through SD-card export/import.",
+      "workflow_guidance": [
+        "The resource describes export/import from SETUP mode and distinguishes the current program, selected programs, general settings, reference images, and archived images.",
+        "Archived images are collected during RUN operation; export scope and count affect SD-card capacity.",
+        "The exported workspace can be opened in LJ-S Simulator Software; preserve the complete workspace when transferring settings for review or exchange."
+      ],
+      "safety_boundary": "Export is a local state-management operation and import can overwrite configuration. Identify the target head/workspace and retain a backup before import; exact media path and supported card model require confirmation in the applicable manual.",
+      "legacy_guidance_provenance": {"source_type": "KEYENCE_SOFTWARE_HELP_RESOURCE", "source_file": "ManualCreator_Tips_CZ_resources.json", "source_sha256": "444b96a5a11fa4b1ce689607d8b02ba26329d785e20461b13437255b696dea53", "resource_key": "SimulatorSoft.ManualCreator.Tips.CZ.save.SDCARD_SAVE_LOAD_LJS", "role": "LJ-S-labelled export/import guidance retained as contextual because raw corpus evidence covers backup but not this exact UI flow."},
+      "knowledge_status": "OFFICIAL_CONTEXTUAL"
+    }
+  ]
+}

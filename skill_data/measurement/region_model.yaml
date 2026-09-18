@@ -11,6 +11,50 @@
       "official_term": "UNRESOLVED_PER_TOOL",
       "meaning": "Reference/datum role only when a tool source explicitly defines one.",
       "knowledge_status": "DERIVED"
+    },
+    {
+      "role": "reference_target",
+      "official_term": "Reference Target",
+      "meaning": "The standard target selected by the LJ-X8000 2D Height Difference/Width tool.",
+      "applicability": {
+        "controller_family": "LJ-X8000",
+        "mode": "2D",
+        "tool_id": "height-difference-width"
+      },
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "page": 101,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0101",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0101-C005",
+          "evidence_excerpt_hash": "0191bd3d3da6ea4582432b2300aa7713791be9ff7fa608bdfdf9969ac80ee39c"
+        }
+      ],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL"
+    },
+    {
+      "role": "measurement_target",
+      "official_term": "Measurement Target",
+      "meaning": "The target measured by the LJ-X8000 2D Height Difference/Width tool relative to its Reference Target.",
+      "applicability": {
+        "controller_family": "LJ-X8000",
+        "mode": "2D",
+        "tool_id": "height-difference-width"
+      },
+      "source_evidence": [
+        {
+          "evidence_quality": "DIRECT_NATIVE",
+          "document_id": "KEYENCE-E3E51B234B56",
+          "source_sha256": "e3e51b234b56ea11182e78b39574678f5c7244c65d6455664927f580dd1a47c3",
+          "page": 101,
+          "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0101",
+          "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-2D-MODE-N04GB-E3E51B234B56-U0101-C012",
+          "evidence_excerpt_hash": "e39580b461de75bd6980fd00187672531b95f885a6e62191d81e37a27c1f6ec4"
+        }
+      ],
+      "knowledge_status": "OFFICIAL_CONTEXTUAL"
     }
   ]
 }

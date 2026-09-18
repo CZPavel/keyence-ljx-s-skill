@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "guidance_id": "3d-shape-differential",
+      "official_name": "3D Differential",
+      "aliases": ["shape difference", "allowable range", "reference image difference", "invalid pixel difference"],
+      "contextual_scope": "FAMILY_NOT_ESTABLISHED",
+      "applicability": {"controller_family": null, "mode": "CONTEXT_REQUIRED"},
+      "purpose": "Contextual tuning guidance for comparison of a current 3D shape with a reference image; exact availability, labels, and behavior must be confirmed for the selected controller/software.",
+      "parameter_guidance": [
+        {"parameter": "Allowable range", "effect": "Differences outside the configured range are detected; the legacy help describes values in millimetres and independently selectable Z and XY treatment.", "status": "OFFICIAL_CONTEXTUAL"},
+        {"parameter": "Area filter lower limit", "effect": "Raising the lower limit suppresses detected regions smaller than the configured area, which can remove small noise components.", "status": "OFFICIAL_CONTEXTUAL"},
+        {"parameter": "Background-plane offset", "effect": "Excludes content below a configured background reference height.", "status": "OFFICIAL_CONTEXTUAL"},
+        {"parameter": "Invalid pixels as detection target", "effect": "Choose deliberately: enabling detects changes around invalid pixels; disabling can suppress over-detection there.", "status": "OFFICIAL_CONTEXTUAL"},
+        {"parameter": "Projection emphasis", "effect": "May make smaller shape changes detectable without lowering the allowable range.", "status": "OFFICIAL_CONTEXTUAL"}
+      ],
+      "cautions": ["This is not evidence that a named 3D Differential tool exists on LJ-X8000, LJ-X8000A, or LJ-S8000.", "Confirm tool name, units, and actual effect in the applicable manual/UI before changing a production inspection."],
+      "legacy_guidance_provenance": {"source_type": "KEYENCE_SOFTWARE_HELP_RESOURCE", "source_file": "ManualCreator_Tips_CZ_resources.json", "source_sha256": "444b96a5a11fa4b1ce689607d8b02ba26329d785e20461b13437255b696dea53", "resource_namespace": "_3DDifferential", "role": "Contextual parameter guidance; no controller family was established by the resource inventory."},
+      "knowledge_status": "OFFICIAL_CONTEXTUAL"
+    },
+    {
+      "guidance_id": "3d-shape-search",
+      "official_name": "3D Search",
+      "aliases": ["3d model search", "detection level", "detection count", "edge extraction threshold", "plane mask"],
+      "contextual_scope": "FAMILY_NOT_ESTABLISHED",
+      "applicability": {"controller_family": null, "mode": "CONTEXT_REQUIRED"},
+      "purpose": "Contextual tuning guidance for locating a registered 3D shape/model; exact availability and UI labels must be confirmed for the selected controller/software.",
+      "parameter_guidance": [
+        {"parameter": "Detection count", "effect": "Set high enough to include all expected objects within the measurement area.", "status": "OFFICIAL_CONTEXTUAL"},
+        {"parameter": "Detection level", "effect": "Lower it when an expected object is missed; raise it when an unintended object is detected.", "status": "OFFICIAL_CONTEXTUAL"},
+        {"parameter": "Edge extraction threshold", "effect": "Lowering can recover weak contour features; raising can suppress irrelevant contours and false detections.", "status": "OFFICIAL_CONTEXTUAL"},
+        {"parameter": "Plane/box masks", "effect": "Masking near a supporting plane or container bottom can suppress false detections, but an excessive mask can remove thin or flat parts.", "status": "OFFICIAL_CONTEXTUAL"},
+        {"parameter": "Fixed versus tracked box", "effect": "The legacy guidance says a tracked box accommodates position change with longer processing time than a fixed box.", "status": "OFFICIAL_CONTEXTUAL"}
+      ],
+      "cautions": ["This record must not be treated as a family-specific tool specification.", "Use it to form a diagnostic question, then verify the current manual/UI and test on representative data."],
+      "legacy_guidance_provenance": {"source_type": "KEYENCE_SOFTWARE_HELP_RESOURCE", "source_file": "ManualCreator_Tips_CZ_resources.json", "source_sha256": "444b96a5a11fa4b1ce689607d8b02ba26329d785e20461b13437255b696dea53", "resource_namespace": "_3DSearch", "role": "Contextual parameter guidance; no controller family was established by the resource inventory."},
+      "knowledge_status": "OFFICIAL_CONTEXTUAL"
+    }
+  ]
+}

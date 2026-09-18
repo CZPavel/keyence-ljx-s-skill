@@ -4,13 +4,14 @@ Repository-local source lives in `skill/keyence-ljx`; activation is the junction
 
 Canonical knowledge remains in `skill_data`; the skill stores routing and policies only.
 
-Examples:
+The activated junction is intentionally thin. Run canonical helpers through the
+portable wrapper from the activated directory (or its resolved source):
 
 ```powershell
-python tools\skill_lookup.py command T1 --controller LJ-X8000 --json
-python tools\skill_lookup.py head LJ-X8900
-python tools\corpus_lookup.py --query "Height Difference/Width" --json
-python benchmarks\skill_v1\run_benchmark.py
+python "$env:USERPROFILE\.codex\skills\keyence-ljx\tools\run.py" skill_lookup command T1 --controller LJ-X8000 --json
+python "$env:USERPROFILE\.codex\skills\keyence-ljx\tools\run.py" skill_lookup guidance "Detection level" --controller LJ-S8000 --mode 3D --json
+python "$env:USERPROFILE\.codex\skills\keyence-ljx\tools\run.py" corpus_lookup --query "Height Difference/Width" --json
 ```
 
-Rebuild measurement records with `python tools\build_skill_data\build_measurement.py`, then rerun its validator and the benchmark.
+Repository development and validation commands remain rooted at the repository,
+not at the activated skill junction.

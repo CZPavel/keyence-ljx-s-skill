@@ -41,6 +41,34 @@
       "aliases": [
         "Cross-section measurement"
       ]
+    },
+    {
+      "tool_id": "continuous-profile-measurement",
+      "aliases": [
+        "Continuous Profile Measurement",
+        "profile scan interval"
+      ]
+    },
+    {
+      "tool_id": "profile-measurement-3d",
+      "aliases": [
+        "Profile Measurement",
+        "profile range follows position"
+      ]
+    },
+    {
+      "tool_id": "profile-length-3d",
+      "aliases": [
+        "Profile Length",
+        "profile smoothing"
+      ]
+    },
+    {
+      "tool_id": "profile-cross-section-area-3d",
+      "aliases": [
+        "Cross-section Area",
+        "zero plane area"
+      ]
     }
   ]
 }

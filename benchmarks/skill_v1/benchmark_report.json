@@ -1,6 +1,6 @@
 ﻿{
-  "total": 25,
-  "passed": 23,
+  "total": 40,
+  "passed": 35,
   "failed": [],
   "unresolved_by_design": [
     {
@@ -9,6 +9,18 @@
     },
     {
       "id": "family-2",
+      "reason": "recognized unresolved"
+    },
+    {
+      "id": "measurement-family-guard-1",
+      "reason": "recognized unresolved"
+    },
+    {
+      "id": "measurement-mode-guard-1",
+      "reason": "recognized unresolved"
+    },
+    {
+      "id": "preprocessing-family-guard-1",
       "reason": "recognized unresolved"
     }
   ]

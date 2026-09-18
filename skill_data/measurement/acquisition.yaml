@@ -23,6 +23,87 @@
         }
       ],
       "knowledge_status": "OFFICIAL_CONTEXTUAL"
+    },
+    {
+      "setting_id": "capture-sensitivity-adjustment",
+      "setting": "Sensitivity Adjustment",
+      "aliases": ["profile missing", "reflected light", "capture tuning"],
+      "family": "LJ-X8000",
+      "mode": "3D",
+      "effect": "Automatically adjusts dynamic range, exposure time, and detection sensitivity; manual settings permit each parameter to be set separately.",
+      "symptom_relations": [
+        {"symptom": "Profile is missing because reflected light is insufficient", "action": "Start sensitivity adjustment from the center and move toward [+].", "expected_effect": "Raises the adjustment for insufficient reflected light."},
+        {"symptom": "False detections from multiple reflected light", "action": "Move sensitivity adjustment toward [-].", "expected_effect": "Reduces the adjustment for excessive or multiple reflected light."}
+      ],
+      "cautions": ["If exposure time is changed manually, perform sensitivity adjustment again."],
+      "source_evidence": [
+        {"evidence_quality": "DIRECT_NATIVE", "document_id": "KEYENCE-D44A4A54C24D", "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1", "page": 114, "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0114", "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0114-C012", "evidence_excerpt_hash": "b3eedcbc78b53b959b6bbba70506a223bb21b056ab117f0a6711fad143e2778f"},
+        {"evidence_quality": "DIRECT_NATIVE", "document_id": "KEYENCE-D44A4A54C24D", "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1", "page": 115, "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0115", "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0115-C013", "evidence_excerpt_hash": "6a0d1dc4e9655607b3c59d4d30a143c814fdb732057a303e5ff524bc8aad97ba"}
+      ],
+      "knowledge_status": "OFFICIAL_EXACT"
+    },
+    {
+      "setting_id": "capture-dynamic-range",
+      "setting": "Dynamic Range",
+      "aliases": ["reflectance difference", "multiple reflection", "false weak light"],
+      "family": "LJ-X8000",
+      "mode": "3D",
+      "effect": "Sets the dynamic range of the head capture sensor.",
+      "symptom_relations": [
+        {"symptom": "Large reflectance difference across the object", "action": "Increase Dynamic Range.", "expected_effect": "Supports a larger reflectance difference."},
+        {"symptom": "False detection of weak light with multiple reflections", "action": "Reduce Dynamic Range.", "expected_effect": "Helps avoid false weak-light detections."}
+      ],
+      "cautions": ["Validate the profile after a Dynamic Range change; it trades reflectance coverage against resistance to weak reflected light."],
+      "source_evidence": [{"evidence_quality": "DIRECT_NATIVE", "document_id": "KEYENCE-D44A4A54C24D", "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1", "page": 115, "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0115", "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0115-C002", "evidence_excerpt_hash": "303e0dbdbc3bc97a01e8c023031a5d4f31d20e14592614f1a8c26865316c2af2"}],
+      "knowledge_status": "OFFICIAL_EXACT"
+    },
+    {
+      "setting_id": "capture-exposure-time",
+      "setting": "Exposure Time",
+      "aliases": ["blurred profile", "moving workpiece", "strong reflected light"],
+      "family": "LJ-X8000",
+      "mode": "3D",
+      "effect": "Sets the exposure time of the head capture sensor.",
+      "symptom_relations": [{"symptom": "Received image is blurred by strong reflected light or workpiece movement", "action": "Shorten Exposure Time.", "expected_effect": "Improves the received image in this condition."}],
+      "cautions": ["Run sensitivity adjustment again after changing exposure time."],
+      "source_evidence": [{"evidence_quality": "DIRECT_NATIVE", "document_id": "KEYENCE-D44A4A54C24D", "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1", "page": 115, "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0115", "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0115-C011", "evidence_excerpt_hash": "4bfe892ecfc43726d66927cbd73fb2daaa8c7a8908a87ceed1e432ab3d4236f4"}],
+      "knowledge_status": "OFFICIAL_EXACT"
+    },
+    {
+      "setting_id": "capture-detection-sensitivity",
+      "setting": "Detection Sensitivity",
+      "aliases": ["peak threshold", "ambient light", "false peak"],
+      "family": "LJ-X8000",
+      "mode": "3D",
+      "effect": "Sets the threshold of received light amount to be detected as a peak.",
+      "symptom_relations": [{"symptom": "False peak detections from ambient light or multiple reflections", "action": "Set Detection Sensitivity lower.", "expected_effect": "Helps avoid false peak detections."}],
+      "cautions": ["Higher values make peak detection easier; recheck missing-profile behavior after lowering the setting."],
+      "source_evidence": [{"evidence_quality": "DIRECT_NATIVE", "document_id": "KEYENCE-D44A4A54C24D", "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1", "page": 115, "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0115", "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0115-C015", "evidence_excerpt_hash": "50b303bc91966638145994f788e760e101bdbe69e55ab4df422a5444313829f0"}],
+      "knowledge_status": "OFFICIAL_EXACT"
+    },
+    {
+      "setting_id": "capture-target-area",
+      "setting": "Target Area",
+      "aliases": ["light feedback", "stable light control"],
+      "family": "LJ-X8000",
+      "mode": "3D",
+      "effect": "Limits the reception-light range used for feedback control of capture-sensor light intensity.",
+      "symptom_relations": [{"symptom": "Light feedback is unstable because irrelevant image area affects it", "action": "Limit Target Area to the intended region.", "expected_effect": "Light amount can be controlled more stably."}],
+      "cautions": ["The Target Area must contain representative light from the intended inspection region."],
+      "source_evidence": [{"evidence_quality": "DIRECT_NATIVE", "document_id": "KEYENCE-D44A4A54C24D", "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1", "page": 115, "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0115", "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0115-C009", "evidence_excerpt_hash": "430b8ec2feb84096bc39519eaa7e31a8647519ba3b08708255f69f4a29a717d4"}],
+      "knowledge_status": "OFFICIAL_EXACT"
+    },
+    {
+      "setting_id": "capture-light-intensity-control",
+      "setting": "Control Light Intensity",
+      "aliases": ["manual light control", "unstable 3D measurement", "control range"],
+      "family": "LJ-X8000",
+      "mode": "3D",
+      "effect": "Manual control constrains emitted laser light within configured upper and lower control-range values.",
+      "symptom_relations": [{"symptom": "3D measurement result is unstable", "action": "Review the manual light-control range.", "expected_effect": "Changing the control range can provide stability in some cases."}],
+      "cautions": ["Manual control is typically used for 3D measurements; the manual recommends equal upper and lower limits for 3D measurements."],
+      "source_evidence": [{"evidence_quality": "DIRECT_NATIVE", "document_id": "KEYENCE-D44A4A54C24D", "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1", "page": 115, "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0115", "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0115-C017", "evidence_excerpt_hash": "4125c70f6554542f9881bc1a0ba8c9c29a029bb15f7f9aff948e3d4caa0b3a7f"}],
+      "knowledge_status": "OFFICIAL_EXACT"
     }
   ]
 }

@@ -471,7 +471,7 @@
     {
       "workflow_id": "ljx8000-acquire-measurement-result",
       "title": "Acquire measurement result",
-      "purpose": "Use configured result output only after measurement completion.",
+      "purpose": "Use configured result output only after measurement completion and retain documented result-context fields when correlation is needed.",
       "applicability": {
         "controllers": [
           "LJ-X8000"
@@ -502,10 +502,12 @@
         },
         {
           "step_id": "result",
-          "action": "Read configured result output.",
+          "action": "Read configured result output and retain the configured Number of Measurement, Execute No., Program No., and any externally specified string.",
           "command_ref": [],
           "signal_ref": [],
-          "data_flow_ref": [],
+          "data_flow_ref": [
+            "flow:ljx8000-result-correlation"
+          ],
           "expected_observation": null,
           "failure_branch": null,
           "knowledge_status": "OFFICIAL_EXACT",
@@ -518,7 +520,9 @@
       "warnings": [
         "Exact shared-connection parser contract for asynchronous result versus command response is unresolved."
       ],
-      "canonical_refs": [],
+      "canonical_refs": [
+        "communication/data_flow_reference.yaml#ljx8000-result-correlation"
+      ],
       "knowledge_status": "PARTIAL"
     },
     {
@@ -684,6 +688,40 @@
       ],
       "canonical_refs": [],
       "knowledge_status": "PARTIAL"
+    },
+    {
+      "workflow_id": "ljs8000-verify-head-io",
+      "title": "Verify LJ-S8000 head I/O",
+      "purpose": "Check the documented head I/O signals before relying on PLC control.",
+      "applicability": {"controllers": ["LJ-S8000"], "modes": ["3D"], "communication_methods": ["head power I/O connector"]},
+      "required_context": ["controller", "head_i_o_wiring", "plc_interface"],
+      "preconditions": ["Confirm the applicable LJ-S8000 wiring diagram and terminal variant before connecting PLC I/O."],
+      "steps": [
+        {"step_id": "identify-signals", "action": "Identify LD_ON, TRG, MEM_CLR inputs and READY, EXP_BUSY, ERROR outputs on the documented head I/O connector.", "command_ref": [], "signal_ref": ["signal:READY", "signal:EXP_BUSY", "signal:ERROR"], "data_flow_ref": [], "expected_observation": "Signal roles are mapped to the PLC interface.", "failure_branch": null, "knowledge_status": "OFFICIAL_EXACT", "action_classification": "READ_ONLY"},
+        {"step_id": "verify-ready", "action": "Use READY before issuing a trigger; ON permits the scan-start trigger input.", "command_ref": [], "signal_ref": ["signal:READY"], "data_flow_ref": [], "expected_observation": "READY ON before the planned trigger.", "failure_branch": "Do not assume the LJ-X8000 timing values apply.", "knowledge_status": "OFFICIAL_EXACT", "action_classification": "READ_ONLY"},
+        {"step_id": "hold-target", "action": "Do not move the measurement target while EXP_BUSY is ON.", "command_ref": [], "signal_ref": ["signal:EXP_BUSY"], "data_flow_ref": [], "expected_observation": "Target remains stationary through capture.", "failure_branch": "Recheck mechanical timing and captured data.", "knowledge_status": "OFFICIAL_EXACT", "action_classification": "READ_ONLY"},
+        {"step_id": "monitor-error", "action": "Treat ERROR OFF as a system-error indication and diagnose with the LJ-S8000 error source.", "command_ref": [], "signal_ref": ["signal:ERROR"], "data_flow_ref": [], "expected_observation": "ERROR remains ON in normal operation.", "failure_branch": "Stop interpreting I/O alone as a specific error code.", "knowledge_status": "OFFICIAL_EXACT", "action_classification": "READ_ONLY"}
+      ],
+      "success_condition": "READY/EXP_BUSY/ERROR roles and wiring are verified for the LJ-S8000 head.",
+      "failure_routes": [], "state_changes": [],
+      "warnings": ["The manual documents a head I/O connector. Do not substitute LJ-X8000 controller-terminal timing or wiring."],
+      "canonical_refs": ["operations/io_signal_reference.yaml"], "knowledge_status": "COMPLETE"
+    },
+    {
+      "workflow_id": "ljs8000-backup-head-settings",
+      "title": "Back up LJ-S8000 head settings",
+      "purpose": "Create a documented head-settings backup before state-changing configuration work.",
+      "applicability": {"controllers": ["LJ-S8000"], "modes": ["3D"], "communication_methods": ["LJ-S Navigator"]},
+      "required_context": ["controller", "connected_head", "backup_destination"],
+      "preconditions": ["Confirm the connected head and a safe backup destination."],
+      "steps": [
+        {"step_id": "open-backup", "action": "Open Display device information or File > Backup / Restore, then select Backup all settings.", "command_ref": [], "signal_ref": [], "data_flow_ref": [], "expected_observation": "Backup function is available for the connected head.", "failure_branch": null, "knowledge_status": "OFFICIAL_EXACT", "action_classification": "STATE_CHANGING"},
+        {"step_id": "retain-backup", "action": "Retain the generated head backup file (*.cbks) before a restore or configuration change.", "command_ref": [], "signal_ref": [], "data_flow_ref": [], "expected_observation": "A backup file (*.cbks) exists for the selected head.", "failure_branch": "Do not restore settings without confirming the intended head and backup file.", "knowledge_status": "OFFICIAL_EXACT", "action_classification": "STATE_CHANGING"}
+      ],
+      "success_condition": "A head backup file containing documented measurement-program and environment settings is retained.",
+      "failure_routes": [], "state_changes": ["Creates a backup file; restore is intentionally not automated."],
+      "warnings": ["Do not turn off the instrument while settings are being modified; program settings can be lost."],
+      "canonical_refs": ["operations/program_operations.yaml"], "knowledge_status": "PARTIAL"
     }
   ]
 }

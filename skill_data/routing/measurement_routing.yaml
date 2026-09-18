@@ -223,6 +223,130 @@
         "workflows/measurement_program_workflows.yaml"
       ],
       "raw_corpus_fallback": true
+    },
+    {
+      "intent": "configure_height_preprocessing",
+      "required_context": [
+        "controller_family",
+        "mode",
+        "symptom_or_goal"
+      ],
+      "targets": [
+        "measurement/preprocessing.yaml",
+        "diagnostics/measurement_troubleshooting_playbooks.yaml"
+      ],
+      "applicability": {
+        "controller_family": "LJ-X8000",
+        "mode": "3D"
+      },
+      "raw_corpus_fallback": false,
+      "knowledge_status": "OFFICIAL_EXACT"
+    },
+    {
+      "intent": "troubleshoot_height_image_noise",
+      "required_context": [
+        "controller_family",
+        "mode",
+        "symptom"
+      ],
+      "targets": [
+        "diagnostics/measurement_troubleshooting_playbooks.yaml",
+        "measurement/preprocessing.yaml"
+      ],
+      "applicability": {
+        "controller_family": "LJ-X8000",
+        "mode": "3D"
+      },
+      "raw_corpus_fallback": false,
+      "knowledge_status": "OFFICIAL_EXACT"
+    },
+    {
+      "intent": "configure_3d_capture",
+      "required_context": [
+        "controller_family",
+        "mode",
+        "capture_symptom_or_goal"
+      ],
+      "targets": [
+        "measurement/acquisition.yaml",
+        "diagnostics/measurement_troubleshooting_playbooks.yaml"
+      ],
+      "applicability": {
+        "controller_family": "LJ-X8000",
+        "mode": "3D"
+      },
+      "raw_corpus_fallback": false,
+      "knowledge_status": "OFFICIAL_EXACT"
+    },
+    {
+      "intent": "configure_height_reference",
+      "required_context": [
+        "controller_family",
+        "mode",
+        "measurement_goal"
+      ],
+      "targets": [
+        "measurement/preprocessing.yaml",
+        "measurement/measurement_tools.yaml"
+      ],
+      "applicability": {
+        "controller_family": "LJ-X8000",
+        "mode": "3D"
+      },
+      "raw_corpus_fallback": false,
+      "knowledge_status": "OFFICIAL_EXACT"
+    },
+    {
+      "intent": "configure_continuous_profile_measurement",
+      "required_context": [
+        "controller_family",
+        "mode",
+        "measurement_region_or_goal"
+      ],
+      "targets": [
+        "measurement/measurement_tools.yaml",
+        "measurement/corrections.yaml",
+        "diagnostics/measurement_troubleshooting_playbooks.yaml"
+      ],
+      "applicability": {
+        "controller_family": "LJ-X8000",
+        "mode": "3D"
+      },
+      "raw_corpus_fallback": false,
+      "knowledge_status": "OFFICIAL_EXACT"
+    },
+    {
+      "intent": "configure_result_correlation",
+      "required_context": [
+        "controller_family",
+        "result_output_configuration"
+      ],
+      "targets": [
+        "communication/data_flow_reference.yaml",
+        "workflows/operational_workflows.yaml"
+      ],
+      "applicability": {
+        "controller_family": "LJ-X8000",
+        "mode": "3D"
+      },
+      "raw_corpus_fallback": false,
+      "knowledge_status": "OFFICIAL_EXACT"
+    },
+    {
+      "intent": "inspect_3d_shape_difference",
+      "required_context": ["controller_family", "mode", "reference_shape", "current_shape"],
+      "targets": ["measurement/contextual_3d_guidance.yaml", "measurement/preprocessing.yaml"],
+      "applicability": {"controller_family": "CONTEXT_REQUIRED", "mode": "3D"},
+      "raw_corpus_fallback": true,
+      "knowledge_status": "OFFICIAL_CONTEXTUAL"
+    },
+    {
+      "intent": "locate_3d_shape",
+      "required_context": ["controller_family", "mode", "registered_model_or_reference"],
+      "targets": ["measurement/contextual_3d_guidance.yaml", "measurement/preprocessing.yaml"],
+      "applicability": {"controller_family": "CONTEXT_REQUIRED", "mode": "3D"},
+      "raw_corpus_fallback": true,
+      "knowledge_status": "OFFICIAL_CONTEXTUAL"
     }
   ]
 }

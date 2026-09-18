@@ -1,4 +1,4 @@
-"""Validate source-grounded LJ-X8000 I/O and timing records."""
+"""Validate source-grounded LJ-X8000 and LJ-S8000 I/O/timing records."""
 import json
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2];OUT=ROOT/'skill_data'
@@ -8,10 +8,14 @@ def main():
   x=json.loads(p.read_text(encoding='utf8'));blocks[x['block_id']]=x
  sig=json.loads((OUT/'operations/io_signal_reference.yaml').read_text(encoding='utf8'))['signals']; names={x['signal_name'] for x in sig}
  for x in sig:
-  if x['controller_family']!='LJ-X8000' or set(x.get('not_verified_for',[]))!={'LJ-X8000A','LJ-S8000'}:errors.append(f"family applicability: {x['signal_name']}")
+  family=x['controller_family']
+  if family=='LJ-X8000' and set(x.get('not_verified_for',[]))!={'LJ-X8000A','LJ-S8000'}:errors.append(f"family applicability: {x['signal_name']}")
+  elif family=='LJ-S8000' and set(x.get('not_verified_for',[]))!={'LJ-X8000','LJ-X8000A'}:errors.append(f"family applicability: {x['signal_name']}")
+  elif family not in {'LJ-X8000','LJ-S8000'}:errors.append(f"unknown family: {x['signal_name']}")
   if x['knowledge_status']=='OFFICIAL_EXACT' and not x.get('direct_evidence'):errors.append(f"missing direct evidence: {x['signal_name']}")
   for e in x.get('direct_evidence',[]):
-   if e.get('block_id') not in blocks:errors.append(f"dangling signal evidence: {x['signal_name']}")
+   if e.get('block_id') and e['block_id'] not in blocks:errors.append(f"dangling signal evidence: {x['signal_name']}")
+   if not e.get('block_id') and not (e.get('document_id') and e.get('source_sha256') and e.get('chunk_id') and e.get('evidence_excerpt_hash')):errors.append(f"incomplete signal evidence: {x['signal_name']}")
  rel=json.loads((OUT/'operations/signal_relations.yaml').read_text(encoding='utf8'))['relations']
  for r in rel:
   if r['status']=='OFFICIAL_EXACT' and (not r.get('evidence') or r['evidence'][0].get('block_id') not in blocks):errors.append('invalid exact relation')

@@ -11,7 +11,7 @@ Use this skill for technical support, integration, configuration, and measuremen
 
 1. Infer the controller family from the model. If the answer can differ and it remains unknown, ask one focused family question.
 2. Determine mode and head only when relevant.
-3. Resolve the intent with `python tools/skill_lookup.py intent <intent> --controller <family> --json`.
+3. From any working directory, set `$skillRoot = Join-Path $env:USERPROFILE '.codex\skills\keyence-ljx'` and resolve the intent with `python "$skillRoot\tools\run.py" skill_lookup intent <intent> --controller <family> --json`.
 4. Inspect the returned canonical file and apply its family/mode/status fields.
 5. Use a workflow before isolated facts for commissioning, triggering, profiles, program changes, and recovery.
 
@@ -34,4 +34,4 @@ Give a short recommendation, practical steps, expected observation, relevant cau
 
 ## Targeted fallback
 
-Use `python tools/corpus_lookup.py --query <text> --document <optional> --json` only for a narrow unresolved detail. It returns evidence records, not a synthesized answer.
+Use `python "$skillRoot\tools\run.py" corpus_lookup --query <text> --document <optional> --json` only for a narrow unresolved detail. It returns evidence records, not a synthesized answer. The wrapper resolves the canonical helpers and `skill_data` in this checkout, so it works through `%USERPROFILE%\.codex\skills\keyence-ljx` from another working directory.

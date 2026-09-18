@@ -624,6 +624,374 @@
         "invented exact parameter"
       ],
       "expect_unresolved": false
+    },
+    {
+      "id": "measurement-7",
+      "question": "For LJ-X8000 2D GAP/FLUSH setup, how do I choose the two targets for Height Difference/Width?",
+      "intent_category": "measurement",
+      "context": {
+        "controller": "LJ-X8000",
+        "mode": "2D"
+      },
+      "lookup_kind": "measurement",
+      "lookup_query": "height-difference-width",
+      "controller": "LJ-X8000",
+      "mode": "2D",
+      "expected_route": [
+        "measurement",
+        "height-difference-width"
+      ],
+      "required_canonical_resources": [
+        "skill_data"
+      ],
+      "required_record_contains": [
+        "Reference Target",
+        "Measurement Target",
+        "Center Pos. X",
+        "KEYENCE-E3E51B234B56"
+      ],
+      "forbidden_assumptions": [
+        "cross-family reuse without evidence",
+        "invented ROI size or threshold"
+      ],
+      "expect_unresolved": false
+    },
+    {
+      "id": "measurement-family-guard-1",
+      "question": "Can I use the LJ-X8000 Height Difference/Width target setup unchanged on an LJ-X8000A?",
+      "intent_category": "measurement",
+      "context": {
+        "controller": "LJ-X8000A",
+        "mode": "2D"
+      },
+      "lookup_kind": "measurement",
+      "lookup_query": "height-difference-width",
+      "controller": "LJ-X8000A",
+      "mode": "2D",
+      "expected_route": [
+        "measurement",
+        "height-difference-width"
+      ],
+      "required_canonical_resources": [
+        "skill_data"
+      ],
+      "forbidden_assumptions": [
+        "LJ-X8000 fact transferred to LJ-X8000A"
+      ],
+      "expect_unresolved": true
+    },
+    {
+      "id": "measurement-mode-guard-1",
+      "question": "Can I use 2D Height Difference/Width as the LJ-X8000 3D cross-section tool?",
+      "intent_category": "measurement",
+      "context": {
+        "controller": "LJ-X8000",
+        "mode": "3D"
+      },
+      "lookup_kind": "measurement",
+      "lookup_query": "height-difference-width",
+      "controller": "LJ-X8000",
+      "mode": "3D",
+      "expected_route": [
+        "measurement",
+        "height-difference-width"
+      ],
+      "required_canonical_resources": [
+        "skill_data"
+      ],
+      "forbidden_assumptions": [
+        "2D tool treated as a 3D alias"
+      ],
+      "expect_unresolved": true
+    },
+    {
+      "id": "preprocessing-1",
+      "question": "LJ-X8000 3D height image has isolated spike noise. Which documented height filter is directly findable?",
+      "intent_category": "preprocessing",
+      "context": {
+        "controller": "LJ-X8000",
+        "mode": "3D"
+      },
+      "lookup_kind": "preprocessing",
+      "lookup_query": "height-median-filter",
+      "controller": "LJ-X8000",
+      "mode": "3D",
+      "expected_route": [
+        "preprocessing",
+        "height-median-filter"
+      ],
+      "required_canonical_resources": [
+        "skill_data/measurement/preprocessing.yaml"
+      ],
+      "required_record_contains": [
+        "Median",
+        "spike noise",
+        "KEYENCE-D44A4A54C24D",
+        "OFFICIAL_EXACT"
+      ],
+      "forbidden_assumptions": [
+        "cross-family reuse without evidence"
+      ],
+      "expect_unresolved": false
+    },
+    {
+      "id": "preprocessing-2",
+      "question": "LJ-X8000 3D height image has missing pixels. Which documented parameter preserves valid pixels?",
+      "intent_category": "preprocessing",
+      "context": {
+        "controller": "LJ-X8000",
+        "mode": "3D"
+      },
+      "lookup_kind": "preprocessing",
+      "lookup_query": "height-invalid-pixel-suppression",
+      "controller": "LJ-X8000",
+      "mode": "3D",
+      "expected_route": [
+        "preprocessing",
+        "height-invalid-pixel-suppression"
+      ],
+      "required_canonical_resources": [
+        "skill_data/measurement/preprocessing.yaml"
+      ],
+      "required_record_contains": [
+        "without changing valid pixels",
+        "Small",
+        "Large",
+        "OFFICIAL_EXACT"
+      ],
+      "forbidden_assumptions": [
+        "invented interpolation threshold"
+      ],
+      "expect_unresolved": false
+    },
+    {
+      "id": "diagnostic-1",
+      "question": "LJ-X8000 3D height image has localized spike noise. Which documented checks are available?",
+      "intent_category": "diagnostic",
+      "context": {
+        "controller": "LJ-X8000",
+        "mode": "3D"
+      },
+      "lookup_kind": "diagnostic",
+      "lookup_query": "height-image-spike-noise",
+      "controller": "LJ-X8000",
+      "mode": "3D",
+      "expected_route": [
+        "diagnostic",
+        "height-image-spike-noise"
+      ],
+      "required_canonical_resources": [
+        "skill_data/diagnostics/measurement_troubleshooting_playbooks.yaml"
+      ],
+      "required_record_contains": [
+        "height-median-filter",
+        "height-spike-noise-cut",
+        "OFFICIAL_EXACT"
+      ],
+      "forbidden_assumptions": [
+        "generic advice presented as a parameter setting"
+      ],
+      "expect_unresolved": false
+    },
+    {
+      "id": "preprocessing-family-guard-1",
+      "question": "Can I use the LJ-X8000 3D Median height filter unchanged on an LJ-X8000A?",
+      "intent_category": "preprocessing",
+      "context": {
+        "controller": "LJ-X8000A",
+        "mode": "3D"
+      },
+      "lookup_kind": "preprocessing",
+      "lookup_query": "height-median-filter",
+      "controller": "LJ-X8000A",
+      "mode": "3D",
+      "expected_route": [
+        "preprocessing",
+        "height-median-filter"
+      ],
+      "required_canonical_resources": [
+        "skill_data/measurement/preprocessing.yaml"
+      ],
+      "forbidden_assumptions": [
+        "LJ-X8000 fact transferred to LJ-X8000A"
+      ],
+      "expect_unresolved": true
+    },
+    {
+      "id": "capture-1",
+      "question": "LJ-X8000 3D has false detections from multiple reflected light. Which documented capture settings are findable?",
+      "intent_category": "acquisition",
+      "context": {
+        "controller": "LJ-X8000",
+        "mode": "3D"
+      },
+      "lookup_kind": "acquisition",
+      "lookup_query": "multiple reflected light",
+      "controller": "LJ-X8000",
+      "mode": "3D",
+      "expected_route": [
+        "acquisition",
+        "capture-sensitivity-adjustment"
+      ],
+      "required_canonical_resources": [
+        "skill_data/measurement/acquisition.yaml"
+      ],
+      "required_record_contains": [
+        "Move sensitivity adjustment toward [-].",
+        "OFFICIAL_EXACT"
+      ],
+      "forbidden_assumptions": [
+        "capture setting transferred to another controller family"
+      ],
+      "expect_unresolved": false
+    },
+    {
+      "id": "continuous-profile-1",
+      "question": "LJ-X8000 3D needs many profile lines in one height-image region. Which setting exposes the coverage versus processing-time trade-off?",
+      "intent_category": "measurement",
+      "context": {
+        "controller": "LJ-X8000",
+        "mode": "3D"
+      },
+      "lookup_kind": "measurement",
+      "lookup_query": "Scan Interval",
+      "controller": "LJ-X8000",
+      "mode": "3D",
+      "expected_route": [
+        "measurement",
+        "continuous-profile-measurement"
+      ],
+      "required_canonical_resources": [
+        "skill_data/measurement/measurement_tools.yaml"
+      ],
+      "required_record_contains": [
+        "smaller interval measures more profiles",
+        "Max. Number of Profiles",
+        "OFFICIAL_EXACT"
+      ],
+      "forbidden_assumptions": [
+        "fixed profile count independent of region and scan interval"
+      ],
+      "expect_unresolved": false
+    },
+    {
+      "id": "zero-plane-1",
+      "question": "LJ-X8000 3D workpiece orientation shifts. Which documented reference setting makes height measurement workpiece-relative?",
+      "intent_category": "preprocessing",
+      "context": {
+        "controller": "LJ-X8000",
+        "mode": "3D"
+      },
+      "lookup_kind": "preprocessing",
+      "lookup_query": "workpiece orientation shifts",
+      "controller": "LJ-X8000",
+      "mode": "3D",
+      "expected_route": [
+        "preprocessing",
+        "zero-plane-reference"
+      ],
+      "required_canonical_resources": [
+        "skill_data/measurement/preprocessing.yaml"
+      ],
+      "required_record_contains": [
+        "Zero Plane",
+        "Real-Time Multiple Points",
+        "OFFICIAL_EXACT"
+      ],
+      "forbidden_assumptions": [
+        "fixed machine reference treated as a workpiece-relative plane"
+      ],
+      "expect_unresolved": false
+    },
+    {
+      "id": "result-correlation-1",
+      "question": "Which documented LJ-X8000 result-output fields can an integration retain for measurement correlation?",
+      "intent_category": "dataflow",
+      "context": {
+        "controller": "LJ-X8000",
+        "mode": "3D"
+      },
+      "lookup_kind": "dataflow",
+      "lookup_query": "Externally Specified String",
+      "controller": "LJ-X8000",
+      "mode": "3D",
+      "expected_route": [
+        "dataflow",
+        "ljx8000-result-correlation"
+      ],
+      "required_canonical_resources": [
+        "skill_data/communication/data_flow_reference.yaml"
+      ],
+      "required_record_contains": [
+        "Number of Measurement",
+        "Execute No.",
+        "Program No.",
+        "OFFICIAL_EXACT"
+      ],
+      "forbidden_assumptions": [
+        "invented asynchronous parser contract"
+      ],
+      "expect_unresolved": false
+    },
+    {
+      "id": "ljs-ready-1",
+      "question": "LJ-S8000: kdy je možné akceptovat externí trigger?",
+      "intent_category": "signal",
+      "context": {"controller": "LJ-S8000", "mode": "3D"},
+      "lookup_kind": "signal",
+      "lookup_query": "READY",
+      "controller": "LJ-S8000",
+      "mode": "3D",
+      "expected_route": ["signal", "SIG-LJS-READY"],
+      "required_canonical_resources": ["skill_data/operations/io_signal_reference.yaml"],
+      "required_record_contains": ["SIG-LJS-READY", "Trigger input can be accepted.", "OFFICIAL_EXACT"],
+      "forbidden_assumptions": ["LJ-X8000 READY timing transferred to LJ-S8000"],
+      "expect_unresolved": false
+    },
+    {
+      "id": "ljs-backup-1",
+      "question": "Jak bezpečně zálohovat nastavení hlavy LJ-S8000 před změnou konfigurace?",
+      "intent_category": "workflow",
+      "context": {"controller": "LJ-S8000", "mode": "3D"},
+      "lookup_kind": "workflow",
+      "lookup_query": "Backup all settings",
+      "controller": "LJ-S8000",
+      "mode": "3D",
+      "expected_route": ["workflow", "ljs8000-backup-head-settings"],
+      "required_canonical_resources": ["skill_data/workflows/operational_workflows.yaml"],
+      "required_record_contains": ["*.cbks", "Do not turn off the instrument", "OFFICIAL_EXACT"],
+      "forbidden_assumptions": ["automatic restore or unverified LJ-X procedure"],
+      "expect_unresolved": false
+    },
+    {
+      "id": "contextual-3d-search-1",
+      "question": "Mám 3D search s falešnými nálezy, ale rodina řadiče není potvrzena. Jaký parametr mám prověřit?",
+      "intent_category": "guidance",
+      "context": {"controller": "LJ-S8000", "mode": "3D"},
+      "lookup_kind": "guidance",
+      "lookup_query": "Detection level",
+      "controller": "LJ-S8000",
+      "mode": "3D",
+      "expected_route": ["guidance", "3d-shape-search"],
+      "required_canonical_resources": ["skill_data/measurement/contextual_3d_guidance.yaml"],
+      "required_record_contains": ["FAMILY_NOT_ESTABLISHED", "OFFICIAL_CONTEXTUAL", "raise it when an unintended object is detected"],
+      "forbidden_assumptions": ["family-specific availability claimed as exact"],
+      "expect_unresolved": false
+    },
+    {
+      "id": "ljs-parallel-io-context-1",
+      "question": "LJ-S8000 I/O command control: co ověřit před hranou CST?",
+      "intent_category": "operation",
+      "context": {"controller": "LJ-S8000", "mode": "3D"},
+      "lookup_kind": "operation",
+      "lookup_query": "CMD READY",
+      "controller": "LJ-S8000",
+      "mode": "3D",
+      "expected_route": ["operation", "ljs8000-parallel-io-command-control"],
+      "required_canonical_resources": ["skill_data/operations/ljs8000_contextual_ui_io_save.yaml"],
+      "required_record_contains": ["CST", "ACK", "NACK", "OFFICIAL_CONTEXTUAL"],
+      "forbidden_assumptions": ["command execution or terminal timing stated as family-exact"],
+      "expect_unresolved": false
     }
   ]
 }

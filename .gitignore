@@ -4,6 +4,16 @@
 /Downloads_2/
 /out_json/
 /corpus/
+/config/
+/registry/
+/AS_*_with_images.json
+/CORPUS_PROCESSING_README.md
+/Instrukce GPT_keyence agenta.txt
+/Konverzace s Keyence agentem GPT.txt
+/process_keyence_manuals.py
+/start_keyence_corpus_v1.ps1
+/pfrf_*.csv
+/skill_data/measurement/PREPROCESSING_IMPORT_NOTES.md
 /review/
 /_audit/
 /work/

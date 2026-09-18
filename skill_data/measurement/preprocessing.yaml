@@ -1,0 +1,158 @@
+{
+  "records": [
+    {
+      "setting_id": "height-average-filter",
+      "official_name": "Average",
+      "aliases": ["average filter", "height average", "height image smoothing"],
+      "applicability": {"controller_family": "LJ-X8000", "mode": "3D"},
+      "purpose": "Smooth height undulations and stabilize the height image while interpolating invalid pixels from surrounding values.",
+      "use_when": ["The height image has broad undulation, noise, or invalid pixels that need surrounding-value interpolation."],
+      "parameter_effects": [
+        {"parameter": "Size", "effect": "A larger filter size produces stronger smoothing."},
+        {"parameter": "Cycles", "effect": "Sets the number of filter applications."},
+        {"parameter": "Expansion suppression", "effect": "Reduces outline expansion caused by filtering."}
+      ],
+      "cautions": ["Stronger smoothing changes the height image; confirm that required edge detail remains usable."],
+      "symptom_relations": [{"symptom": "Broad height undulation or invalid pixels", "parameter": "height-average-filter", "expected_effect": "The height image is smoothed and invalid pixels are estimated from surrounding values.", "knowledge_status": "OFFICIAL_EXACT"}],
+      "source_evidence": [{"evidence_quality": "DIRECT_NATIVE", "document_id": "KEYENCE-D44A4A54C24D", "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1", "page": 177, "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0177", "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0177-C010", "evidence_excerpt_hash": "6d1fd68fffe2594194f2c7857095635228bdac6792fd990212b15a49e43b0bb5"}],
+      "legacy_guidance_provenance": {"source_type": "KEYENCE_SOFTWARE_HELP_RESOURCE", "source_file": "ManualCreator_Tips_CZ_resources.json", "source_sha256": "444b96a5a11fa4b1ce689607d8b02ba26329d785e20461b13437255b696dea53", "resource_key": "SimulatorSoft.ManualCreator.Tips.CZ.filterSetting.FILTER_HEIGHT_AVERAGE", "role": "Parameter-level guidance corroborated by source_evidence."},
+      "knowledge_status": "OFFICIAL_EXACT"
+    },
+    {
+      "setting_id": "height-median-filter",
+      "official_name": "Median",
+      "aliases": ["median filter", "spike noise filter", "height median"],
+      "applicability": {"controller_family": "LJ-X8000", "mode": "3D"},
+      "purpose": "Remove anomalous height values and spike noise using the median of surrounding height values.",
+      "use_when": ["The height image contains isolated anomalous values or spike noise."],
+      "parameter_effects": [
+        {"parameter": "Size", "effect": "A larger filter size produces stronger filtering."},
+        {"parameter": "Cycles", "effect": "Sets the number of filter applications."},
+        {"parameter": "Expansion suppression", "effect": "Reduces outline expansion caused by filtering."}
+      ],
+      "cautions": ["Validate small features after increasing filtering strength because nearby height values determine the median result."],
+      "symptom_relations": [{"symptom": "Isolated anomalous heights or spike noise", "parameter": "height-median-filter", "expected_effect": "Anomalous heights and spike noise are removed from the height image.", "knowledge_status": "OFFICIAL_EXACT"}],
+      "source_evidence": [{"evidence_quality": "DIRECT_NATIVE", "document_id": "KEYENCE-D44A4A54C24D", "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1", "page": 177, "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0177", "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0177-C012", "evidence_excerpt_hash": "db4aacca38427cefa3055125c0d91d387379bd1063d00aa3e261b73b270524b4"}],
+      "legacy_guidance_provenance": {"source_type": "KEYENCE_SOFTWARE_HELP_RESOURCE", "source_file": "ManualCreator_Tips_CZ_resources.json", "source_sha256": "444b96a5a11fa4b1ce689607d8b02ba26329d785e20461b13437255b696dea53", "resource_key": "SimulatorSoft.ManualCreator.Tips.CZ.filterSetting.FILTER_HEIGHT_MEDIAN", "role": "Parameter-level guidance corroborated by source_evidence."},
+      "knowledge_status": "OFFICIAL_EXACT"
+    },
+    {
+      "setting_id": "height-gaussian-filter",
+      "official_name": "Gaussian",
+      "aliases": ["gaussian filter", "height gaussian", "natural blur"],
+      "applicability": {"controller_family": "LJ-X8000", "mode": "3D"},
+      "purpose": "Smooth the height image with stronger weighting near the center for a more natural blur than Average.",
+      "use_when": ["A smoother height image is needed while preserving a more natural appearance at height transitions."],
+      "parameter_effects": [
+        {"parameter": "Size", "effect": "Sets the filtering area."},
+        {"parameter": "Cycles", "effect": "Sets the number of filter applications."},
+        {"parameter": "Expansion suppression", "effect": "Reduces outline expansion caused by filtering."}
+      ],
+      "trade_offs": ["Noise removal is weaker than with Average."],
+      "cautions": ["Confirm the selected filter against the required noise reduction because it is intentionally weaker than Average for noise removal."],
+      "symptom_relations": [{"symptom": "Need a natural blur around height transitions", "parameter": "height-gaussian-filter", "expected_effect": "The height image is smoothed with stronger central weighting.", "knowledge_status": "OFFICIAL_EXACT"}],
+      "source_evidence": [{"evidence_quality": "DIRECT_NATIVE", "document_id": "KEYENCE-D44A4A54C24D", "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1", "page": 177, "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0177", "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0177-C019", "evidence_excerpt_hash": "66c53a52bc0c0beee2a6aa02713885962a56c9b135848867bb5ff1dafe946a6d"}],
+      "legacy_guidance_provenance": {"source_type": "KEYENCE_SOFTWARE_HELP_RESOURCE", "source_file": "ManualCreator_Tips_CZ_resources.json", "source_sha256": "444b96a5a11fa4b1ce689607d8b02ba26329d785e20461b13437255b696dea53", "resource_key": "SimulatorSoft.ManualCreator.Tips.CZ.filterSetting.FILTER_HEIGHT_GAUSSIAN", "role": "Parameter-level guidance corroborated by source_evidence."},
+      "knowledge_status": "OFFICIAL_EXACT"
+    },
+    {
+      "setting_id": "height-smoothing-filter",
+      "official_name": "Smoothing",
+      "aliases": ["smoothing filter", "strong height smoothing", "height smoothing"],
+      "applicability": {"controller_family": "LJ-X8000", "mode": "3D"},
+      "purpose": "Smooth the height image; increasing the filter size provides stronger smoothing.",
+      "use_when": ["A stronger smoothing operation is required for the height image."],
+      "parameter_effects": [
+        {"parameter": "Size", "effect": "A larger filter size produces stronger smoothing."},
+        {"parameter": "Cycles", "effect": "Sets the number of filter applications."},
+        {"parameter": "Reference outside region", "effect": "Controls use of data outside the inspection region."},
+        {"parameter": "Expansion suppression", "effect": "Reduces outline expansion caused by filtering."}
+      ],
+      "cautions": ["Confirm the inspection-region setting before using outside-region data as the filtering reference."],
+      "symptom_relations": [{"symptom": "Height image needs stronger smoothing", "parameter": "height-smoothing-filter", "expected_effect": "Increasing Size increases smoothing strength.", "knowledge_status": "OFFICIAL_EXACT"}],
+      "source_evidence": [{"evidence_quality": "DIRECT_NATIVE", "document_id": "KEYENCE-D44A4A54C24D", "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1", "page": 177, "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0177", "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0177-C014", "evidence_excerpt_hash": "bc0c2bf6baad9f7c9e13463705d89c747393ce33871e8e2a62144076f742ec2c"}],
+      "legacy_guidance_provenance": {"source_type": "KEYENCE_SOFTWARE_HELP_RESOURCE", "source_file": "ManualCreator_Tips_CZ_resources.json", "source_sha256": "444b96a5a11fa4b1ce689607d8b02ba26329d785e20461b13437255b696dea53", "resource_key": "SimulatorSoft.ManualCreator.Tips.CZ.filterSetting.FILTER_HEIGHT_SMOOTHING", "role": "Parameter-level guidance corroborated by source_evidence."},
+      "knowledge_status": "OFFICIAL_EXACT"
+    },
+    {
+      "setting_id": "height-invalid-pixel-suppression",
+      "official_name": "Invalid Pixel Suppression",
+      "aliases": ["invalid pixel interpolation", "missing height data", "invalid pixel filter"],
+      "applicability": {"controller_family": "LJ-X8000", "mode": "3D"},
+      "purpose": "Estimate invalid-pixel height from surrounding valid pixel values without changing valid pixels.",
+      "use_when": ["The height image contains missing or invalid pixels that need interpolation."],
+      "parameter_effects": [
+        {"parameter": "Suppression level", "effect": "A stronger setting covers a wider interpolation range."},
+        {"parameter": "Small", "effect": "Allows minor adjustment and does not interpolate the boundary."},
+        {"parameter": "Large", "effect": "Interpolates using invalid values as 0."},
+        {"parameter": "Contour interpolation suppression", "effect": "Reduces contour thickening during interpolation."}
+      ],
+      "cautions": ["Large uses invalid values as 0; validate its effect at the inspected boundary."],
+      "symptom_relations": [{"symptom": "Missing or invalid height pixels", "parameter": "height-invalid-pixel-suppression", "expected_effect": "Invalid pixels are estimated from surrounding valid pixels and valid pixels are not changed.", "knowledge_status": "OFFICIAL_EXACT"}],
+      "source_evidence": [{"evidence_quality": "DIRECT_NATIVE", "document_id": "KEYENCE-D44A4A54C24D", "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1", "page": 177, "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0177", "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0177-C016", "evidence_excerpt_hash": "39399909ed13ad76a088c68859d109546885af1387f0265035091f4f6f2541f1"}],
+      "legacy_guidance_provenance": {"source_type": "KEYENCE_SOFTWARE_HELP_RESOURCE", "source_file": "ManualCreator_Tips_CZ_resources.json", "source_sha256": "444b96a5a11fa4b1ce689607d8b02ba26329d785e20461b13437255b696dea53", "resource_key": "SimulatorSoft.ManualCreator.Tips.CZ.filterSetting.FILTER_HEIGHT_INVALID_PIX_INTRPL", "role": "Parameter-level guidance corroborated by source_evidence."},
+      "knowledge_status": "OFFICIAL_EXACT"
+    },
+    {
+      "setting_id": "height-spike-noise-cut",
+      "official_name": "Spike Noise Cut",
+      "aliases": ["spike noise cut", "spike removal", "height spike noise"],
+      "applicability": {"controller_family": "LJ-X8000", "mode": "3D"},
+      "purpose": "Remove spike noise by comparing a point with surrounding height values.",
+      "use_when": ["The height image contains localized spike noise and the removal direction or polarity must be controlled."],
+      "parameter_effects": [
+        {"parameter": "Direction", "effect": "Controls X, Y, or XY processing behavior."},
+        {"parameter": "Removal Size", "effect": "Sets the target size for spike-noise removal."},
+        {"parameter": "Removal Threshold", "effect": "Sets the height-difference threshold for removal."},
+        {"parameter": "Cut Target", "effect": "Selects Upper, Lower, or Both."}
+      ],
+      "cautions": ["Set Direction and Cut Target deliberately so valid localized features are not removed."],
+      "symptom_relations": [{"symptom": "Localized spike noise", "parameter": "height-spike-noise-cut", "expected_effect": "Spike noise is removed according to the configured direction, size, threshold, and target.", "knowledge_status": "OFFICIAL_EXACT"}],
+      "source_evidence": [{"evidence_quality": "DIRECT_NATIVE", "document_id": "KEYENCE-D44A4A54C24D", "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1", "page": 177, "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0177", "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0177-C021", "evidence_excerpt_hash": "3c3fa00c767cf6fa49c04416416550a6df185b0355f0c4271a8d25719c416238"}],
+      "legacy_guidance_provenance": {"source_type": "KEYENCE_SOFTWARE_HELP_RESOURCE", "source_file": "ManualCreator_Tips_CZ_resources.json", "source_sha256": "444b96a5a11fa4b1ce689607d8b02ba26329d785e20461b13437255b696dea53", "resource_key": "SimulatorSoft.ManualCreator.Tips.CZ.filterSetting.FILTER_HEIGHT_SPIKE_NOISE_CUT", "role": "Parameter-level guidance corroborated by source_evidence."},
+      "knowledge_status": "OFFICIAL_EXACT"
+    },
+    {
+      "setting_id": "height-extraction",
+      "official_name": "Height Extraction",
+      "aliases": ["height image grayscale", "curved surface protrusion", "free-form plane"],
+      "applicability": {"controller_family": "LJ-X8000", "mode": "3D"},
+      "purpose": "Creates a gray-scale image representing height above and below a specified plane; free-form plane extraction can detect protrusions along a curved surface.",
+      "use_when": ["Height-based inspection is needed despite contrast difference with the background or surface condition.", "The inspected surface is curved and local protrusions must be separated from it."],
+      "parameter_effects": [
+        {"parameter": "Method", "effect": "Offers fixed 1-Point/3-Point and Real-Time plane, average-height, multiple-point, and free-form-plane reference methods."},
+        {"parameter": "Extract Region", "effect": "Separately defines data used only to calculate an extraction plane."},
+        {"parameter": "Extraction Size", "effect": "A smaller size follows steeper curvature and extracts finer protrusions, with longer processing time."},
+        {"parameter": "Reference outside of region", "effect": "Controls whether Real-Time Free-Form Plane processing references image outside the measurement region."}
+      ],
+      "cautions": ["Do not use the extraction region as if it were the inspection region; it is used only for calculating the extraction plane."],
+      "symptom_relations": [{"symptom": "Need to inspect protrusions on a curved surface", "parameter": "height-extraction", "expected_effect": "Free-form plane extraction can separate protrusions along the curved surface.", "knowledge_status": "OFFICIAL_EXACT"}],
+      "source_evidence": [
+        {"evidence_quality": "DIRECT_NATIVE", "document_id": "KEYENCE-D44A4A54C24D", "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1", "page": 166, "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0166", "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0166-C005", "evidence_excerpt_hash": "9b6cba7123964b9d86a69a7af2016379ff20701f8825f65fefbb0ae6bbf1d88b"},
+        {"evidence_quality": "DIRECT_NATIVE", "document_id": "KEYENCE-D44A4A54C24D", "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1", "page": 168, "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0168", "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0168-C009", "evidence_excerpt_hash": "25863948fee4b35cbe29632d6598f7e8633120454bc6a11c1cd56c8d67fa3a1a"}
+      ],
+      "legacy_guidance_provenance": {"source_type": "KEYENCE_SOFTWARE_HELP_RESOURCE", "source_file": "ManualCreator_Tips_CZ_resources.json", "source_sha256": "444b96a5a11fa4b1ce689607d8b02ba26329d785e20461b13437255b696dea53", "resource_namespace": "heightExtract", "role": "Contextual legacy guidance consolidated with direct LJ-X8000 3D manual evidence."},
+      "knowledge_status": "OFFICIAL_EXACT"
+    },
+    {
+      "setting_id": "zero-plane-reference",
+      "official_name": "Zero Plane Specification",
+      "aliases": ["workpiece orientation shift", "height reference", "reference plane"],
+      "applicability": {"controller_family": "LJ-X8000", "mode": "3D"},
+      "purpose": "Defines the plane used to reference height measurement for each workpiece.",
+      "use_when": ["Workpiece orientation shifts and height measurement needs a workpiece-relative reference.", "Surface area or volume is measured relative to a defined plane."],
+      "parameter_effects": [
+        {"parameter": "Reference method", "effect": "Supports 1 Point, 3 Points, Real-Time Plane, Real-Time Average Height, Real-Time Multiple Points, Free-form Plane, and planes of other tools."},
+        {"parameter": "Reference Tool", "effect": "Can reference a Zero Plane, Detected Plane, or Extract Plane of another tool."}
+      ],
+      "cautions": ["Use the reference method appropriate to whether the plane must remain fixed or follow current image data."],
+      "symptom_relations": [{"symptom": "Reliable height measurement is needed while workpiece orientation shifts", "parameter": "zero-plane-reference", "expected_effect": "Height measurement can be referenced to a Zero Plane for each workpiece.", "knowledge_status": "OFFICIAL_EXACT"}],
+      "source_evidence": [
+        {"evidence_quality": "DIRECT_NATIVE", "document_id": "KEYENCE-D44A4A54C24D", "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1", "page": 161, "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0161", "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0161-C005", "evidence_excerpt_hash": "8af4d3c9b0600a25ae50ce0a39418b4043fda1869670dbd521cc2453be859f59"},
+        {"evidence_quality": "DIRECT_NATIVE", "document_id": "KEYENCE-D44A4A54C24D", "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1", "page": 95, "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0095", "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0095-C004", "evidence_excerpt_hash": "f1687a2442a0a71cd795288dbe5c2b8e5b9fbde1544e3c62be8604ca8fa62b11"}
+      ],
+      "legacy_guidance_provenance": {"source_type": "KEYENCE_SOFTWARE_HELP_RESOURCE", "source_file": "ManualCreator_Tips_CZ_resources.json", "source_sha256": "444b96a5a11fa4b1ce689607d8b02ba26329d785e20461b13437255b696dea53", "resource_namespace": "zeroPlane", "role": "Contextual legacy guidance consolidated with direct LJ-X8000 3D manual evidence."},
+      "knowledge_status": "OFFICIAL_EXACT"
+    }
+  ]
+}

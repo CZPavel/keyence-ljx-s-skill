@@ -34,5 +34,20 @@
     "aliases": [
       "result not produced"
     ]
+  },
+  {
+    "id": "capture-profile-missing-or-false-detection",
+    "aliases": [
+      "profile missing",
+      "false detection",
+      "multiple reflected light"
+    ]
+  },
+  {
+    "id": "continuous-profile-processing-time",
+    "aliases": [
+      "continuous profile processing time",
+      "scan interval"
+    ]
   }
 ]

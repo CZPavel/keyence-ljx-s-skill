@@ -12,7 +12,7 @@ Evidence types include `DIRECT_NATIVE`, `DIRECT_VISUAL`, `DIRECT_OCR_VERIFIED`, 
 
 # Installation
 
-Clone the repository and run `scripts\install_skill.ps1`. The installer creates a junction only when the activation path is absent and never removes an existing path.
+Clone the repository and run `scripts\install_skill.ps1`. The installer creates a junction only when the activation path is absent and never removes an existing path. The junction is thin, but `skill\keyence-ljx\tools\run.py` resolves the canonical helpers and `skill_data` from the repository root; use that wrapper when working outside the checkout.
 
 # Development
 

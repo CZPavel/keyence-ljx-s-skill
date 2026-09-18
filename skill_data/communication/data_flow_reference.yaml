@@ -119,6 +119,36 @@
           "evidence_excerpt_hash": "1f09c75c948c14b40a5138e6370a6444ccf3dc53ac4b09eb7a551708b7934edd"
         }
       ]
+    },
+    {
+      "flow_id": "ljx8000-result-correlation",
+      "aliases": ["result output correlation", "measurement number", "program number", "externally specified string"],
+      "initiator": "LJ-X8000 configured result output",
+      "source": "LJ-X8000 controller",
+      "destination": "configured result-output receiver",
+      "transport": "Configured result output",
+      "applicability": {"controller_family": "LJ-X8000", "mode": "3D"},
+      "purpose": "Expose documented result-output fields that can identify the measurement context received by an integration.",
+      "documented_output_fields": [
+        "Number of Measurement",
+        "Measurement Time",
+        "Trigger Interval",
+        "Date & Time",
+        "Execute No.",
+        "Program No.",
+        "Externally Specified String 0 through 9"
+      ],
+      "derived_integration_guidance": [
+        "Persist Number of Measurement, Execute No., Program No., and configured externally specified string with the received result when application-level correlation is required.",
+        "Treat configured skipped-tool behavior explicitly: output can be \"0\" or no value. Do not silently reinterpret either as a valid measurement."
+      ],
+      "cautions": ["The exact shared-connection parser contract between asynchronous result output and command responses remains unresolved; do not assume message framing beyond the configured interface."],
+      "knowledge_status": "OFFICIAL_EXACT",
+      "source_evidence": [
+        {"evidence_quality": "DIRECT_NATIVE", "document_id": "KEYENCE-D44A4A54C24D", "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1", "page": 385, "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0385", "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0385-C025", "evidence_excerpt_hash": "4c430b7f8e3aabea300bbac6513aa6ef5623179007ff10499974f42bd4d8e80a"},
+        {"evidence_quality": "DIRECT_NATIVE", "document_id": "KEYENCE-D44A4A54C24D", "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1", "page": 383, "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0383", "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0383-C015", "evidence_excerpt_hash": "d5ed807e43c60d22de7a137439087dfaccdd34825b427fd21cb0b189ad747186"},
+        {"evidence_quality": "DIRECT_NATIVE", "document_id": "KEYENCE-D44A4A54C24D", "source_sha256": "d44a4a54c24dbad5753f45c74506d74d455f89f0774f4078da532d25ab4e99e1", "page": 386, "section_id": "SEC-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0386", "chunk_id": "CHK-LASER-PROFILER-LJ-X8000-SERIES-USER-S-MANUAL-3D-MODE-N90GB-D44A4A54C24D-U0386-C002", "evidence_excerpt_hash": "35458108ba0c1884a4aa2a29ee7d7bca5cc98c6713ba927a7e2d4def41fb61c2"}
+      ]
     }
   ]
 }
